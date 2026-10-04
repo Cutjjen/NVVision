@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "nvvisionvulkanbridge",
+  "version": "0.2.0-fabric.11",
+  "name": "NVVision Addon Fabric",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "nvvisionboost.vulkanbridge.FabricBridge"
+    ]
+  },
+  "mixins": [
+    "nvvisionbridge.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "nvvisionboost": ">=0.8.1-fabric.1 <0.9"
+  },
+  "license": "MIT",
+  "description": "Client-side optimization controls for CPU visual budgets. No network channels, driver switching, DLSS or frame generation.",
+  "authors": [
+    "Cutjjen"
+  ],
+  "custom": {
+    "nvvision:category": "optimization"
+  }
+}
+
+

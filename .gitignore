@@ -1,11 +1,6 @@
-build/
-.local/
 .gradle/
-*.jar
-*.class
-*.log
-*.args
+**/build/
+**/run/
 .idea/
-.vscode/
-Thumbs.db
-desktop.ini
+*.log
+local.properties

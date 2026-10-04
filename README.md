@@ -1,39 +1,38 @@
-# NvvisionBoost
+# NVVision — Cutjjen
 
-![NvvisionBoost logo](assets/branding/nvvision-logo.png)
+Mod de otimização do cliente e addon de controles de CPU. O código compartilhado contém políticas, configuração e interface; os adapters ligam esse código ao ciclo de vida de cada loader e às APIs de cada Minecraft.
 
-Oi, pessoal, aqui é o Cutjjen. Tudo bem?
-Estou passando aqui para falar um pouco sobre esse projeto. A ideia real dele surgiu do nada: eu queria otimizar o meu Minecraft ao máximo possível, para que funcionasse com vários mods e shaders extremamente pesados. Funcionou até, porém, como podem ver ali no código, sou um desastre na programação. Não sou nada além de um usuário de IA.
+Consulte `docs/VALIDACAO.md`: a migração Gradle completa ainda tem uma limitação de acesso ao cache neste ambiente. Os artefatos entregues usam o compilador e remapeador validados do projeto.
 
-Eu vou estudar de verdade para, no futuro, entregar outro projeto que mude o rumo das coisas. Vou me esforçar muito. Então, aqueles que tiverem interesse em criar um mod de otimização, o código está ali: fiquem à vontade para melhorar, desenvolver e criar seu próprio mod de otimização.
+## Compilação
 
-Falo isso não só por mim, mas por todos que desejam o mesmo: um jogo mais leve e com uma taxa de quadros maior, para se divertir mais. Conheço várias pessoas que gostariam de jogar Minecraft sem ter que fazer otimizações mirabolantes no computador para poder funcionar.
+Use um JDK completo para executar o Gradle Wrapper. O Gradle seleciona as ferramentas Java de cada destino, sem caminhos pessoais no projeto.
 
-Quem estiver lendo isso, obrigado por ter chegado até aqui e divirta-se com o pouco que consegui desenvolver nesse código. No futuro, certamente voltarei melhor e com ideias absurdas de melhorias, hahaha.
+```powershell
+./gradlew.bat "-Ploader=forge" build
+./gradlew.bat "-Ploader=neoforge" "-Pminecraft=1.21.1" build
+./gradlew.bat "-Ploader=fabric" "-Pminecraft=26.2" build
+```
 
-NvvisionBoost é um projeto de otimização visual para Minecraft, com suporte a diferentes loaders e versões. O foco é melhorar a experiência gráfica e o desempenho do cliente, mantendo o uso simples e responsável.
+As versões disponíveis e dependências ficam em `config/versions.json`. Somente combinações registradas são aceitas. O adapter facilita portas e manutenção; não transforma um artefato em um mod universal.
 
-## Licença
+O plugin de cada plataforma prepara o Minecraft e gera o artefato correspondente. Forge exige a saída remapeada do plugin, nunca a saída de desenvolvimento. Fabric antigo usa Loom com remapeamento; as linhas sem ofuscação usam Loom sem esse passo. NeoForge usa ModDevGradle.
 
-Este projeto está disponível sob a licença MIT. Você pode usar, copiar, modificar, distribuir e adaptar o código, desde que mantenha o aviso de licença e a atribuição adequada. O uso deve ser responsável e respeitar as regras dos modpacks, servidores e plataformas envolvidas.
+## Organização
 
-## Instalação
+- `source/modules/mod`: configuração, interface, renderização, integrações, políticas de desempenho e serviços.
+- `source/modules/addon`: políticas de CPU, aplicação das opções e testes.
+- `source/adapters`: pontos de entrada, eventos e diferenças das APIs de cada versão.
+- `config/sources.json`: relação explícita entre fontes e destinos; fontes históricas não entram automaticamente na compilação.
+- `gradle/target.gradle`: preparação comum, dependências, ferramentas Java e regras de empacotamento.
+- `docs/FUNCOES.md`: índice de funções gerado pelo analisador sintático Java.
 
-Baixe os JARs da Release correspondente ao seu Minecraft e loader. Instale somente o mod e addon da mesma pasta. As dependências são declaradas nos metadados de cada build; Sodium/Iris e Embeddium/Oculus precisam ser da versão e loader corretos. Acesse as configurações com **F8** ou pelo botão NVVision em Opções. Interface em português brasileiro ou inglês.
+Os nomes de pastas com identificadores distinguem variantes preservadas de arquivos. Não representam módulos carregados em execução. Uma fonte compartilhada pode atender vários destinos sem duplicação física.
 
-O funcionamento é local ao cliente: não exige que todos os jogadores instalem o mod/addon. Não há canais de rede próprios. DLSS, geração de quadros e tradução automática de OpenGL para Vulkan não estão implementados.
+## Limites e preservação
 
-## Leitura do projeto
+O addon controla opções locais, restaura escolhas que possui e aplica mudanças na thread do cliente. Partículas de outros mods podem usar renderizadores próprios. Os callbacks vazios de fundo da interface impedem desfoque adicional e são necessários.
 
-- [Versões e resultados registrados](docs/VERSOES.md)
-- [Arquitetura e adaptadores](docs/ARQUITETURA.md)
-- [Fluxo de execução e etapas](docs/FLUXO.md)
-- [Índice de todos os arquivos](docs/INDICE-FONTES.md)
-- [Compilação e dependências](docs/COMPILACAO.md)
-- [Como atualizar uma versão](docs/ATUALIZACAO.md)
-- [Como preparar uma publicação](docs/PUBLICACAO.md)
-- [Atualizações e mods](updates/README.md)
-- [Releases](releases/README.md)
-- [Licença e uso responsável](COPYRIGHT.md)
+Não há DLSS nem geração de quadros implementados. Ganhos de FPS dependem da cena, dos mods e do hardware e precisam de medição no jogo. O build não altera instalações, mundos ou configurações do jogador.
 
-`src/common` contém fontes compartilhadas. `src/adapters` contém diferenças de versão e loader. O registro `config/sources.json` materializa a combinação correta, sem manter cópias editáveis divergentes. `config/versions.json` registra versões de Java e dos artefatos.
+

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "nvvisionboost",
+  "version": "0.8.1-fabric.9",
+  "name": "NV Vision Boost Fabric",
+  "description": "Client-side optimization mod. Client-side performance and upscaling controls for Minecraft 26.2.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "nvvisionboost.NVVisionBoostFabric"
+    ]
+  },
+  "mixins": [
+    "nvvisionboost.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "sodium": ">=0.9.2 <0.10",
+    "iris": "1.11.4+mc26.2"
+  },
+  "license": "All-Rights-Reserved",
+  "authors": [
+    "Cutjjen"
+  ],
+  "custom": {
+    "nvvision:category": "optimization"
+  }
+}
+

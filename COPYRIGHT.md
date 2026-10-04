@@ -1,7 +1,32 @@
-# Licença e uso responsável
+# Copyright and License
 
-Este projeto é open source e está licenciado sob a licença MIT. O código pode ser usado, modificado, redistribuído e adaptado livremente, desde que o aviso de licença seja mantido e o uso seja feito com responsabilidade.
+## NVVision Boost
 
-O projeto não visa restringir o uso legítimo, mas sim permitir estudo, modificação e compartilhamento com transparência. O uso em modpacks, servidores, builds pessoais e forks é permitido, respeitando as regras e licenças dos outros componentes envolvidos.
+**Copyright © 2026 Cutjjen**
 
-As bibliotecas, motores, loaders, APIs e marcas de terceiros continuam pertencendo aos seus respectivos titulares. A licença do NvvisionBoost não concede direitos sobre terceiros além do que cada licença específica autoriza.
+NVVision Boost and NVVision Addon are created and maintained by **Cutjjen**. The author is registered in metadata and manifests.
+
+## MIT License
+
+This project is licensed under the **MIT License**. You are free to use, modify, and distribute this software, subject to the terms outlined in the [LICENSE](./LICENSE) file.
+
+## Third-Party Components
+
+The following external components and their respective trademarks and copyrights remain with their original authors:
+
+- Minecraft
+- Forge
+- Fabric  
+- NeoForge
+- Sodium
+- Iris
+- Oculus
+- Embeddium
+- AMD FSR
+- Related libraries and technologies
+
+Existing copyright notices in the source code are preserved and respected. Authorship of this project does not imply authorship of these components or any official partnership.
+
+---
+
+For questions regarding copyright, licensing, or usage rights, please contact the project author.

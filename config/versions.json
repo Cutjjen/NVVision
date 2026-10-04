@@ -1,79 +1,93 @@
 [
   {
     "key": "forge-1201",
-    "mc": "1.20.1",
-    "loader": "Forge",
-    "release": 17,
-    "mode": "forge1201",
-    "mv": "0.7.18",
-    "av": "0.1.4",
-    "author": "Cutjjen",
-    "validation": "Testes automatizados aprovados; atualização adapter sem nova confirmação em jogo"
+    "minecraft": "1.20.1",
+    "loader": "forge",
+    "java": 17,
+    "mod": "0.7.20",
+    "addon": "0.1.7",
+    "dependencies": {
+      "iris": "",
+      "platform": "1.20.1-47.2.0",
+      "sodium": ""
+    }
   },
   {
     "key": "fabric-262",
-    "mc": "26.2",
-    "loader": "Fabric",
-    "release": 25,
-    "mode": "named",
-    "mv": "0.8.1-fabric.7",
-    "av": "0.2.0-fabric.8",
-    "author": "Cutjjen",
-    "validation": "Testes automatizados aprovados; atualização adapter sem nova confirmação em jogo"
+    "minecraft": "26.2",
+    "loader": "fabric",
+    "java": 25,
+    "mod": "0.8.1-fabric.9",
+    "addon": "0.2.0-fabric.11",
+    "dependencies": {
+      "iris": "1.11.4+26.2-fabric",
+      "platform": "0.19.5",
+      "sodium": "mc26.2-0.9.2-fabric"
+    }
   },
   {
     "key": "neoforge-2612",
-    "mc": "26.1.2",
-    "loader": "NeoForge",
-    "release": 25,
-    "mode": "named",
-    "mv": "0.8.3-neoforge.7",
-    "av": "0.2.2-neoforge.6",
-    "author": "Cutjjen",
-    "validation": "Testes automatizados aprovados; atualização adapter sem nova confirmação em jogo"
+    "minecraft": "26.1.2",
+    "loader": "neoforge",
+    "java": 25,
+    "mod": "0.8.3-neoforge.9",
+    "addon": "0.2.2-neoforge.9",
+    "dependencies": {
+      "iris": "qE5Y7GrZ",
+      "platform": "26.1.2.112",
+      "sodium": "zg4YQ9EL"
+    }
   },
   {
     "key": "neoforge-262",
-    "mc": "26.2",
-    "loader": "NeoForge",
-    "release": 25,
-    "mode": "named",
-    "mv": "0.8.3-neoforge.7",
-    "av": "0.2.2-neoforge.6",
-    "author": "Cutjjen",
-    "validation": "Testes automatizados aprovados; atualização adapter sem nova confirmação em jogo"
+    "minecraft": "26.2",
+    "loader": "neoforge",
+    "java": 25,
+    "mod": "0.8.3-neoforge.9",
+    "addon": "0.2.2-neoforge.9",
+    "dependencies": {
+      "iris": "k55HdONq",
+      "platform": "26.2.0.88",
+      "sodium": "DmnNKsfS"
+    }
   },
   {
     "key": "fabric-12110",
-    "mc": "1.21.10",
-    "loader": "Fabric",
-    "release": 21,
-    "mode": "fabric12110",
-    "mv": "0.8.2-fabric.7",
-    "av": "0.2.1-fabric.5",
-    "author": "Cutjjen",
-    "validation": "Testes automatizados aprovados; atualização adapter sem nova confirmação em jogo"
+    "minecraft": "1.21.10",
+    "loader": "fabric",
+    "java": 21,
+    "mod": "0.8.2-fabric.9",
+    "addon": "0.2.1-fabric.8",
+    "dependencies": {
+      "iris": "1.9.7+1.21.10-fabric",
+      "platform": "0.19.5",
+      "sodium": "mc1.21.10-0.7.3-fabric"
+    }
   },
   {
     "key": "neoforge-12110",
-    "mc": "1.21.10",
-    "loader": "NeoForge",
-    "release": 21,
-    "mode": "named",
-    "mv": "0.8.4-neoforge.4",
-    "av": "0.2.3-neoforge.3",
-    "author": "Cutjjen",
-    "validation": "Testes automatizados aprovados; atualização adapter sem nova confirmação em jogo"
+    "minecraft": "1.21.10",
+    "loader": "neoforge",
+    "java": 21,
+    "mod": "0.8.4-neoforge.7",
+    "addon": "0.2.3-neoforge.6",
+    "dependencies": {
+      "iris": "aBn2niiX",
+      "platform": "21.10.64",
+      "sodium": "PdQpfqPZ"
+    }
   },
   {
     "key": "neoforge-1211",
-    "mc": "1.21.1",
-    "loader": "NeoForge",
-    "release": 21,
-    "mode": "named",
-    "mv": "0.8.6-neoforge.2",
-    "av": "0.2.5-neoforge.1",
-    "author": "Cutjjen",
-    "validation": "Usuário confirmou funcionamento do r2 em modpack"
+    "minecraft": "1.21.1",
+    "loader": "neoforge",
+    "java": 21,
+    "mod": "0.8.6-neoforge.6",
+    "addon": "0.2.5-neoforge.5",
+    "dependencies": {
+      "iris": "KduFYu4t",
+      "platform": "21.1.251",
+      "sodium": "uMOpc5uV"
+    }
   }
 ]
