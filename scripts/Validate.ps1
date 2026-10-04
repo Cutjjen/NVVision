@@ -32,4 +32,4 @@ foreach($v in $versions){foreach($kind in @('mod','addon')){
  if(!$text.Contains('Cutjjen') -or !$text.Contains($version)){throw "Autoria/versão inválida: $($v.key) $kind"}
 }}
 
-Write-Output "PASS: $($entries.Count) referências de fontes; $($versions.Count) alvos; autoria Cutjjen e metadados conferidos."
+Write-Output ("PASS: {0} referencias de fontes; {1} alvos; autoria Cutjjen e metadados conferidos." -f $entries.Count, $versions.Count)
