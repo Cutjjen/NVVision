@@ -21,6 +21,7 @@ O funcionamento é local ao cliente: não exige que todos os jogadores instalem 
 - [Compilação e dependências](docs/COMPILACAO.md)
 - [Como atualizar uma versão](docs/ATUALIZACAO.md)
 - [Como preparar uma publicação](docs/PUBLICACAO.md)
+- [Atualizações e mods](updates/README.md)
 - [Licença e uso responsável](COPYRIGHT.md)
 
 `src/common` contém fontes compartilhadas. `src/adapters` contém diferenças de versão e loader. O registro `config/sources.json` materializa a combinação correta, sem manter cópias editáveis divergentes. `config/versions.json` registra versões de Java e dos artefatos.
