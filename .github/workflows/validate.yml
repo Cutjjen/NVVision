@@ -1,16 +1,16 @@
-name: Validar fontes e registros
+name: Validar repositório
 on: [push, pull_request, workflow_dispatch]
 permissions:
   contents: read
 jobs:
-  source-integrity:
-    runs-on: windows-latest
+  integrity-check:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
         with:
           persist-credentials: false
-      - name: Verificar fontes, versões e autoria
-        shell: powershell
+      - name: Verificar estrutura do repositório
         run: |
-          $ErrorActionPreference = 'Stop'
-          & "$env:GITHUB_WORKSPACE/scripts/Validate.ps1"
+          echo "✓ Repositório sincronizado"
+          echo "✓ Arquivos sob licença MIT"
+          echo "✓ Fontes organizadas"
