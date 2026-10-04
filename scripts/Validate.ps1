@@ -1,11 +1,12 @@
 $ErrorActionPreference='Stop'
-Add-Type -AssemblyName System.Web.Extensions
 $root=(Resolve-Path "$PSScriptRoot/..").Path
 $rootPath=[IO.Path]::GetFullPath($root)
-$js=New-Object System.Web.Script.Serialization.JavaScriptSerializer
-$versions=@($js.Deserialize((Get-Content "$root/config/versions.json" -Raw), [object]))
-$versionKeys=[System.Collections.Generic.HashSet[string]]::new([string[]]($versions | ForEach-Object { $_.key }))
-$entries=@($js.Deserialize((Get-Content "$root/config/sources.json" -Raw), [object]))
+$versions=(Get-Content "$root/config/versions.json" -Raw | ConvertFrom-Json)
+$versionKeys=[System.Collections.Generic.HashSet[string]]::new()
+foreach($v in $versions){
+ $null=$versionKeys.Add([string]$v.key)
+}
+$entries=(Get-Content "$root/config/sources.json" -Raw | ConvertFrom-Json)
 $seen=@{}
 foreach($entry in $entries){
  $targetName=[string]$entry.target
@@ -17,9 +18,9 @@ foreach($entry in $entries){
  if((Get-FileHash -LiteralPath $file).Hash.ToLowerInvariant() -ne $entry.sha256){throw "Hash alterado: $($entry.source). Atualize o registro após revisão."}
 }
 foreach($v in $versions){foreach($kind in @('mod','addon')){
- $meta=$entries|Where-Object {$_.target -eq $v.key -and $_.kind -eq $kind -and $_.path -match 'fabric.mod.json$|META-INF/(neoforge.mods|mods).toml$'}|Select-Object -First 1
- if(!$meta){throw "Metadados ausentes: $($v.key) $kind"}
- $metaFile=[IO.Path]::GetFullPath((Join-Path $root $meta.source))
+ $meta=@($entries | Where-Object {$_.target -eq $v.key -and $_.kind -eq $kind -and $_.path -match 'fabric.mod.json$|META-INF/(neoforge.mods|mods).toml$'} | Select-Object -First 1)
+ if(!$meta -or $meta.Count -eq 0){throw "Metadados ausentes: $($v.key) $kind"}
+ $metaFile=[IO.Path]::GetFullPath((Join-Path $root $meta[0].source))
  $text=Get-Content -LiteralPath $metaFile -Raw
  $version=if($kind -eq 'mod'){$v.mv}else{$v.av}
  if(!$text.Contains('Cutjjen') -or !$text.Contains($version)){throw "Autoria/versão inválida: $($v.key) $kind"}
