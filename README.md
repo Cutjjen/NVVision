@@ -2,6 +2,15 @@
 
 ![NvvisionBoost logo](assets/branding/nvvision-logo.png)
 
+Oi, pessoal, aqui é o Cutjjen. Tudo bem?
+Estou passando aqui para falar um pouco sobre esse projeto. A ideia real dele surgiu do nada: eu queria otimizar o meu Minecraft ao máximo possível, para que funcionasse com vários mods e shaders extremamente pesados. Funcionou até, porém, como podem ver ali no código, sou um desastre na programação. Não sou nada além de um usuário de IA.
+
+Eu vou estudar de verdade para, no futuro, entregar outro projeto que mude o rumo das coisas. Vou me esforçar muito. Então, aqueles que tiverem interesse em criar um mod de otimização, o código está ali: fiquem à vontade para melhorar, desenvolver e criar seu próprio mod de otimização.
+
+Falo isso não só por mim, mas por todos que desejam o mesmo: um jogo mais leve e com uma taxa de quadros maior, para se divertir mais. Conheço várias pessoas que gostariam de jogar Minecraft sem ter que fazer otimizações mirabolantes no computador para poder funcionar.
+
+Quem estiver lendo isso, obrigado por ter chegado até aqui e divirta-se com o pouco que consegui desenvolver nesse código. No futuro, certamente voltarei melhor e com ideias absurdas de melhorias, hahaha.
+
 NvvisionBoost é um projeto de otimização visual para Minecraft, com suporte a diferentes loaders e versões. O foco é melhorar a experiência gráfica e o desempenho do cliente, mantendo o uso simples e responsável.
 
 ## Licença
