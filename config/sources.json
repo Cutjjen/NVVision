@@ -88,7 +88,7 @@
     "kind": "mod",
     "path": "main/resources/fabric.mod.json",
     "source": "src/adapters/fabric-12110/mod/main/resources/fabric.mod.json",
-    "sha256": "f5851fae93bd6d3b54674248a0f276cae888ca8fd639cc930308e5fcd32c562c"
+    "sha256": "42876f5807878aede8841a38b5f4b4539aeb71d393ac9c2b61a4ff743861082b"
   },
   {
     "target": "fabric-12110",
@@ -186,7 +186,7 @@
     "kind": "mod",
     "path": "main/resources/fabric.mod.json",
     "source": "src/adapters/fabric-262/mod/main/resources/fabric.mod.json",
-    "sha256": "b2fa18d913cc816a201ca75a8efc59e0eb5762bf755ddc55fdf24762cfc2053b"
+    "sha256": "6d3bfe78848d05cb8d103fa98f721a1b541b9b99278ee7c740b179ac0e979146"
   },
   {
     "target": "fabric-262",

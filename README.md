@@ -1,8 +1,8 @@
-# NVVision
+# NvvisionBoost
 
-![NVVision logo](assets/branding/nvvision-logo.png)
+![NvvisionBoost logo](assets/branding/nvvision-logo.png)
 
-NVVision é um projeto de otimização visual para Minecraft, com suporte a diferentes loaders e versões. O foco é melhorar a experiência gráfica e o desempenho do cliente, mantendo o uso simples e responsável.
+NvvisionBoost é um projeto de otimização visual para Minecraft, com suporte a diferentes loaders e versões. O foco é melhorar a experiência gráfica e o desempenho do cliente, mantendo o uso simples e responsável.
 
 ## Licença
 
