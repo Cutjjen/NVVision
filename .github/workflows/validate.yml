@@ -10,5 +10,7 @@ jobs:
         with:
           persist-credentials: false
       - name: Verificar fontes, versões e autoria
-        shell: pwsh
-        run: ./scripts/Validate.ps1
+        shell: powershell
+        run: |
+          $ErrorActionPreference = 'Stop'
+          & "$env:GITHUB_WORKSPACE/scripts/Validate.ps1"
