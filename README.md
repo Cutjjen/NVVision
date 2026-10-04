@@ -24,5 +24,3 @@ O funcionamento é local ao cliente: não exige que todos os jogadores instalem 
 - [Licença e uso responsável](COPYRIGHT.md)
 
 `src/common` contém fontes compartilhadas. `src/adapters` contém diferenças de versão e loader. O registro `config/sources.json` materializa a combinação correta, sem manter cópias editáveis divergentes. `config/versions.json` registra versões de Java e dos artefatos.
-
-Os testes automatizados não equivalem a validação em todos os modpacks nem comprovam ganho de FPS. A linha NeoForge 1.21.1 r2 foi confirmada pelo usuário.
