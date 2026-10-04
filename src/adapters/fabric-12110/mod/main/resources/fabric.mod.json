@@ -20,7 +20,7 @@
     "sodium": ">=0.7.3 <0.8",
     "iris": "1.9.7+mc1.21.10"
   },
-  "license": "All-Rights-Reserved",
+  "license": "MIT",
   "authors": [
     "Cutjjen"
   ],

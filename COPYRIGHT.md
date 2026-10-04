@@ -1,7 +1,7 @@
-# Autoria e licenças
+# Licença e uso responsável
 
-NVVision e NVVision Addon: criação e manutenção de **Cutjjen**. Os artefatos registram Cutjjen como autor nos metadados e no manifesto.
+Este projeto é open source e está licenciado sob a licença MIT. O código pode ser usado, modificado, redistribuído e adaptado livremente, desde que o aviso de licença seja mantido e o uso seja feito com responsabilidade.
 
-A preparação deste repositório não concede uma licença geral nova nem altera os avisos das fontes existentes. Os metadados históricos incluem MIT em algumas linhas e All Rights Reserved em outras; consulte os arquivos de cada alvo. A escolha de uma licença única para o repositório deve ser feita pelo autor antes de anunciar permissões uniformes para toda a distribuição.
+O projeto não visa restringir o uso legítimo, mas sim permitir estudo, modificação e compartilhamento com transparência. O uso em modpacks, servidores, builds pessoais e forks é permitido, respeitando as regras e licenças dos outros componentes envolvidos.
 
-Minecraft, Forge, Fabric, NeoForge, Sodium, Iris, Oculus, Embeddium, AMD FSR, bibliotecas e marcas pertencem aos respectivos titulares. Os avisos existentes no código são preservados. A autoria do projeto não implica autoria desses componentes nem parceria oficial.
+As bibliotecas, motores, loaders, APIs e marcas de terceiros continuam pertencendo aos seus respectivos titulares. A licença do NVVision não concede direitos sobre terceiros além do que cada licença específica autoriza.

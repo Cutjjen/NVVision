@@ -4,6 +4,6 @@ O ZIP de fontes deve ser extraído e seu conteúdo usado como raiz do repositór
 
 Os JARs do ZIP de distribuição devem ser anexados a Releases, separados por loader/Minecraft. Confira `SHA256.json`, as dependências e `docs/VERSOES.md`. O pacote não publica nada automaticamente nem contém credenciais.
 
-Sugestão de descrição: “NVVision — mod de otimização visual e addon de controles locais, criados por Cutjjen, com adaptadores para Forge, Fabric e NeoForge.”
+Sugestão de descrição: “NVVision — projeto open source de otimização visual e addon de controles locais, com adaptadores para Forge, Fabric e NeoForge.”
 
-Use tópicos como minecraft, optimization, forge, fabric, neoforge e client-side. Publique a tabela de versões e os limites técnicos junto das Releases. Consulte COPYRIGHT.md antes de escolher a licença geral do repositório; os avisos e declarações existentes foram preservados.
+Use tópicos como minecraft, optimization, forge, fabric, neoforge e client-side. Publique a tabela de versões e os limites técnicos junto das Releases. Este repositório usa licença MIT e deve ser compartilhado com uso responsável.

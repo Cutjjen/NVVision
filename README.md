@@ -1,6 +1,10 @@
-# NVVision — Cutjjen
+# NVVision
 
-Mod de otimização visual e addon de controles locais, criados e mantidos por **Cutjjen**. Mantém controles de CPU, qualidade gráfica, escala de renderização e integração com os renderizadores e shaders previstos para cada versão.
+NVVision é um projeto de otimização visual para Minecraft, com suporte a diferentes loaders e versões. O foco é melhorar a experiência gráfica e o desempenho do cliente, mantendo o uso simples e responsável.
+
+## Licença
+
+Este projeto está disponível sob a licença MIT. Você pode usar, copiar, modificar, distribuir e adaptar o código, desde que mantenha o aviso de licença e a atribuição adequada. O uso deve ser responsável e respeitar as regras dos modpacks, servidores e plataformas envolvidas.
 
 ## Instalação
 
@@ -17,8 +21,8 @@ O funcionamento é local ao cliente: não exige que todos os jogadores instalem 
 - [Compilação e dependências](docs/COMPILACAO.md)
 - [Como atualizar uma versão](docs/ATUALIZACAO.md)
 - [Como preparar uma publicação](docs/PUBLICACAO.md)
-- [Autoria e licenças preservadas](COPYRIGHT.md)
+- [Licença e uso responsável](COPYRIGHT.md)
 
 `src/common` contém fontes compartilhadas. `src/adapters` contém diferenças de versão e loader. O registro `config/sources.json` materializa a combinação correta, sem manter cópias editáveis divergentes. `config/versions.json` registra versões de Java e dos artefatos.
 
-Os testes automatizados não equivalem a validação em todos os modpacks nem comprovam ganho de FPS. A linha NeoForge 1.21.1 r2 foi confirmada pelo usuário. As referências históricas foram preservadas no projeto de origem.
+Os testes automatizados não equivalem a validação em todos os modpacks nem comprovam ganho de FPS. A linha NeoForge 1.21.1 r2 foi confirmada pelo usuário.
