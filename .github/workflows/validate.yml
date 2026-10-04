@@ -1,0 +1,14 @@
+name: Validar fontes e registros
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  source-integrity:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Verificar fontes, versões e autoria
+        shell: pwsh
+        run: ./scripts/Validate.ps1

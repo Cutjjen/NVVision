@@ -1,0 +1,33 @@
+/* NVVision — criação e manutenção: Cutjjen.
+ * Etapa: Inicialização, configuração ou serviços do núcleo.
+ * Arquivo lógico: main/java/nvvisionboost/NVVisionBoostFabric.java. Veja docs/FLUXO.md e docs/INDICE-FONTES.md.
+ * Avisos e licenças existentes abaixo permanecem preservados.
+ */
+package nvvisionboost;
+
+import net.fabricmc.api.ClientModInitializer;
+import net.minecraft.client.Minecraft;
+
+/** Loader entrypoint is client-only; GPU initialization waits for the first client tick. */
+public final class NVVisionBoostFabric implements ClientModInitializer {
+  private static boolean registered, initialized;
+
+  public void onInitializeClient() {
+    registered = true;
+  }
+
+  public static void tick() {
+    if (!registered) return;
+    Minecraft mc = Minecraft.getInstance();
+    if (mc == null || mc.gui == null) return;
+    if (!initialized) {
+      new NVVisionBoostCore();
+      initialized = true;
+    }
+    if (NVVisionBoostCore.cfg == null) return;
+    NVVisionBoostCore.tickClient();
+    if (mc.level != null) NVVisionDynamicController.tickDynamicPerformance();
+    while (NVVisionBoostClient.OPEN_CONFIG.consumeClick())
+      mc.gui.setScreen(new NVVisionBoostConfigScreen(mc.gui.screen()));
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "java17": "CAMINHO/DO/JDK17/bin/java.exe",
+  "java25": "CAMINHO/DO/JDK25/bin/java.exe",
+  "toolsClasspathFile": ".local/tools.classpath.txt",
+  "minecraft12110Mappings": ".local/mappings/1.21.10",
+  "forge1201Mappings": ".local/mappings/1.20.1/named-srg.tsrg",
+  "forge1201Minecraft": ".local/mappings/1.20.1/minecraft-mojmap.jar",
+  "java21": "CAMINHO/DO/JDK21/bin/java.exe",
+  "natives17": ".local/natives/17",
+  "natives21": ".local/natives/21",
+  "natives25": ".local/natives/25"
+}

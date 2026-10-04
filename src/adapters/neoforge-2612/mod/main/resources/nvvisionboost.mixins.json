@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "nvvisionboost.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "NVVisionBoostMinecraftMixin",
+    "NVVisionBoostMinecraftAccessor",
+    "NVVisionBoostGameRendererAccessor",
+    "NVVisionBoostGameRendererMixin",
+    "NVVisionBoostWindowMixin",
+    "NVVisionBoostOptionsScreenMixin",
+    "NVVisionBoostIrisDepthMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "plugin": "nvvisionboost.compat.NVVisionBoostMixinPlugin"
+}

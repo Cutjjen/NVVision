@@ -1,0 +1,28 @@
+license="All Rights Reserved"
+[[mods]]
+authors="Cutjjen"
+modId="nvvisionvulkanbridge"
+version="0.2.2-neoforge.6"
+displayName="NVVision Addon NeoForge"
+# Category: optimization
+description='''Client-side CPU visual controls. No driver switching or network channels.'''
+[[mixins]]
+config="nvvisionbridge.mixins.json"
+[[dependencies.nvvisionvulkanbridge]]
+modId="minecraft"
+type="required"
+versionRange="[26.1.2]"
+ordering="NONE"
+side="CLIENT"
+[[dependencies.nvvisionvulkanbridge]]
+modId="neoforge"
+type="required"
+versionRange="[26.1.2.112,)"
+ordering="NONE"
+side="CLIENT"
+[[dependencies.nvvisionvulkanbridge]]
+modId="nvvisionboost"
+type="required"
+versionRange="[0.8.3-neoforge.2,0.9)"
+ordering="AFTER"
+side="CLIENT"

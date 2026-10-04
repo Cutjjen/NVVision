@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "nvvisionboost.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "nvvisionboost.refmap.json",
+  "client": [
+    "NVVisionBoostMinecraftAccessor",
+    "NVVisionBoostGameRendererMixin",
+    "NVVisionBoostWindowMixin",
+    "NVVisionBoostBackgroundFpsMixin",
+    "NVVisionBoostWeatherParticlesMixin",
+    "NVVisionBoostBlockEntityDistanceMixin",
+    "NVVisionBoostBufferBuilderAccessor",
+    "NVVisionBoostBufferSourceAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

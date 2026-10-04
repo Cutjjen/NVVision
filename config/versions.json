@@ -1,0 +1,79 @@
+[
+  {
+    "key": "forge-1201",
+    "mc": "1.20.1",
+    "loader": "Forge",
+    "release": 17,
+    "mode": "forge1201",
+    "mv": "0.7.18",
+    "av": "0.1.4",
+    "author": "Cutjjen",
+    "validation": "Testes automatizados aprovados; atualização adapter sem nova confirmação em jogo"
+  },
+  {
+    "key": "fabric-262",
+    "mc": "26.2",
+    "loader": "Fabric",
+    "release": 25,
+    "mode": "named",
+    "mv": "0.8.1-fabric.7",
+    "av": "0.2.0-fabric.8",
+    "author": "Cutjjen",
+    "validation": "Testes automatizados aprovados; atualização adapter sem nova confirmação em jogo"
+  },
+  {
+    "key": "neoforge-2612",
+    "mc": "26.1.2",
+    "loader": "NeoForge",
+    "release": 25,
+    "mode": "named",
+    "mv": "0.8.3-neoforge.7",
+    "av": "0.2.2-neoforge.6",
+    "author": "Cutjjen",
+    "validation": "Testes automatizados aprovados; atualização adapter sem nova confirmação em jogo"
+  },
+  {
+    "key": "neoforge-262",
+    "mc": "26.2",
+    "loader": "NeoForge",
+    "release": 25,
+    "mode": "named",
+    "mv": "0.8.3-neoforge.7",
+    "av": "0.2.2-neoforge.6",
+    "author": "Cutjjen",
+    "validation": "Testes automatizados aprovados; atualização adapter sem nova confirmação em jogo"
+  },
+  {
+    "key": "fabric-12110",
+    "mc": "1.21.10",
+    "loader": "Fabric",
+    "release": 21,
+    "mode": "fabric12110",
+    "mv": "0.8.2-fabric.7",
+    "av": "0.2.1-fabric.5",
+    "author": "Cutjjen",
+    "validation": "Testes automatizados aprovados; atualização adapter sem nova confirmação em jogo"
+  },
+  {
+    "key": "neoforge-12110",
+    "mc": "1.21.10",
+    "loader": "NeoForge",
+    "release": 21,
+    "mode": "named",
+    "mv": "0.8.4-neoforge.4",
+    "av": "0.2.3-neoforge.3",
+    "author": "Cutjjen",
+    "validation": "Testes automatizados aprovados; atualização adapter sem nova confirmação em jogo"
+  },
+  {
+    "key": "neoforge-1211",
+    "mc": "1.21.1",
+    "loader": "NeoForge",
+    "release": 21,
+    "mode": "named",
+    "mv": "0.8.6-neoforge.2",
+    "av": "0.2.5-neoforge.1",
+    "author": "Cutjjen",
+    "validation": "Usuário confirmou funcionamento do r2 em modpack"
+  }
+]

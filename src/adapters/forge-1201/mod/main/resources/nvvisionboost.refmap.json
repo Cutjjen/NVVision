@@ -1,0 +1,76 @@
+{
+  "mappings": {
+    "nvvisionboost/mixin/NVVisionBoostGameRendererMixin": {
+      "Lnet/minecraft/client/renderer/GameRenderer;renderLevel(FJLcom/mojang/blaze3d/vertex/PoseStack;)V": "Lnet/minecraft/client/renderer/GameRenderer;m_109089_(FJLcom/mojang/blaze3d/vertex/PoseStack;)V",
+      "render(FJZ)V": "Lnet/minecraft/client/renderer/GameRenderer;m_109093_(FJZ)V"
+    },
+    "nvvisionboost/mixin/NVVisionBoostBackgroundFpsMixin": {
+      "getFramerateLimit": "Lnet/minecraft/client/Minecraft;m_91275_()I"
+    },
+    "nvvisionboost/mixin/NVVisionBoostBufferBuilderAccessor": {
+      "renderedBufferPointer": "f_231157_:I",
+      "building": "f_85661_:Z",
+      "nextElementByte": "f_85652_:I",
+      "renderedBufferCount": "f_231156_:I"
+    },
+    "nvvisionboost/mixin/NVVisionBoostBufferSourceAccessor": {
+      "startedBuffers": "f_109907_:Ljava/util/Set;",
+      "builder": "f_109904_:Lcom/mojang/blaze3d/vertex/BufferBuilder;",
+      "fixedBuffers": "f_109905_:Ljava/util/Map;",
+      "lastState": "f_109906_:Ljava/util/Optional;"
+    },
+    "nvvisionboost/mixin/NVVisionBoostMinecraftAccessor": {
+      "getFramerateLimit": "m_91275_()I",
+      "mainRenderTarget": "f_91042_:Lcom/mojang/blaze3d/pipeline/RenderTarget;"
+    },
+    "nvvisionboost/mixin/NVVisionBoostBlockEntityDistanceMixin": {
+      "render": "Lnet/minecraft/client/renderer/blockentity/BlockEntityRenderDispatcher;m_112267_(Lnet/minecraft/world/level/block/entity/BlockEntity;FLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;)V"
+    },
+    "nvvisionboost/mixin/NVVisionBoostWeatherParticlesMixin": {
+      "tickRain": "Lnet/minecraft/client/renderer/LevelRenderer;m_109693_(Lnet/minecraft/client/Camera;)V",
+      "Lnet/minecraft/client/multiplayer/ClientLevel;addParticle(Lnet/minecraft/core/particles/ParticleOptions;DDDDDD)V": "Lnet/minecraft/client/multiplayer/ClientLevel;m_7106_(Lnet/minecraft/core/particles/ParticleOptions;DDDDDD)V"
+    },
+    "nvvisionboost/mixin/NVVisionBoostWindowMixin": {
+      "getHeight": "Lcom/mojang/blaze3d/platform/Window;m_85442_()I",
+      "getWidth": "Lcom/mojang/blaze3d/platform/Window;m_85441_()I"
+    }
+  },
+  "data": {
+    "searge": {
+      "nvvisionboost/mixin/NVVisionBoostGameRendererMixin": {
+        "Lnet/minecraft/client/renderer/GameRenderer;renderLevel(FJLcom/mojang/blaze3d/vertex/PoseStack;)V": "Lnet/minecraft/client/renderer/GameRenderer;m_109089_(FJLcom/mojang/blaze3d/vertex/PoseStack;)V",
+        "render(FJZ)V": "Lnet/minecraft/client/renderer/GameRenderer;m_109093_(FJZ)V"
+      },
+      "nvvisionboost/mixin/NVVisionBoostBackgroundFpsMixin": {
+        "getFramerateLimit": "Lnet/minecraft/client/Minecraft;m_91275_()I"
+      },
+      "nvvisionboost/mixin/NVVisionBoostBufferBuilderAccessor": {
+        "renderedBufferPointer": "f_231157_:I",
+        "building": "f_85661_:Z",
+        "nextElementByte": "f_85652_:I",
+        "renderedBufferCount": "f_231156_:I"
+      },
+      "nvvisionboost/mixin/NVVisionBoostBufferSourceAccessor": {
+        "startedBuffers": "f_109907_:Ljava/util/Set;",
+        "builder": "f_109904_:Lcom/mojang/blaze3d/vertex/BufferBuilder;",
+        "fixedBuffers": "f_109905_:Ljava/util/Map;",
+        "lastState": "f_109906_:Ljava/util/Optional;"
+      },
+      "nvvisionboost/mixin/NVVisionBoostMinecraftAccessor": {
+        "getFramerateLimit": "m_91275_()I",
+        "mainRenderTarget": "f_91042_:Lcom/mojang/blaze3d/pipeline/RenderTarget;"
+      },
+      "nvvisionboost/mixin/NVVisionBoostBlockEntityDistanceMixin": {
+        "render": "Lnet/minecraft/client/renderer/blockentity/BlockEntityRenderDispatcher;m_112267_(Lnet/minecraft/world/level/block/entity/BlockEntity;FLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;)V"
+      },
+      "nvvisionboost/mixin/NVVisionBoostWeatherParticlesMixin": {
+        "tickRain": "Lnet/minecraft/client/renderer/LevelRenderer;m_109693_(Lnet/minecraft/client/Camera;)V",
+        "Lnet/minecraft/client/multiplayer/ClientLevel;addParticle(Lnet/minecraft/core/particles/ParticleOptions;DDDDDD)V": "Lnet/minecraft/client/multiplayer/ClientLevel;m_7106_(Lnet/minecraft/core/particles/ParticleOptions;DDDDDD)V"
+      },
+      "nvvisionboost/mixin/NVVisionBoostWindowMixin": {
+        "getHeight": "Lcom/mojang/blaze3d/platform/Window;m_85442_()I",
+        "getWidth": "Lcom/mojang/blaze3d/platform/Window;m_85441_()I"
+      }
+    }
+  }
+}
