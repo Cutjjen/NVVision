@@ -117,16 +117,34 @@ tasks.register('checkRendererAdapters') {
     description = 'Prevents regressions in target identity, tracked bindings and paired release versions.'
     doLast {
         def targets = new groovy.json.JsonSlurper().parse(file('config/versions.json'))
+        def releasePolicy = new groovy.json.JsonSlurper().parse(file('config/release-policy.json'))
         def entries = registeredSources()
         targets.each { target ->
+            if (releasePolicy.unifiedAcrossRegisteredTargets &&
+                (target.mod != releasePolicy.currentVersion || target.addon != releasePolicy.currentVersion))
+                throw new GradleException('All maintained targets must use release ' + releasePolicy.currentVersion + ': ' + target.key)
             if (target.mod != target.addon || !(target.mod ==~ /\d+\.\d+\.\d+/))
                 throw new GradleException('Use the same major.minor.patch version for mod and addon: ' + target.key)
             def sources = entries.findAll { it.target == target.key && it.kind == 'mod' && it.path.startsWith('main/java/') }
+            if (target.adapterFamily == 'forge-java8') {
+                ['LegacyMinecraftAdapter.java', 'LegacyClient.java', 'LegacyConfig.java'].each { name ->
+                    if (!sources.any { it.path.endsWith('/' + name) })
+                        throw new GradleException('Missing Java 8 Minecraft adapter ' + name)
+                }
+                def boundary = sources.find { it.path.endsWith('/LegacyMinecraftAdapter.java') }
+                if (!(file('source/' + boundary.source).text =~ /supportsSpatialUpscaling\(\)\s*\{\s*return false;\s*\}/))
+                    throw new GradleException('Do not advertise unverified legacy upscaling.')
+                def addon = entries.findAll { it.target == target.key && it.kind == 'addon' }
+                if (!addon.any { it.path.endsWith('/LegacyIntegerLease.java') })
+                    throw new GradleException('Missing reversible Java 8 CPU option adapter.')
+                return
+            }
             def renderer = sources.find { it.path.endsWith('/NVVisionBoostNativeRenderer.java') }
             def code = file('source/' + renderer.source).text
             if (code.contains('setMainRenderTarget(low)') || code.contains('setMainRenderTarget(lowTarget)'))
                 throw new GradleException('Do not replace the main target identity: ' + target.key)
             ['NVVisionBoostTargetLease.java', 'rendering/RenderTargetAdapter.java',
+             'NVVisionBoostOptionsScreenAdapter.java', 'NVVisionBoostOptionsPlacement.java',
              'rendering/WorldTargetLease.java', 'rendering/MinecraftGlStateAdapter.java',
              'NVVisionBoostDepthTransfer.java'].each { name ->
                 if (!sources.any { it.path.endsWith('/' + name) })

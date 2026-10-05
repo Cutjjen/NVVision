@@ -47,3 +47,7 @@ The settings footer provides compatibility troubleshooting guidance in both lang
 This is the canonical source directory. Compiled pairs belong under `Modloaders/<loader>/<Minecraft>/<release>`. Both components receive the same numeric version on updates; prior releases remain available. `Modloaders/ATUAIS.json` identifies current pairs. Do not generate additional ZIP archives.
 
 Current source contracts and public maintenance documentation use English. Historical investigation/release records retain their original language; player-facing Brazilian Portuguese remains available.
+
+## Release numbering
+
+All thirteen maintained sets use version 0.8.16 for both NVVision and its addon. Each artifact retains its loader and Minecraft target. See [PORTS-0.8.16.md](docs/PORTS-0.8.16.md) for the target matrix, legacy capability limits and adapter maintenance policy.

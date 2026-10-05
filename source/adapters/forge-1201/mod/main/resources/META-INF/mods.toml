@@ -6,7 +6,7 @@ clientSideOnly=true
 
 [[mods]]
 modId="nvvisionboost"
-version="0.7.26"
+version="0.8.16"
 displayName="NVIDIA Vision Boost"
 authors="Cutjjen"
 # Category: optimization

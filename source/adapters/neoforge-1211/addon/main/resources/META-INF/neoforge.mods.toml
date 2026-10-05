@@ -3,7 +3,7 @@ loaderVersion="[4,)"
 license="MIT"
 [[mods]]
 modId="nvvisionvulkanbridge"
-version="0.8.13"
+version="0.8.16"
 displayName="NVVision Addon NeoForge"
 authors="Cutjjen"
 displayTest="IGNORE_ALL_VERSION"

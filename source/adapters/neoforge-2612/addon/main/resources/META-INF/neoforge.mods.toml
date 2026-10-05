@@ -2,7 +2,7 @@ license="All Rights Reserved"
 [[mods]]
 authors="Cutjjen"
 modId="nvvisionvulkanbridge"
-version="0.8.6"
+version="0.8.16"
 displayName="NVVision Addon NeoForge"
 # Category: optimization
 description='''Companion client-side optimization addon by Cutjjen: CPU presets and individual native-particle and visual entity-distance controls. Other players do not need this addon installed.'''

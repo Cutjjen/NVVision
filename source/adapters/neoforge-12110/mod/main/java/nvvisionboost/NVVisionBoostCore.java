@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 
 public final class NVVisionBoostCore {
   public static final String ID = "nvvisionboost";
-  public static final String VERSION = "0.8.7";
+  public static final String VERSION = "0.8.16";
   public static final int CONFIG_SCHEMA = 5;
 
   static Path root;

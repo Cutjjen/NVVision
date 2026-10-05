@@ -1,0 +1,2 @@
+plugins { id 'base' }
+apply from: rootProject.file('gradle/forge1122-target.gradle')

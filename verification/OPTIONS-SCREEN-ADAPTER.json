@@ -1,0 +1,66 @@
+{
+  "key": "neoforge-1211",
+  "loader": "neoforge",
+  "minecraft": "1.21.1",
+  "java": 21,
+  "mod": "0.8.14",
+  "addon": "0.8.14",
+  "automatedTests": [
+    {
+      "suite": "nvvisionboost.NVVisionBoostGlAdapterTest",
+      "result": "PASS Minecraft tracked bindings after external OpenGL changes: 10 checks"
+    },
+    {
+      "suite": "nvvisionboost.NVVisionBoostLanguageTest",
+      "result": "PASS UI language: 389 checks"
+    },
+    {
+      "suite": "nvvisionboost.NVVisionBoostMenuLayoutTest",
+      "result": "PASS: 2172 verifica\ufffd\ufffdes de layout."
+    },
+    {
+      "suite": "nvvisionboost.NVVisionBoostOpenGLSmokeTest",
+      "result": "PASS GL: 102 verifica\ufffd\ufffdes com contexto real e janela invis\ufffdvel."
+    },
+    {
+      "suite": "nvvisionboost.NVVisionBoostOptionsPlacementTest",
+      "result": "PASS options placement: full vanilla grid, real column gap, stable placement, customized grid, occupied row and tiny screen"
+    },
+    {
+      "suite": "nvvisionboost.NVVisionBoostPixelAdapterTest",
+      "result": "Pixel adapter: 9 assertions passed"
+    },
+    {
+      "suite": "nvvisionboost.NVVisionBoostTargetLeaseTest",
+      "result": "PASS target identity and scaled depth/stencil: 70 checks"
+    },
+    {
+      "suite": "nvvisionboost.vulkanbridge.BridgeRegressionTest",
+      "result": "PASS BRIDGE: 25 checks."
+    },
+    {
+      "suite": "nvvisionboost.vulkanbridge.CpuConfigurationTest",
+      "result": "PASS CPU configuration: 14 checks"
+    },
+    {
+      "suite": "nvvisionboost.vulkanbridge.CpuOptionLeaseTest",
+      "result": "CPU option ownership: 18 checks passed"
+    },
+    {
+      "suite": "nvvisionboost.vulkanbridge.CpuPolicyTest",
+      "result": "PASS CPU policy: 24 checks"
+    }
+  ],
+  "productionMixins": "PASS production mixin selectors/accessors/invocations: 23 checks",
+  "inGameVisualValidation": "Pending screenshot retest; automated placement tests cover full vanilla/custom grids and repeated placement.",
+  "fpsMeasured": false,
+  "productionLinks": "PASS production Minecraft links: 678 references",
+  "changedBytecodeClasses": [
+    "nvvisionboost/NVVisionBoostCore$MachineProfile.class",
+    "nvvisionboost/NVVisionBoostCore.class",
+    "nvvisionboost/NVVisionBoostOptionsPlacement.class",
+    "nvvisionboost/NVVisionBoostOptionsScreenAdapter.class",
+    "nvvisionboost/NVVisionBoostScreenEvents.class"
+  ],
+  "rendererAndAddonBytecodeUnchanged": true
+}

@@ -7,7 +7,9 @@ if (!target) throw new GradleException("Unregistered target ${key}")
 def entries = new groovy.json.JsonSlurper().parse(rootProject.file('config/sources.json')).findAll { it.target == key && it.kind == kind }
 group = 'dev.cutjjen.nvvision'
 version = target[kind]
-base.archivesName = "${kind == 'mod' ? 'nvvisionboost' : 'nvvision-addon'}-${target.loader}-${target.minecraft}"
+def componentLabel = kind == 'mod' ? 'NVVisionBoost' : 'NVVisionAddon'
+def loaderLabel = [forge: 'Forge', fabric: 'Fabric', neoforge: 'NeoForge'][target.loader]
+base.archivesName = componentLabel
 java { toolchain.languageVersion = JavaLanguageVersion.of(target.java as int); withSourcesJar() }
 def generated = layout.buildDirectory.dir('generated/registered-sources')
 def prepare = tasks.register('prepareSources', Sync) {
@@ -46,10 +48,13 @@ tasks.withType(Jar).configureEach {
     preserveFileTimestamps = false
     reproducibleFileOrder = true
     manifest.attributes('Implementation-Title': 'NVVision', 'Implementation-Vendor': 'Cutjjen', 'Implementation-Version': project.version)
+    archiveFileName = archiveClassifier.map { classifier ->
+        "${componentLabel}-${target[kind]}-MC-${loaderLabel}-${target.minecraft}${classifier ? '-' + classifier : ''}.jar"
+    }.orElse("${componentLabel}-${target[kind]}-MC-${loaderLabel}-${target.minecraft}.jar")
 }
 repositories { mavenCentral(); maven { url = 'https://api.modrinth.com/maven' } }
 def id = kind == 'mod' ? 'nvvisionboost' : 'nvvisionvulkanbridge'
-if (target.loader == 'neoforge') {
+if (target.loader == 'neoforge' && target.adapterFamily != 'legacy-neoforge') {
     neoForge {
         enable { version = target.dependencies.platform; disableRecompilation = true }
         runs { client { client() } }
@@ -58,9 +63,13 @@ if (target.loader == 'neoforge') {
     tasks.withType(JavaCompile).configureEach { options.compilerArgs.add('-proc:none') }
     if (kind == 'mod') dependencies { compileOnly "maven.modrinth:iris:${target.dependencies.iris}" }
     dependencies { runtimeOnly "maven.modrinth:iris:${target.dependencies.iris}"; runtimeOnly "maven.modrinth:sodium:${target.dependencies.sodium}" }
-} else if (target.loader == 'forge') {
+} else if (target.loader == 'forge' || target.adapterFamily == 'legacy-neoforge') {
     legacyForge {
-        enable { forgeVersion = target.dependencies.platform; disableRecompilation = true }
+        enable {
+            if (target.adapterFamily == 'legacy-neoforge') neoForgeVersion = target.dependencies.platform
+            else forgeVersion = target.dependencies.platform
+            disableRecompilation = true
+        }
         runs { client { client() } }
         mods { "${id}" { sourceSet(sourceSets.main) } }
     }

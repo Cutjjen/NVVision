@@ -2,6 +2,438 @@
 
 Generated from Java syntax trees. Contracts come from source comments; an entry without a contract is not an individual function audit. Minecraft variants retain their API differences. See ARCHITECTURE.md for module responsibilities.
 
+## adapters/fabric-1192/mod/main/java/nvvisionboost/legacy/Button.java
+
+- `Button.<init>(int x, int y, int w, int h, Component message, OnPress press, OnTooltip narration)` — line 12. No individual contract; refer to the module responsibility and method body.
+- `Button.getX()` — line 16. No individual contract; refer to the module responsibility and method body.
+- `Button.getY()` — line 20. No individual contract; refer to the module responsibility and method body.
+- `Button.setX(int v)` — line 24. No individual contract; refer to the module responsibility and method body.
+- `Button.setY(int v)` — line 28. No individual contract; refer to the module responsibility and method body.
+- `Button.setTooltip(Tooltip value)` — line 32. No individual contract; refer to the module responsibility and method body.
+- `Button.renderButton(PoseStack pose, int x, int y, float dt)` — line 36. No individual contract; refer to the module responsibility and method body.
+- `Button.renderWidget(GuiGraphics g, int x, int y, float dt)` — line 41. No individual contract; refer to the module responsibility and method body.
+- `Button.renderToolTip(PoseStack pose, int x, int y)` — line 45. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1192/mod/main/java/nvvisionboost/legacy/GuiGraphics.java
+
+- `GuiGraphics.<init>(PoseStack pose)` — line 12. No individual contract; refer to the module responsibility and method body.
+- `GuiGraphics.fill(int x, int y, int r, int b, int c)` — line 16. No individual contract; refer to the module responsibility and method body.
+- `GuiGraphics.fillGradient(int x, int y, int r, int b, int top, int bottom)` — line 20. No individual contract; refer to the module responsibility and method body.
+- `GuiGraphics.drawString(Font f, String s, int x, int y, int c)` — line 24. No individual contract; refer to the module responsibility and method body.
+- `GuiGraphics.drawString(Font f, Component s, int x, int y, int c)` — line 28. No individual contract; refer to the module responsibility and method body.
+- `GuiGraphics.drawString(Font f, net.minecraft.util.FormattedCharSequence s, int x, int y, int c)` — line 32. No individual contract; refer to the module responsibility and method body.
+- `GuiGraphics.drawString(Font f, net.minecraft.util.FormattedCharSequence s, int x, int y, int c, boolean shadow)` — line 36. No individual contract; refer to the module responsibility and method body.
+- `GuiGraphics.drawWordWrap(Font f, Component s, int x, int y, int w, int c)` — line 42. No individual contract; refer to the module responsibility and method body.
+- `GuiGraphics.drawCenteredString(Font f, String s, int x, int y, int c)` — line 49. No individual contract; refer to the module responsibility and method body.
+- `GuiGraphics.drawCenteredString(Font f, Component s, int x, int y, int c)` — line 53. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1192/mod/main/java/nvvisionboost/legacy/LegacyScreen.java
+
+- `LegacyScreen.<init>(Component title)` — line 8. No individual contract; refer to the module responsibility and method body.
+- `LegacyScreen.render(PoseStack pose, int x, int y, float dt)` — line 12. No individual contract; refer to the module responsibility and method body.
+- `LegacyScreen.render(GuiGraphics g, int x, int y, float dt)` — line 17. No individual contract; refer to the module responsibility and method body.
+- `LegacyScreen.renderBackground(GuiGraphics g)` — line 21. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1192/mod/main/java/nvvisionboost/legacy/Tooltip.java
+
+- `Tooltip.create(Component message)` — line 7. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1192/mod/main/java/nvvisionboost/mixin/MinecraftFpsAccessor.java
+
+- `MinecraftFpsAccessor.nvvb$getFps()` — line 10. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1192/mod/main/java/nvvisionboost/mixin/NVVisionBoostBlockEntityDistanceMixin.java
+
+- `NVVisionBoostBlockEntityDistanceMixin.nvvb$distance(E entity, float partialTick, PoseStack poseStack, MultiBufferSource buffers, CallbackInfo ci)` — line 20. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1192/mod/main/java/nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.java
+
+- `NVVisionBoostOptionsScreenMixin.<init>(Component title)` — line 18. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostOptionsScreenMixin.nvvb$addMenu(CallbackInfo ci)` — line 22. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostOptionsScreenMixin.nvvb$placeMenu()` — line 35. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionBoostConfigScreen.java
+
+- `NVVisionBoostConfigScreen.<init>(Screen parent)` — line 54. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.init()` — line 60. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.panelLeft()` — line 76. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.panelRight()` — line 80. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.contentLeft()` — line 84. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.contentRight()` — line 88. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.contentWidth()` — line 92. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.colWidth()` — line 96. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.col2()` — line 100. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.rebuildInternal()` — line 108. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.applyScroll()` — line 233. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.mouseScrolled(double x, double y, double delta)` — line 247. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.onClose()` — line 257. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.buildGeneral(int l, int r, int w)` — line 266. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.buildGpu(int l, int r, int w)` — line 363. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.buildShaders(int l, int r, int w)` — line 494. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.buildPerformance(int l, int r, int w)` — line 635. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.buildCompatibility(int l, int r, int w)` — line 758. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.buildAdvanced(int l, int r, int w)` — line 837. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.addShaderButton(NVVisionBoostShader.Pack pack, int x, int y, int w, boolean selected)` — line 933. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.addButton(String text, int x, int y, int w, Runnable action)` — line 951. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.addCycle(String text, int x, int y, int w, Runnable next, Runnable previous)` — line 958. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.cfg()` — line 982. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.refreshAfterChange()` — line 986. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.restoreDefaults()` — line 994. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.toggle(String field)` — line 1018. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.toggleUpscaling()` — line 1046. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.filterGpu(String query)` — line 1067. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.refreshGpuButtons()` — line 1085. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.selectGpu(int localIndex)` — line 1115. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.applyDetected()` — line 1123. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.applyPreset(NVVisionBoostGPU.Preset p)` — line 1140. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.selectShader(NVVisionBoostShader.Pack pack, int direction)` — line 1172. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.compilePendingShader()` — line 1214. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.importShader()` — line 1234. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.importResourcePack()` — line 1268. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.openChooser(String title, Consumer<Path> callback)` — line 1295. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.openFolder(Path path, String label)` — line 1321. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.detect(boolean present)` — line 1334. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.on(boolean value)` — line 1338. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.fit(String text, int max)` — line 1342. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.next(int value, int[] values, int dir)` — line 1350. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.next(String value, String[] values, int dir)` — line 1364. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.cycleScaleNext()` — line 1382. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.cycleScalePrev()` — line 1391. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.cycleFpsNext()` — line 1404. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.cycleFpsPrev()` — line 1408. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.cycleAnimationNext()` — line 1412. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.cycleAnimationPrev()` — line 1416. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.cycleTransparencyNext()` — line 1420. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.cycleTransparencyPrev()` — line 1424. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.cycleEntityDistanceNext()` — line 1428. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.cycleEntityDistancePrev()` — line 1433. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.cycleProfileNext()` — line 1438. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.cycleProfilePrev()` — line 1442. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.cycleRenderDistanceNext()` — line 1446. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.cycleRenderDistancePrev()` — line 1454. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.cycleMinRenderDistanceNext()` — line 1462. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.cycleMinRenderDistancePrev()` — line 1466. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.cycleMaxRenderDistanceNext()` — line 1470. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.cycleMaxRenderDistancePrev()` — line 1474. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.cycleSpikeNext()` — line 1478. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.cycleSpikePrev()` — line 1483. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.cycleCooldownNext()` — line 1488. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.cycleCooldownPrev()` — line 1493. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostConfigScreen.render(GuiGraphics graphics, int mouseX, int mouseY, float partialTick)` — line 1502. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionBoostCore.java
+
+- `NVVisionBoostCore.<init>()` — line 37. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.machineFingerprint(NVVisionBoostGPU.Info gpu)` — line 135. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.MachineProfile.load(Path path)` — line 183. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.MachineProfile.capture(NVVisionBoostGPU.Info gpu, String fingerprint, Config config)` — line 211. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.MachineProfile.save(Path path)` — line 229. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.tickClient()` — line 264. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.updateClientMetrics(Config config)` — line 311. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.detectFps()` — line 353. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.setRenderScalePercent(int percent)` — line 366. Change internal scale through this entry point; invalidate the previous rendering configuration.
+- `NVVisionBoostCore.setUpscalingEnabled(boolean enabled)` — line 392. Liga/desliga o upscaling com reset completo do framebuffer interno.
+- `NVVisionBoostCore.toggleUpscaling()` — line 417. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.resetUpscaler()` — line 428. Apply multiple graphics-option changes together.
+- `NVVisionBoostCore.saveConfig()` — line 436. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.gameRoot()` — line 456. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.saveStatus()` — line 468. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.writeReadme()` — line 572. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.log(String message)` — line 596. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.stringValue(String json, String key, String fallback)` — line 603. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.unescapeJson(String value)` — line 615. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.Config.isEnabled()` — line 629. Master enable state, independent of the selected internal scale.
+- `NVVisionBoostCore.Config.normalize()` — line 733. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.Config.load(Path path)` — line 789. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.Config.save(Path path)` — line 840. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionBoostDependencyScreen.java
+
+- `NVVisionBoostDependencyScreen.<init>()` — line 19. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostDependencyScreen.init()` — line 23. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostDependencyScreen.shouldCloseOnEsc()` — line 33. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostDependencyScreen.onClose()` — line 38. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostDependencyScreen.render(GuiGraphics graphics, int mouseX, int mouseY, float partialTick)` — line 43. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionBoostFerriteScreen.java
+
+- `NVVisionBoostFerriteScreen.<init>(Screen parent)` — line 29. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostFerriteScreen.refresh()` — line 35. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostFerriteScreen.button(String text, int x, int y, int w, Runnable action, boolean enabled, String help)` — line 50. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostFerriteScreen.operation(boolean restore)` — line 66. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostFerriteScreen.init()` — line 84. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostFerriteScreen.onClose()` — line 176. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostFerriteScreen.render(GuiGraphics g, int x, int y, float tick)` — line 181. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostFerriteScreen.clip(String text)` — line 201. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionBoostMenuButton.java
+
+- `NVVisionBoostMenuButton.builder(Component message, Button.OnPress press)` — line 9. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostMenuButton.Builder.<init>(Component message, Button.OnPress press)` — line 19. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostMenuButton.Builder.bounds(int x, int y, int width, int height)` — line 24. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostMenuButton.Builder.tooltip(Tooltip tooltip)` — line 32. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostMenuButton.Builder.build()` — line 37. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostMenuButton.<init>()` — line 44. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionBoostNativeRenderer.java
+
+- `NVVisionBoostNativeRenderer.isProcessingBlocked()` — line 37. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.checkTarget(RenderTarget target, String label)` — line 41. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.checkShaderTargets()` — line 57. Check world depth FBOs, not just the color-only final pass left bound by Oculus.
+- `NVVisionBoostNativeRenderer.shaderPipelineReady()` — line 100. Do not lend attachments to pipelines being destroyed or recompiled.
+- `NVVisionBoostNativeRenderer.<init>()` — line 148. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.renderWorld(GameRenderer renderer, float partialTick, long finishTimeNano, PoseStack poseStack)` — line 156. Wrap the complete world pass, including shader hooks and the hand.
+- `NVVisionBoostNativeRenderer.worldWidth(int nativeWidth)` — line 167. Dimensions exposed to 3D passes; the physical window remains unchanged.
+- `NVVisionBoostNativeRenderer.worldHeight(int nativeHeight)` — line 171. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.resizeAuxiliaryTargets(Minecraft mc, int width, int height)` — line 175. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.preserveStencilRequirement(RenderTarget target)` — line 184. A stencil request made while redirected must also survive a return to 100%.
+- `NVVisionBoostNativeRenderer.remapTargetTexture(int texture, int oldColor, int oldDepth, RenderTarget target)` — line 212. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.validTexture(int texture)` — line 218. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.requestCpuTransition()` — line 229. Schedule recovery at the start of a frame without reloading the user's shader.
+- `NVVisionBoostNativeRenderer.prepareFrame()` — line 233. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.measuredResolutionInfo()` — line 266. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.observePipelineResolution()` — line 274. Sample pipeline dimensions infrequently after the backend frame. Special buffers and shadow maps may have independent dimensions.
+- `NVVisionBoostNativeRenderer.renderLevel(LevelRenderer renderer, PoseStack poseStack, float partialTick, long finishTimeNano, boolean renderBlockOutline, Camera camera, GameRenderer gameRenderer, LightTexture lightTexture, Matrix4f projection)` — line 343. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.beginFrame()` — line 377. Compatibility entry point for earlier mixin versions.
+- `NVVisionBoostNativeRenderer.endFrame()` — line 382. Compatibility entry point for earlier callers.
+- `NVVisionBoostNativeRenderer.beginLevelRender()` — line 388. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.synchronizeShaderDepthTarget()` — line 398. Oculus 1.8.0 compares depth versions rather than texture identities. Invalidate only the version counter before beginLevelRendering so the backend reattaches depth and recalculates pack-defined sizes, including when returning to native resolution.
+- `NVVisionBoostNativeRenderer.findField(Class<?> type, String name)` — line 453. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.endLevelRender()` — line 463. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.beginFrameInternal()` — line 471. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.endFrameInternal()` — line 722. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.blitToOriginal()` — line 793. Spatial reconstruction into the main framebuffer, without temporal history, frame generation or a native shaderpack backend.
+- `NVVisionBoostNativeRenderer.transferWorldDepth()` — line 863. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.recreateTarget(int width, int height)` — line 876. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.releaseLowTarget()` — line 957. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.restoreOriginalTarget()` — line 981. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.reset()` — line 1024. Invalidate rendering configuration after scale, enable-state, resolution, fullscreen or graphics-setting changes.
+- `NVVisionBoostNativeRenderer.invalidate()` — line 1058. Request another diagnostic sample; resize buffers only when dimensions change.
+- `NVVisionBoostNativeRenderer.isActive()` — line 1069. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.effectActive()` — line 1073. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.internalResolution()` — line 1088. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.internalWidth()` — line 1100. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.internalHeight()` — line 1104. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.processedFrames()` — line 1108. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.failedFrames()` — line 1112. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.skippedFrames()` — line 1116. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.lastError()` — line 1120. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.currentFps()` — line 1124. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.wantsProcessing(NVVisionBoostForge.Config cfg)` — line 1142. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.clamp(int value, int min, int max)` — line 1155. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.describe(Throwable throwable)` — line 1159. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionBoostOptionButton.java
+
+- `NVVisionBoostOptionButton.<init>(int x, int y, int width, int height, Component message, OnPress leftPress, OnPress rightPress)` — line 16. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostOptionButton.setMessage(Component message)` — line 40. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostOptionButton.setSelectedStyle(boolean selected)` — line 49. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostOptionButton.renderWidget(GuiGraphics graphics, int mouseX, int mouseY, float partialTick)` — line 53. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostOptionButton.mouseClicked(double mouseX, double mouseY, int button)` — line 83. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionBoostOptionsScreenAdapter.java
+
+- `NVVisionBoostOptionsScreenAdapter.place(Screen screen, Button entry)` — line 14. Align only NVVision's button to the current visible layout after other mods initialize it.
+- `NVVisionBoostOptionsScreenAdapter.<init>()` — line 32. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionBoostPerformanceScreen.java
+
+- `NVVisionBoostPerformanceScreen.<init>(Screen parent)` — line 21. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostPerformanceScreen.cfg()` — line 26. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostPerformanceScreen.on(boolean enabled)` — line 30. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostPerformanceScreen.add(int category, Supplier<String> label, Runnable action, String help)` — line 34. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostPerformanceScreen.init()` — line 38. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostPerformanceScreen.cycle(int value, int[] values)` — line 277. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostPerformanceScreen.onClose()` — line 283. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostPerformanceScreen.render(GuiGraphics graphics, int x, int y, float partialTick)` — line 288. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionBoostRenderController.java
+
+- `NVVisionBoostRenderController.adaptationAllowed()` — line 26. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderController.resetWorldTracking()` — line 30. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderController.pauseAdaptation(long durationMs)` — line 37. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderController.observePerformance(NVVisionBoostForge.Config config, int fps)` — line 45. Called by the central monitor once per second, never every frame.
+- `NVVisionBoostRenderController.<init>()` — line 104. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderController.tick(NVVisionBoostForge.Config config)` — line 106. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderController.applyNow(NVVisionBoostForge.Config config)` — line 116. Immediate application used by every UI mutation.
+- `NVVisionBoostRenderController.adapt(NVVisionBoostForge.Config config, int fps)` — line 123. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderController.restorePlayerOptions()` — line 219. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderController.apply(NVVisionBoostForge.Config config, int ignoredTier)` — line 233. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderController.apply(NVVisionBoostForge.Config config, boolean automaticReapply)` — line 237. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderController.applyAnimationLevel(Options options, NVVisionBoostForge.Config config)` — line 317. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderController.effectiveRenderDistance(NVVisionBoostForge.Config config)` — line 335. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderController.nextLowerScale(int value)` — line 339. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderController.signature(NVVisionBoostForge.Config c)` — line 347. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderController.set(OptionInstance<T> option, T value)` — line 378. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderController.clamp(int value, int min, int max)` — line 382. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderController.clamp(double value, double min, double max)` — line 386. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderController.Snapshot.<init>(int renderDistance, int simulationDistance, double entityDistanceScaling, ParticleStatus particles, CloudStatus clouds, boolean entityShadows, net.minecraft.client.AmbientOcclusionStatus ambientOcclusion, double screenEffectScale, double fovEffectScale, double darknessEffectScale, boolean bobView)` — line 403. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderController.Snapshot.capture(Options o)` — line 428. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderController.Snapshot.restore(Options o)` — line 443. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderController.Snapshot.restoreSimulationOnly(Options o)` — line 453. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderController.Snapshot.restoreEntityDistance(Options o)` — line 457. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderController.Snapshot.restoreEntityShadows(Options o)` — line 461. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderController.Snapshot.restoreAnimation(Options o)` — line 465. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderController.Snapshot.restoreTransparency(Options o)` — line 471. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderController.Snapshot.restoreShaderEffects(Options o)` — line 476. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderController.Snapshot.restoreViewBob(Options o)` — line 482. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionBoostTextureScreen.java
+
+- `NVVisionBoostTextureScreen.<init>(Screen parent)` — line 12. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostTextureScreen.init()` — line 17. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostTextureScreen.onClose()` — line 62. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostTextureScreen.render(GuiGraphics graphics, int mouseX, int mouseY, float partialTick)` — line 67. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionBoostUi.java
+
+- `NVVisionBoostUi.preference()` — line 17. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostUi.ensure()` — line 24. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostUi.text(String value)` — line 31. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostUi.component(String value)` — line 36. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostUi.tooltip(Component message)` — line 40. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostUi.infoTooltip(Component message)` — line 47. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostUi.enrich(Tooltip original, String label)` — line 51. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostUi.help(String label, boolean reverse)` — line 58. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostUi.impact(String label)` — line 63. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostUi.languages(int width, Runnable rebuild, Consumer<Button> add)` — line 67. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostUi.flag(GuiGraphics g, int x, int y, boolean us)` — line 87. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostUi.tick()` — line 106. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostUi.<init>()` — line 124. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionBoostVulkanBridgeScreen.java
+
+- `NVVisionBoostVulkanBridgeScreen.<init>(Screen parent)` — line 15. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostVulkanBridgeScreen.init()` — line 20. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostVulkanBridgeScreen.lines()` — line 74. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostVulkanBridgeScreen.mouseScrolled(double x, double y, double delta)` — line 92. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostVulkanBridgeScreen.render(GuiGraphics g, int x, int y, float tick)` — line 98. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostVulkanBridgeScreen.onClose()` — line 115. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionDynamicController.java
+
+- `NVVisionDynamicController.<init>()` — line 17. No individual contract; refer to the module responsibility and method body.
+- `NVVisionDynamicController.averageFps()` — line 19. No individual contract; refer to the module responsibility and method body.
+- `NVVisionDynamicController.lowFpsSamples()` — line 23. No individual contract; refer to the module responsibility and method body.
+- `NVVisionDynamicController.stableFpsSamples()` — line 27. No individual contract; refer to the module responsibility and method body.
+- `NVVisionDynamicController.tickDynamicPerformance()` — line 31. No individual contract; refer to the module responsibility and method body.
+- `NVVisionDynamicController.checkShaderState()` — line 68. No individual contract; refer to the module responsibility and method body.
+- `NVVisionDynamicController.resetTracking()` — line 87. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1201/mod/main/java/nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.java
+
+- `NVVisionBoostOptionsScreenMixin.<init>(Component title)` — line 19. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostOptionsScreenMixin.nvvb$addMenu(CallbackInfo ci)` — line 23. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostOptionsScreenMixin.nvvb$placeMenu()` — line 36. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1201/mod/main/java/nvvisionboost/NVVisionBoostClient.java
+
+- `NVVisionBoostClient.<init>()` — line 19. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1201/mod/main/java/nvvisionboost/NVVisionBoostClientEvents.java
+
+- `NVVisionBoostClientEvents.tick()` — line 8. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1201/mod/main/java/nvvisionboost/NVVisionBoostCore.java
+
+- `NVVisionBoostCore.<init>()` — line 37. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.machineFingerprint(NVVisionBoostGPU.Info gpu)` — line 135. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.MachineProfile.load(Path path)` — line 183. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.MachineProfile.capture(NVVisionBoostGPU.Info gpu, String fingerprint, Config config)` — line 211. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.MachineProfile.save(Path path)` — line 229. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.tickClient()` — line 264. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.updateClientMetrics(Config config)` — line 311. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.detectFps()` — line 353. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.setRenderScalePercent(int percent)` — line 366. Change internal scale through this entry point; invalidate the previous rendering configuration.
+- `NVVisionBoostCore.setUpscalingEnabled(boolean enabled)` — line 392. Liga/desliga o upscaling com reset completo do framebuffer interno.
+- `NVVisionBoostCore.toggleUpscaling()` — line 417. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.resetUpscaler()` — line 428. Apply multiple graphics-option changes together.
+- `NVVisionBoostCore.saveConfig()` — line 436. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.gameRoot()` — line 456. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.saveStatus()` — line 468. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.writeReadme()` — line 572. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.log(String message)` — line 596. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.stringValue(String json, String key, String fallback)` — line 603. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.unescapeJson(String value)` — line 615. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.Config.isEnabled()` — line 629. Master enable state, independent of the selected internal scale.
+- `NVVisionBoostCore.Config.normalize()` — line 733. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.Config.load(Path path)` — line 789. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.Config.save(Path path)` — line 840. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1201/mod/main/java/nvvisionboost/NVVisionBoostFerriteCore.java
+
+- `NVVisionBoostFerriteCore.detect()` — line 11. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostFerriteCore.configuration()` — line 51. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostFerriteCore.<init>()` — line 57. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1201/mod/main/java/nvvisionboost/NVVisionBoostForge.java
+
+- `NVVisionBoostForge.<init>()` — line 5. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1201/mod/main/java/nvvisionboost/NVVisionBoostNativeRenderer.java
+
+- `NVVisionBoostNativeRenderer.isProcessingBlocked()` — line 37. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.checkTarget(RenderTarget target, String label)` — line 41. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.checkShaderTargets()` — line 57. Check world depth FBOs, not just the color-only final pass left bound by Oculus.
+- `NVVisionBoostNativeRenderer.shaderPipelineReady()` — line 100. Do not lend attachments to pipelines being destroyed or recompiled.
+- `NVVisionBoostNativeRenderer.<init>()` — line 148. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.renderWorld(GameRenderer renderer, float partialTick, long finishTimeNano, PoseStack poseStack)` — line 156. Wrap the complete world pass, including shader hooks and the hand.
+- `NVVisionBoostNativeRenderer.worldWidth(int nativeWidth)` — line 167. Dimensions exposed to 3D passes; the physical window remains unchanged.
+- `NVVisionBoostNativeRenderer.worldHeight(int nativeHeight)` — line 171. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.resizeAuxiliaryTargets(Minecraft mc, int width, int height)` — line 175. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.preserveStencilRequirement(RenderTarget target)` — line 184. A stencil request made while redirected must also survive a return to 100%.
+- `NVVisionBoostNativeRenderer.remapTargetTexture(int texture, int oldColor, int oldDepth, RenderTarget target)` — line 212. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.validTexture(int texture)` — line 218. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.requestCpuTransition()` — line 229. Schedule recovery at the start of a frame without reloading the user's shader.
+- `NVVisionBoostNativeRenderer.prepareFrame()` — line 233. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.measuredResolutionInfo()` — line 266. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.observePipelineResolution()` — line 274. Sample pipeline dimensions infrequently after the backend frame. Special buffers and shadow maps may have independent dimensions.
+- `NVVisionBoostNativeRenderer.renderLevel(LevelRenderer renderer, PoseStack poseStack, float partialTick, long finishTimeNano, boolean renderBlockOutline, Camera camera, GameRenderer gameRenderer, LightTexture lightTexture, Matrix4f projection)` — line 343. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.beginFrame()` — line 377. Compatibility entry point for earlier mixin versions.
+- `NVVisionBoostNativeRenderer.endFrame()` — line 382. Compatibility entry point for earlier callers.
+- `NVVisionBoostNativeRenderer.beginLevelRender()` — line 388. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.synchronizeShaderDepthTarget()` — line 398. Oculus 1.8.0 compares depth versions rather than texture identities. Invalidate only the version counter before beginLevelRendering so the backend reattaches depth and recalculates pack-defined sizes, including when returning to native resolution.
+- `NVVisionBoostNativeRenderer.findField(Class<?> type, String name)` — line 453. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.endLevelRender()` — line 463. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.beginFrameInternal()` — line 471. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.endFrameInternal()` — line 722. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.blitToOriginal()` — line 793. Spatial reconstruction into the main framebuffer, without temporal history, frame generation or a native shaderpack backend.
+- `NVVisionBoostNativeRenderer.transferWorldDepth()` — line 863. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.recreateTarget(int width, int height)` — line 876. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.releaseLowTarget()` — line 957. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.restoreOriginalTarget()` — line 981. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.reset()` — line 1024. Invalidate rendering configuration after scale, enable-state, resolution, fullscreen or graphics-setting changes.
+- `NVVisionBoostNativeRenderer.invalidate()` — line 1058. Request another diagnostic sample; resize buffers only when dimensions change.
+- `NVVisionBoostNativeRenderer.isActive()` — line 1069. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.effectActive()` — line 1073. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.internalResolution()` — line 1088. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.internalWidth()` — line 1100. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.internalHeight()` — line 1104. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.processedFrames()` — line 1108. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.failedFrames()` — line 1112. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.skippedFrames()` — line 1116. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.lastError()` — line 1120. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.currentFps()` — line 1124. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.wantsProcessing(NVVisionBoostForge.Config cfg)` — line 1142. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.clamp(int value, int min, int max)` — line 1155. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.describe(Throwable throwable)` — line 1159. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1201/mod/main/java/nvvisionboost/VisionOptimizer.java
+
+- `VisionOptimizer.<init>()` — line 16. No individual contract; refer to the module responsibility and method body.
+- `VisionOptimizer.applySettings(int profile, boolean status)` — line 18. No individual contract; refer to the module responsibility and method body.
+- `VisionOptimizer.configurePerformanceProfile(NVVisionBoostCore.Config cfg)` — line 77. No individual contract; refer to the module responsibility and method body.
+- `VisionOptimizer.analyzeHardwareResources()` — line 134. No individual contract; refer to the module responsibility and method body.
+- `VisionOptimizer.optimizeSodiumEmbeddiumPipeline()` — line 144. No individual contract; refer to the module responsibility and method body.
+- `VisionOptimizer.forceOculusPerformanceState()` — line 174. No individual contract; refer to the module responsibility and method body.
+- `VisionOptimizer.configureCreateCompatibility()` — line 214. No individual contract; refer to the module responsibility and method body.
+- `VisionOptimizer.disableOptimizations(NVVisionBoostCore.Config cfg)` — line 232. No individual contract; refer to the module responsibility and method body.
+- `VisionOptimizer.isModLoaded(String modId)` — line 254. No individual contract; refer to the module responsibility and method body.
+- `VisionOptimizer.normalizeProfile(int profile)` — line 263. No individual contract; refer to the module responsibility and method body.
+- `VisionOptimizer.profileName(int profile)` — line 267. No individual contract; refer to the module responsibility and method body.
+- `VisionOptimizer.getPerformanceProfile()` — line 275. No individual contract; refer to the module responsibility and method body.
+- `VisionOptimizer.isEnabled()` — line 279. No individual contract; refer to the module responsibility and method body.
+
 ## adapters/fabric-12110/addon/main/java/nvvisionboost/vulkanbridge/BridgeApi.java
 
 - `BridgeApi.<init>()` — line 22. No individual contract; refer to the module responsibility and method body.
@@ -160,6 +592,154 @@ Generated from Java syntax trees. Contracts come from source comments; an entry 
 - `NVVisionBoostNativeRenderer.invalidate()` — line 231. No individual contract; refer to the module responsibility and method body.
 - `NVVisionBoostNativeRenderer.disposeTargets()` — line 235. No individual contract; refer to the module responsibility and method body.
 - `NVVisionBoostNativeRenderer.reset()` — line 247. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1211/addon/main/java/nvvisionboost/vulkanbridge/FabricBridge.java
+
+- `FabricBridge.onInitializeClient()` — line 9. No individual contract; refer to the module responsibility and method body.
+- `FabricBridge.tick()` — line 13. No individual contract; refer to the module responsibility and method body.
+- `FabricBridge.shutdown()` — line 32. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1211/addon/main/java/nvvisionboost/vulkanbridge/mixin/FabricCpuLifecycleMixin.java
+
+- `FabricCpuLifecycleMixin.nvvision$tick(CallbackInfo ci)` — line 13. No individual contract; refer to the module responsibility and method body.
+- `FabricCpuLifecycleMixin.nvvision$close(CallbackInfo ci)` — line 18. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1211/mod/main/java/nvvisionboost/mixin/NVVisionBoostMinecraftMixin.java
+
+- `NVVisionBoostMinecraftMixin.nvvb$reloadStart(org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable<java.util.concurrent.CompletableFuture<Void>> ci)` — line 12. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostMinecraftMixin.nvvb$reloadEnd(org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable<java.util.concurrent.CompletableFuture<Void>> ci)` — line 22. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostMinecraftMixin.nvvb$tick(CallbackInfo ci)` — line 32. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostMinecraftMixin.nvvb$close(CallbackInfo ci)` — line 37. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1211/mod/main/java/nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.java
+
+- `NVVisionBoostOptionsScreenMixin.<init>(Component title)` — line 19. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostOptionsScreenMixin.nvvb$addMenu(CallbackInfo ci)` — line 23. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostOptionsScreenMixin.nvvb$resizeMenu(CallbackInfo ci)` — line 36. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostOptionsScreenMixin.nvvb$placeMenu()` — line 41. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1211/mod/main/java/nvvisionboost/mixin/NVVisionBoostRenderTargetAccessor.java
+
+- `NVVisionBoostRenderTargetAccessor.nvvb$getColorTexture()` — line 11. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderTargetAccessor.nvvb$setColorTexture(int value)` — line 14. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderTargetAccessor.nvvb$getDepthTexture()` — line 17. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderTargetAccessor.nvvb$setDepthTexture(int value)` — line 20. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderTargetAccessor.nvvb$getStencilEnabled()` — line 23. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostRenderTargetAccessor.nvvb$setStencilEnabled(boolean value)` — line 27. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1211/mod/main/java/nvvisionboost/NVVisionBoostClient.java
+
+- `NVVisionBoostClient.<init>()` — line 19. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1211/mod/main/java/nvvisionboost/NVVisionBoostClientEvents.java
+
+- `NVVisionBoostClientEvents.tick()` — line 8. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1211/mod/main/java/nvvisionboost/NVVisionBoostCore.java
+
+- `NVVisionBoostCore.<init>()` — line 37. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.machineFingerprint(NVVisionBoostGPU.Info gpu)` — line 149. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.MachineProfile.load(Path path)` — line 197. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.MachineProfile.capture(NVVisionBoostGPU.Info gpu, String fingerprint, Config config)` — line 225. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.MachineProfile.save(Path path)` — line 243. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.tickClient()` — line 278. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.updateClientMetrics(Config config)` — line 325. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.detectFps()` — line 367. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.setRenderScalePercent(int percent)` — line 380. Change internal scale through this entry point; invalidate the previous rendering configuration.
+- `NVVisionBoostCore.setUpscalingEnabled(boolean enabled)` — line 406. Liga/desliga o upscaling com reset completo do framebuffer interno.
+- `NVVisionBoostCore.toggleUpscaling()` — line 431. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.resetUpscaler()` — line 442. Apply multiple graphics-option changes together.
+- `NVVisionBoostCore.saveConfig()` — line 450. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.gameRoot()` — line 470. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.saveStatus()` — line 482. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.writeReadme()` — line 586. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.log(String message)` — line 610. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.stringValue(String json, String key, String fallback)` — line 617. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.unescapeJson(String value)` — line 629. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.Config.isEnabled()` — line 643. Master enable state, independent of the selected internal scale.
+- `NVVisionBoostCore.Config.normalize()` — line 747. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.Config.load(Path path)` — line 803. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostCore.Config.save(Path path)` — line 854. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1211/mod/main/java/nvvisionboost/NVVisionBoostFabric.java
+
+- `NVVisionBoostFabric.onInitializeClient()` — line 11. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostFabric.tick()` — line 16. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1211/mod/main/java/nvvisionboost/NVVisionBoostFerriteCore.java
+
+- `NVVisionBoostFerriteCore.detect()` — line 11. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostFerriteCore.configuration()` — line 51. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostFerriteCore.<init>()` — line 57. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1211/mod/main/java/nvvisionboost/NVVisionBoostNativeRenderer.java
+
+- `NVVisionBoostNativeRenderer.isProcessingBlocked()` — line 30. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.checkTarget(RenderTarget target, String label)` — line 34. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.checkShaderTargets()` — line 50. Check world depth FBOs, not just the color-only final pass left bound by Oculus.
+- `NVVisionBoostNativeRenderer.traceAlignment(String stage)` — line 92. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.<init>()` — line 171. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.worldWidth(int nativeWidth)` — line 180. Dimensions exposed to 3D passes; the physical window remains unchanged.
+- `NVVisionBoostNativeRenderer.worldHeight(int nativeHeight)` — line 184. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.resizeAuxiliaryTargets(Minecraft mc, int width, int height)` — line 188. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.preserveStencilRequirement(RenderTarget target)` — line 197. A stencil request made while redirected must also survive a return to 100%.
+- `NVVisionBoostNativeRenderer.remapTargetTexture(int texture, int oldColor, int oldDepth, RenderTarget target)` — line 225. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.validTexture(int texture)` — line 231. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.prepareFrame()` — line 239. Recover a target after an interrupted frame without switching framebuffers, clearing buffers or recompiling shaders here.
+- `NVVisionBoostNativeRenderer.measuredResolutionInfo()` — line 263. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.observePipelineResolution()` — line 271. Sample pipeline dimensions infrequently after the backend frame. Special buffers and shadow maps may have independent dimensions.
+- `NVVisionBoostNativeRenderer.beginFrame()` — line 345. Compatibility entry point for earlier mixin versions.
+- `NVVisionBoostNativeRenderer.endFrame()` — line 350. Compatibility entry point for earlier callers.
+- `NVVisionBoostNativeRenderer.beginLevelRender()` — line 356. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.synchronizeShaderDepthTarget()` — line 366. Oculus 1.8.0 compares depth versions rather than texture identities. Invalidate only the version counter before beginLevelRendering so the backend reattaches depth and recalculates pack-defined sizes, including when returning to native resolution.
+- `NVVisionBoostNativeRenderer.findField(Class<?> type, String name)` — line 418. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.endLevelRender()` — line 428. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.beginFrameInternal()` — line 436. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.endFrameInternal()` — line 685. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.blitToOriginal()` — line 764. Spatial reconstruction into the main framebuffer, without temporal history, frame generation or a native shaderpack backend.
+- `NVVisionBoostNativeRenderer.transferWorldDepth()` — line 834. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.recreateTarget(int width, int height)` — line 847. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.releaseLowTarget()` — line 924. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.restoreOriginalTarget()` — line 948. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.reset()` — line 991. Invalidate rendering configuration after scale, enable-state, resolution, fullscreen or graphics-setting changes.
+- `NVVisionBoostNativeRenderer.invalidate()` — line 1024. Request another diagnostic sample; resize buffers only when dimensions change.
+- `NVVisionBoostNativeRenderer.isActive()` — line 1035. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.effectActive()` — line 1039. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.internalResolution()` — line 1053. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.internalWidth()` — line 1065. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.internalHeight()` — line 1069. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.processedFrames()` — line 1073. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.failedFrames()` — line 1077. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.skippedFrames()` — line 1081. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.lastError()` — line 1085. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.currentFps()` — line 1089. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.wantsProcessing(NVVisionBoostCore.Config cfg)` — line 1107. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.clamp(int value, int min, int max)` — line 1120. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.describe(Throwable throwable)` — line 1124. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostNativeRenderer.isReducedMainBound()` — line 1139. Only the leased main framebuffer participates in this pixel contract.
+- `NVVisionBoostNativeRenderer.adaptNativeViewport(int x, int y, int width, int height)` — line 1150. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1211/mod/main/java/nvvisionboost/rendering/FabricStencilAdapter.java
+
+- `FabricStencilAdapter.enabled(RenderTarget target)` — line 13. No individual contract; refer to the module responsibility and method body.
+- `FabricStencilAdapter.request(RenderTarget target)` — line 30. No individual contract; refer to the module responsibility and method body.
+- `FabricStencilAdapter.<init>()` — line 42. No individual contract; refer to the module responsibility and method body.
+
+## adapters/fabric-1211/mod/main/java/nvvisionboost/VisionOptimizer.java
+
+- `VisionOptimizer.<init>()` — line 16. No individual contract; refer to the module responsibility and method body.
+- `VisionOptimizer.applySettings(int profile, boolean status)` — line 18. No individual contract; refer to the module responsibility and method body.
+- `VisionOptimizer.configurePerformanceProfile(NVVisionBoostCore.Config cfg)` — line 77. No individual contract; refer to the module responsibility and method body.
+- `VisionOptimizer.analyzeHardwareResources()` — line 134. No individual contract; refer to the module responsibility and method body.
+- `VisionOptimizer.optimizeSodiumEmbeddiumPipeline()` — line 144. No individual contract; refer to the module responsibility and method body.
+- `VisionOptimizer.forceOculusPerformanceState()` — line 174. No individual contract; refer to the module responsibility and method body.
+- `VisionOptimizer.configureCreateCompatibility()` — line 214. No individual contract; refer to the module responsibility and method body.
+- `VisionOptimizer.disableOptimizations(NVVisionBoostCore.Config cfg)` — line 232. No individual contract; refer to the module responsibility and method body.
+- `VisionOptimizer.isModLoaded(String modId)` — line 254. No individual contract; refer to the module responsibility and method body.
+- `VisionOptimizer.normalizeProfile(int profile)` — line 263. No individual contract; refer to the module responsibility and method body.
+- `VisionOptimizer.profileName(int profile)` — line 267. No individual contract; refer to the module responsibility and method body.
+- `VisionOptimizer.getPerformanceProfile()` — line 275. No individual contract; refer to the module responsibility and method body.
+- `VisionOptimizer.isEnabled()` — line 279. No individual contract; refer to the module responsibility and method body.
 
 ## adapters/fabric-262/addon/main/java/nvvisionboost/vulkanbridge/BridgeApi.java
 
@@ -329,6 +909,105 @@ Generated from Java syntax trees. Contracts come from source comments; an entry 
 - `NVVisionBoostTargetLease.apply(RenderTarget target, State state)` — line 42. No individual contract; refer to the module responsibility and method body.
 - `NVVisionBoostTargetLease.State.read(RenderTarget target)` — line 54. No individual contract; refer to the module responsibility and method body.
 - `NVVisionBoostTargetLease.State.write(RenderTarget target)` — line 65. No individual contract; refer to the module responsibility and method body.
+
+## adapters/forge-1122/addon/main/java/nvvisionboost/legacy/addon/LegacyCpuAdapter.java
+
+- `LegacyCpuAdapter.initialize()` — line 19. No individual contract; refer to the module responsibility and method body.
+- `LegacyCpuAdapter.tick(TickEvent.ClientTickEvent event)` — line 23. No individual contract; refer to the module responsibility and method body.
+- `LegacyCpuAdapter.render(RenderLivingEvent.Pre<?> event)` — line 32. No individual contract; refer to the module responsibility and method body.
+
+## adapters/forge-1122/addon/main/java/nvvisionboost/legacy/addon/LegacyIntegerLease.java
+
+- `LegacyIntegerLease.apply(Object optionOwner, int current, int reduction)` — line 10. No individual contract; refer to the module responsibility and method body.
+
+## adapters/forge-1122/addon/main/java/nvvisionboost/legacy/addon/NVVisionLegacyAddon.java
+
+- `NVVisionLegacyAddon.initialize(FMLInitializationEvent event)` — line 18. No individual contract; refer to the module responsibility and method body.
+- `NVVisionLegacyAddon.remoteCompatible(Map<String, String> mods, Side side)` — line 23. No individual contract; refer to the module responsibility and method body.
+
+## adapters/forge-1122/addon/test/java/nvvisionboost/legacy/addon/LegacyLeaseTest.java
+
+- `LegacyLeaseTest.check(int actual, int expected)` — line 7. No individual contract; refer to the module responsibility and method body.
+- `LegacyLeaseTest.main(String[] args)` — line 12. No individual contract; refer to the module responsibility and method body.
+
+## adapters/forge-1122/mod/main/java/nvvisionboost/legacy/LegacyClient.java
+
+- `LegacyClient.addon()` — line 22. No individual contract; refer to the module responsibility and method body.
+- `LegacyClient.initialize()` — line 26. No individual contract; refer to the module responsibility and method body.
+- `LegacyClient.tick(TickEvent.ClientTickEvent event)` — line 34. No individual contract; refer to the module responsibility and method body.
+- `LegacyClient.options(GuiScreenEvent.InitGuiEvent.Post event)` — line 48. No individual contract; refer to the module responsibility and method body.
+- `LegacyClient.height(GuiButton button)` — line 76. No individual contract; refer to the module responsibility and method body.
+- `LegacyClient.click(GuiScreenEvent.ActionPerformedEvent.Post event)` — line 88. No individual contract; refer to the module responsibility and method body.
+
+## adapters/forge-1122/mod/main/java/nvvisionboost/legacy/LegacyConfig.java
+
+- `LegacyConfig.load(Path game)` — line 13. No individual contract; refer to the module responsibility and method body.
+- `LegacyConfig.value(Properties p, String key, int max)` — line 30. No individual contract; refer to the module responsibility and method body.
+- `LegacyConfig.save()` — line 38. No individual contract; refer to the module responsibility and method body.
+- `LegacyConfig.text(String pt, String en)` — line 63. No individual contract; refer to the module responsibility and method body.
+- `LegacyConfig.cpuPreset(int preset)` — line 67. No individual contract; refer to the module responsibility and method body.
+- `LegacyConfig.<init>()` — line 73. No individual contract; refer to the module responsibility and method body.
+
+## adapters/forge-1122/mod/main/java/nvvisionboost/legacy/LegacyMenu.java
+
+- `LegacyMenu.<init>(GuiScreen parent)` — line 15. No individual contract; refer to the module responsibility and method body.
+- `LegacyMenu.t(String pt, String en)` — line 19. No individual contract; refer to the module responsibility and method body.
+- `LegacyMenu.initGui()` — line 23. No individual contract; refer to the module responsibility and method body.
+- `LegacyMenu.preset(int p)` — line 94. No individual contract; refer to the module responsibility and method body.
+- `LegacyMenu.actionPerformed(GuiButton button)` — line 100. No individual contract; refer to the module responsibility and method body.
+- `LegacyMenu.drawScreen(int x, int y, float dt)` — line 137. No individual contract; refer to the module responsibility and method body.
+- `LegacyMenu.flag(int x, int y, boolean us)` — line 155. No individual contract; refer to the module responsibility and method body.
+- `LegacyMenu.help(int id)` — line 170. No individual contract; refer to the module responsibility and method body.
+
+## adapters/forge-1122/mod/main/java/nvvisionboost/legacy/LegacyMinecraftAdapter.java
+
+- `LegacyMinecraftAdapter.applyGraphics()` — line 16. No individual contract; refer to the module responsibility and method body.
+- `LegacyMinecraftAdapter.restore()` — line 44. No individual contract; refer to the module responsibility and method body.
+- `LegacyMinecraftAdapter.supportsSpatialUpscaling()` — line 53. Legacy backend has no verified world/HUD target lease; expose native rendering honestly.
+- `LegacyMinecraftAdapter.<init>()` — line 57. No individual contract; refer to the module responsibility and method body.
+
+## adapters/forge-1122/mod/main/java/nvvisionboost/legacy/NVVisionLegacy.java
+
+- `NVVisionLegacy.initialize(FMLInitializationEvent event)` — line 17. No individual contract; refer to the module responsibility and method body.
+- `NVVisionLegacy.remoteCompatible(Map<String, String> mods, Side side)` — line 22. No individual contract; refer to the module responsibility and method body.
+
+## adapters/forge-1122/mod/test/java/nvvisionboost/legacy/LegacyConfigTest.java
+
+- `LegacyConfigTest.main(String[] args)` — line 11. No individual contract; refer to the module responsibility and method body.
+
+## adapters/forge-1192/mod/main/java/nvvisionboost/NVVisionBoostForge.java
+
+- `NVVisionBoostForge.<init>()` — line 39. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.machineFingerprint(NVVisionBoostGPU.Info gpu)` — line 138. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.MachineProfile.load(Path path)` — line 186. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.MachineProfile.capture(NVVisionBoostGPU.Info gpu, String fingerprint, Config config)` — line 214. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.MachineProfile.save(Path path)` — line 232. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.tickClient()` — line 267. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.updateClientMetrics(Config config)` — line 314. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.detectFps()` — line 356. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.setRenderScalePercent(int percent)` — line 369. Change internal scale through this entry point; invalidate the previous rendering configuration.
+- `NVVisionBoostForge.setUpscalingEnabled(boolean enabled)` — line 395. Liga/desliga o upscaling com reset completo do framebuffer interno.
+- `NVVisionBoostForge.toggleUpscaling()` — line 420. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.resetUpscaler()` — line 431. Apply multiple graphics-option changes together.
+- `NVVisionBoostForge.saveConfig()` — line 439. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.gameRoot()` — line 459. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.saveStatus()` — line 471. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.writeReadme()` — line 575. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.log(String message)` — line 599. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.stringValue(String json, String key, String fallback)` — line 606. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.unescapeJson(String value)` — line 618. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.Config.isEnabled()` — line 632. Master enable state, independent of the selected internal scale.
+- `NVVisionBoostForge.Config.normalize()` — line 736. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.Config.load(Path path)` — line 792. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.Config.save(Path path)` — line 843. No individual contract; refer to the module responsibility and method body.
+
+## adapters/forge-1192/mod/main/java/nvvisionboost/NVVisionBoostScreenEvents.java
+
+- `NVVisionBoostScreenEvents.<init>()` — line 25. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostScreenEvents.onScreenOpening(ScreenEvent.Opening event)` — line 27. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostScreenEvents.onScreenInit(ScreenEvent.Init.Post event)` — line 35. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostScreenEvents.beforeScreenRender(ScreenEvent.Render.Pre event)` — line 78. Refresh after other mods change the Options layout; never move their widgets.
+- `NVVisionBoostScreenEvents.onClientTick(TickEvent.ClientTickEvent event)` — line 85. F8.
 
 ## adapters/forge-1201/addon/main/java/nvvisionboost/vulkanbridge/BridgeApi.java
 
@@ -825,10 +1504,11 @@ Generated from Java syntax trees. Contracts come from source comments; an entry 
 
 ## adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostScreenEvents.java
 
-- `NVVisionBoostScreenEvents.<init>()` — line 22. No individual contract; refer to the module responsibility and method body.
-- `NVVisionBoostScreenEvents.onScreenOpening(ScreenEvent.Opening event)` — line 24. No individual contract; refer to the module responsibility and method body.
-- `NVVisionBoostScreenEvents.onScreenInit(ScreenEvent.Init.Post event)` — line 32. No individual contract; refer to the module responsibility and method body.
-- `NVVisionBoostScreenEvents.onClientTick(TickEvent.ClientTickEvent event)` — line 91. F8.
+- `NVVisionBoostScreenEvents.<init>()` — line 25. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostScreenEvents.onScreenOpening(ScreenEvent.Opening event)` — line 27. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostScreenEvents.onScreenInit(ScreenEvent.Init.Post event)` — line 35. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostScreenEvents.beforeScreenRender(ScreenEvent.Render.Pre event)` — line 78. Refresh after other mods change the Options layout; never move their widgets.
+- `NVVisionBoostScreenEvents.onClientTick(TickEvent.ClientTickEvent event)` — line 85. F8.
 
 ## adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostShader.java
 
@@ -1068,6 +1748,48 @@ Generated from Java syntax trees. Contracts come from source comments; an entry 
 
 - `VersionAdapter.mainRenderTarget()` — line 9. No individual contract; refer to the module responsibility and method body.
 - `VersionAdapter.accessNotice(Component title, Component description)` — line 14. No individual contract; refer to the module responsibility and method body.
+
+## adapters/neoforge-1201/addon/main/java/nvvisionboost/vulkanbridge/platform/LoaderAdapter.java
+
+- `LoaderAdapter.loader()` — line 10. No individual contract; refer to the module responsibility and method body.
+- `LoaderAdapter.gameDirectory()` — line 14. No individual contract; refer to the module responsibility and method body.
+- `LoaderAdapter.configDirectory()` — line 18. No individual contract; refer to the module responsibility and method body.
+- `LoaderAdapter.client()` — line 22. No individual contract; refer to the module responsibility and method body.
+- `LoaderAdapter.modLoaded(String id)` — line 26. No individual contract; refer to the module responsibility and method body.
+
+## adapters/neoforge-1201/mod/main/java/nvvisionboost/NVVisionBoostForge.java
+
+- `NVVisionBoostForge.<init>()` — line 39. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.machineFingerprint(NVVisionBoostGPU.Info gpu)` — line 138. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.MachineProfile.load(Path path)` — line 186. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.MachineProfile.capture(NVVisionBoostGPU.Info gpu, String fingerprint, Config config)` — line 214. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.MachineProfile.save(Path path)` — line 232. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.tickClient()` — line 267. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.updateClientMetrics(Config config)` — line 314. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.detectFps()` — line 356. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.setRenderScalePercent(int percent)` — line 369. Change internal scale through this entry point; invalidate the previous rendering configuration.
+- `NVVisionBoostForge.setUpscalingEnabled(boolean enabled)` — line 395. Liga/desliga o upscaling com reset completo do framebuffer interno.
+- `NVVisionBoostForge.toggleUpscaling()` — line 420. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.resetUpscaler()` — line 431. Apply multiple graphics-option changes together.
+- `NVVisionBoostForge.saveConfig()` — line 439. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.gameRoot()` — line 459. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.saveStatus()` — line 471. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.writeReadme()` — line 575. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.log(String message)` — line 599. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.stringValue(String json, String key, String fallback)` — line 606. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.unescapeJson(String value)` — line 618. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.Config.isEnabled()` — line 632. Master enable state, independent of the selected internal scale.
+- `NVVisionBoostForge.Config.normalize()` — line 736. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.Config.load(Path path)` — line 792. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostForge.Config.save(Path path)` — line 843. No individual contract; refer to the module responsibility and method body.
+
+## adapters/neoforge-1201/mod/main/java/nvvisionboost/platform/LoaderAdapter.java
+
+- `LoaderAdapter.loader()` — line 10. No individual contract; refer to the module responsibility and method body.
+- `LoaderAdapter.gameDirectory()` — line 14. No individual contract; refer to the module responsibility and method body.
+- `LoaderAdapter.configDirectory()` — line 18. No individual contract; refer to the module responsibility and method body.
+- `LoaderAdapter.client()` — line 22. No individual contract; refer to the module responsibility and method body.
+- `LoaderAdapter.modLoaded(String id)` — line 26. No individual contract; refer to the module responsibility and method body.
 
 ## adapters/neoforge-12110/addon/main/java/nvvisionboost/vulkanbridge/BridgeApi.java
 
@@ -1567,13 +2289,6 @@ Generated from Java syntax trees. Contracts come from source comments; an entry 
 - `NVVisionBoostOculusShaderCache.hex(byte[] bytes)` — line 592. No individual contract; refer to the module responsibility and method body.
 - `NVVisionBoostOculusShaderCache.safeMessage(Throwable throwable)` — line 602. No individual contract; refer to the module responsibility and method body.
 
-## adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostOptionsPlacement.java
-
-- `NVVisionBoostOptionsPlacement.Rect.overlaps(Rect other)` — line 9. No individual contract; refer to the module responsibility and method body.
-- `NVVisionBoostOptionsPlacement.free(Rect candidate, int width, int height, List<Rect> occupied)` — line 17. No individual contract; refer to the module responsibility and method body.
-- `NVVisionBoostOptionsPlacement.place(int width, int height, List<Rect> occupied)` — line 25. No individual contract; refer to the module responsibility and method body.
-- `NVVisionBoostOptionsPlacement.<init>()` — line 53. No individual contract; refer to the module responsibility and method body.
-
 ## adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostPerformanceScreen.java
 
 - `NVVisionBoostPerformanceScreen.<init>(Screen parent)` — line 21. No individual contract; refer to the module responsibility and method body.
@@ -1624,7 +2339,7 @@ Generated from Java syntax trees. Contracts come from source comments; an entry 
 - `NVVisionBoostScreenEvents.onScreenInit(ScreenEvent.Init.Post event)` — line 34. No individual contract; refer to the module responsibility and method body.
 - `NVVisionBoostScreenEvents.beforeScreenRender(ScreenEvent.Render.Pre event)` — line 76. No individual contract; refer to the module responsibility and method body.
 - `NVVisionBoostScreenEvents.placeEntry(Screen screen)` — line 81. No individual contract; refer to the module responsibility and method body.
-- `NVVisionBoostScreenEvents.onClientTick(ClientTickEvent.Post event)` — line 102. F8.
+- `NVVisionBoostScreenEvents.onClientTick(ClientTickEvent.Post event)` — line 86. F8.
 
 ## adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostShaderEngine.java
 
@@ -1760,10 +2475,6 @@ Generated from Java syntax trees. Contracts come from source comments; an entry 
 - `NVVisionBoostOpenGLSmokeTest.texture(int width, int height, boolean floating)` — line 558. No individual contract; refer to the module responsibility and method body.
 - `NVVisionBoostOpenGLSmokeTest.framebuffer(int texture)` — line 576. No individual contract; refer to the module responsibility and method body.
 - `NVVisionBoostOpenGLSmokeTest.read(int framebuffer)` — line 587. No individual contract; refer to the module responsibility and method body.
-
-## adapters/neoforge-1211/mod/test/java/nvvisionboost/NVVisionBoostOptionsPlacementTest.java
-
-- `NVVisionBoostOptionsPlacementTest.main(String[] args)` — line 6. No individual contract; refer to the module responsibility and method body.
 
 ## adapters/neoforge-1211/mod/test/java/nvvisionboost/NVVisionBoostPixelAdapterTest.java
 
@@ -2687,10 +3398,10 @@ Generated from Java syntax trees. Contracts come from source comments; an entry 
 
 ## modules/mod/interface/898099464d7a/main/java/nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.java
 
-- `NVVisionBoostOptionsScreenMixin.<init>(Component title)` — line 20. No individual contract; refer to the module responsibility and method body.
-- `NVVisionBoostOptionsScreenMixin.nvvb$addMenu(CallbackInfo ci)` — line 24. No individual contract; refer to the module responsibility and method body.
-- `NVVisionBoostOptionsScreenMixin.nvvb$resizeMenu(CallbackInfo ci)` — line 45. No individual contract; refer to the module responsibility and method body.
-- `NVVisionBoostOptionsScreenMixin.nvvb$placeMenu()` — line 50. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostOptionsScreenMixin.<init>(Component title)` — line 19. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostOptionsScreenMixin.nvvb$addMenu(CallbackInfo ci)` — line 23. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostOptionsScreenMixin.nvvb$resizeMenu(CallbackInfo ci)` — line 36. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostOptionsScreenMixin.nvvb$placeMenu()` — line 41. No individual contract; refer to the module responsibility and method body.
 
 ## modules/mod/interface/a709e778ccff/main/java/nvvisionboost/NVVisionBoostUi.java
 
@@ -2715,10 +3426,10 @@ Generated from Java syntax trees. Contracts come from source comments; an entry 
 
 ## modules/mod/interface/c65ef44b1af0/main/java/nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.java
 
-- `NVVisionBoostOptionsScreenMixin.<init>(Component title)` — line 20. No individual contract; refer to the module responsibility and method body.
-- `NVVisionBoostOptionsScreenMixin.nvvb$addMenu(CallbackInfo ci)` — line 24. No individual contract; refer to the module responsibility and method body.
-- `NVVisionBoostOptionsScreenMixin.nvvb$resizeMenu(CallbackInfo ci)` — line 45. No individual contract; refer to the module responsibility and method body.
-- `NVVisionBoostOptionsScreenMixin.nvvb$placeMenu()` — line 50. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostOptionsScreenMixin.<init>(Component title)` — line 19. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostOptionsScreenMixin.nvvb$addMenu(CallbackInfo ci)` — line 23. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostOptionsScreenMixin.nvvb$resizeMenu(CallbackInfo ci)` — line 36. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostOptionsScreenMixin.nvvb$placeMenu()` — line 41. No individual contract; refer to the module responsibility and method body.
 
 ## modules/mod/interface/common/main/java/nvvisionboost/NVVisionBoostCompatibilityNotice.java
 
@@ -2766,6 +3477,23 @@ Generated from Java syntax trees. Contracts come from source comments; an entry 
 - `NVVisionBoostTextureScreen.init()` — line 17. No individual contract; refer to the module responsibility and method body.
 - `NVVisionBoostTextureScreen.onClose()` — line 62. No individual contract; refer to the module responsibility and method body.
 - `NVVisionBoostTextureScreen.extractRenderState(GuiGraphicsExtractor graphics, int mouseX, int mouseY, float partialTick)` — line 67. No individual contract; refer to the module responsibility and method body.
+
+## modules/mod/interface/options-adapter/main/java/nvvisionboost/NVVisionBoostOptionsPlacement.java
+
+- `NVVisionBoostOptionsPlacement.Rect.overlaps(Rect other)` — line 9. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostOptionsPlacement.free(Rect candidate, int width, int height, List<Rect> occupied)` — line 17. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostOptionsPlacement.place(int width, int height, List<Rect> occupied)` — line 25. No individual contract; refer to the module responsibility and method body.
+- `NVVisionBoostOptionsPlacement.columnPartner(Rect left, List<Rect> occupied)` — line 65. Derive column spacing from another actual row, including vanilla's ten-pixel gap.
+- `NVVisionBoostOptionsPlacement.<init>()` — line 78. No individual contract; refer to the module responsibility and method body.
+
+## modules/mod/interface/options-adapter/main/java/nvvisionboost/NVVisionBoostOptionsScreenAdapter.java
+
+- `NVVisionBoostOptionsScreenAdapter.place(Screen screen, Button entry)` — line 14. Align only NVVision's button to the current visible layout after other mods initialize it.
+- `NVVisionBoostOptionsScreenAdapter.<init>()` — line 32. No individual contract; refer to the module responsibility and method body.
+
+## modules/mod/interface/options-adapter/test/java/nvvisionboost/NVVisionBoostOptionsPlacementTest.java
+
+- `NVVisionBoostOptionsPlacementTest.main(String[] args)` — line 6. No individual contract; refer to the module responsibility and method body.
 
 ## modules/mod/performance/418fb7ce0be4/main/java/nvvisionboost/VisionOptimizer.java
 

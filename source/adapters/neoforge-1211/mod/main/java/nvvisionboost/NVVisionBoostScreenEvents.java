@@ -79,23 +79,7 @@ public final class NVVisionBoostScreenEvents {
   }
 
   private static void placeEntry(Screen screen) {
-    var occupied = new java.util.ArrayList<NVVisionBoostOptionsPlacement.Rect>();
-    for (var child : screen.children()) {
-      if (child instanceof net.minecraft.client.gui.components.AbstractWidget widget
-          && widget != entry
-          && widget.visible)
-        occupied.add(
-            new NVVisionBoostOptionsPlacement.Rect(
-                widget.getX(), widget.getY(), widget.getWidth(), widget.getHeight()));
-    }
-    var position = NVVisionBoostOptionsPlacement.place(screen.width, screen.height, occupied);
-    entry.visible = position.isPresent();
-    position.ifPresent(
-        rect -> {
-          entry.setX(rect.x());
-          entry.setY(rect.y());
-          entry.setWidth(rect.width());
-        });
+    NVVisionBoostOptionsScreenAdapter.place(screen, entry);
   }
 
   /** F8. */

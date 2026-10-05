@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "nvvisionboost",
-  "version": "0.8.5",
+  "version": "0.8.16",
   "name": "NV Vision Boost Fabric",
   "description": "Client-side graphics optimization by Cutjjen: hardware presets, spatial upscaling, dynamic resolution and local visual controls. Open settings with F8 or Minecraft Options.",
   "environment": "client",

@@ -1,0 +1,81 @@
+{
+  "updated": "2026-10-05",
+  "scope": "Official loader ports registered. Automated verification passed; in-game validation remains pending.",
+  "ports": [
+    {
+      "key": "fabric-1211",
+      "minecraft": "1.21.1",
+      "loader": "fabric",
+      "java": 21,
+      "backend": "Sodium + Iris",
+      "status": "implemented, compiled and automated-production-validated; pending in-game testing"
+    },
+    {
+      "key": "fabric-1201",
+      "minecraft": "1.20.1",
+      "loader": "fabric",
+      "java": 17,
+      "backend": "Sodium + Iris",
+      "status": "implemented, compiled and automated-production-validated; pending in-game testing"
+    },
+    {
+      "key": "fabric-1192",
+      "minecraft": "1.19.2",
+      "loader": "fabric",
+      "java": 17,
+      "backend": "Sodium + Iris",
+      "status": "implemented, compiled and automated-production-validated; pending in-game testing"
+    },
+    {
+      "key": "forge-1192",
+      "minecraft": "1.19.2",
+      "loader": "forge",
+      "java": 17,
+      "backend": "Embeddium + Oculus",
+      "status": "implemented, compiled and automated-production-validated; pending in-game testing"
+    },
+    {
+      "key": "forge-1122",
+      "minecraft": "1.12.2",
+      "loader": "forge",
+      "java": 8,
+      "backend": "Vanilla; optional legacy shader backend requires independent validation",
+      "status": "implemented, compiled and automated-production-validated; pending in-game testing"
+    },
+    {
+      "key": "neoforge-1201",
+      "minecraft": "1.20.1",
+      "loader": "neoforge-legacy",
+      "java": 17,
+      "backend": "Embeddium + Oculus, subject to exact dependency ranges",
+      "platform": "1.20.1-47.1.106",
+      "status": "implemented, compiled and automated-production-validated; pending in-game testing"
+    }
+  ],
+  "excluded": [
+    {
+      "minecraft": "1.12.2",
+      "loader": "fabric",
+      "reason": "No official Fabric support; user excludes unofficial alternatives"
+    },
+    {
+      "minecraft": "1.12.2",
+      "loader": "neoforge",
+      "reason": "Loader unavailable"
+    },
+    {
+      "minecraft": "1.19.2",
+      "loader": "neoforge",
+      "reason": "Loader unavailable"
+    }
+  ],
+  "adapterRequirements": [
+    "Loader lifecycle and client-only metadata",
+    "Minecraft GUI API: GuiGraphics, PoseStack or legacy GuiScreen",
+    "Render target ownership, viewport, depth and resource reload",
+    "Backend namespace and actual version-specific framebuffer contracts",
+    "CPU option ownership and immediate application without shader reload",
+    "Java 8-compatible legacy policies and LWJGL 2 bindings for 1.12.2"
+  ],
+  "buildEnvironmentIssue": "Official Loom ZipFS creation fails, but read-only mapping conversion and in-memory remapping now prepare verified named client development inputs for 1.21.1, 1.20.1 and 1.19.2. Loader-specific compilation, source adapters, runtime remapping and new artifact validation remain pending."
+}

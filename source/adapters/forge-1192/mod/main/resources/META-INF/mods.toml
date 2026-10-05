@@ -1,0 +1,55 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT"
+showAsResourcePack=false
+clientSideOnly=true
+
+[[mods]]
+modId="nvvisionboost"
+version="0.8.16"
+displayName="NVIDIA Vision Boost"
+authors="Cutjjen"
+# Category: optimization
+description='''Client-side graphics optimization by Cutjjen: hardware presets, spatial upscaling, dynamic resolution and local visual controls. Open settings with F8 or Minecraft Options.'''
+displayTest="IGNORE_ALL_VERSION"
+
+[[dependencies.nvvisionboost]]
+modId="forge"
+mandatory=true
+versionRange="[43,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.nvvisionboost]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.19.2,1.19.3)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.nvvisionboost]]
+modId="embeddium"
+mandatory=false
+versionRange="[0.3.18,0.4)"
+ordering="AFTER"
+side="CLIENT"
+
+# Embeddium OR Sodium is enforced by the client startup gate, not two mandatory dependencies.
+[[dependencies.nvvisionboost]]
+modId="sodium"
+mandatory=false
+versionRange="[0,)"
+ordering="AFTER"
+side="CLIENT"
+
+[[dependencies.nvvisionboost]]
+modId="oculus"
+mandatory=false
+versionRange="[1.6.9,1.7)"
+ordering="AFTER"
+side="CLIENT"
+
+[[mixins]]
+config="nvvisionboost.mixins.json"
+
+

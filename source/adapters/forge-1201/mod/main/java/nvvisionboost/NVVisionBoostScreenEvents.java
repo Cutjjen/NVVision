@@ -19,6 +19,9 @@ import net.minecraftforge.fml.common.Mod;
     value = Dist.CLIENT,
     bus = Mod.EventBusSubscriber.Bus.FORGE)
 public final class NVVisionBoostScreenEvents {
+  private static Screen owner;
+  private static Button entry;
+
   private NVVisionBoostScreenEvents() {}
 
   @SubscribeEvent(priority = net.minecraftforge.eventbus.api.EventPriority.LOWEST)
@@ -29,7 +32,7 @@ public final class NVVisionBoostScreenEvents {
     }
   }
 
-  @SubscribeEvent
+  @SubscribeEvent(priority = net.minecraftforge.eventbus.api.EventPriority.LOWEST)
   public static void onScreenInit(ScreenEvent.Init.Post event) {
     if (NVVisionBoostDependencies.blocked()) return;
     Screen screen = event.getScreen();
@@ -50,26 +53,7 @@ public final class NVVisionBoostScreenEvents {
       }
     }
 
-    Button done = null;
-    String doneLabel = net.minecraft.network.chat.Component.translatable("gui.done").getString();
-    for (var widget : event.getListenersList()) {
-      if (widget instanceof Button candidate
-          && candidate.getMessage().getString().equals(doneLabel)) {
-        done = candidate;
-        break;
-      }
-    }
-    int width = Math.min(150, Math.max(60, (screen.width - 24) / 2));
-    int height = 20;
-    int x = Math.max(5, screen.width - width - 8);
-    int y = Math.max(5, screen.height - height - 8);
-    if (done != null) {
-      int left = (screen.width - width * 2 - 8) / 2;
-      done.setWidth(width);
-      done.setX(left);
-      x = left + width + 8;
-      y = done.getY();
-    }
+    int width = 100, height = 20, x = 8, y = 8;
 
     Button button =
         NVVisionBoostMenuButton.builder(
@@ -85,6 +69,16 @@ public final class NVVisionBoostScreenEvents {
             .build();
 
     event.addListener(button);
+    owner = screen;
+    entry = button;
+    NVVisionBoostOptionsScreenAdapter.place(screen, entry);
+  }
+
+  /** Refresh after other mods change the Options layout; never move their widgets. */
+  @SubscribeEvent(priority = net.minecraftforge.eventbus.api.EventPriority.LOWEST)
+  public static void beforeScreenRender(ScreenEvent.Render.Pre event) {
+    if (event.getScreen() == owner && entry != null)
+      NVVisionBoostOptionsScreenAdapter.place(owner, entry);
   }
 
   /** F8. */

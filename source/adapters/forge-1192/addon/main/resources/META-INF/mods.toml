@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT"
+clientSideOnly=true
+[[mods]]
+authors="Cutjjen"
+modId="nvvisionvulkanbridge"
+version="0.8.16"
+displayName="NVVision Addon Forge"
+displayTest="IGNORE_ALL_VERSION"
+# Category: optimization
+description="Client-side CPU visual controls. No driver switching or network channels."
+[[dependencies.nvvisionvulkanbridge]]
+modId="forge"
+mandatory=true
+versionRange="[43,)"
+ordering="NONE"
+side="CLIENT"
+[[dependencies.nvvisionvulkanbridge]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.19.2,1.19.3)"
+ordering="NONE"
+side="CLIENT"
+[[dependencies.nvvisionvulkanbridge]]
+modId="nvvisionboost"
+mandatory=true
+versionRange="[0.7.14,0.9)"
+ordering="AFTER"
+side="CLIENT"
+
+

@@ -39,8 +39,9 @@ public final class FunctionIndex {
         new StringBuilder(
             "# Function index\n\n"
                 + "Generated from Java syntax trees. Contracts come from source comments; an entry"
-                + " without a contract is not an individual function audit. Minecraft variants retain"
-                + " their API differences. See ARCHITECTURE.md for module responsibilities.\n\n");
+                + " without a contract is not an individual function audit. Minecraft variants"
+                + " retain their API differences. See ARCHITECTURE.md for module"
+                + " responsibilities.\n\n");
     int[] count = {0};
     try (var manager = compiler.getStandardFileManager(null, null, StandardCharsets.UTF_8)) {
       var units = manager.getJavaFileObjectsFromPaths(sources);

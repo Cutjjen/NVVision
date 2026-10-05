@@ -1,0 +1,114 @@
+[
+  {
+    "target": "forge-1122",
+    "kind": "mod",
+    "path": "main/java/nvvisionboost/legacy/NVVisionLegacy.java",
+    "source": "adapters/forge-1122/mod/main/java/nvvisionboost/legacy/NVVisionLegacy.java",
+    "baselineSha256": "289475daea90e669110f5f72780db68ba26fe66f0b4b2222f67c13d86353884f"
+  },
+  {
+    "target": "forge-1122",
+    "kind": "mod",
+    "path": "main/java/nvvisionboost/legacy/LegacyConfig.java",
+    "source": "adapters/forge-1122/mod/main/java/nvvisionboost/legacy/LegacyConfig.java",
+    "baselineSha256": "c0f8cade1aa207ac12879b73b31b3767fd98f463b4f6ef1ddbfa1a4b67fb9214"
+  },
+  {
+    "target": "forge-1122",
+    "kind": "mod",
+    "path": "main/java/nvvisionboost/legacy/LegacyMinecraftAdapter.java",
+    "source": "adapters/forge-1122/mod/main/java/nvvisionboost/legacy/LegacyMinecraftAdapter.java",
+    "baselineSha256": "721bf8f3659013993544230fedaf0790cf27f293f54eccf87a41c7cfc18cdaf5"
+  },
+  {
+    "target": "forge-1122",
+    "kind": "mod",
+    "path": "main/java/nvvisionboost/legacy/LegacyClient.java",
+    "source": "adapters/forge-1122/mod/main/java/nvvisionboost/legacy/LegacyClient.java",
+    "baselineSha256": "a5bff47dc139d8076a0e63f41032b389d84b51c5362e4bfaf2df28296337f345"
+  },
+  {
+    "target": "forge-1122",
+    "kind": "mod",
+    "path": "main/java/nvvisionboost/legacy/LegacyMenu.java",
+    "source": "adapters/forge-1122/mod/main/java/nvvisionboost/legacy/LegacyMenu.java",
+    "baselineSha256": "cc256da4c96c07ea4bac7bbea7dcd6276d0b69054fe6b4af8cfd90f8b684da53"
+  },
+  {
+    "target": "forge-1122",
+    "kind": "addon",
+    "path": "main/java/nvvisionboost/legacy/addon/NVVisionLegacyAddon.java",
+    "source": "adapters/forge-1122/addon/main/java/nvvisionboost/legacy/addon/NVVisionLegacyAddon.java",
+    "baselineSha256": "389ba9fb5d80abc04f2920acef024950ee141e5f13de3972e97009f7d1ec5bac"
+  },
+  {
+    "target": "forge-1122",
+    "kind": "addon",
+    "path": "main/java/nvvisionboost/legacy/addon/LegacyCpuAdapter.java",
+    "source": "adapters/forge-1122/addon/main/java/nvvisionboost/legacy/addon/LegacyCpuAdapter.java",
+    "baselineSha256": "d548b5262f59de18d8f0d37542f18b205423bbc43a2ea1c673c282f6aba97655"
+  },
+  {
+    "target": "forge-1122",
+    "kind": "mod",
+    "path": "main/resources/mcmod.info",
+    "source": "adapters/forge-1122/mod/main/resources/mcmod.info",
+    "baselineSha256": "5c82b7b7ee34ce7e2675c010c511abecbabe1844581c24c5c521dc1a42eafd70"
+  },
+  {
+    "target": "forge-1122",
+    "kind": "mod",
+    "path": "main/resources/pack.mcmeta",
+    "source": "adapters/forge-1122/mod/main/resources/pack.mcmeta",
+    "baselineSha256": "484f33dae3c3936217d7871ebfbdabc491f83054d598f53d6cdc797263dedb08"
+  },
+  {
+    "target": "forge-1122",
+    "kind": "mod",
+    "path": "main/resources/COPYRIGHT.md",
+    "source": "adapters/forge-1122/mod/main/resources/COPYRIGHT.md",
+    "baselineSha256": "1817be7ae5c6d71da390d79358d4da3794d00c57579cfcda5266bee870aaac44"
+  },
+  {
+    "target": "forge-1122",
+    "kind": "addon",
+    "path": "main/resources/mcmod.info",
+    "source": "adapters/forge-1122/addon/main/resources/mcmod.info",
+    "baselineSha256": "bb2f5ac706afc7ca04323901b8a725862d0c320d0c7b5469ea7e0f5ab6307e62"
+  },
+  {
+    "target": "forge-1122",
+    "kind": "addon",
+    "path": "main/resources/pack.mcmeta",
+    "source": "adapters/forge-1122/addon/main/resources/pack.mcmeta",
+    "baselineSha256": "484f33dae3c3936217d7871ebfbdabc491f83054d598f53d6cdc797263dedb08"
+  },
+  {
+    "target": "forge-1122",
+    "kind": "addon",
+    "path": "main/resources/COPYRIGHT.md",
+    "source": "adapters/forge-1122/addon/main/resources/COPYRIGHT.md",
+    "baselineSha256": "1817be7ae5c6d71da390d79358d4da3794d00c57579cfcda5266bee870aaac44"
+  },
+  {
+    "kind": "addon",
+    "baselineSha256": "b8e0ed4a00289e7351880479772c433fdbfbc4d7b0cc2199ac8b6bf45c7b6bc5",
+    "target": "forge-1122",
+    "path": "main/java/nvvisionboost/legacy/addon/LegacyIntegerLease.java",
+    "source": "adapters/forge-1122/addon/main/java/nvvisionboost/legacy/addon/LegacyIntegerLease.java"
+  },
+  {
+    "kind": "addon",
+    "baselineSha256": "18c0d9a1c9af38ea15eceaff429b08be4538736f4872bd8f432c5be9684e4f7d",
+    "target": "forge-1122",
+    "path": "test/java/nvvisionboost/legacy/addon/LegacyLeaseTest.java",
+    "source": "adapters/forge-1122/addon/test/java/nvvisionboost/legacy/addon/LegacyLeaseTest.java"
+  },
+  {
+    "kind": "mod",
+    "baselineSha256": "7437bcf45f140de561a9454aee0ecbb5b3cc6f16407ab8f5e41764ef72727ac8",
+    "target": "forge-1122",
+    "path": "test/java/nvvisionboost/legacy/LegacyConfigTest.java",
+    "source": "adapters/forge-1122/mod/test/java/nvvisionboost/legacy/LegacyConfigTest.java"
+  }
+]

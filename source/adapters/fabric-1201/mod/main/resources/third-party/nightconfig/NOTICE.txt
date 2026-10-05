@@ -1,0 +1,5 @@
+NightConfig core and toml 3.8.3, by TheElectronWill, LGPL-3.0.
+Library class files are unchanged; only Fabric discovery metadata was added.
+These libraries are excluded from the proprietary NVVision license.
+Source: https://github.com/TheElectronWill/night-config
+Matching upstream source archives accompany the staged release in third-party-sources.
