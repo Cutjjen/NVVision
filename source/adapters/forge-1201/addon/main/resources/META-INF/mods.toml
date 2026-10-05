@@ -5,7 +5,11 @@ clientSideOnly=true
 [[mods]]
 authors="Cutjjen"
 modId="nvvisionvulkanbridge"
+<<<<<<< HEAD
 version="0.8.16"
+=======
+version="0.1.7"
+>>>>>>> origin/master
 displayName="NVVision Addon Forge"
 displayTest="IGNORE_ALL_VERSION"
 # Category: optimization
@@ -25,7 +29,11 @@ side="CLIENT"
 [[dependencies.nvvisionvulkanbridge]]
 modId="nvvisionboost"
 mandatory=true
+<<<<<<< HEAD
 versionRange="[0.7.14,0.9)"
+=======
+versionRange="[0.7.14,0.8)"
+>>>>>>> origin/master
 ordering="AFTER"
 side="CLIENT"
 

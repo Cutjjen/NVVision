@@ -2,10 +2,18 @@ package nvvisionboost;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
+<<<<<<< HEAD
 import nvvisionboost.rendering.MinecraftGlStateAdapter;
 import org.lwjgl.opengl.*;
 
 /** Integrate official FSR 1.0.2 FP32 kernels; SpatialUpscaler owns the external-state guard. */
+=======
+import org.lwjgl.opengl.*;
+
+/**
+ * Integra os kernels FP32 oficiais FSR 1.0.2. Estado externo pertence ao guard do SpatialUpscaler.
+ */
+>>>>>>> origin/master
 final class NVVisionBoostFsr1Upscaler {
   private static int easu,
       rcas,
@@ -54,6 +62,7 @@ final class NVVisionBoostFsr1Upscaler {
       boolean sharpen = sharpnessPercent > 0;
       if (sharpen) ensureTarget(outputWidth, outputHeight);
       else releaseTarget();
+<<<<<<< HEAD
       MinecraftGlStateAdapter.bindFramebuffer(
           GL30.GL_DRAW_FRAMEBUFFER, sharpen ? intermediateFbo : destination);
       GL11.glViewport(0, 0, outputWidth, outputHeight);
@@ -65,6 +74,18 @@ final class NVVisionBoostFsr1Upscaler {
         MinecraftGlStateAdapter.bindFramebuffer(GL30.GL_DRAW_FRAMEBUFFER, destination);
         MinecraftGlStateAdapter.useProgram(rcas);
         MinecraftGlStateAdapter.bindTexture(GL11.GL_TEXTURE_2D, intermediateTexture);
+=======
+      GL30.glBindFramebuffer(GL30.GL_DRAW_FRAMEBUFFER, sharpen ? intermediateFbo : destination);
+      GL11.glViewport(0, 0, outputWidth, outputHeight);
+      GL20.glUseProgram(easu);
+      GL11.glBindTexture(GL11.GL_TEXTURE_2D, texture);
+      configureEasu(width, height, outputWidth, outputHeight);
+      GL11.glDrawArrays(GL11.GL_TRIANGLES, 0, 3);
+      if (sharpen) {
+        GL30.glBindFramebuffer(GL30.GL_DRAW_FRAMEBUFFER, destination);
+        GL20.glUseProgram(rcas);
+        GL11.glBindTexture(GL11.GL_TEXTURE_2D, intermediateTexture);
+>>>>>>> origin/master
         GL20.glUniform2f(sourceSize, outputWidth, outputHeight);
         float strength = (float) Math.pow(2, -2 * (1 - Math.min(100, sharpnessPercent) / 100.0));
         GL20.glUniform1f(sharpness, strength);
@@ -155,7 +176,11 @@ final class NVVisionBoostFsr1Upscaler {
       GL20.glLinkProgram(linked);
       if (GL20.glGetProgrami(linked, GL20.GL_LINK_STATUS) == GL11.GL_FALSE)
         throw new IOException(GL20.glGetProgramInfoLog(linked));
+<<<<<<< HEAD
       MinecraftGlStateAdapter.useProgram(linked);
+=======
+      GL20.glUseProgram(linked);
+>>>>>>> origin/master
       GL20.glUniform1i(GL20.glGetUniformLocation(linked, "Source"), 0);
       int result = linked;
       linked = 0;
@@ -167,7 +192,11 @@ final class NVVisionBoostFsr1Upscaler {
     }
   }
 
+<<<<<<< HEAD
   /** Compute FsrEasuCon constants on the CPU only when dimensions change. */
+=======
+  /** Mesmas constantes de FsrEasuCon, calculadas na CPU apenas quando as dimensões mudam. */
+>>>>>>> origin/master
   private static void configureEasu(int width, int height, int outputWidth, int outputHeight) {
     if (width == lastInputWidth
         && height == lastInputHeight
@@ -199,7 +228,11 @@ final class NVVisionBoostFsr1Upscaler {
     releaseTarget();
     intermediateTexture = GL11.glGenTextures();
     if (intermediateTexture == 0) throw new IllegalStateException("Sem textura para RCAS.");
+<<<<<<< HEAD
     MinecraftGlStateAdapter.bindTexture(GL11.GL_TEXTURE_2D, intermediateTexture);
+=======
+    GL11.glBindTexture(GL11.GL_TEXTURE_2D, intermediateTexture);
+>>>>>>> origin/master
     GL11.glTexParameteri(GL11.GL_TEXTURE_2D, GL11.GL_TEXTURE_MIN_FILTER, GL11.GL_NEAREST);
     GL11.glTexParameteri(GL11.GL_TEXTURE_2D, GL11.GL_TEXTURE_MAG_FILTER, GL11.GL_NEAREST);
     GL11.glTexImage2D(
@@ -214,7 +247,11 @@ final class NVVisionBoostFsr1Upscaler {
         (ByteBuffer) null);
     intermediateFbo = GL30.glGenFramebuffers();
     if (intermediateFbo == 0) throw new IllegalStateException("Sem framebuffer para RCAS.");
+<<<<<<< HEAD
     MinecraftGlStateAdapter.bindFramebuffer(GL30.GL_DRAW_FRAMEBUFFER, intermediateFbo);
+=======
+    GL30.glBindFramebuffer(GL30.GL_DRAW_FRAMEBUFFER, intermediateFbo);
+>>>>>>> origin/master
     GL30.glFramebufferTexture2D(
         GL30.GL_DRAW_FRAMEBUFFER,
         GL30.GL_COLOR_ATTACHMENT0,
@@ -228,8 +265,13 @@ final class NVVisionBoostFsr1Upscaler {
   }
 
   static void releaseTarget() {
+<<<<<<< HEAD
     if (intermediateFbo != 0) MinecraftGlStateAdapter.deleteFramebuffer(intermediateFbo);
     if (intermediateTexture != 0) MinecraftGlStateAdapter.deleteTexture(intermediateTexture);
+=======
+    if (intermediateFbo != 0) GL30.glDeleteFramebuffers(intermediateFbo);
+    if (intermediateTexture != 0) GL11.glDeleteTextures(intermediateTexture);
+>>>>>>> origin/master
     intermediateFbo = intermediateTexture = allocatedWidth = allocatedHeight = 0;
   }
 

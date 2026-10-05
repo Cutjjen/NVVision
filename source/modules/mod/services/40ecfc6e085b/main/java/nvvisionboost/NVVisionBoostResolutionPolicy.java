@@ -1,6 +1,12 @@
 package nvvisionboost;
 
+<<<<<<< HEAD
 /** Pure resolution controller: pixel budget, hysteresis, benefit trial and quality recovery. */
+=======
+/**
+ * Controlador puro: orçamento de pixels, histerese, teste de benefício e recuperação de qualidade.
+ */
+>>>>>>> origin/master
 final class NVVisionBoostResolutionPolicy {
   record Sample(double frameMs, double gpuMs, double cpuWorldMs, double p95Ms) {
     boolean valid() {
@@ -63,7 +69,11 @@ final class NVVisionBoostResolutionPolicy {
 
   void suspend(long now) {
     low = headroom = 0;
+<<<<<<< HEAD
     // Reload invalidates trial comparisons; do not penalize the new scene.
+=======
+    // Uma recarga torna a comparação do teste inválida; não penaliza a nova cena.
+>>>>>>> origin/master
     if (previous >= 0) scale = previous;
     previous = -1;
     nextDecision = Math.max(nextDecision, now + 3_000);

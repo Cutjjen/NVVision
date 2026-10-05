@@ -2,7 +2,11 @@ package nvvisionboost;
 
 import oshi.SystemInfo;
 
+<<<<<<< HEAD
 /** Conservative resource budget; does not change the heap or create workers. */
+=======
+/** Orçamento conservador de recursos; não altera heap nem cria workers. */
+>>>>>>> origin/master
 public final class NVVisionBoostHardwareBudget {
   public record Snapshot(
       String cpu,

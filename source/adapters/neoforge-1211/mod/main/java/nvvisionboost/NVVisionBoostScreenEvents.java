@@ -10,8 +10,17 @@ import net.neoforged.neoforge.client.event.ClientTickEvent;
 import net.neoforged.neoforge.client.event.ScreenEvent;
 
 /**
+<<<<<<< HEAD
  * NeoForge client screen events. Add the configuration button only to Options; EventBusSubscriber
  * owns registration.
+=======
+ * Forge client events.
+ *
+ * <p>Botão NVVisionBoost aparece somente dentro de Options.
+ *
+ * <p>Nenhum registro manual no MinecraftForge.EVENT_BUS é necessário
+ * porque @net.neoforged.fml.common.EventBusSubscriber faz isso.
+>>>>>>> origin/master
  */
 @net.neoforged.fml.common.EventBusSubscriber(
     modid = NVVisionBoostCore.ID,
@@ -36,12 +45,25 @@ public final class NVVisionBoostScreenEvents {
     if (NVVisionBoostDependencies.blocked()) return;
     Screen screen = event.getScreen();
 
+<<<<<<< HEAD
     /* Add this button only to Options. */
+=======
+    /*
+     * Botão deve existir somente em Options.
+     */
+>>>>>>> origin/master
     if (!(screen instanceof OptionsScreen)) {
       return;
     }
 
+<<<<<<< HEAD
     /* Avoid duplicate buttons if the same screen initializes again. */
+=======
+    /*
+     * Evita duplicar o botão caso Forge dispare nova
+     * inicialização da mesma tela.
+     */
+>>>>>>> origin/master
     for (var widget : event.getListenersList()) {
       if (widget instanceof Button button) {
         String text = button.getMessage().getString();
@@ -79,7 +101,27 @@ public final class NVVisionBoostScreenEvents {
   }
 
   private static void placeEntry(Screen screen) {
+<<<<<<< HEAD
     NVVisionBoostOptionsScreenAdapter.place(screen, entry);
+=======
+    var occupied = new java.util.ArrayList<NVVisionBoostOptionsPlacement.Rect>();
+    for (var child : screen.children()) {
+      if (child instanceof net.minecraft.client.gui.components.AbstractWidget widget
+          && widget != entry
+          && widget.visible)
+        occupied.add(
+            new NVVisionBoostOptionsPlacement.Rect(
+                widget.getX(), widget.getY(), widget.getWidth(), widget.getHeight()));
+    }
+    var position = NVVisionBoostOptionsPlacement.place(screen.width, screen.height, occupied);
+    entry.visible = position.isPresent();
+    position.ifPresent(
+        rect -> {
+          entry.setX(rect.x());
+          entry.setY(rect.y());
+          entry.setWidth(rect.width());
+        });
+>>>>>>> origin/master
   }
 
   /** F8. */
@@ -100,7 +142,14 @@ public final class NVVisionBoostScreenEvents {
     }
 
     while (NVVisionBoostClient.OPEN_CONFIG.consumeClick()) {
+<<<<<<< HEAD
       /* Do not open another configuration screen over this one. */
+=======
+      /*
+       * Evita abrir outra tela sobre a própria
+       * configuração do NVVisionBoost.
+       */
+>>>>>>> origin/master
       if (mc.screen instanceof NVVisionBoostConfigScreen) {
         continue;
       }

@@ -6,7 +6,11 @@ import org.lwjgl.glfw.GLFW;
 import org.lwjgl.glfw.GLFWErrorCallback;
 import org.lwjgl.opengl.*;
 
+<<<<<<< HEAD
 /** Optional hidden-window test; does not initialize Minecraft or require a shaderpack. */
+=======
+/** Teste opcional com janela invisível; não inicializa Minecraft nem exige shaderpack. */
+>>>>>>> origin/master
 public final class NVVisionBoostOpenGLSmokeTest {
   private static int checks;
   private static final int OUTPUT = 64;
@@ -34,12 +38,15 @@ public final class NVVisionBoostOpenGLSmokeTest {
         throw new IllegalStateException("Não foi possível criar contexto OpenGL 3.2.");
       GLFW.glfwMakeContextCurrent(window);
       GL.createCapabilities();
+<<<<<<< HEAD
       try {
         com.mojang.blaze3d.systems.RenderSystem.class.getMethod("initRenderThread").invoke(null);
       } catch (NoSuchMethodException ignored) {
       } catch (ReflectiveOperationException error) {
         throw new IllegalStateException(error);
       }
+=======
+>>>>>>> origin/master
       System.out.println(
           "GL: "
               + GL11.glGetString(GL11.GL_VENDOR)

@@ -5,7 +5,11 @@ import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 
+<<<<<<< HEAD
 /** Separate screen avoids overlapping shader lists or quality controls. */
+=======
+/** Tela separada: não sobrepõe lista de shaders nem botões de qualidade. */
+>>>>>>> origin/master
 public final class NVVisionBoostTextureScreen extends Screen {
   private final Screen parent;
 

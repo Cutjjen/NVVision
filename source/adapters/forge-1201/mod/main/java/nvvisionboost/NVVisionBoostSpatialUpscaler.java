@@ -3,13 +3,20 @@ package nvvisionboost;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.charset.StandardCharsets;
+<<<<<<< HEAD
 import nvvisionboost.rendering.MinecraftGlStateAdapter;
+=======
+>>>>>>> origin/master
 import org.lwjgl.BufferUtils;
 import org.lwjgl.opengl.*;
 
 /**
+<<<<<<< HEAD
  * Spatial reconstruction without history: Catmull-Rom bicubic filtering and contrast-limited
  * sharpening.
+=======
+ * Um passe espacial, sem histórico: bicúbico Catmull-Rom e nitidez limitada pelo contraste local.
+>>>>>>> origin/master
  */
 public final class NVVisionBoostSpatialUpscaler {
   private static final NVVisionBoostUpscaleBudget BUDGET = new NVVisionBoostUpscaleBudget();
@@ -71,7 +78,11 @@ public final class NVVisionBoostSpatialUpscaler {
     STATE.capture();
     try {
       initialize();
+<<<<<<< HEAD
       MinecraftGlStateAdapter.bindFramebuffer(GL30.GL_DRAW_FRAMEBUFFER, framebuffer);
+=======
+      GL30.glBindFramebuffer(GL30.GL_DRAW_FRAMEBUFFER, framebuffer);
+>>>>>>> origin/master
       GL11.glViewport(0, 0, outputWidth, outputHeight);
       GL11.glDisable(GL11.GL_DEPTH_TEST);
       GL11.glDepthMask(false);
@@ -85,11 +96,18 @@ public final class NVVisionBoostSpatialUpscaler {
       STATE.disablePixelUnpack();
       GL11.glPolygonMode(GL11.GL_FRONT_AND_BACK, GL11.GL_FILL);
       GL11.glColorMask(true, true, true, true);
+<<<<<<< HEAD
       MinecraftGlStateAdapter.useProgram(program);
       GL30.glBindVertexArray(vao);
       MinecraftGlStateAdapter.activeTexture(GL13.GL_TEXTURE0);
       MinecraftGlStateAdapter.bindTexture(
           GL11.GL_TEXTURE_2D, texture == 0 || GL11.glIsTexture(texture) ? texture : 0);
+=======
+      GL20.glUseProgram(program);
+      GL30.glBindVertexArray(vao);
+      GL13.glActiveTexture(GL13.GL_TEXTURE0);
+      GL11.glBindTexture(GL11.GL_TEXTURE_2D, texture);
+>>>>>>> origin/master
       GL33.glBindSampler(0, sampler);
       String fallback = "";
       if (mode == 4) {
@@ -107,9 +125,15 @@ public final class NVVisionBoostSpatialUpscaler {
         }
         fallback = NVVisionBoostFsr1Upscaler.status() + " | ";
         mode = 2;
+<<<<<<< HEAD
         MinecraftGlStateAdapter.bindFramebuffer(GL30.GL_DRAW_FRAMEBUFFER, framebuffer);
         MinecraftGlStateAdapter.useProgram(program);
         MinecraftGlStateAdapter.bindTexture(GL11.GL_TEXTURE_2D, texture);
+=======
+        GL30.glBindFramebuffer(GL30.GL_DRAW_FRAMEBUFFER, framebuffer);
+        GL20.glUseProgram(program);
+        GL11.glBindTexture(GL11.GL_TEXTURE_2D, texture);
+>>>>>>> origin/master
       }
       GL20.glUniform2f(sizeUniform, inputWidth, inputHeight);
       GL20.glUniform1f(sharpnessUniform, Math.max(0, Math.min(100, sharpnessPercent)) / 100.0f);
@@ -144,7 +168,11 @@ public final class NVVisionBoostSpatialUpscaler {
       sizeUniform = GL20.glGetUniformLocation(linked, "SourceSize");
       sharpnessUniform = GL20.glGetUniformLocation(linked, "Sharpness");
       modeUniform = GL20.glGetUniformLocation(linked, "Mode");
+<<<<<<< HEAD
       MinecraftGlStateAdapter.useProgram(linked);
+=======
+      GL20.glUseProgram(linked);
+>>>>>>> origin/master
       GL20.glUniform1i(GL20.glGetUniformLocation(linked, "Source"), 0);
       vao = GL30.glGenVertexArrays();
       sampler = GL33.glGenSamplers();
@@ -202,7 +230,11 @@ public final class NVVisionBoostSpatialUpscaler {
     diagnostic = "Filtro linear compatível.";
   }
 
+<<<<<<< HEAD
   /** Restore actual bindings and states without modifying RenderSystem caches. */
+=======
+  /** Restaura bindings e estados reais; não modifica caches do RenderSystem. */
+>>>>>>> origin/master
   private static final class State {
     private final int[] viewport = new int[4], polygon = new int[2];
     private final ByteBuffer colorMask = BufferUtils.createByteBuffer(4);
@@ -230,6 +262,7 @@ public final class NVVisionBoostSpatialUpscaler {
       discard = GL11.glIsEnabled(GL30.GL_RASTERIZER_DISCARD);
       if (clip == null) clip = new boolean[GL11.glGetInteger(GL30.GL_MAX_CLIP_DISTANCES)];
       for (int i = 0; i < clip.length; i++) clip[i] = GL11.glIsEnabled(GL30.GL_CLIP_DISTANCE0 + i);
+<<<<<<< HEAD
       MinecraftGlStateAdapter.activeTexture(GL13.GL_TEXTURE0);
       texture = GL11.glGetInteger(GL11.GL_TEXTURE_BINDING_2D);
       sampler = GL11.glGetInteger(GL33.GL_SAMPLER_BINDING);
@@ -246,6 +279,23 @@ public final class NVVisionBoostSpatialUpscaler {
       if (pixelUnpack != 0) GL15.glBindBuffer(GL21.GL_PIXEL_UNPACK_BUFFER, pixelUnpack);
       MinecraftGlStateAdapter.activeTexture(activeTexture);
       MinecraftGlStateAdapter.bindFramebuffer(GL30.GL_DRAW_FRAMEBUFFER, drawFramebuffer);
+=======
+      GL13.glActiveTexture(GL13.GL_TEXTURE0);
+      texture = GL11.glGetInteger(GL11.GL_TEXTURE_BINDING_2D);
+      sampler = GL11.glGetInteger(GL33.GL_SAMPLER_BINDING);
+      GL13.glActiveTexture(activeTexture);
+    }
+
+    void restore() {
+      GL20.glUseProgram(program);
+      GL30.glBindVertexArray(vao);
+      GL13.glActiveTexture(GL13.GL_TEXTURE0);
+      GL11.glBindTexture(GL11.GL_TEXTURE_2D, texture);
+      GL33.glBindSampler(0, sampler);
+      if (pixelUnpack != 0) GL15.glBindBuffer(GL21.GL_PIXEL_UNPACK_BUFFER, pixelUnpack);
+      GL13.glActiveTexture(activeTexture);
+      GL30.glBindFramebuffer(GL30.GL_DRAW_FRAMEBUFFER, drawFramebuffer);
+>>>>>>> origin/master
       GL11.glViewport(viewport[0], viewport[1], viewport[2], viewport[3]);
       if (polygon[0] != GL11.GL_FILL) GL11.glPolygonMode(GL11.GL_FRONT_AND_BACK, polygon[0]);
       GL11.glColorMask(

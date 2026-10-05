@@ -5,8 +5,13 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.Options;
 
 /**
+<<<<<<< HEAD
  * Native mipmap loading preserves fonts, sprites and mod metadata. Do not intercept texture
  * uploads, UVs, atlases or private renderer textures.
+=======
+ * Mipmaps pelo carregador nativo: preserva fontes, sprites e metadados dos mods. Não intercepta
+ * uploads OpenGL, UVs, atlas ou texturas privadas de renderizadores.
+>>>>>>> origin/master
  */
 public final class NVVisionBoostTextureOptimizer {
   private static volatile boolean busy;
@@ -99,7 +104,11 @@ public final class NVVisionBoostTextureOptimizer {
     try {
       options.mipmapLevels().set(previous);
       mc.updateMaxMipLevel(previous);
+<<<<<<< HEAD
       // Rebuild affected resources too; restoring the option alone is insufficient.
+=======
+      // Recrie também os recursos antigos: restaurar apenas a opção não basta.
+>>>>>>> origin/master
       mc.reloadResourcePacks()
           .whenComplete(
               (unused, recovery) ->

@@ -6,7 +6,11 @@ uniform int Mode;
 in vec2 TexCoord;
 out vec4 FragColor;
 
+<<<<<<< HEAD
 // Separable Catmull-Rom: combine the two central weights into one bilinear sample.
+=======
+// Catmull-Rom separável: combina os dois pesos centrais em uma amostra bilinear.
+>>>>>>> origin/master
 vec3 cubic(vec2 uv) {
     vec2 position = uv * SourceSize - 0.5;
     vec2 base = floor(position), f = position - base;
@@ -38,7 +42,11 @@ void main() {
     vec3 lo = min(original.rgb, min(min(n, s), min(e, w)));
     vec3 hi = max(original.rgb, max(max(n, s), max(e, w)));
     center = clamp(center, lo, hi);
+<<<<<<< HEAD
     // Limit edge halos and avoid amplifying near-black or near-white extremes.
+=======
+    // Limita halos em bordas e evita amplificar extremos próximos de preto/branco.
+>>>>>>> origin/master
     vec3 amplitude = sqrt(clamp(min(lo, 1.0 - hi) / max(hi, vec3(0.0001)), 0.0, 1.0));
     vec3 weight = -0.19 * clamp(Sharpness, 0.0, 1.0) * amplitude;
     vec3 sharpened = (center + weight * (n + s + e + w)) / (1.0 + 4.0 * weight);

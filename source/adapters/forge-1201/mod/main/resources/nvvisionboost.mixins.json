@@ -12,8 +12,12 @@
     "NVVisionBoostWeatherParticlesMixin",
     "NVVisionBoostBlockEntityDistanceMixin",
     "NVVisionBoostBufferBuilderAccessor",
+<<<<<<< HEAD
     "NVVisionBoostBufferSourceAccessor",
     "NVVisionBoostRenderTargetAccessor"
+=======
+    "NVVisionBoostBufferSourceAccessor"
+>>>>>>> origin/master
   ],
   "injectors": {
     "defaultRequire": 1

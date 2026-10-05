@@ -37,11 +37,19 @@ public final class FunctionIndex {
     if (compiler == null) throw new IllegalStateException("A full JDK is required.");
     var output =
         new StringBuilder(
+<<<<<<< HEAD
             "# Function index\n\n"
                 + "Generated from Java syntax trees. Contracts come from source comments; an entry"
                 + " without a contract is not an individual function audit. Minecraft variants"
                 + " retain their API differences. See ARCHITECTURE.md for module"
                 + " responsibilities.\n\n");
+=======
+            "# Índice de funções\n\n"
+                + "Criado a partir da árvore sintática do Java. Os contratos abaixo vêm dos"
+                + " comentários do código; uma entrada sem contrato não constitui uma auditoria"
+                + " individual da função. As variantes de Minecraft conservam suas diferenças de"
+                + " API.\n\n");
+>>>>>>> origin/master
     int[] count = {0};
     try (var manager = compiler.getStandardFileManager(null, null, StandardCharsets.UTF_8)) {
       var units = manager.getJavaFileObjectsFromPaths(sources);
@@ -80,10 +88,18 @@ public final class FunctionIndex {
                             .map(p -> p.getType() + " " + p.getName())
                             .toList())
                     + ")";
+<<<<<<< HEAD
             output.append("- `").append(signature).append("` — line ").append(line).append(". ");
             output.append(
                 doc == null
                     ? "No individual contract; refer to the module responsibility and method body."
+=======
+            output.append("- `").append(signature).append("` — linha ").append(line).append(". ");
+            output.append(
+                doc == null
+                    ? "Contrato não documentado individualmente; consulte a responsabilidade do"
+                        + " módulo e o corpo da função."
+>>>>>>> origin/master
                     : doc.getFullBody().toString().replace('\n', ' '));
             output.append('\n');
             count[0]++;

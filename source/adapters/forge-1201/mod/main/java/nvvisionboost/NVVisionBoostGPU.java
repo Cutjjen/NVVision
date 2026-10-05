@@ -110,7 +110,11 @@ public final class NVVisionBoostGPU {
     i.threads = hardware.logicalThreads();
     i.allocatedRamMB = hardware.allocatedRamMB();
     i.systemRamMB = hardware.systemRamMB();
+<<<<<<< HEAD
     // The active OpenGL context identifies the GPU rendering Minecraft.
+=======
+    // A GPU do contexto OpenGL é a que efetivamente desenha o Minecraft.
+>>>>>>> origin/master
     detectFromOpenGL(i);
     String[] o = i.nvidia ? run(i.name) : null;
     if (o != null && o.length > 0 && norm(o[0]).equals(norm(i.name.replace("/PCIe/SSE2", "")))) {
@@ -2061,7 +2065,11 @@ public final class NVVisionBoostGPU {
       config.renderScalePercent = Math.min(config.renderScalePercent, 80);
       config.upscalingEnabled = config.renderScalePercent < 100;
     }
+<<<<<<< HEAD
     // Pending recommendations change shaders only after explicit user application.
+=======
+    // Recomendações pendentes: só alteram shaders quando o usuário aplica.
+>>>>>>> origin/master
     config.shaderShadowQuality =
         memory <= 0
             ? (preset.profile.equals("low") ? 1 : 2)

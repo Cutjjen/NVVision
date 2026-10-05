@@ -3,7 +3,11 @@ package nvvisionboost;
 import java.util.Locale;
 import net.minecraft.client.Minecraft;
 
+<<<<<<< HEAD
 /** Render-thread telemetry and temporary scale changes do not rewrite preferences every frame. */
+=======
+/** Telemetria na thread de renderização e escala temporária; não regrava preferências por frame. */
+>>>>>>> origin/master
 public final class NVVisionBoostFrameTiming {
   private static final NVVisionBoostGpuTimer GPU = new NVVisionBoostGpuTimer();
   private static final NVVisionBoostFrameStatistics FRAMES = new NVVisionBoostFrameStatistics();
@@ -23,7 +27,11 @@ public final class NVVisionBoostFrameTiming {
   private NVVisionBoostFrameTiming() {}
 
   public static void frameStart() {
+<<<<<<< HEAD
     GPU.end(); // Close a collection interrupted by another renderer's exception.
+=======
+    GPU.end(); // Fecha uma coleta interrompida por exceção de outro renderer.
+>>>>>>> origin/master
     var mc = Minecraft.getInstance();
     var config = NVVisionBoostCore.cfg;
     long now = System.nanoTime(), milliseconds = now / 1_000_000;

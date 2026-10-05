@@ -1,6 +1,10 @@
 package nvvisionboost;
 
+<<<<<<< HEAD
 /** Compose options so one feature cannot undo another selected reduction. */
+=======
+/** Composição de opções: nenhum recurso pode desfazer a redução escolhida em outro. */
+>>>>>>> origin/master
 final class NVVisionBoostVisualPolicy {
   private NVVisionBoostVisualPolicy() {}
 

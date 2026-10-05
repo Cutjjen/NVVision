@@ -1,7 +1,11 @@
 {
   "schemaVersion": 1,
   "id": "nvvisionvulkanbridge",
+<<<<<<< HEAD
   "version": "0.8.16",
+=======
+  "version": "0.2.1-fabric.8",
+>>>>>>> origin/master
   "name": "NVVision Addon Fabric",
   "environment": "client",
   "entrypoints": {
@@ -19,7 +23,11 @@
     "nvvisionboost": ">=0.8.2-fabric.1 <0.9"
   },
   "license": "MIT",
+<<<<<<< HEAD
   "description": "Companion client-side optimization addon by Cutjjen: CPU presets and individual native-particle and visual entity-distance controls. Other players do not need this addon installed.",
+=======
+  "description": "Client-side optimization controls for CPU visual budgets. No network channels, driver switching, DLSS or frame generation.",
+>>>>>>> origin/master
   "authors": [
     "Cutjjen"
   ],
@@ -27,3 +35,7 @@
     "nvvision:category": "optimization"
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master

@@ -5,7 +5,11 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.attribute.BasicFileAttributes;
 
+<<<<<<< HEAD
 /** Identify resource changes without rereading complete font or texture contents. */
+=======
+/** Identifica mudanças sem reler fontes e texturas inteiras. */
+>>>>>>> origin/master
 final class NVVisionBoostFileFingerprint {
   private NVVisionBoostFileFingerprint() {}
 

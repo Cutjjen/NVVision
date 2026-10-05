@@ -16,8 +16,14 @@ import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 
 /**
+<<<<<<< HEAD
  * Main configuration screen: navigation, settings and renderer integration. Minecraft 1.20.1 Forge
  * / Java 17.
+=======
+ * Menu principal: navegação, configurações e integração com o renderizador.
+ *
+ * <p>Minecraft 1.20.1 Forge 47.2.0 Java 17
+>>>>>>> origin/master
  */
 public final class NVVisionBoostConfigScreen extends Screen {
   private final Screen parent;
@@ -992,13 +998,26 @@ public final class NVVisionBoostConfigScreen extends Screen {
   }
 
   private void restoreDefaults() {
+<<<<<<< HEAD
     /* Invalidate renderer settings before applying the new configuration. */
+=======
+    /*
+     * Primeiro elimina framebuffer criado pelas configurações
+     * anteriores.
+     */
+>>>>>>> origin/master
     NVVisionBoostNativeRenderer.reset();
 
     NVVisionBoostRenderController.restorePlayerOptions();
     NVVisionBoostForge.cfg = new NVVisionBoostForge.Config();
 
+<<<<<<< HEAD
     /* Oculus owns shader execution. */
+=======
+    /*
+     * Oculus continua responsável pelos shaders.
+     */
+>>>>>>> origin/master
     NVVisionBoostForge.cfg.nativeShaderRenderer = false;
 
     NVVisionBoostForge.cfg.rendererBackend =
@@ -1021,7 +1040,16 @@ public final class NVVisionBoostConfigScreen extends Screen {
       return;
     }
 
+<<<<<<< HEAD
     /* Use the upscaling setter so render-target changes follow the renderer lifecycle. */
+=======
+    /*
+     * Upscaling precisa de tratamento especial.
+     *
+     * Não alterar diretamente o boolean porque o framebuffer
+     * precisa ser destruído/recriado.
+     */
+>>>>>>> origin/master
     if ("upscalingEnabled".equals(field)) {
       toggleUpscaling();
 
@@ -1144,7 +1172,13 @@ public final class NVVisionBoostConfigScreen extends Screen {
 
     cfg().gpuPreset = p.name;
 
+<<<<<<< HEAD
     /* Oculus owns shaders. */
+=======
+    /*
+     * Oculus é responsável pelos shaders.
+     */
+>>>>>>> origin/master
     cfg().nativeShaderRenderer = false;
 
     cfg().rendererBackend = NVVisionBoostCompatibility.oculus() ? "iris-compatible" : "auto";
@@ -1540,6 +1574,7 @@ public final class NVVisionBoostConfigScreen extends Screen {
         contentLeft(),
         height - 57,
         theme.accent());
+<<<<<<< HEAD
     // Reserve a readable advisory footer outside the scrolling control area.
     String[] compatibilityLines = NVVisionBoostCompatibilityNotice.lines();
     for (int line = 0; line < compatibilityLines.length; line++) {
@@ -1550,16 +1585,24 @@ public final class NVVisionBoostConfigScreen extends Screen {
           height - 95 + line * 11,
           0xFFFFCF70);
     }
+=======
+>>>>>>> origin/master
     if (!status.equals(tooltipStatus)) {
       tooltipStatus = status;
       statusHelp.setTooltip(
           NVVisionBoostUi.infoTooltip(
               NVVisionBoostUi.component(
+<<<<<<< HEAD
                   (status.isBlank()
                           ? NVVisionBoostUi.text("As opções são salvas quando alteradas.")
                           : status)
                       + "\n\n"
                       + NVVisionBoostUi.text(NVVisionBoostCompatibilityNotice.MESSAGE))));
+=======
+                  status.isBlank()
+                      ? NVVisionBoostUi.text("As opções são salvas quando alteradas.")
+                      : status)));
+>>>>>>> origin/master
     }
     if (maxScroll > 0) {
       int track = layout.bodyBottom() - layout.bodyTop();

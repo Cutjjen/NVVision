@@ -1,6 +1,10 @@
 package nvvisionboost;
 
+<<<<<<< HEAD
 /** Select automatic filter cost while preserving manual modes. */
+=======
+/** Seleciona custo do filtro automático; os modos manuais não são alterados. */
+>>>>>>> origin/master
 final class NVVisionBoostUpscaleBudget {
   private int mode = 1, expensive;
   private long nextSample, nextUpgrade;

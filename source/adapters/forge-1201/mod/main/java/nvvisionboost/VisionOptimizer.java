@@ -30,8 +30,13 @@ public final class VisionOptimizer {
       return;
     }
 
+<<<<<<< HEAD
     // The master toggle controls the mod; disabling upscaling
     // separately preserves other optimizations.
+=======
+    // O botão mestre controla o mod. Desligar o upscaling,
+    // separadamente, não desliga as demais otimizações.
+>>>>>>> origin/master
     cfg.enabled = status;
 
     if (!status) {
@@ -55,14 +60,24 @@ public final class VisionOptimizer {
 
       configureCreateCompatibility();
 
+<<<<<<< HEAD
       // Apply actual Minecraft options once.
       // Preserve the Flywheel and shaderpack backends.
+=======
+      // Aplica opções reais do Minecraft uma única vez.
+      // Não troca o backend do Flywheel ou do shaderpack.
+>>>>>>> origin/master
       NVVisionBoostRenderController.applyNow(cfg);
 
       NVVisionBoostForge.saveConfig();
 
+<<<<<<< HEAD
       // Preparation handles changes on the next frame.
       // Do not reload shaders directly in this method.
+=======
+      // A preparação do próximo frame trata as mudanças.
+      // Não recarregue shaders diretamente neste método.
+>>>>>>> origin/master
       NVVisionBoostNativeRenderer.invalidate();
 
       LOGGER.info(
@@ -124,18 +139,31 @@ public final class VisionOptimizer {
       }
     }
 
+<<<<<<< HEAD
     // Preserve:
+=======
+    // Não modifica:
+>>>>>>> origin/master
     // - renderScalePercent;
     // - upscalingEnabled;
     // - dynamicResolution;
     // - autoOptimize;
+<<<<<<< HEAD
     // shaderpack selection and internal options.
+=======
+    // - seleção ou opções internas do shaderpack.
+>>>>>>> origin/master
   }
 
   private static void analyzeHardwareResources() {
     try {
+<<<<<<< HEAD
       // Keep the existing manager call.
       // Effective capabilities depend on that manager's implementation.
+=======
+      // Preserva a chamada ao gerenciador existente.
+      // As capacidades efetivas dependem da implementação dele.
+>>>>>>> origin/master
       NVVisionVramManager.analyzeAndAllocateVram();
     } catch (Exception error) {
       LOGGER.warn("[NVVisionBoost] Falha na análise de recursos da GPU.", error);
@@ -154,9 +182,15 @@ public final class VisionOptimizer {
         return;
       }
 
+<<<<<<< HEAD
       // The profile configures public Minecraft options
       // Embeddium/Sodium continuam controlando chunks, buffers
       // and its existing rendering mechanisms.
+=======
+      // O perfil configura opções públicas do Minecraft.
+      // Embeddium/Sodium continuam controlando chunks, buffers
+      // e seus mecanismos internos de renderização.
+>>>>>>> origin/master
       if (performanceProfile != PROFILE_QUALITY) {
         cfg.animationOptimization = true;
         cfg.transparencyOptimization = true;
@@ -184,9 +218,15 @@ public final class VisionOptimizer {
         return;
       }
 
+<<<<<<< HEAD
       // Retain the routine name for compatibility.
       // Preparation works with shaderpack resources
       // without changing selection or forcing internal options.
+=======
+      // Mantém o nome da rotina por continuidade.
+      // A preparação é genérica para qualquer shaderpack,
+      // sem trocar sua seleção ou forçar opções internas.
+>>>>>>> origin/master
       if (performanceProfile != PROFILE_QUALITY) {
         cfg.shaderCache = true;
         cfg.shaderWarmup = true;
@@ -217,6 +257,7 @@ public final class VisionOptimizer {
       return;
     }
 
+<<<<<<< HEAD
     // RenderController preserves simulation and entity distance
     // when Create/Flywheel are present.
     //
@@ -225,6 +266,16 @@ public final class VisionOptimizer {
     //
     // Preserve machine ticks, contraptions, instancing,
     // batching and Flywheel addon configuration.
+=======
+    // O RenderController preserva a distância de simulação
+    // e de entidades quando Create/Flywheel estão presentes.
+    //
+    // O DynamicController respeita a proteção contra mudanças
+    // automáticas de escala. A escala manual continua disponível.
+    //
+    // Não modifica ticks das máquinas, contraptions, instancing,
+    // batching nem a configuração dos addons do Flywheel.
+>>>>>>> origin/master
     LOGGER.info(
         "[NVVisionBoost] Proteção de compatibilidade: {}.",
         NVVisionBoostCreateCompatibility.summary());
@@ -233,14 +284,24 @@ public final class VisionOptimizer {
   private static void disableOptimizations(NVVisionBoostForge.Config cfg) {
     try {
       // cfg.enabled=false faz o controlador restaurar
+<<<<<<< HEAD
       // previously captured player options.
+=======
+      // as opções do jogador capturadas anteriormente.
+>>>>>>> origin/master
       NVVisionBoostRenderController.applyNow(cfg);
 
       NVVisionBoostForge.saveConfig();
 
+<<<<<<< HEAD
       // The renderer observes the master state on the next frame
       // and returns to native rendering while preserving
       // the selected scale for future activation.
+=======
+      // O renderer observa o estado mestre no próximo frame
+      // e retorna ao passe nativo, preservando a configuração
+      // de escala para uma futura reativação.
+>>>>>>> origin/master
       NVVisionBoostNativeRenderer.invalidate();
 
       LOGGER.info(
@@ -282,8 +343,13 @@ public final class VisionOptimizer {
   public static boolean isEnabled() {
     NVVisionBoostForge.Config cfg = NVVisionBoostForge.cfg;
 
+<<<<<<< HEAD
     // Configuration is authoritative, including when
     // the UI changes the master toggle directly.
+=======
+    // A configuração é a referência principal, inclusive quando
+    // o botão mestre é alterado diretamente na interface.
+>>>>>>> origin/master
     return cfg != null ? cfg.enabled : enabled;
   }
 }

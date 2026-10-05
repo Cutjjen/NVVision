@@ -8,7 +8,11 @@ import net.minecraft.client.gui.GuiGraphicsExtractor;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 
+<<<<<<< HEAD
 /** Paginated controls explain visual cost and compatibility protections. */
+=======
+/** Controles paginados: cada opção explica seu custo visual e sua proteção. */
+>>>>>>> origin/master
 public final class NVVisionBoostPerformanceScreen extends Screen {
   private final Screen parent;
   private final List<Control> controls = new ArrayList<>();

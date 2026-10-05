@@ -3,8 +3,14 @@ package nvvisionboost;
 import net.minecraft.client.Minecraft;
 
 /**
+<<<<<<< HEAD
  * Legacy monitor preserves event entry points and observes world/shader changes. RenderController
  * exclusively owns scale; this monitor does not compete with presets or reload shaders each tick.
+=======
+ * Monitor legado. A escala pertence exclusivamente ao RenderController. Preserva o ponto de entrada
+ * dos eventos e acompanha mudanças de mundo/shader, sem disputar presets, gravar configurações a
+ * cada tick ou recarregar shaders.
+>>>>>>> origin/master
  */
 public final class NVVisionDynamicController {
   private static Object trackedWorld;
@@ -62,7 +68,11 @@ public final class NVVisionDynamicController {
       lowSamples = 0;
       stableSamples = 0;
     }
+<<<<<<< HEAD
     // Forge records FPS and invokes the central controller's observePerformance/adapt methods.
+=======
+    // Forge registra FPS e chama observePerformance/adapt no controlador central.
+>>>>>>> origin/master
   }
 
   private static void checkShaderState() {
@@ -80,7 +90,11 @@ public final class NVVisionDynamicController {
       lastShaderActive = active;
       lastShaderName = name;
     } catch (RuntimeException error) {
+<<<<<<< HEAD
       // Optional failures must not force scale changes or repeated reloads.
+=======
+      // Falhas opcionais não forçam troca de escala ou repetição de reload.
+>>>>>>> origin/master
     }
   }
 

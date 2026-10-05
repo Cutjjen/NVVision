@@ -1,8 +1,17 @@
 package nvvisionboost;
 
 /**
+<<<<<<< HEAD
  * Manage internal world resolution without changing physical window dimensions, fullscreen mode or
  * monitor size. The renderer reconstructs the reduced world into the native framebuffer.
+=======
+ * Gerencia a escala de renderização INTERNA do NV Vision Boost.
+ *
+ * <p>Importante: este componente nunca altera a resolução da janela, modo fullscreen, tamanho do
+ * monitor ou dimensões do Minecraft. A janela continua 100% do tamanho original; somente o
+ * framebuffer usado pelo passe 3D do mundo é reduzido e depois reconstruído para o framebuffer
+ * original.
+>>>>>>> origin/master
  */
 public final class UpscalingManager {
   public enum UpscalePreset {
@@ -56,7 +65,11 @@ public final class UpscalingManager {
     return currentPreset;
   }
 
+<<<<<<< HEAD
   /** Return calculated internal dimensions without modifying the window. */
+=======
+  /** Retorna a resolução interna calculada sem modificar a janela. */
+>>>>>>> origin/master
   public static String getActiveResolutionInfo() {
     if (NVVisionBoostNativeRenderer.isProcessingBlocked())
       return "Upscaling suspenso: " + NVVisionBoostNativeRenderer.lastError();
@@ -67,8 +80,14 @@ public final class UpscalingManager {
   }
 
   /**
+<<<<<<< HEAD
    * Apply logical upscaler state without resizeDisplay or window changes; the renderer prepares the
    * internal target at world-pass entry.
+=======
+   * Aplica somente o estado lógico do upscaler. Não chama resizeDisplay() e não altera
+   * Minecraft.getWindow(). O framebuffer interno é criado pelo renderer no início do passe de
+   * LevelRenderer.
+>>>>>>> origin/master
    */
   public static void applyCurrentResolution() {
     try {
@@ -83,6 +102,7 @@ public final class UpscalingManager {
       int percent = active && cfg != null ? clamp(cfg.renderScalePercent, 10, 100) : 100;
       float sharpness = cfg != null ? clamp(cfg.upscalerSharpnessPercent, 0, 100) / 100.0f : 0.0f;
 
+<<<<<<< HEAD
       // Legacy compatibility fields are informational only.
       // These values do not resize the window.
       System.setProperty("nvvision.upscale.sharpness", Float.toString(sharpness));
@@ -90,6 +110,15 @@ public final class UpscalingManager {
 
       // Effective scale may be 100% while the mod is disabled.
       // Preserve the selected scale and toggle for the next activation.
+=======
+      // Compatibilidade com componentes antigos: são apenas valores informativos.
+      // Nenhum deles é usado para redimensionar a janela.
+      System.setProperty("nvvision.upscale.sharpness", Float.toString(sharpness));
+      System.setProperty("nvvision.render.scale", Float.toString(percent / 100.0f));
+
+      // A escala efetiva pode ser 100% enquanto o mod está desligado.
+      // Preserve a escala e o toggle escolhidos para a próxima ativação.
+>>>>>>> origin/master
 
       NVVisionBoostLogger.logSuccess(
           "Upscaling interno: "

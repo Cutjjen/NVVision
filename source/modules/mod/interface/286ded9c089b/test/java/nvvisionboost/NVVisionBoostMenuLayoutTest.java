@@ -27,7 +27,10 @@ public final class NVVisionBoostMenuLayoutTest {
         check(
             layout.contentWidth() > 0 && layout.bodyBottom() > layout.bodyTop(),
             "área útil positiva");
+<<<<<<< HEAD
         check(layout.bodyBottom() + 4 < height - 95, "advisory footer outside scrolling controls");
+=======
+>>>>>>> origin/master
         for (int i = 0; i < 6; i++) {
           var tab = layout.tab(i);
           check(

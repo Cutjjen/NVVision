@@ -2,10 +2,17 @@ license="All Rights Reserved"
 [[mods]]
 authors="Cutjjen"
 modId="nvvisionboost"
+<<<<<<< HEAD
 version="0.8.16"
 displayName="NVVision Boost NeoForge"
 # Category: optimization
 description='''Client-side graphics optimization by Cutjjen: hardware presets, spatial upscaling, dynamic resolution and local visual controls. Open settings with F8 or Minecraft Options.'''
+=======
+version="0.8.4-neoforge.7"
+displayName="NVVision Boost NeoForge"
+# Category: optimization
+description='''Client-only graphics controls. No network channels or server installation required.'''
+>>>>>>> origin/master
 [[mixins]]
 config="nvvisionboost.mixins.json"
 [[dependencies.nvvisionboost]]

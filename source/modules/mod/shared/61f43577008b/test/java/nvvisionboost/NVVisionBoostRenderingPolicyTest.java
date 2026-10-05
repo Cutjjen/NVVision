@@ -1,6 +1,10 @@
 package nvvisionboost;
 
+<<<<<<< HEAD
 /** Bottleneck and stability scenarios without a graphics context. */
+=======
+/** Cenários de gargalo e estabilidade, sem contexto gráfico. */
+>>>>>>> origin/master
 final class NVVisionBoostRenderingPolicyTest {
   private static int checks;
 

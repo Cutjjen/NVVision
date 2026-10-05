@@ -32,7 +32,11 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostHardwareBudget.java",
     "source": "modules/mod/services/f96e9a8867fe/main/java/nvvisionboost/NVVisionBoostHardwareBudget.java",
+<<<<<<< HEAD
     "baselineSha256": "9de4664f8a9217268572106ca9916660cf2827257b7be98fdd7b0c4685d84878"
+=======
+    "baselineSha256": "f96e9a8867fe580061d51a89b98267fab2ade5e3aacf0fdc524c8d07c843f643"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -46,35 +50,55 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostMenuLayout.java",
     "source": "modules/mod/interface/3c07115c426c/main/java/nvvisionboost/NVVisionBoostMenuLayout.java",
+<<<<<<< HEAD
     "baselineSha256": "bc3e2d5c805513f857c3341d96e14e30620b19f751f8f29f61ec598c9b8a545a"
+=======
+    "baselineSha256": "3c07115c426c37d027294fc68491f563cc2079f6d5cf492388dd70acd38552f0"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostMenuLayout.java",
     "source": "modules/mod/interface/3c07115c426c/main/java/nvvisionboost/NVVisionBoostMenuLayout.java",
+<<<<<<< HEAD
     "baselineSha256": "bc3e2d5c805513f857c3341d96e14e30620b19f751f8f29f61ec598c9b8a545a"
+=======
+    "baselineSha256": "3c07115c426c37d027294fc68491f563cc2079f6d5cf492388dd70acd38552f0"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostMenuLayout.java",
     "source": "modules/mod/interface/3c07115c426c/main/java/nvvisionboost/NVVisionBoostMenuLayout.java",
+<<<<<<< HEAD
     "baselineSha256": "bc3e2d5c805513f857c3341d96e14e30620b19f751f8f29f61ec598c9b8a545a"
+=======
+    "baselineSha256": "3c07115c426c37d027294fc68491f563cc2079f6d5cf492388dd70acd38552f0"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostMenuLayout.java",
     "source": "modules/mod/interface/3c07115c426c/main/java/nvvisionboost/NVVisionBoostMenuLayout.java",
+<<<<<<< HEAD
     "baselineSha256": "bc3e2d5c805513f857c3341d96e14e30620b19f751f8f29f61ec598c9b8a545a"
+=======
+    "baselineSha256": "3c07115c426c37d027294fc68491f563cc2079f6d5cf492388dd70acd38552f0"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostMenuLayout.java",
     "source": "modules/mod/interface/3c07115c426c/main/java/nvvisionboost/NVVisionBoostMenuLayout.java",
+<<<<<<< HEAD
     "baselineSha256": "bc3e2d5c805513f857c3341d96e14e30620b19f751f8f29f61ec598c9b8a545a"
+=======
+    "baselineSha256": "3c07115c426c37d027294fc68491f563cc2079f6d5cf492388dd70acd38552f0"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
@@ -88,7 +112,11 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostHardwareBudget.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostHardwareBudget.java",
+<<<<<<< HEAD
     "baselineSha256": "f5e74420127b14f45551eba13f6b6c0988feefbe34fee5a31453331bfeaa173b"
+=======
+    "baselineSha256": "c819975bced38ccc2b141bd77981d69910bc3378f42b75bc07b97987eea793fc"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
@@ -137,42 +165,66 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostLogger.java",
     "source": "modules/mod/services/af336f65a301/main/java/nvvisionboost/NVVisionBoostLogger.java",
+<<<<<<< HEAD
     "baselineSha256": "c6fd3db07060ab2aca91b37f181d2eae54f6b115e5e2986f10685c3c0010fe6d"
+=======
+    "baselineSha256": "af336f65a301c44ca1d5bf810220012c04e56b4d31458bf1f092f3e411c3e92d"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/VisionOptimizer.java",
     "source": "modules/mod/performance/f7207da07d7e/main/java/nvvisionboost/VisionOptimizer.java",
+<<<<<<< HEAD
     "baselineSha256": "bdc6a80781b2d5a607cef70ed707a63d015762c1654fe648eb680c7e8f445a7f"
+=======
+    "baselineSha256": "f7207da07d7e33ef9233d658e624ee26d671f00816b7dc1f005c59c0752a44d4"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFerriteOptions.java",
     "source": "modules/mod/integrations/6f829c69dce9/main/java/nvvisionboost/NVVisionBoostFerriteOptions.java",
+<<<<<<< HEAD
     "baselineSha256": "bbfb1d7521ae754af8ef33bb3411064f29e877003de652a5f0171436d6fa803c"
+=======
+    "baselineSha256": "6f829c69dce9352ab7788ad223e1916f8fd0073a75a96040bad01bf62742b8cd"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFerriteOptions.java",
     "source": "modules/mod/integrations/6f829c69dce9/main/java/nvvisionboost/NVVisionBoostFerriteOptions.java",
+<<<<<<< HEAD
     "baselineSha256": "bbfb1d7521ae754af8ef33bb3411064f29e877003de652a5f0171436d6fa803c"
+=======
+    "baselineSha256": "6f829c69dce9352ab7788ad223e1916f8fd0073a75a96040bad01bf62742b8cd"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFerriteOptions.java",
     "source": "modules/mod/integrations/6f829c69dce9/main/java/nvvisionboost/NVVisionBoostFerriteOptions.java",
+<<<<<<< HEAD
     "baselineSha256": "bbfb1d7521ae754af8ef33bb3411064f29e877003de652a5f0171436d6fa803c"
+=======
+    "baselineSha256": "6f829c69dce9352ab7788ad223e1916f8fd0073a75a96040bad01bf62742b8cd"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFerriteOptions.java",
     "source": "modules/mod/integrations/6f829c69dce9/main/java/nvvisionboost/NVVisionBoostFerriteOptions.java",
+<<<<<<< HEAD
     "baselineSha256": "bbfb1d7521ae754af8ef33bb3411064f29e877003de652a5f0171436d6fa803c"
+=======
+    "baselineSha256": "6f829c69dce9352ab7788ad223e1916f8fd0073a75a96040bad01bf62742b8cd"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
@@ -200,63 +252,99 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostSpatialUpscaler.java",
     "source": "modules/mod/rendering/5e9eda0afbdc/main/java/nvvisionboost/NVVisionBoostSpatialUpscaler.java",
+<<<<<<< HEAD
     "baselineSha256": "187b5b61a41abaeb31e7a746becf9473bf3c4e971c307a94a5e485da3fbce3cc"
+=======
+    "baselineSha256": "5e9eda0afbdc3fd4b881d764c6883d7cbc68a187bb63176a872ed34d33c85926"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostSpatialUpscaler.java",
     "source": "modules/mod/rendering/5e9eda0afbdc/main/java/nvvisionboost/NVVisionBoostSpatialUpscaler.java",
+<<<<<<< HEAD
     "baselineSha256": "187b5b61a41abaeb31e7a746becf9473bf3c4e971c307a94a5e485da3fbce3cc"
+=======
+    "baselineSha256": "5e9eda0afbdc3fd4b881d764c6883d7cbc68a187bb63176a872ed34d33c85926"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostSpatialUpscaler.java",
     "source": "modules/mod/rendering/5e9eda0afbdc/main/java/nvvisionboost/NVVisionBoostSpatialUpscaler.java",
+<<<<<<< HEAD
     "baselineSha256": "187b5b61a41abaeb31e7a746becf9473bf3c4e971c307a94a5e485da3fbce3cc"
+=======
+    "baselineSha256": "5e9eda0afbdc3fd4b881d764c6883d7cbc68a187bb63176a872ed34d33c85926"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostSpatialUpscaler.java",
     "source": "modules/mod/rendering/5e9eda0afbdc/main/java/nvvisionboost/NVVisionBoostSpatialUpscaler.java",
+<<<<<<< HEAD
     "baselineSha256": "187b5b61a41abaeb31e7a746becf9473bf3c4e971c307a94a5e485da3fbce3cc"
+=======
+    "baselineSha256": "5e9eda0afbdc3fd4b881d764c6883d7cbc68a187bb63176a872ed34d33c85926"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostShaderQuality.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostShaderQuality.java",
+<<<<<<< HEAD
     "baselineSha256": "4987e94f9daa167870591b35ace0db5b857909ad4a8978f4a0600f947726e3f0"
+=======
+    "baselineSha256": "709812d96f95beb795be065126d8a1a4e0f8c8c3c5977be85f22809168c39c5c"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostCompatibility.java",
     "source": "modules/mod/integrations/610dd92b16f6/main/java/nvvisionboost/NVVisionBoostCompatibility.java",
+<<<<<<< HEAD
     "baselineSha256": "a0dd38ccacd5d51e9c067fed34c43d7d5a5c4cf42357e929e157aa206834dcb4"
+=======
+    "baselineSha256": "d2e1e1983a5bf73385514a9a5408d1383e80bd797f1fe1d25aa8cf6bcbbe2789"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostCompatibility.java",
     "source": "modules/mod/integrations/610dd92b16f6/main/java/nvvisionboost/NVVisionBoostCompatibility.java",
+<<<<<<< HEAD
     "baselineSha256": "a0dd38ccacd5d51e9c067fed34c43d7d5a5c4cf42357e929e157aa206834dcb4"
+=======
+    "baselineSha256": "d2e1e1983a5bf73385514a9a5408d1383e80bd797f1fe1d25aa8cf6bcbbe2789"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "test/java/nvvisionboost/NVVisionBoostMenuLayoutTest.java",
     "source": "modules/mod/interface/286ded9c089b/test/java/nvvisionboost/NVVisionBoostMenuLayoutTest.java",
+<<<<<<< HEAD
     "baselineSha256": "9e957a39cd1b2d8ff1266573d4e9ede7924ef356f3d7e7f07ce59603258571a4"
+=======
+    "baselineSha256": "286ded9c089bc29969c9992095ed895e3691452fdae47b5caa44c70b8bc704e2"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "test/java/nvvisionboost/NVVisionBoostRegressionTest.java",
     "source": "adapters/forge-1201/mod/test/java/nvvisionboost/NVVisionBoostRegressionTest.java",
+<<<<<<< HEAD
     "baselineSha256": "04dd4168ac09e50084e223c1430f90eab58b9ca2ba18cbecfd4bc0bdd9fbb9f2"
+=======
+    "baselineSha256": "bb7f9a54727da98d3ac912c7587f5540d40ceeeb697c3421c298cc7f60cc846b"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
@@ -277,35 +365,55 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostAssetAnalyzer.java",
     "source": "modules/mod/services/d6ea68e88ad7/main/java/nvvisionboost/NVVisionBoostAssetAnalyzer.java",
+<<<<<<< HEAD
     "baselineSha256": "39ba4ff108d99df0053d9b3cc225ae006202aef2fd011482bcf776f067fb2794"
+=======
+    "baselineSha256": "d6ea68e88ad7ab3352c3f38ba2d53c07a68b0597d4c334eb1269758f9563ff41"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostAssetAnalyzer.java",
     "source": "modules/mod/services/d6ea68e88ad7/main/java/nvvisionboost/NVVisionBoostAssetAnalyzer.java",
+<<<<<<< HEAD
     "baselineSha256": "39ba4ff108d99df0053d9b3cc225ae006202aef2fd011482bcf776f067fb2794"
+=======
+    "baselineSha256": "d6ea68e88ad7ab3352c3f38ba2d53c07a68b0597d4c334eb1269758f9563ff41"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostAssetAnalyzer.java",
     "source": "modules/mod/services/d6ea68e88ad7/main/java/nvvisionboost/NVVisionBoostAssetAnalyzer.java",
+<<<<<<< HEAD
     "baselineSha256": "39ba4ff108d99df0053d9b3cc225ae006202aef2fd011482bcf776f067fb2794"
+=======
+    "baselineSha256": "d6ea68e88ad7ab3352c3f38ba2d53c07a68b0597d4c334eb1269758f9563ff41"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostAssetAnalyzer.java",
     "source": "modules/mod/services/d6ea68e88ad7/main/java/nvvisionboost/NVVisionBoostAssetAnalyzer.java",
+<<<<<<< HEAD
     "baselineSha256": "39ba4ff108d99df0053d9b3cc225ae006202aef2fd011482bcf776f067fb2794"
+=======
+    "baselineSha256": "d6ea68e88ad7ab3352c3f38ba2d53c07a68b0597d4c334eb1269758f9563ff41"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/resources/META-INF/neoforge.mods.toml",
     "source": "adapters/neoforge-262/mod/main/resources/META-INF/neoforge.mods.toml",
+<<<<<<< HEAD
     "baselineSha256": "49ca6ec81bc244e73fed502b98e67880536857030204c98f03cf69f5ee294c0c"
+=======
+    "baselineSha256": "623c611fdde99582df2eb3b8b82f07408b5f351efc75ee4d8de2ff493715100f"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
@@ -340,49 +448,77 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostNativeRenderer.java",
     "source": "adapters/fabric-12110/mod/main/java/nvvisionboost/NVVisionBoostNativeRenderer.java",
+<<<<<<< HEAD
     "baselineSha256": "1b5a190cd85814d3e3b626446df856d319a44e032c5f3f2409410010e9707221"
+=======
+    "baselineSha256": "bc70edefbea25bdc88871016542cb43a5503cfd7d3ac07aa9a4bb4bfb80685da"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/resources/assets/nvvisionboost/ui/en_us.json",
     "source": "modules/mod/interface/bb647b85a880/main/resources/assets/nvvisionboost/ui/en_us.json",
+<<<<<<< HEAD
     "baselineSha256": "3f84313634a8b6313b42f3a23076659952341c2294558bb04802da216b6a3e73"
+=======
+    "baselineSha256": "bb647b85a880f3de2ada7c29fa9bd3f07215359e1a2b06dbb6c189ab3e1c29e4"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/resources/assets/nvvisionboost/ui/en_us.json",
     "source": "modules/mod/interface/bb647b85a880/main/resources/assets/nvvisionboost/ui/en_us.json",
+<<<<<<< HEAD
     "baselineSha256": "3f84313634a8b6313b42f3a23076659952341c2294558bb04802da216b6a3e73"
+=======
+    "baselineSha256": "bb647b85a880f3de2ada7c29fa9bd3f07215359e1a2b06dbb6c189ab3e1c29e4"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/resources/assets/nvvisionboost/ui/en_us.json",
     "source": "modules/mod/interface/bb647b85a880/main/resources/assets/nvvisionboost/ui/en_us.json",
+<<<<<<< HEAD
     "baselineSha256": "3f84313634a8b6313b42f3a23076659952341c2294558bb04802da216b6a3e73"
+=======
+    "baselineSha256": "bb647b85a880f3de2ada7c29fa9bd3f07215359e1a2b06dbb6c189ab3e1c29e4"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/resources/assets/nvvisionboost/ui/en_us.json",
     "source": "modules/mod/interface/bb647b85a880/main/resources/assets/nvvisionboost/ui/en_us.json",
+<<<<<<< HEAD
     "baselineSha256": "3f84313634a8b6313b42f3a23076659952341c2294558bb04802da216b6a3e73"
+=======
+    "baselineSha256": "bb647b85a880f3de2ada7c29fa9bd3f07215359e1a2b06dbb6c189ab3e1c29e4"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/resources/assets/nvvisionboost/ui/en_us.json",
     "source": "modules/mod/interface/bb647b85a880/main/resources/assets/nvvisionboost/ui/en_us.json",
+<<<<<<< HEAD
     "baselineSha256": "3f84313634a8b6313b42f3a23076659952341c2294558bb04802da216b6a3e73"
+=======
+    "baselineSha256": "bb647b85a880f3de2ada7c29fa9bd3f07215359e1a2b06dbb6c189ab3e1c29e4"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/resources/assets/nvvisionboost/ui/en_us.json",
     "source": "modules/mod/interface/bb647b85a880/main/resources/assets/nvvisionboost/ui/en_us.json",
+<<<<<<< HEAD
     "baselineSha256": "3f84313634a8b6313b42f3a23076659952341c2294558bb04802da216b6a3e73"
+=======
+    "baselineSha256": "bb647b85a880f3de2ada7c29fa9bd3f07215359e1a2b06dbb6c189ab3e1c29e4"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
@@ -396,21 +532,33 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostShaderLifecycle.java",
     "source": "modules/mod/integrations/0386b2d3638f/main/java/nvvisionboost/NVVisionBoostShaderLifecycle.java",
+<<<<<<< HEAD
     "baselineSha256": "52d89d6f7eab20abc31c41850f769a423914aa439cf64e3f88c2e087d8529493"
+=======
+    "baselineSha256": "7a2ca700105e382480fc0abc9e0008035a0525d27d7246a2c56dffb2464c8c1c"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostShaderLifecycle.java",
     "source": "modules/mod/integrations/0386b2d3638f/main/java/nvvisionboost/NVVisionBoostShaderLifecycle.java",
+<<<<<<< HEAD
     "baselineSha256": "52d89d6f7eab20abc31c41850f769a423914aa439cf64e3f88c2e087d8529493"
+=======
+    "baselineSha256": "7a2ca700105e382480fc0abc9e0008035a0525d27d7246a2c56dffb2464c8c1c"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostUi.java",
     "source": "modules/mod/interface/dee3a934c82f/main/java/nvvisionboost/NVVisionBoostUi.java",
+<<<<<<< HEAD
     "baselineSha256": "f114f522737ca23351e1b6e8f32ca0769da7ab10d3a71378438d18c606e9b879"
+=======
+    "baselineSha256": "83325f1509dba2d595d8be13878c2c132296eb5b94f8ce6acd254e3da91b67ea"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -473,63 +621,100 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostHelp.java",
     "source": "modules/mod/interface/f0c13a90ead4/main/java/nvvisionboost/NVVisionBoostHelp.java",
+<<<<<<< HEAD
     "baselineSha256": "24c4b8e7aa335ac5317e319f6ebe58cdd389f4bf02c3d8062757e1887c5a33b6"
+=======
+    "baselineSha256": "c39c08214f64faedf700a8f6d7e691982e0fa37a40775e822506110dd9384f27"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostHelp.java",
     "source": "modules/mod/interface/f0c13a90ead4/main/java/nvvisionboost/NVVisionBoostHelp.java",
+<<<<<<< HEAD
     "baselineSha256": "24c4b8e7aa335ac5317e319f6ebe58cdd389f4bf02c3d8062757e1887c5a33b6"
+=======
+    "baselineSha256": "c39c08214f64faedf700a8f6d7e691982e0fa37a40775e822506110dd9384f27"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostHelp.java",
     "source": "modules/mod/interface/f0c13a90ead4/main/java/nvvisionboost/NVVisionBoostHelp.java",
+<<<<<<< HEAD
     "baselineSha256": "24c4b8e7aa335ac5317e319f6ebe58cdd389f4bf02c3d8062757e1887c5a33b6"
+=======
+    "baselineSha256": "c39c08214f64faedf700a8f6d7e691982e0fa37a40775e822506110dd9384f27"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostHelp.java",
     "source": "modules/mod/interface/f0c13a90ead4/main/java/nvvisionboost/NVVisionBoostHelp.java",
+<<<<<<< HEAD
     "baselineSha256": "24c4b8e7aa335ac5317e319f6ebe58cdd389f4bf02c3d8062757e1887c5a33b6"
+=======
+    "baselineSha256": "c39c08214f64faedf700a8f6d7e691982e0fa37a40775e822506110dd9384f27"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostHelp.java",
     "source": "modules/mod/interface/f0c13a90ead4/main/java/nvvisionboost/NVVisionBoostHelp.java",
+<<<<<<< HEAD
     "baselineSha256": "24c4b8e7aa335ac5317e319f6ebe58cdd389f4bf02c3d8062757e1887c5a33b6"
+=======
+    "baselineSha256": "c39c08214f64faedf700a8f6d7e691982e0fa37a40775e822506110dd9384f27"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostHelp.java",
     "source": "modules/mod/interface/f0c13a90ead4/main/java/nvvisionboost/NVVisionBoostHelp.java",
+<<<<<<< HEAD
     "baselineSha256": "24c4b8e7aa335ac5317e319f6ebe58cdd389f4bf02c3d8062757e1887c5a33b6"
+=======
+    "baselineSha256": "c39c08214f64faedf700a8f6d7e691982e0fa37a40775e822506110dd9384f27"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostTextureScreen.java",
     "source": "adapters/neoforge-2612/mod/main/java/nvvisionboost/NVVisionBoostTextureScreen.java",
+<<<<<<< HEAD
     "baselineSha256": "646606c0dc0f59cdbb420b18cae5b0ae6c7c9a36724e12e1b86d301a05d63d44"
+=======
+    "baselineSha256": "fde872dffd101943362eff81a2f3705a7bb1e8d27f8f904bed89cc83a67b6242"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "addon",
     "path": "main/java/nvvisionboost/vulkanbridge/BridgeCpuOptimizer.java",
+<<<<<<< HEAD
     "source": "adapters/forge-1201/addon/main/java/nvvisionboost/vulkanbridge/BridgeCpuOptimizer.java",
     "baselineSha256": "99654da536b34996b333a548c0ce5b0bf5bfa5124d103e0671486a31d5cb34f7"
+=======
+    "source": "modules/addon/cpu/runtime/common/main/java/nvvisionboost/vulkanbridge/BridgeCpuOptimizer.java",
+    "baselineSha256": "dc1feb9d86120a8cd4ec571500a3807372e2dc2ac79a434f165cd91466a69d6f"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostDistantHorizonsCompatibility.java",
     "source": "modules/mod/integrations/f43ab4555597/main/java/nvvisionboost/NVVisionBoostDistantHorizonsCompatibility.java",
+<<<<<<< HEAD
     "baselineSha256": "b39efae69f93651f26ee041e126f628c7937fb10f9b6f431346714bcb3de6e6c"
+=======
+    "baselineSha256": "f43ab4555597fd07f808c6c99d594a3f007ba000b3727a1f0cd250b2a83d9631"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
@@ -543,14 +728,22 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFerriteScreen.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostFerriteScreen.java",
+<<<<<<< HEAD
     "baselineSha256": "201a426ff4194a6a4c10e4768d53e12b50e101a0ffa34f15bb5fd64f3a342998"
+=======
+    "baselineSha256": "b1c9b13776293adbd339d7a8d1e5d4e2af84eb4e1de817dabeaa6336649c436f"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/resources/nvvisionboost.mixins.json",
     "source": "adapters/neoforge-262/mod/main/resources/nvvisionboost.mixins.json",
+<<<<<<< HEAD
     "baselineSha256": "87853ac38d0ba5555074daf99170bdc5cd02f756467bd1edb324ae70070332c4"
+=======
+    "baselineSha256": "febab74fbff75408562ac9fa5162ae35e4451a850ea0317abe6b84aac4e16fff"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -564,21 +757,33 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostGpuTimer.java",
     "source": "modules/mod/configuration/5c17043943ca/main/java/nvvisionboost/NVVisionBoostGpuTimer.java",
+<<<<<<< HEAD
     "baselineSha256": "c291898c57f4e2873034f1025d4bc951c8c2ac183422f0d11d77d3b1cc991cce"
+=======
+    "baselineSha256": "5c17043943cafa35ae6dc67eb4951ab8a73dad6259656104545f77cf040329be"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostGpuTimer.java",
     "source": "modules/mod/configuration/5c17043943ca/main/java/nvvisionboost/NVVisionBoostGpuTimer.java",
+<<<<<<< HEAD
     "baselineSha256": "c291898c57f4e2873034f1025d4bc951c8c2ac183422f0d11d77d3b1cc991cce"
+=======
+    "baselineSha256": "5c17043943cafa35ae6dc67eb4951ab8a73dad6259656104545f77cf040329be"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "addon",
     "path": "main/resources/fabric.mod.json",
     "source": "adapters/fabric-262/addon/main/resources/fabric.mod.json",
+<<<<<<< HEAD
     "baselineSha256": "a507f81d537805e97d55b94b9b81dca09a206f789fd41697dc95b1b2c11634a4"
+=======
+    "baselineSha256": "3e0046f228ddd4af5ac707449d43e81df820095ad85ed88a851068b6ae978f65"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
@@ -592,42 +797,66 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostUpscaleBudget.java",
     "source": "modules/mod/rendering/d32f48026afa/main/java/nvvisionboost/NVVisionBoostUpscaleBudget.java",
+<<<<<<< HEAD
     "baselineSha256": "52edfff5d9ddc635e9d435cb3ead31d0247da98985147dd8c807860512e41331"
+=======
+    "baselineSha256": "d32f48026afad1dbdf52d6cc72b200b9204b4a8812389c10513ff3ecda4e8b28"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostUpscaleBudget.java",
     "source": "modules/mod/rendering/d32f48026afa/main/java/nvvisionboost/NVVisionBoostUpscaleBudget.java",
+<<<<<<< HEAD
     "baselineSha256": "52edfff5d9ddc635e9d435cb3ead31d0247da98985147dd8c807860512e41331"
+=======
+    "baselineSha256": "d32f48026afad1dbdf52d6cc72b200b9204b4a8812389c10513ff3ecda4e8b28"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostUpscaleBudget.java",
     "source": "modules/mod/rendering/d32f48026afa/main/java/nvvisionboost/NVVisionBoostUpscaleBudget.java",
+<<<<<<< HEAD
     "baselineSha256": "52edfff5d9ddc635e9d435cb3ead31d0247da98985147dd8c807860512e41331"
+=======
+    "baselineSha256": "d32f48026afad1dbdf52d6cc72b200b9204b4a8812389c10513ff3ecda4e8b28"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostUpscaleBudget.java",
     "source": "modules/mod/rendering/d32f48026afa/main/java/nvvisionboost/NVVisionBoostUpscaleBudget.java",
+<<<<<<< HEAD
     "baselineSha256": "52edfff5d9ddc635e9d435cb3ead31d0247da98985147dd8c807860512e41331"
+=======
+    "baselineSha256": "d32f48026afad1dbdf52d6cc72b200b9204b4a8812389c10513ff3ecda4e8b28"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostUpscaleBudget.java",
     "source": "modules/mod/rendering/d32f48026afa/main/java/nvvisionboost/NVVisionBoostUpscaleBudget.java",
+<<<<<<< HEAD
     "baselineSha256": "52edfff5d9ddc635e9d435cb3ead31d0247da98985147dd8c807860512e41331"
+=======
+    "baselineSha256": "d32f48026afad1dbdf52d6cc72b200b9204b4a8812389c10513ff3ecda4e8b28"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostShaderLifecycle.java",
     "source": "modules/mod/integrations/a805fda9a17e/main/java/nvvisionboost/NVVisionBoostShaderLifecycle.java",
+<<<<<<< HEAD
     "baselineSha256": "645ba54aa80ee2ecdbf01c7cb1bb713f369b38f555d56306bbb15d1348791070"
+=======
+    "baselineSha256": "a389bb7dd14f00a3db3db0e20366a00b69d4a5ebbcaef0ead61583c8c7e4e54c"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
@@ -683,84 +912,132 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostShaderQuality.java",
     "source": "modules/mod/integrations/633ea0eedd8e/main/java/nvvisionboost/NVVisionBoostShaderQuality.java",
+<<<<<<< HEAD
     "baselineSha256": "4c04faa582d361b1ef462b1120dbeede5abd980578e2be6cdaec818310bc715e"
+=======
+    "baselineSha256": "633ea0eedd8e9f9afaf32296b878e789588441f252850577286895f0e0b3ae9b"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostShaderQuality.java",
     "source": "modules/mod/integrations/633ea0eedd8e/main/java/nvvisionboost/NVVisionBoostShaderQuality.java",
+<<<<<<< HEAD
     "baselineSha256": "4c04faa582d361b1ef462b1120dbeede5abd980578e2be6cdaec818310bc715e"
+=======
+    "baselineSha256": "633ea0eedd8e9f9afaf32296b878e789588441f252850577286895f0e0b3ae9b"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostCore.java",
     "source": "adapters/fabric-262/mod/main/java/nvvisionboost/NVVisionBoostCore.java",
+<<<<<<< HEAD
     "baselineSha256": "d5be590fdec0f85f3352db925b87e094ba66cd6e1a09c96265d538f63125bc45"
+=======
+    "baselineSha256": "282385007dd92116771d2a08ed39c18862e7acc753c85bae1b71df8465a40309"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionVramManager.java",
     "source": "modules/mod/services/67a0d93cc41c/main/java/nvvisionboost/NVVisionVramManager.java",
+<<<<<<< HEAD
     "baselineSha256": "849a4ee9db1bd735759c3fb6e65196d25de427e69a16e2f5470724adc8b32357"
+=======
+    "baselineSha256": "67a0d93cc41c2191720410fb5e187b1c0f6336695a449cad8a997bed08a76e93"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionVramManager.java",
     "source": "modules/mod/services/67a0d93cc41c/main/java/nvvisionboost/NVVisionVramManager.java",
+<<<<<<< HEAD
     "baselineSha256": "849a4ee9db1bd735759c3fb6e65196d25de427e69a16e2f5470724adc8b32357"
+=======
+    "baselineSha256": "67a0d93cc41c2191720410fb5e187b1c0f6336695a449cad8a997bed08a76e93"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionVramManager.java",
     "source": "modules/mod/services/67a0d93cc41c/main/java/nvvisionboost/NVVisionVramManager.java",
+<<<<<<< HEAD
     "baselineSha256": "849a4ee9db1bd735759c3fb6e65196d25de427e69a16e2f5470724adc8b32357"
+=======
+    "baselineSha256": "67a0d93cc41c2191720410fb5e187b1c0f6336695a449cad8a997bed08a76e93"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionVramManager.java",
     "source": "modules/mod/services/67a0d93cc41c/main/java/nvvisionboost/NVVisionVramManager.java",
+<<<<<<< HEAD
     "baselineSha256": "849a4ee9db1bd735759c3fb6e65196d25de427e69a16e2f5470724adc8b32357"
+=======
+    "baselineSha256": "67a0d93cc41c2191720410fb5e187b1c0f6336695a449cad8a997bed08a76e93"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionVramManager.java",
     "source": "modules/mod/services/67a0d93cc41c/main/java/nvvisionboost/NVVisionVramManager.java",
+<<<<<<< HEAD
     "baselineSha256": "849a4ee9db1bd735759c3fb6e65196d25de427e69a16e2f5470724adc8b32357"
+=======
+    "baselineSha256": "67a0d93cc41c2191720410fb5e187b1c0f6336695a449cad8a997bed08a76e93"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionDynamicController.java",
     "source": "modules/mod/rendering/69c601071211/main/java/nvvisionboost/NVVisionDynamicController.java",
+<<<<<<< HEAD
     "baselineSha256": "f2de99ad61ebf30048b054e219ca15dcab62bb5823bd114a8e09110e853fb4de"
+=======
+    "baselineSha256": "69c6010712118f639b5e5220b6b5c7960d7d5fa4fab1248351a17dcc58fc209b"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionDynamicController.java",
     "source": "modules/mod/rendering/69c601071211/main/java/nvvisionboost/NVVisionDynamicController.java",
+<<<<<<< HEAD
     "baselineSha256": "f2de99ad61ebf30048b054e219ca15dcab62bb5823bd114a8e09110e853fb4de"
+=======
+    "baselineSha256": "69c6010712118f639b5e5220b6b5c7960d7d5fa4fab1248351a17dcc58fc209b"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/resources/nvvisionboost.refmap.json",
     "source": "adapters/forge-1201/mod/main/resources/nvvisionboost.refmap.json",
+<<<<<<< HEAD
     "baselineSha256": "46d243d8fd642cd880a3c7370163fba9441159e20307fd103d668315523577ad"
+=======
+    "baselineSha256": "d0b23fb93bd9437d9d9d2d235d21566fa47514a5a768188e1c2c7f97e42d01ba"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/mixin/NVVisionBoostMinecraftAccessor.java",
     "source": "modules/mod/shared/b32f89b492de/main/java/nvvisionboost/mixin/NVVisionBoostMinecraftAccessor.java",
+<<<<<<< HEAD
     "baselineSha256": "676875cad3f15751372c4a3ef09d65dd8b68aabbfcd89c405abd57f826d0910c"
+=======
+    "baselineSha256": "b32f89b492dee2f36a6851b0cd5a47d3e9b22361df1039f0f4a153c2c761179f"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -809,21 +1086,33 @@
     "kind": "mod",
     "path": "test/java/nvvisionboost/NVVisionBoostOpenGLSmokeTest.java",
     "source": "adapters/forge-1201/mod/test/java/nvvisionboost/NVVisionBoostOpenGLSmokeTest.java",
+<<<<<<< HEAD
     "baselineSha256": "43bc9b271296629307887e070897fd35f8cf7889fd2511564c16c123182d69a6"
+=======
+    "baselineSha256": "503070a8ddcc469ce39efc3d97f8494186732b9bda858569bfdcd46d2f6c41ad"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostConfigScreen.java",
     "source": "adapters/neoforge-262/mod/main/java/nvvisionboost/NVVisionBoostConfigScreen.java",
+<<<<<<< HEAD
     "baselineSha256": "39240daa20c4cff1df60093760f60aa75785ff0452111e4071b28af34420bc5f"
+=======
+    "baselineSha256": "ca31e6e0eda96fd43daa7f1fbe55dfe495810ab929d28df25ee0743ffb5013ee"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/VisionOptimizer.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/VisionOptimizer.java",
+<<<<<<< HEAD
     "baselineSha256": "bfdb94af8e53ce7bbe98150fc32b0226860bee893843fde84b2c5521c59dd448"
+=======
+    "baselineSha256": "49979095d76274bf8d0c9d373126008377f81abd53b2b77f889bcc34d9c41235"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
@@ -851,63 +1140,99 @@
     "kind": "addon",
     "path": "main/resources/META-INF/neoforge.mods.toml",
     "source": "adapters/neoforge-262/addon/main/resources/META-INF/neoforge.mods.toml",
+<<<<<<< HEAD
     "baselineSha256": "eac62c773a088b4398af1bec4157b8e1f7d82bcec9c8b46c0f9f00aabc9b80ce"
+=======
+    "baselineSha256": "f287c55f0f2527edbcc9897079196ba5b839e2d5cb3bf16f70e00658773b200a"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/resources/nvvisionboost.mixins.json",
     "source": "adapters/neoforge-12110/mod/main/resources/nvvisionboost.mixins.json",
+<<<<<<< HEAD
     "baselineSha256": "2bf783c392bae62e730d06cbbcdbd453a0b9fba2b1f68294dadb5a6a617956a8"
+=======
+    "baselineSha256": "ae668060492a123c57a5a0f15f55a77385b9febc7adef097dbfee830ec5e1cc7"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostRenderController.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostRenderController.java",
+<<<<<<< HEAD
     "baselineSha256": "dfa4a500dc39d7d673054c74fd58b4b9f4ef732374be8e70c29b28973da03e4a"
+=======
+    "baselineSha256": "6e853ab3830fba5e672e36844902372ce5d359201fa3bccc426111e8e7f844fe"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostClientEvents.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostClientEvents.java",
+<<<<<<< HEAD
     "baselineSha256": "6d8d0fa58f3746b50fe0d1c1961dcd6b0a2f2e9572233cc2351cd7d19fd6383c"
+=======
+    "baselineSha256": "c328cfbdf0a70ae6d114ce4c24fe94e280c4556b58a4a52aee14feee4a7ad603"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "test/java/nvvisionboost/NVVisionBoostOpenGLSmokeTest.java",
     "source": "modules/mod/services/4f40a7c669e0/test/java/nvvisionboost/NVVisionBoostOpenGLSmokeTest.java",
+<<<<<<< HEAD
     "baselineSha256": "832be6a334a32428f97d8e25a495f46bacada878810b0396bb892f319cf46ba9"
+=======
+    "baselineSha256": "4f40a7c669e0b4ef2206cfcebb5f4baf803349445e336a4a8012cfaccd32196b"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostGpuTimer.java",
     "source": "modules/mod/configuration/71b50cf51d28/main/java/nvvisionboost/NVVisionBoostGpuTimer.java",
+<<<<<<< HEAD
     "baselineSha256": "f450f480b5d7d62abfe8e5b365a23219175c989c9ebc134399bb985daf20476b"
+=======
+    "baselineSha256": "523eeaabfafe39bfceb7bbee12c33d9d4ac5be309198bb13d77375da67794fe9"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostGpuTimer.java",
     "source": "modules/mod/configuration/71b50cf51d28/main/java/nvvisionboost/NVVisionBoostGpuTimer.java",
+<<<<<<< HEAD
     "baselineSha256": "f450f480b5d7d62abfe8e5b365a23219175c989c9ebc134399bb985daf20476b"
+=======
+    "baselineSha256": "523eeaabfafe39bfceb7bbee12c33d9d4ac5be309198bb13d77375da67794fe9"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostSpatialUpscaler.java",
     "source": "modules/mod/rendering/5e9eda0afbdc/main/java/nvvisionboost/NVVisionBoostSpatialUpscaler.java",
+<<<<<<< HEAD
     "baselineSha256": "187b5b61a41abaeb31e7a746becf9473bf3c4e971c307a94a5e485da3fbce3cc"
+=======
+    "baselineSha256": "5e9eda0afbdc3fd4b881d764c6883d7cbc68a187bb63176a872ed34d33c85926"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostTargetBindings.java",
     "source": "modules/mod/shared/892115233543/main/java/nvvisionboost/NVVisionBoostTargetBindings.java",
+<<<<<<< HEAD
     "baselineSha256": "0ecb7fa9cb686f886c351efe85c4b639cd5cd14e61e60e61b5fe4ee52f064357"
+=======
+    "baselineSha256": "892115233543e3e771f65eaaf807ccdb830cd70ac729f1de5d31a2d105e29db2"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
@@ -949,105 +1274,165 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/UpscalingManager.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/UpscalingManager.java",
+<<<<<<< HEAD
     "baselineSha256": "b2e26e0ecefd7fb7c09d820fa02f5af52ab1e1333504bb3a38edb4ad17e79af2"
+=======
+    "baselineSha256": "d6a37794893a4bcf10b6c328cbd979dc751e7333e6971e3e104b753622c20831"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/resources/assets/nvvisionboost/shaders/upscale.frag",
     "source": "modules/mod/integrations/3dc848dbbbb2/main/resources/assets/nvvisionboost/shaders/upscale.frag",
+<<<<<<< HEAD
     "baselineSha256": "8c3957ae5fda32c1869aef9165d7b6932372cd01b450528efea26bbf00da38ef"
+=======
+    "baselineSha256": "3dc848dbbbb2421ee49644958014006bcd30baf12c0f1025e6e03c704844f50f"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/resources/assets/nvvisionboost/shaders/upscale.frag",
     "source": "modules/mod/integrations/3dc848dbbbb2/main/resources/assets/nvvisionboost/shaders/upscale.frag",
+<<<<<<< HEAD
     "baselineSha256": "8c3957ae5fda32c1869aef9165d7b6932372cd01b450528efea26bbf00da38ef"
+=======
+    "baselineSha256": "3dc848dbbbb2421ee49644958014006bcd30baf12c0f1025e6e03c704844f50f"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/resources/assets/nvvisionboost/shaders/upscale.frag",
     "source": "modules/mod/integrations/3dc848dbbbb2/main/resources/assets/nvvisionboost/shaders/upscale.frag",
+<<<<<<< HEAD
     "baselineSha256": "8c3957ae5fda32c1869aef9165d7b6932372cd01b450528efea26bbf00da38ef"
+=======
+    "baselineSha256": "3dc848dbbbb2421ee49644958014006bcd30baf12c0f1025e6e03c704844f50f"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/resources/assets/nvvisionboost/shaders/upscale.frag",
     "source": "modules/mod/integrations/3dc848dbbbb2/main/resources/assets/nvvisionboost/shaders/upscale.frag",
+<<<<<<< HEAD
     "baselineSha256": "8c3957ae5fda32c1869aef9165d7b6932372cd01b450528efea26bbf00da38ef"
+=======
+    "baselineSha256": "3dc848dbbbb2421ee49644958014006bcd30baf12c0f1025e6e03c704844f50f"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/resources/assets/nvvisionboost/shaders/upscale.frag",
     "source": "modules/mod/integrations/3dc848dbbbb2/main/resources/assets/nvvisionboost/shaders/upscale.frag",
+<<<<<<< HEAD
     "baselineSha256": "8c3957ae5fda32c1869aef9165d7b6932372cd01b450528efea26bbf00da38ef"
+=======
+    "baselineSha256": "3dc848dbbbb2421ee49644958014006bcd30baf12c0f1025e6e03c704844f50f"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/resources/assets/nvvisionboost/shaders/upscale.frag",
     "source": "modules/mod/integrations/3dc848dbbbb2/main/resources/assets/nvvisionboost/shaders/upscale.frag",
+<<<<<<< HEAD
     "baselineSha256": "8c3957ae5fda32c1869aef9165d7b6932372cd01b450528efea26bbf00da38ef"
+=======
+    "baselineSha256": "3dc848dbbbb2421ee49644958014006bcd30baf12c0f1025e6e03c704844f50f"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostResolutionPolicy.java",
     "source": "modules/mod/services/40ecfc6e085b/main/java/nvvisionboost/NVVisionBoostResolutionPolicy.java",
+<<<<<<< HEAD
     "baselineSha256": "f3e0e1fbf64ce0c00bbd5d67888dd6a5347a9ef389d283e9864f49776f9c1a4f"
+=======
+    "baselineSha256": "40ecfc6e085b5b8bbd3f0e449b68992900d75a4f54a1fa73f310d5ff935d513c"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostResolutionPolicy.java",
     "source": "modules/mod/services/40ecfc6e085b/main/java/nvvisionboost/NVVisionBoostResolutionPolicy.java",
+<<<<<<< HEAD
     "baselineSha256": "f3e0e1fbf64ce0c00bbd5d67888dd6a5347a9ef389d283e9864f49776f9c1a4f"
+=======
+    "baselineSha256": "40ecfc6e085b5b8bbd3f0e449b68992900d75a4f54a1fa73f310d5ff935d513c"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostResolutionPolicy.java",
     "source": "modules/mod/services/40ecfc6e085b/main/java/nvvisionboost/NVVisionBoostResolutionPolicy.java",
+<<<<<<< HEAD
     "baselineSha256": "f3e0e1fbf64ce0c00bbd5d67888dd6a5347a9ef389d283e9864f49776f9c1a4f"
+=======
+    "baselineSha256": "40ecfc6e085b5b8bbd3f0e449b68992900d75a4f54a1fa73f310d5ff935d513c"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostResolutionPolicy.java",
     "source": "modules/mod/services/40ecfc6e085b/main/java/nvvisionboost/NVVisionBoostResolutionPolicy.java",
+<<<<<<< HEAD
     "baselineSha256": "f3e0e1fbf64ce0c00bbd5d67888dd6a5347a9ef389d283e9864f49776f9c1a4f"
+=======
+    "baselineSha256": "40ecfc6e085b5b8bbd3f0e449b68992900d75a4f54a1fa73f310d5ff935d513c"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostResolutionPolicy.java",
     "source": "modules/mod/services/40ecfc6e085b/main/java/nvvisionboost/NVVisionBoostResolutionPolicy.java",
+<<<<<<< HEAD
     "baselineSha256": "f3e0e1fbf64ce0c00bbd5d67888dd6a5347a9ef389d283e9864f49776f9c1a4f"
+=======
+    "baselineSha256": "40ecfc6e085b5b8bbd3f0e449b68992900d75a4f54a1fa73f310d5ff935d513c"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostCreateCompatibility.java",
     "source": "modules/mod/integrations/7da95f6767ba/main/java/nvvisionboost/NVVisionBoostCreateCompatibility.java",
+<<<<<<< HEAD
     "baselineSha256": "9002465987c49556f5db1e3cd88c552b841f9791ed793100ee814441bf1a99f5"
+=======
+    "baselineSha256": "7da95f6767ba9ae15873f94c7edba5ee8aba118c1b56cadff48ecaba93cdd7a3"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostShaderLifecycle.java",
     "source": "modules/mod/integrations/a805fda9a17e/main/java/nvvisionboost/NVVisionBoostShaderLifecycle.java",
+<<<<<<< HEAD
     "baselineSha256": "645ba54aa80ee2ecdbf01c7cb1bb713f369b38f555d56306bbb15d1348791070"
+=======
+    "baselineSha256": "a389bb7dd14f00a3db3db0e20366a00b69d4a5ebbcaef0ead61583c8c7e4e54c"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostShaderLifecycle.java",
     "source": "modules/mod/integrations/a805fda9a17e/main/java/nvvisionboost/NVVisionBoostShaderLifecycle.java",
+<<<<<<< HEAD
     "baselineSha256": "645ba54aa80ee2ecdbf01c7cb1bb713f369b38f555d56306bbb15d1348791070"
+=======
+    "baselineSha256": "a389bb7dd14f00a3db3db0e20366a00b69d4a5ebbcaef0ead61583c8c7e4e54c"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
@@ -1138,49 +1523,77 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostOptionButton.java",
     "source": "modules/mod/services/436bd8af5d7e/main/java/nvvisionboost/NVVisionBoostOptionButton.java",
+<<<<<<< HEAD
     "baselineSha256": "c3a9d2f20f58c9ebbda21648c4fbabf50eb11bb012ef6f4791fe7b7864fff20d"
+=======
+    "baselineSha256": "e62e084663f7895f1fe1820f58b16d1ab5055dbd5491a3852df97c258840d616"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostOptionButton.java",
     "source": "modules/mod/services/436bd8af5d7e/main/java/nvvisionboost/NVVisionBoostOptionButton.java",
+<<<<<<< HEAD
     "baselineSha256": "c3a9d2f20f58c9ebbda21648c4fbabf50eb11bb012ef6f4791fe7b7864fff20d"
+=======
+    "baselineSha256": "e62e084663f7895f1fe1820f58b16d1ab5055dbd5491a3852df97c258840d616"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostUi.java",
     "source": "modules/mod/interface/a709e778ccff/main/java/nvvisionboost/NVVisionBoostUi.java",
+<<<<<<< HEAD
     "baselineSha256": "aff2a3d2711980f488839d05340922dcff551c17a650d7d9c44de2e065f59544"
+=======
+    "baselineSha256": "d4921a6e98cf2c26ca038c6fb17c852f6b1b4a9e84e640ca1cb8d59eb147599e"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostUi.java",
     "source": "modules/mod/interface/a709e778ccff/main/java/nvvisionboost/NVVisionBoostUi.java",
+<<<<<<< HEAD
     "baselineSha256": "aff2a3d2711980f488839d05340922dcff551c17a650d7d9c44de2e065f59544"
+=======
+    "baselineSha256": "d4921a6e98cf2c26ca038c6fb17c852f6b1b4a9e84e640ca1cb8d59eb147599e"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFerriteCore.java",
     "source": "modules/mod/integrations/5c34cd25146f/main/java/nvvisionboost/NVVisionBoostFerriteCore.java",
+<<<<<<< HEAD
     "baselineSha256": "d901bebcb853023196359f0ab550a19f6036133fd8d4cb28b8a5f3bcee8ecbcf"
+=======
+    "baselineSha256": "6e024327f68b9b1b3453890958b14aac6eccd3e936041123dfcf02ddad1b5954"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFerriteCore.java",
     "source": "modules/mod/integrations/5c34cd25146f/main/java/nvvisionboost/NVVisionBoostFerriteCore.java",
+<<<<<<< HEAD
     "baselineSha256": "d901bebcb853023196359f0ab550a19f6036133fd8d4cb28b8a5f3bcee8ecbcf"
+=======
+    "baselineSha256": "6e024327f68b9b1b3453890958b14aac6eccd3e936041123dfcf02ddad1b5954"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFerriteCore.java",
     "source": "modules/mod/integrations/5c34cd25146f/main/java/nvvisionboost/NVVisionBoostFerriteCore.java",
+<<<<<<< HEAD
     "baselineSha256": "d901bebcb853023196359f0ab550a19f6036133fd8d4cb28b8a5f3bcee8ecbcf"
+=======
+    "baselineSha256": "6e024327f68b9b1b3453890958b14aac6eccd3e936041123dfcf02ddad1b5954"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -1271,35 +1684,55 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostNativeRenderer.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostNativeRenderer.java",
+<<<<<<< HEAD
     "baselineSha256": "c54ea4561a68e98248eca6e75ee3aad0367ca0ac16cc34b4b6074f3024a03758"
+=======
+    "baselineSha256": "3ac0e8f439b48d82676c62c166959b46135ae9c55777a91d6a7346dd587b30b7"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostVisualPolicy.java",
     "source": "modules/mod/services/9f4f7403f842/main/java/nvvisionboost/NVVisionBoostVisualPolicy.java",
+<<<<<<< HEAD
     "baselineSha256": "269d9a24b09ebc3ee2c0be15b96738f36d1b9e3e028805dfabbbafdb3245ab90"
+=======
+    "baselineSha256": "9f4f7403f8422f5b1a3e8f0bcc3f32a2e986036d6d1bbcf1db3652d8ac339739"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostGPU.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostGPU.java",
+<<<<<<< HEAD
     "baselineSha256": "80b35bf797f36631fa3bd9a9c05dcb11493e46da83041bca80eb20edfdbd490a"
+=======
+    "baselineSha256": "9264fdb3f9e4e1229eb0ad269c7e2ba901f911e0ac7d58121850759c65f060da"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostDistantHorizonsCompatibility.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostDistantHorizonsCompatibility.java",
+<<<<<<< HEAD
     "baselineSha256": "9712e96ad0bb793fcc2d6049655895221d4b730a02ce0bebe3c09eea21edb54d"
+=======
+    "baselineSha256": "77d7e895182eb9149ddda0f12db485cb23d65d67fee6311619d7047bdded089b"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostGpuTimer.java",
     "source": "modules/mod/configuration/71b50cf51d28/main/java/nvvisionboost/NVVisionBoostGpuTimer.java",
+<<<<<<< HEAD
     "baselineSha256": "f450f480b5d7d62abfe8e5b365a23219175c989c9ebc134399bb985daf20476b"
+=======
+    "baselineSha256": "523eeaabfafe39bfceb7bbee12c33d9d4ac5be309198bb13d77375da67794fe9"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
@@ -1320,21 +1753,33 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostShaderLifecycle.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostShaderLifecycle.java",
+<<<<<<< HEAD
     "baselineSha256": "8c2800857665f6edc29657b97c580735d72f6b0ea2fcf599d16371a829bfd13b"
+=======
+    "baselineSha256": "1393aa80b4edde0bacc40df709b906354980266326d0e25731424f798543d0df"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/resources/META-INF/neoforge.mods.toml",
     "source": "adapters/neoforge-2612/mod/main/resources/META-INF/neoforge.mods.toml",
+<<<<<<< HEAD
     "baselineSha256": "9373c4de0dbd2d72c29c570e64e54e809d3cfb527c67bf574fb0daa1e87cb6a8"
+=======
+    "baselineSha256": "22b07722c3eb41f804dfab6e47bc8679aef575317877d430248046596d2df64b"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostRenderController.java",
     "source": "modules/mod/services/7bc491b5dfcb/main/java/nvvisionboost/NVVisionBoostRenderController.java",
+<<<<<<< HEAD
     "baselineSha256": "2aa0cb40abd16d71d6ded87c721706988a06fc97307c2831a965b85911082118"
+=======
+    "baselineSha256": "7bc491b5dfcb48bd5cdbcf976b30097591fc184bb0f0bfb57108d3684b37d3a6"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
@@ -1355,21 +1800,34 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostPerformanceScreen.java",
     "source": "modules/mod/interface/5d14756fbc7a/main/java/nvvisionboost/NVVisionBoostPerformanceScreen.java",
+<<<<<<< HEAD
     "baselineSha256": "79dd0e1fc066f85dac7c251a3145fe69ab8e56afd2fd0353357ef586313668ab"
+=======
+    "baselineSha256": "2fcb05fe67e977a8716796626aab5f2760f2744d06341ee8493ddd4addba01bf"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostPerformanceScreen.java",
     "source": "modules/mod/interface/5d14756fbc7a/main/java/nvvisionboost/NVVisionBoostPerformanceScreen.java",
+<<<<<<< HEAD
     "baselineSha256": "79dd0e1fc066f85dac7c251a3145fe69ab8e56afd2fd0353357ef586313668ab"
+=======
+    "baselineSha256": "2fcb05fe67e977a8716796626aab5f2760f2744d06341ee8493ddd4addba01bf"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostCore.java",
+<<<<<<< HEAD
     "source": "modules/mod/shared/e7484e8a3072/main/java/nvvisionboost/NVVisionBoostCore.java",
     "baselineSha256": "d5be590fdec0f85f3352db925b87e094ba66cd6e1a09c96265d538f63125bc45"
+=======
+    "source": "modules/mod/shared/914d3ebb0b04/main/java/nvvisionboost/NVVisionBoostCore.java",
+    "baselineSha256": "914d3ebb0b040f411069bdf464792ea26dd943fb3e7e4140c58b9316b74f5fc0"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -1411,112 +1869,176 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostCompatibility.java",
     "source": "modules/mod/integrations/6bc5adbbfe2f/main/java/nvvisionboost/NVVisionBoostCompatibility.java",
+<<<<<<< HEAD
     "baselineSha256": "2d4c6171e8211c33ab4ebfc55d9bfabf56239129cf87feae3bba424241092ed0"
+=======
+    "baselineSha256": "c9ca69314df5097978bc91d85b61710460616bb29e02de35e87745f3a1dbac5b"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostCompatibility.java",
     "source": "modules/mod/integrations/6bc5adbbfe2f/main/java/nvvisionboost/NVVisionBoostCompatibility.java",
+<<<<<<< HEAD
     "baselineSha256": "2d4c6171e8211c33ab4ebfc55d9bfabf56239129cf87feae3bba424241092ed0"
+=======
+    "baselineSha256": "c9ca69314df5097978bc91d85b61710460616bb29e02de35e87745f3a1dbac5b"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionDynamicController.java",
     "source": "modules/mod/rendering/69c601071211/main/java/nvvisionboost/NVVisionDynamicController.java",
+<<<<<<< HEAD
     "baselineSha256": "f2de99ad61ebf30048b054e219ca15dcab62bb5823bd114a8e09110e853fb4de"
+=======
+    "baselineSha256": "69c6010712118f639b5e5220b6b5c7960d7d5fa4fab1248351a17dcc58fc209b"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/UpscalingManager.java",
     "source": "modules/mod/rendering/ff198b08c0c0/main/java/nvvisionboost/UpscalingManager.java",
+<<<<<<< HEAD
     "baselineSha256": "0093a45faaff158bdb856363e04356df475af8be9f73f6765692c811cd823d05"
+=======
+    "baselineSha256": "ff198b08c0c0a455e506751a327c0c8cf4cc7ce1d8012876648caf51c8bd0bf6"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/UpscalingManager.java",
     "source": "modules/mod/rendering/ff198b08c0c0/main/java/nvvisionboost/UpscalingManager.java",
+<<<<<<< HEAD
     "baselineSha256": "0093a45faaff158bdb856363e04356df475af8be9f73f6765692c811cd823d05"
+=======
+    "baselineSha256": "ff198b08c0c0a455e506751a327c0c8cf4cc7ce1d8012876648caf51c8bd0bf6"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/UpscalingManager.java",
     "source": "modules/mod/rendering/ff198b08c0c0/main/java/nvvisionboost/UpscalingManager.java",
+<<<<<<< HEAD
     "baselineSha256": "0093a45faaff158bdb856363e04356df475af8be9f73f6765692c811cd823d05"
+=======
+    "baselineSha256": "ff198b08c0c0a455e506751a327c0c8cf4cc7ce1d8012876648caf51c8bd0bf6"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/UpscalingManager.java",
     "source": "modules/mod/rendering/ff198b08c0c0/main/java/nvvisionboost/UpscalingManager.java",
+<<<<<<< HEAD
     "baselineSha256": "0093a45faaff158bdb856363e04356df475af8be9f73f6765692c811cd823d05"
+=======
+    "baselineSha256": "ff198b08c0c0a455e506751a327c0c8cf4cc7ce1d8012876648caf51c8bd0bf6"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostClient.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostClient.java",
+<<<<<<< HEAD
     "baselineSha256": "cecf9ff011701158d025f927280f008de1cb28e14077516606435c79a4ae0eeb"
+=======
+    "baselineSha256": "6975fb7b6d02f42421c45b4fcc4638d718f64396b0e38ceea5e35220d6709d90"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionDynamicController.java",
     "source": "modules/mod/rendering/9909ab575c1e/main/java/nvvisionboost/NVVisionDynamicController.java",
+<<<<<<< HEAD
     "baselineSha256": "93943fd5b36f7314309b2d1ce134973b46deab14e056776d7ef3d9421f1b080b"
+=======
+    "baselineSha256": "9909ab575c1e38c1b5b2d4d923d62bdfc74d4b9bd9c32fc95fe55ebda21da7e1"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionDynamicController.java",
     "source": "modules/mod/rendering/9909ab575c1e/main/java/nvvisionboost/NVVisionDynamicController.java",
+<<<<<<< HEAD
     "baselineSha256": "93943fd5b36f7314309b2d1ce134973b46deab14e056776d7ef3d9421f1b080b"
+=======
+    "baselineSha256": "9909ab575c1e38c1b5b2d4d923d62bdfc74d4b9bd9c32fc95fe55ebda21da7e1"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostUi.java",
     "source": "modules/mod/interface/dee3a934c82f/main/java/nvvisionboost/NVVisionBoostUi.java",
+<<<<<<< HEAD
     "baselineSha256": "f114f522737ca23351e1b6e8f32ca0769da7ab10d3a71378438d18c606e9b879"
+=======
+    "baselineSha256": "83325f1509dba2d595d8be13878c2c132296eb5b94f8ce6acd254e3da91b67ea"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostUi.java",
     "source": "modules/mod/interface/dee3a934c82f/main/java/nvvisionboost/NVVisionBoostUi.java",
+<<<<<<< HEAD
     "baselineSha256": "f114f522737ca23351e1b6e8f32ca0769da7ab10d3a71378438d18c606e9b879"
+=======
+    "baselineSha256": "83325f1509dba2d595d8be13878c2c132296eb5b94f8ce6acd254e3da91b67ea"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostConfigScreen.java",
     "source": "adapters/fabric-262/mod/main/java/nvvisionboost/NVVisionBoostConfigScreen.java",
+<<<<<<< HEAD
     "baselineSha256": "eee7c92169f2047338cdb1ef44dfe58fa870212ac51ddbfbf817c15d76dd34d7"
+=======
+    "baselineSha256": "c0b1604127a312591b13cbcf1cf535abdb059d56bcda0f5e5c81a587ec17acc7"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionVramManager.java",
     "source": "modules/mod/services/67a0d93cc41c/main/java/nvvisionboost/NVVisionVramManager.java",
+<<<<<<< HEAD
     "baselineSha256": "849a4ee9db1bd735759c3fb6e65196d25de427e69a16e2f5470724adc8b32357"
+=======
+    "baselineSha256": "67a0d93cc41c2191720410fb5e187b1c0f6336695a449cad8a997bed08a76e93"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostCompatibility.java",
     "source": "modules/mod/integrations/610dd92b16f6/main/java/nvvisionboost/NVVisionBoostCompatibility.java",
+<<<<<<< HEAD
     "baselineSha256": "a0dd38ccacd5d51e9c067fed34c43d7d5a5c4cf42357e929e157aa206834dcb4"
+=======
+    "baselineSha256": "d2e1e1983a5bf73385514a9a5408d1383e80bd797f1fe1d25aa8cf6bcbbe2789"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostPerformance.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostPerformance.java",
+<<<<<<< HEAD
     "baselineSha256": "8bcccf2b2f991586b7abf7e776135f7a1b94256fca6c1dbafc08d8bb1688d126"
+=======
+    "baselineSha256": "00a56b1139780a204e6e3926786a6eb195e594bdac8edaeee9144b38dfa964b7"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -1537,35 +2059,55 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostLogger.java",
     "source": "modules/mod/services/af336f65a301/main/java/nvvisionboost/NVVisionBoostLogger.java",
+<<<<<<< HEAD
     "baselineSha256": "c6fd3db07060ab2aca91b37f181d2eae54f6b115e5e2986f10685c3c0010fe6d"
+=======
+    "baselineSha256": "af336f65a301c44ca1d5bf810220012c04e56b4d31458bf1f092f3e411c3e92d"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostLogger.java",
     "source": "modules/mod/services/af336f65a301/main/java/nvvisionboost/NVVisionBoostLogger.java",
+<<<<<<< HEAD
     "baselineSha256": "c6fd3db07060ab2aca91b37f181d2eae54f6b115e5e2986f10685c3c0010fe6d"
+=======
+    "baselineSha256": "af336f65a301c44ca1d5bf810220012c04e56b4d31458bf1f092f3e411c3e92d"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostLogger.java",
     "source": "modules/mod/services/af336f65a301/main/java/nvvisionboost/NVVisionBoostLogger.java",
+<<<<<<< HEAD
     "baselineSha256": "c6fd3db07060ab2aca91b37f181d2eae54f6b115e5e2986f10685c3c0010fe6d"
+=======
+    "baselineSha256": "af336f65a301c44ca1d5bf810220012c04e56b4d31458bf1f092f3e411c3e92d"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostLogger.java",
     "source": "modules/mod/services/af336f65a301/main/java/nvvisionboost/NVVisionBoostLogger.java",
+<<<<<<< HEAD
     "baselineSha256": "c6fd3db07060ab2aca91b37f181d2eae54f6b115e5e2986f10685c3c0010fe6d"
+=======
+    "baselineSha256": "af336f65a301c44ca1d5bf810220012c04e56b4d31458bf1f092f3e411c3e92d"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostLogger.java",
     "source": "modules/mod/services/af336f65a301/main/java/nvvisionboost/NVVisionBoostLogger.java",
+<<<<<<< HEAD
     "baselineSha256": "c6fd3db07060ab2aca91b37f181d2eae54f6b115e5e2986f10685c3c0010fe6d"
+=======
+    "baselineSha256": "af336f65a301c44ca1d5bf810220012c04e56b4d31458bf1f092f3e411c3e92d"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -1579,7 +2121,11 @@
     "kind": "addon",
     "path": "main/resources/META-INF/neoforge.mods.toml",
     "source": "adapters/neoforge-2612/addon/main/resources/META-INF/neoforge.mods.toml",
+<<<<<<< HEAD
     "baselineSha256": "5a9b049fbce65be9dd30c23fc87be2df0b01a15261b9cf30075f4cb501adad26"
+=======
+    "baselineSha256": "213b8836a3587ff558e081c1b311f26399c1d58bc517143c7ae679945469c6c6"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
@@ -1600,35 +2146,55 @@
     "kind": "mod",
     "path": "test/java/nvvisionboost/NVVisionBoostOpenGLSmokeTest.java",
     "source": "modules/mod/services/4f40a7c669e0/test/java/nvvisionboost/NVVisionBoostOpenGLSmokeTest.java",
+<<<<<<< HEAD
     "baselineSha256": "832be6a334a32428f97d8e25a495f46bacada878810b0396bb892f319cf46ba9"
+=======
+    "baselineSha256": "4f40a7c669e0b4ef2206cfcebb5f4baf803349445e336a4a8012cfaccd32196b"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "test/java/nvvisionboost/NVVisionBoostOpenGLSmokeTest.java",
     "source": "modules/mod/services/4f40a7c669e0/test/java/nvvisionboost/NVVisionBoostOpenGLSmokeTest.java",
+<<<<<<< HEAD
     "baselineSha256": "832be6a334a32428f97d8e25a495f46bacada878810b0396bb892f319cf46ba9"
+=======
+    "baselineSha256": "4f40a7c669e0b4ef2206cfcebb5f4baf803349445e336a4a8012cfaccd32196b"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "test/java/nvvisionboost/NVVisionBoostOpenGLSmokeTest.java",
     "source": "modules/mod/services/4f40a7c669e0/test/java/nvvisionboost/NVVisionBoostOpenGLSmokeTest.java",
+<<<<<<< HEAD
     "baselineSha256": "832be6a334a32428f97d8e25a495f46bacada878810b0396bb892f319cf46ba9"
+=======
+    "baselineSha256": "4f40a7c669e0b4ef2206cfcebb5f4baf803349445e336a4a8012cfaccd32196b"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "test/java/nvvisionboost/NVVisionBoostOpenGLSmokeTest.java",
     "source": "modules/mod/services/4f40a7c669e0/test/java/nvvisionboost/NVVisionBoostOpenGLSmokeTest.java",
+<<<<<<< HEAD
     "baselineSha256": "832be6a334a32428f97d8e25a495f46bacada878810b0396bb892f319cf46ba9"
+=======
+    "baselineSha256": "4f40a7c669e0b4ef2206cfcebb5f4baf803349445e336a4a8012cfaccd32196b"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFrameTiming.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostFrameTiming.java",
+<<<<<<< HEAD
     "baselineSha256": "c4858fde6fc78715164906bf5a3262ea3f5a5de08f3c6357bfbcedf1c5a0258b"
+=======
+    "baselineSha256": "10f01f5310a63dd70554f638a452c9f49f682c7d7b98ef201e3a053ba87532e0"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
@@ -1649,14 +2215,22 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostRenderController.java",
     "source": "modules/mod/services/b95e068ff2ca/main/java/nvvisionboost/NVVisionBoostRenderController.java",
+<<<<<<< HEAD
     "baselineSha256": "e3f454031e8776eae8be6cefb57a3778762a4a907a2a1a8540160df693c360ca"
+=======
+    "baselineSha256": "b95e068ff2ca4c428d98811e6a3d92df4e476097cec13bed444c870532b305f2"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostRenderController.java",
     "source": "modules/mod/services/b95e068ff2ca/main/java/nvvisionboost/NVVisionBoostRenderController.java",
+<<<<<<< HEAD
     "baselineSha256": "e3f454031e8776eae8be6cefb57a3778762a4a907a2a1a8540160df693c360ca"
+=======
+    "baselineSha256": "b95e068ff2ca4c428d98811e6a3d92df4e476097cec13bed444c870532b305f2"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
@@ -1677,7 +2251,11 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostTextureOptimizer.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostTextureOptimizer.java",
+<<<<<<< HEAD
     "baselineSha256": "8760d88c26ddcf1377b098529949bfdb9138eba2a9ae1d25bd7fdc89c19a1b64"
+=======
+    "baselineSha256": "e753ba4dc6dbffba5241991e62bc9f5b61b1ed167b518af18fb2c28ee0323386"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -1733,126 +2311,198 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostRenderController.java",
     "source": "modules/mod/services/7bc491b5dfcb/main/java/nvvisionboost/NVVisionBoostRenderController.java",
+<<<<<<< HEAD
     "baselineSha256": "2aa0cb40abd16d71d6ded87c721706988a06fc97307c2831a965b85911082118"
+=======
+    "baselineSha256": "7bc491b5dfcb48bd5cdbcf976b30097591fc184bb0f0bfb57108d3684b37d3a6"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostRenderController.java",
     "source": "modules/mod/services/7bc491b5dfcb/main/java/nvvisionboost/NVVisionBoostRenderController.java",
+<<<<<<< HEAD
     "baselineSha256": "2aa0cb40abd16d71d6ded87c721706988a06fc97307c2831a965b85911082118"
+=======
+    "baselineSha256": "7bc491b5dfcb48bd5cdbcf976b30097591fc184bb0f0bfb57108d3684b37d3a6"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/resources/nvvisionboost.mixins.json",
     "source": "adapters/forge-1201/mod/main/resources/nvvisionboost.mixins.json",
+<<<<<<< HEAD
     "baselineSha256": "5d4f8dd9489c46e941b16a59967f617caf43221a5fc53406dcbf70696ac401ec"
+=======
+    "baselineSha256": "6b81a88423e646f1db8c547b1696c56f564c5800b657ace67be8069c2e376208"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.java",
     "source": "modules/mod/interface/c65ef44b1af0/main/java/nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.java",
+<<<<<<< HEAD
     "baselineSha256": "e3d90e1e80039dca75d19d9db809107c85bf9f2bd7dad0a67001dcf219f0d0d2"
+=======
+    "baselineSha256": "c65ef44b1af034432094eb5dba22ca4d3a44e54e211cdc09d7007d845f654871"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostMenuButton.java",
     "source": "modules/mod/interface/638cc0f9fe13/main/java/nvvisionboost/NVVisionBoostMenuButton.java",
+<<<<<<< HEAD
     "baselineSha256": "425b8c1fd12cebc711cb34583d74075e2e75b043a8b45b2bca95d7a5de2707e8"
+=======
+    "baselineSha256": "638cc0f9fe1310b6984a69962b1199069e01c8005b5c148559509d4d9b104889"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostCreateCompatibility.java",
     "source": "modules/mod/integrations/7da95f6767ba/main/java/nvvisionboost/NVVisionBoostCreateCompatibility.java",
+<<<<<<< HEAD
     "baselineSha256": "9002465987c49556f5db1e3cd88c552b841f9791ed793100ee814441bf1a99f5"
+=======
+    "baselineSha256": "7da95f6767ba9ae15873f94c7edba5ee8aba118c1b56cadff48ecaba93cdd7a3"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostCreateCompatibility.java",
     "source": "modules/mod/integrations/7da95f6767ba/main/java/nvvisionboost/NVVisionBoostCreateCompatibility.java",
+<<<<<<< HEAD
     "baselineSha256": "9002465987c49556f5db1e3cd88c552b841f9791ed793100ee814441bf1a99f5"
+=======
+    "baselineSha256": "7da95f6767ba9ae15873f94c7edba5ee8aba118c1b56cadff48ecaba93cdd7a3"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostCreateCompatibility.java",
     "source": "modules/mod/integrations/7da95f6767ba/main/java/nvvisionboost/NVVisionBoostCreateCompatibility.java",
+<<<<<<< HEAD
     "baselineSha256": "9002465987c49556f5db1e3cd88c552b841f9791ed793100ee814441bf1a99f5"
+=======
+    "baselineSha256": "7da95f6767ba9ae15873f94c7edba5ee8aba118c1b56cadff48ecaba93cdd7a3"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostCreateCompatibility.java",
     "source": "modules/mod/integrations/7da95f6767ba/main/java/nvvisionboost/NVVisionBoostCreateCompatibility.java",
+<<<<<<< HEAD
     "baselineSha256": "9002465987c49556f5db1e3cd88c552b841f9791ed793100ee814441bf1a99f5"
+=======
+    "baselineSha256": "7da95f6767ba9ae15873f94c7edba5ee8aba118c1b56cadff48ecaba93cdd7a3"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostCreateCompatibility.java",
     "source": "modules/mod/integrations/7da95f6767ba/main/java/nvvisionboost/NVVisionBoostCreateCompatibility.java",
+<<<<<<< HEAD
     "baselineSha256": "9002465987c49556f5db1e3cd88c552b841f9791ed793100ee814441bf1a99f5"
+=======
+    "baselineSha256": "7da95f6767ba9ae15873f94c7edba5ee8aba118c1b56cadff48ecaba93cdd7a3"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostVisualPolicy.java",
     "source": "modules/mod/services/9f4f7403f842/main/java/nvvisionboost/NVVisionBoostVisualPolicy.java",
+<<<<<<< HEAD
     "baselineSha256": "269d9a24b09ebc3ee2c0be15b96738f36d1b9e3e028805dfabbbafdb3245ab90"
+=======
+    "baselineSha256": "9f4f7403f8422f5b1a3e8f0bcc3f32a2e986036d6d1bbcf1db3652d8ac339739"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostVisualPolicy.java",
     "source": "modules/mod/services/9f4f7403f842/main/java/nvvisionboost/NVVisionBoostVisualPolicy.java",
+<<<<<<< HEAD
     "baselineSha256": "269d9a24b09ebc3ee2c0be15b96738f36d1b9e3e028805dfabbbafdb3245ab90"
+=======
+    "baselineSha256": "9f4f7403f8422f5b1a3e8f0bcc3f32a2e986036d6d1bbcf1db3652d8ac339739"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostVisualPolicy.java",
     "source": "modules/mod/services/9f4f7403f842/main/java/nvvisionboost/NVVisionBoostVisualPolicy.java",
+<<<<<<< HEAD
     "baselineSha256": "269d9a24b09ebc3ee2c0be15b96738f36d1b9e3e028805dfabbbafdb3245ab90"
+=======
+    "baselineSha256": "9f4f7403f8422f5b1a3e8f0bcc3f32a2e986036d6d1bbcf1db3652d8ac339739"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostVisualPolicy.java",
     "source": "modules/mod/services/9f4f7403f842/main/java/nvvisionboost/NVVisionBoostVisualPolicy.java",
+<<<<<<< HEAD
     "baselineSha256": "269d9a24b09ebc3ee2c0be15b96738f36d1b9e3e028805dfabbbafdb3245ab90"
+=======
+    "baselineSha256": "9f4f7403f8422f5b1a3e8f0bcc3f32a2e986036d6d1bbcf1db3652d8ac339739"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/VisionOptimizer.java",
     "source": "modules/mod/performance/418fb7ce0be4/main/java/nvvisionboost/VisionOptimizer.java",
+<<<<<<< HEAD
     "baselineSha256": "d74abf996f6daf2a22d209a306ab6b11787db5a2ca3b679948095ff121663a77"
+=======
+    "baselineSha256": "418fb7ce0be4f3791b4817e98f5a3269bb35c127cb78cd944d92ddbbd9ab40e3"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/VisionOptimizer.java",
     "source": "modules/mod/performance/418fb7ce0be4/main/java/nvvisionboost/VisionOptimizer.java",
+<<<<<<< HEAD
     "baselineSha256": "d74abf996f6daf2a22d209a306ab6b11787db5a2ca3b679948095ff121663a77"
+=======
+    "baselineSha256": "418fb7ce0be4f3791b4817e98f5a3269bb35c127cb78cd944d92ddbbd9ab40e3"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostTextureScreen.java",
     "source": "modules/mod/interface/783fda83db15/main/java/nvvisionboost/NVVisionBoostTextureScreen.java",
+<<<<<<< HEAD
     "baselineSha256": "547c47b4d46cc97c028dc723417b7f53eb5e4c9acc1ae84871f039359d811cb5"
+=======
+    "baselineSha256": "74888be28474346025a947e3a87af3de3f01c8f097814ad643747c0890364217"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostTextureScreen.java",
     "source": "modules/mod/interface/783fda83db15/main/java/nvvisionboost/NVVisionBoostTextureScreen.java",
+<<<<<<< HEAD
     "baselineSha256": "547c47b4d46cc97c028dc723417b7f53eb5e4c9acc1ae84871f039359d811cb5"
+=======
+    "baselineSha256": "74888be28474346025a947e3a87af3de3f01c8f097814ad643747c0890364217"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
@@ -1866,14 +2516,22 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostTextureScreen.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostTextureScreen.java",
+<<<<<<< HEAD
     "baselineSha256": "231a1567f24151f765e6b2294a7381e1a47ab51b6e83a7439d01bef14f3de7d9"
+=======
+    "baselineSha256": "fc4b944e02df1a36057150ce13948679d977f9895965891153ad379eb5f4c4ee"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostNativeRenderer.java",
     "source": "adapters/neoforge-12110/mod/main/java/nvvisionboost/NVVisionBoostNativeRenderer.java",
+<<<<<<< HEAD
     "baselineSha256": "211eda15e9812840c26511bef57513a9b04c4149a3ba78de6480b58e80158039"
+=======
+    "baselineSha256": "0d70758e6a444b231e2ba689422f8f4335e991903b6e84974ad657aba2dfcd9b"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
@@ -1901,7 +2559,11 @@
     "kind": "mod",
     "path": "main/resources/fabric.mod.json",
     "source": "adapters/fabric-262/mod/main/resources/fabric.mod.json",
+<<<<<<< HEAD
     "baselineSha256": "0b99582bb040ce421d2c7474521ecaf0acf5117f1fc00626e8d0492240ee5134"
+=======
+    "baselineSha256": "5322dec01abf97f6920cdb3ef66265019bc48b8fa882129d7b1daffe4581caff"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
@@ -1922,63 +2584,99 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostShaderEngine.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostShaderEngine.java",
+<<<<<<< HEAD
     "baselineSha256": "21f6b696cf55c6800ed068d98ac4c757f11725d38c5333c0516bad3f2632a429"
+=======
+    "baselineSha256": "80f4c989f93ad1f54c7984a38c0994bb6440561bfb46d62670d6ee92fa3c8d9e"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostForge.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostForge.java",
+<<<<<<< HEAD
     "baselineSha256": "9b24f7daa4d53ddf092f6a092ea197f87996acc3c3a6d7941017965dcd68c71a"
+=======
+    "baselineSha256": "3ea723ded389bbf71a0966d368db392ca6ad89ec605fc09ca1f31e8380c2b833"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostVisualPolicy.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostVisualPolicy.java",
+<<<<<<< HEAD
     "baselineSha256": "57ffd0833aa68869567ff885e88818a22c4f899fba83bdbe96f6815ff58d510e"
+=======
+    "baselineSha256": "88a2187dcb2ed78516396cb05280d36890414105c0f2e7b4f8a98f2c7530e82e"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "addon",
     "path": "main/java/nvvisionboost/vulkanbridge/CpuOptionLease.java",
     "source": "modules/addon/performance/08a14d4bdd78/main/java/nvvisionboost/vulkanbridge/CpuOptionLease.java",
+<<<<<<< HEAD
     "baselineSha256": "d05b7ced8ab07fd7259702f751716b333597af719ff4668276092d3022e0e5ac"
+=======
+    "baselineSha256": "cd4f6dd2caa5f7b1becc23be5818723db124e90b6250a8e3ab65303fbac7d652"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "addon",
     "path": "main/java/nvvisionboost/vulkanbridge/CpuOptionLease.java",
     "source": "modules/addon/performance/08a14d4bdd78/main/java/nvvisionboost/vulkanbridge/CpuOptionLease.java",
+<<<<<<< HEAD
     "baselineSha256": "d05b7ced8ab07fd7259702f751716b333597af719ff4668276092d3022e0e5ac"
+=======
+    "baselineSha256": "cd4f6dd2caa5f7b1becc23be5818723db124e90b6250a8e3ab65303fbac7d652"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "addon",
     "path": "main/java/nvvisionboost/vulkanbridge/CpuOptionLease.java",
     "source": "modules/addon/performance/08a14d4bdd78/main/java/nvvisionboost/vulkanbridge/CpuOptionLease.java",
+<<<<<<< HEAD
     "baselineSha256": "d05b7ced8ab07fd7259702f751716b333597af719ff4668276092d3022e0e5ac"
+=======
+    "baselineSha256": "cd4f6dd2caa5f7b1becc23be5818723db124e90b6250a8e3ab65303fbac7d652"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "addon",
     "path": "main/java/nvvisionboost/vulkanbridge/CpuOptionLease.java",
     "source": "modules/addon/performance/08a14d4bdd78/main/java/nvvisionboost/vulkanbridge/CpuOptionLease.java",
+<<<<<<< HEAD
     "baselineSha256": "d05b7ced8ab07fd7259702f751716b333597af719ff4668276092d3022e0e5ac"
+=======
+    "baselineSha256": "cd4f6dd2caa5f7b1becc23be5818723db124e90b6250a8e3ab65303fbac7d652"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "addon",
     "path": "main/java/nvvisionboost/vulkanbridge/CpuOptionLease.java",
     "source": "modules/addon/performance/08a14d4bdd78/main/java/nvvisionboost/vulkanbridge/CpuOptionLease.java",
+<<<<<<< HEAD
     "baselineSha256": "d05b7ced8ab07fd7259702f751716b333597af719ff4668276092d3022e0e5ac"
+=======
+    "baselineSha256": "cd4f6dd2caa5f7b1becc23be5818723db124e90b6250a8e3ab65303fbac7d652"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "addon",
     "path": "main/java/nvvisionboost/vulkanbridge/CpuOptionLease.java",
     "source": "modules/addon/performance/08a14d4bdd78/main/java/nvvisionboost/vulkanbridge/CpuOptionLease.java",
+<<<<<<< HEAD
     "baselineSha256": "d05b7ced8ab07fd7259702f751716b333597af719ff4668276092d3022e0e5ac"
+=======
+    "baselineSha256": "cd4f6dd2caa5f7b1becc23be5818723db124e90b6250a8e3ab65303fbac7d652"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
@@ -2006,7 +2704,11 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFrameTiming.java",
     "source": "modules/mod/rendering/39f070837386/main/java/nvvisionboost/NVVisionBoostFrameTiming.java",
+<<<<<<< HEAD
     "baselineSha256": "a4eacbdd77ca6b76dc95628ddb75087bf9cf4b7f9d110bf852e5cc7f16480ca6"
+=======
+    "baselineSha256": "39f0708373863e1a78ff61c73712bc5063241aaa3143dbf7d25bfdd146fd4379"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -2020,14 +2722,22 @@
     "kind": "mod",
     "path": "main/resources/META-INF/neoforge.mods.toml",
     "source": "adapters/neoforge-12110/mod/main/resources/META-INF/neoforge.mods.toml",
+<<<<<<< HEAD
     "baselineSha256": "012f433036090fea8d95b3ccaaa7d11ae053d1904a8e915d4233b1fbba52bbe7"
+=======
+    "baselineSha256": "6335f28fa9f3f0dc97fda224016535a8b275810e065180dffe34e298c7e8ba5e"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFerriteScreen.java",
     "source": "adapters/neoforge-262/mod/main/java/nvvisionboost/NVVisionBoostFerriteScreen.java",
+<<<<<<< HEAD
     "baselineSha256": "c58ba570491d06bbfab9afa39e0bfa578b2cb6679f7da5d80bdfac1e06496efe"
+=======
+    "baselineSha256": "cc1e2e6d4184fdb948e687e3797a4da300ca5df9915d757e4d8ed3425ad0fcab"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
@@ -2041,35 +2751,55 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/mixin/NVVisionBoostWindowMixin.java",
     "source": "modules/mod/rendering/fc70a72bc018/main/java/nvvisionboost/mixin/NVVisionBoostWindowMixin.java",
+<<<<<<< HEAD
     "baselineSha256": "9b6fcdcae6d596daedabc17f5c1afcc0297f047110f4b989f9feba69fcd98b6f"
+=======
+    "baselineSha256": "fc70a72bc01835e3da4b357c0a96b90639a7802128aa39b059dae6d0e33e51b0"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/mixin/NVVisionBoostWindowMixin.java",
     "source": "modules/mod/rendering/fc70a72bc018/main/java/nvvisionboost/mixin/NVVisionBoostWindowMixin.java",
+<<<<<<< HEAD
     "baselineSha256": "9b6fcdcae6d596daedabc17f5c1afcc0297f047110f4b989f9feba69fcd98b6f"
+=======
+    "baselineSha256": "fc70a72bc01835e3da4b357c0a96b90639a7802128aa39b059dae6d0e33e51b0"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/mixin/NVVisionBoostWindowMixin.java",
     "source": "modules/mod/rendering/fc70a72bc018/main/java/nvvisionboost/mixin/NVVisionBoostWindowMixin.java",
+<<<<<<< HEAD
     "baselineSha256": "9b6fcdcae6d596daedabc17f5c1afcc0297f047110f4b989f9feba69fcd98b6f"
+=======
+    "baselineSha256": "fc70a72bc01835e3da4b357c0a96b90639a7802128aa39b059dae6d0e33e51b0"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/mixin/NVVisionBoostWindowMixin.java",
     "source": "modules/mod/rendering/fc70a72bc018/main/java/nvvisionboost/mixin/NVVisionBoostWindowMixin.java",
+<<<<<<< HEAD
     "baselineSha256": "9b6fcdcae6d596daedabc17f5c1afcc0297f047110f4b989f9feba69fcd98b6f"
+=======
+    "baselineSha256": "fc70a72bc01835e3da4b357c0a96b90639a7802128aa39b059dae6d0e33e51b0"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/mixin/NVVisionBoostWindowMixin.java",
     "source": "modules/mod/rendering/fc70a72bc018/main/java/nvvisionboost/mixin/NVVisionBoostWindowMixin.java",
+<<<<<<< HEAD
     "baselineSha256": "9b6fcdcae6d596daedabc17f5c1afcc0297f047110f4b989f9feba69fcd98b6f"
+=======
+    "baselineSha256": "fc70a72bc01835e3da4b357c0a96b90639a7802128aa39b059dae6d0e33e51b0"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
@@ -2083,14 +2813,22 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostGpuTimer.java",
     "source": "modules/mod/shared/0f2deb61e8e6/main/java/nvvisionboost/NVVisionBoostGpuTimer.java",
+<<<<<<< HEAD
     "baselineSha256": "b91051b83d680fe21a58dfd30e6c21d320fd7163a3daeb028ee7197d5eb09c77"
+=======
+    "baselineSha256": "0f2deb61e8e60b6d6ffee9c3aba0e6f0f98d76615ec29118243a5644a6554384"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFerriteScreen.java",
     "source": "adapters/neoforge-12110/mod/main/java/nvvisionboost/NVVisionBoostFerriteScreen.java",
+<<<<<<< HEAD
     "baselineSha256": "9928f9423bcf3f4dfd68a21bbfb1b5f90dd42b4b63610df14b137d64d6c4dc23"
+=======
+    "baselineSha256": "989adf2e497364cd2fe0e36ca92cf6b492b16694b736857be32dc7d0ca7320c1"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -2139,7 +2877,11 @@
     "kind": "mod",
     "path": "main/resources/fabric.mod.json",
     "source": "adapters/fabric-12110/mod/main/resources/fabric.mod.json",
+<<<<<<< HEAD
     "baselineSha256": "f4d4b7ef5efbd7140ee2913aee0afc5891c9db8a97702517b03c17d727e5d9e5"
+=======
+    "baselineSha256": "eb9b9d6a92c58089afec0829a6dc0da92dd86df7d04d1789a0ac9598d9fd8393"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
@@ -2153,7 +2895,11 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostAssetAnalyzer.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostAssetAnalyzer.java",
+<<<<<<< HEAD
     "baselineSha256": "98207b960c1dbc5f71ac04ea3f2b8d7c960d6f30550bdd9e3bf891a43018e977"
+=======
+    "baselineSha256": "709d82d4f01e6353a1bd049560680a00028826d90e5eb66174e808846ef44a37"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -2181,21 +2927,33 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostShaderQuality.java",
     "source": "modules/mod/integrations/ab92d061ca7e/main/java/nvvisionboost/NVVisionBoostShaderQuality.java",
+<<<<<<< HEAD
     "baselineSha256": "41e4bbd3e4a95d6577c5a7495a19dec9b0e0244095ffd81214d7c72abda81734"
+=======
+    "baselineSha256": "ab92d061ca7e37f94fd40095927de1b6ee691f6a4fecc772853b39b9488d77f0"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostShaderQuality.java",
     "source": "modules/mod/integrations/ab92d061ca7e/main/java/nvvisionboost/NVVisionBoostShaderQuality.java",
+<<<<<<< HEAD
     "baselineSha256": "41e4bbd3e4a95d6577c5a7495a19dec9b0e0244095ffd81214d7c72abda81734"
+=======
+    "baselineSha256": "ab92d061ca7e37f94fd40095927de1b6ee691f6a4fecc772853b39b9488d77f0"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostPerformanceScreen.java",
     "source": "adapters/neoforge-2612/mod/main/java/nvvisionboost/NVVisionBoostPerformanceScreen.java",
+<<<<<<< HEAD
     "baselineSha256": "eb2759b5a1defdd27349fbd47d2f80d85ee929a8db3af7383a4fe3492ae44bc2"
+=======
+    "baselineSha256": "e4bbc460a225b74beb6d3482271f7ab92cea9b7d6eed3dbfcbff1eebaa8604f0"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
@@ -2208,8 +2966,13 @@
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostCore.java",
+<<<<<<< HEAD
     "source": "modules/mod/shared/e7484e8a3072/main/java/nvvisionboost/NVVisionBoostCore.java",
     "baselineSha256": "d5be590fdec0f85f3352db925b87e094ba66cd6e1a09c96265d538f63125bc45"
+=======
+    "source": "modules/mod/shared/914d3ebb0b04/main/java/nvvisionboost/NVVisionBoostCore.java",
+    "baselineSha256": "914d3ebb0b040f411069bdf464792ea26dd943fb3e7e4140c58b9316b74f5fc0"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
@@ -2258,7 +3021,11 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/mixin/NVVisionBoostWeatherParticlesMixin.java",
     "source": "modules/mod/shared/98722f7acf4c/main/java/nvvisionboost/mixin/NVVisionBoostWeatherParticlesMixin.java",
+<<<<<<< HEAD
     "baselineSha256": "3ff933f43fa2ed46f780f7e9f6628cc6625b576cb9159e4c07c912b69743c0f6"
+=======
+    "baselineSha256": "98722f7acf4cd86296cf815a66a4b4b3c4e72824c51fec7d7ad32f9fd3771985"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -2300,28 +3067,44 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFileFingerprint.java",
     "source": "modules/mod/services/c3be5f5b3d76/main/java/nvvisionboost/NVVisionBoostFileFingerprint.java",
+<<<<<<< HEAD
     "baselineSha256": "677216450a8934c05af9b9dc5a1bfaa45d201a8d668a52813594658f4856c48f"
+=======
+    "baselineSha256": "c3be5f5b3d76904003ca81a584208277acee68f5a5c10eb1a862964b4f128461"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/mixin/NVVisionBoostWindowMixin.java",
     "source": "modules/mod/rendering/fc70a72bc018/main/java/nvvisionboost/mixin/NVVisionBoostWindowMixin.java",
+<<<<<<< HEAD
     "baselineSha256": "9b6fcdcae6d596daedabc17f5c1afcc0297f047110f4b989f9feba69fcd98b6f"
+=======
+    "baselineSha256": "fc70a72bc01835e3da4b357c0a96b90639a7802128aa39b059dae6d0e33e51b0"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostTextureOptimizer.java",
     "source": "modules/mod/performance/57c2f34dc94f/main/java/nvvisionboost/NVVisionBoostTextureOptimizer.java",
+<<<<<<< HEAD
     "baselineSha256": "1b26ee4f345a189ae701d7d8094f08f042dc023df36e4c159bf0332a36eff8cb"
+=======
+    "baselineSha256": "57c2f34dc94f3046697977eda9358aa36ca798e22c9dc9a39dc3d85a1a9c1edd"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostTextureOptimizer.java",
     "source": "modules/mod/performance/57c2f34dc94f/main/java/nvvisionboost/NVVisionBoostTextureOptimizer.java",
+<<<<<<< HEAD
     "baselineSha256": "1b26ee4f345a189ae701d7d8094f08f042dc023df36e4c159bf0332a36eff8cb"
+=======
+    "baselineSha256": "57c2f34dc94f3046697977eda9358aa36ca798e22c9dc9a39dc3d85a1a9c1edd"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
@@ -2342,14 +3125,22 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostUi.java",
     "source": "modules/mod/interface/a709e778ccff/main/java/nvvisionboost/NVVisionBoostUi.java",
+<<<<<<< HEAD
     "baselineSha256": "aff2a3d2711980f488839d05340922dcff551c17a650d7d9c44de2e065f59544"
+=======
+    "baselineSha256": "d4921a6e98cf2c26ca038c6fb17c852f6b1b4a9e84e640ca1cb8d59eb147599e"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/resources/nvvisionboost.mixins.json",
     "source": "adapters/fabric-12110/mod/main/resources/nvvisionboost.mixins.json",
+<<<<<<< HEAD
     "baselineSha256": "2f50606355c5639b2547b2547a611bbd8d26b5b73cc215f2a6a39d94b02a6303"
+=======
+    "baselineSha256": "40dcc9b6ab5129754a462f4940f20c5942a8970937682103e2d9c5a0bad869ea"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
@@ -2370,7 +3161,11 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostCore.java",
     "source": "adapters/fabric-12110/mod/main/java/nvvisionboost/NVVisionBoostCore.java",
+<<<<<<< HEAD
     "baselineSha256": "d72b89777c00f0269592394f1592ac67c3f18b736625993138f8cf59c0f81343"
+=======
+    "baselineSha256": "88b382f4828598854c4ab1179ab6bb32cb974879f17d3f14509db8a0678266c3"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
@@ -2391,28 +3186,44 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFerriteConfig.java",
     "source": "modules/mod/integrations/27cdd1e1aa69/main/java/nvvisionboost/NVVisionBoostFerriteConfig.java",
+<<<<<<< HEAD
     "baselineSha256": "ab6d284f1b0b9494eff26af710d4868c34b762c12705e95f2d9a152dcbd3431a"
+=======
+    "baselineSha256": "27cdd1e1aa69a51cc5d8f650b346a47a32b34c4219b3950d0cc0ff749bb3b89b"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFerriteConfig.java",
     "source": "modules/mod/integrations/27cdd1e1aa69/main/java/nvvisionboost/NVVisionBoostFerriteConfig.java",
+<<<<<<< HEAD
     "baselineSha256": "ab6d284f1b0b9494eff26af710d4868c34b762c12705e95f2d9a152dcbd3431a"
+=======
+    "baselineSha256": "27cdd1e1aa69a51cc5d8f650b346a47a32b34c4219b3950d0cc0ff749bb3b89b"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFerriteConfig.java",
     "source": "modules/mod/integrations/27cdd1e1aa69/main/java/nvvisionboost/NVVisionBoostFerriteConfig.java",
+<<<<<<< HEAD
     "baselineSha256": "ab6d284f1b0b9494eff26af710d4868c34b762c12705e95f2d9a152dcbd3431a"
+=======
+    "baselineSha256": "27cdd1e1aa69a51cc5d8f650b346a47a32b34c4219b3950d0cc0ff749bb3b89b"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFerriteConfig.java",
     "source": "modules/mod/integrations/27cdd1e1aa69/main/java/nvvisionboost/NVVisionBoostFerriteConfig.java",
+<<<<<<< HEAD
     "baselineSha256": "ab6d284f1b0b9494eff26af710d4868c34b762c12705e95f2d9a152dcbd3431a"
+=======
+    "baselineSha256": "27cdd1e1aa69a51cc5d8f650b346a47a32b34c4219b3950d0cc0ff749bb3b89b"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -2426,14 +3237,22 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostConfigScreen.java",
     "source": "adapters/fabric-12110/mod/main/java/nvvisionboost/NVVisionBoostConfigScreen.java",
+<<<<<<< HEAD
     "baselineSha256": "7ee565e89caa4395bb5b55ccdca9598a320565f3f582b4b4799e0d564253e0e8"
+=======
+    "baselineSha256": "9d79b489ade8f6e2d3481d4065cd2109bed76cbe0eb0b013e4b82f13153b5f01"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostTextureOptimizer.java",
     "source": "modules/mod/performance/5bd31cc25eed/main/java/nvvisionboost/NVVisionBoostTextureOptimizer.java",
+<<<<<<< HEAD
     "baselineSha256": "db79eb6a4fbcfbb4521a9f17adbc257f766bc13d4e285a6f79e77ff2c3fe0e64"
+=======
+    "baselineSha256": "5bd31cc25eed5a45a731b3bbdb2000d9255f6299228fb06ab63f49848227581d"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
@@ -2468,7 +3287,11 @@
     "kind": "addon",
     "path": "main/resources/fabric.mod.json",
     "source": "adapters/fabric-12110/addon/main/resources/fabric.mod.json",
+<<<<<<< HEAD
     "baselineSha256": "5082803d35c48da16f06266d68f03c3ac504ec5293d3dcb9c0092a2b737fdb57"
+=======
+    "baselineSha256": "26ebf1ae94f5e1fb610702c0907c6081ca18d884b0b7025c8b0518ddc1ac2591"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
@@ -2489,14 +3312,22 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionDynamicController.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionDynamicController.java",
+<<<<<<< HEAD
     "baselineSha256": "5684bcab95e3f120323a2fd5c3d65005f5db8cbd8c013fbcfd555b1dfacee08d"
+=======
+    "baselineSha256": "abc53baec60296632c9f10ef265735d8e8560a239f3d0cc3aa3282de09845d72"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "addon",
     "path": "main/resources/META-INF/neoforge.mods.toml",
     "source": "adapters/neoforge-12110/addon/main/resources/META-INF/neoforge.mods.toml",
+<<<<<<< HEAD
     "baselineSha256": "512e411c6b68589bd98a82358ab5cf1995e9cc93448c16ec71aa2b9f27fe1bd8"
+=======
+    "baselineSha256": "95721de28e6770e7cc4a475c39314d19785f2080f15717d12259544de9be67de"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
@@ -2510,7 +3341,11 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostPerformance.java",
     "source": "modules/mod/performance/c9979b6fdbd1/main/java/nvvisionboost/NVVisionBoostPerformance.java",
+<<<<<<< HEAD
     "baselineSha256": "edad18bde2efb60967619ac2028ba520e1ed4369bd0d090a857e312a2d798d2c"
+=======
+    "baselineSha256": "c9979b6fdbd142e00023862602a3305a59af213adcc05daff1d4fc664e4f5b61"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -2524,70 +3359,110 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostShaderEngine.java",
     "source": "modules/mod/integrations/42fc1bc9f4f5/main/java/nvvisionboost/NVVisionBoostShaderEngine.java",
+<<<<<<< HEAD
     "baselineSha256": "48bca4a7ac567ee04f4af9c4867224ed8120176e702e9ac18381c207fe6cc929"
+=======
+    "baselineSha256": "42fc1bc9f4f56c8946040367fca09a31fbdc509f98c54ef7357631b8319b8124"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostShaderEngine.java",
     "source": "modules/mod/integrations/42fc1bc9f4f5/main/java/nvvisionboost/NVVisionBoostShaderEngine.java",
+<<<<<<< HEAD
     "baselineSha256": "48bca4a7ac567ee04f4af9c4867224ed8120176e702e9ac18381c207fe6cc929"
+=======
+    "baselineSha256": "42fc1bc9f4f56c8946040367fca09a31fbdc509f98c54ef7357631b8319b8124"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostShaderEngine.java",
     "source": "modules/mod/integrations/42fc1bc9f4f5/main/java/nvvisionboost/NVVisionBoostShaderEngine.java",
+<<<<<<< HEAD
     "baselineSha256": "48bca4a7ac567ee04f4af9c4867224ed8120176e702e9ac18381c207fe6cc929"
+=======
+    "baselineSha256": "42fc1bc9f4f56c8946040367fca09a31fbdc509f98c54ef7357631b8319b8124"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostShaderEngine.java",
     "source": "modules/mod/integrations/42fc1bc9f4f5/main/java/nvvisionboost/NVVisionBoostShaderEngine.java",
+<<<<<<< HEAD
     "baselineSha256": "48bca4a7ac567ee04f4af9c4867224ed8120176e702e9ac18381c207fe6cc929"
+=======
+    "baselineSha256": "42fc1bc9f4f56c8946040367fca09a31fbdc509f98c54ef7357631b8319b8124"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostConfigScreen.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostConfigScreen.java",
+<<<<<<< HEAD
     "baselineSha256": "b0fcc6513edcb9e0ab541199248acc0f617ad54040c1bfda79b2200040bdb6f6"
+=======
+    "baselineSha256": "03ddce9d0da61b6674a83a926530cdeecffb12b6d3d19b50a49d1971df1b55b2"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostResolutionPolicy.java",
     "source": "modules/mod/services/40ecfc6e085b/main/java/nvvisionboost/NVVisionBoostResolutionPolicy.java",
+<<<<<<< HEAD
     "baselineSha256": "f3e0e1fbf64ce0c00bbd5d67888dd6a5347a9ef389d283e9864f49776f9c1a4f"
+=======
+    "baselineSha256": "40ecfc6e085b5b8bbd3f0e449b68992900d75a4f54a1fa73f310d5ff935d513c"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostConfigScreen.java",
     "source": "adapters/neoforge-2612/mod/main/java/nvvisionboost/NVVisionBoostConfigScreen.java",
+<<<<<<< HEAD
     "baselineSha256": "afecc57d0efc41e2c3792c4574f843e6b330cc5429662c4a7dd4de13b38fa19f"
+=======
+    "baselineSha256": "b7e15a721ba1f82f250c75da5dc3de09eb378617df8b52accbc75950851d3aea"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostAssetAnalyzer.java",
     "source": "modules/mod/services/d6ea68e88ad7/main/java/nvvisionboost/NVVisionBoostAssetAnalyzer.java",
+<<<<<<< HEAD
     "baselineSha256": "39ba4ff108d99df0053d9b3cc225ae006202aef2fd011482bcf776f067fb2794"
+=======
+    "baselineSha256": "d6ea68e88ad7ab3352c3f38ba2d53c07a68b0597d4c334eb1269758f9563ff41"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFrameTiming.java",
     "source": "modules/mod/rendering/a050a520c7e8/main/java/nvvisionboost/NVVisionBoostFrameTiming.java",
+<<<<<<< HEAD
     "baselineSha256": "3474f6a483aa48b5258f252fa52827bcb207dbe3e2a6573505248a2c83436486"
+=======
+    "baselineSha256": "a050a520c7e8eb75812f04e2543d1ac0a06d730af2a3099cfab2cbb897975714"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFrameTiming.java",
     "source": "modules/mod/rendering/a050a520c7e8/main/java/nvvisionboost/NVVisionBoostFrameTiming.java",
+<<<<<<< HEAD
     "baselineSha256": "3474f6a483aa48b5258f252fa52827bcb207dbe3e2a6573505248a2c83436486"
+=======
+    "baselineSha256": "a050a520c7e8eb75812f04e2543d1ac0a06d730af2a3099cfab2cbb897975714"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
@@ -2608,35 +3483,55 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostShaderQuality.java",
     "source": "modules/mod/integrations/633ea0eedd8e/main/java/nvvisionboost/NVVisionBoostShaderQuality.java",
+<<<<<<< HEAD
     "baselineSha256": "4c04faa582d361b1ef462b1120dbeede5abd980578e2be6cdaec818310bc715e"
+=======
+    "baselineSha256": "633ea0eedd8e9f9afaf32296b878e789588441f252850577286895f0e0b3ae9b"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostPerformance.java",
     "source": "modules/mod/performance/c9979b6fdbd1/main/java/nvvisionboost/NVVisionBoostPerformance.java",
+<<<<<<< HEAD
     "baselineSha256": "edad18bde2efb60967619ac2028ba520e1ed4369bd0d090a857e312a2d798d2c"
+=======
+    "baselineSha256": "c9979b6fdbd142e00023862602a3305a59af213adcc05daff1d4fc664e4f5b61"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostPerformance.java",
     "source": "modules/mod/performance/c9979b6fdbd1/main/java/nvvisionboost/NVVisionBoostPerformance.java",
+<<<<<<< HEAD
     "baselineSha256": "edad18bde2efb60967619ac2028ba520e1ed4369bd0d090a857e312a2d798d2c"
+=======
+    "baselineSha256": "c9979b6fdbd142e00023862602a3305a59af213adcc05daff1d4fc664e4f5b61"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostPerformance.java",
     "source": "modules/mod/performance/c9979b6fdbd1/main/java/nvvisionboost/NVVisionBoostPerformance.java",
+<<<<<<< HEAD
     "baselineSha256": "edad18bde2efb60967619ac2028ba520e1ed4369bd0d090a857e312a2d798d2c"
+=======
+    "baselineSha256": "c9979b6fdbd142e00023862602a3305a59af213adcc05daff1d4fc664e4f5b61"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostPerformance.java",
     "source": "modules/mod/performance/c9979b6fdbd1/main/java/nvvisionboost/NVVisionBoostPerformance.java",
+<<<<<<< HEAD
     "baselineSha256": "edad18bde2efb60967619ac2028ba520e1ed4369bd0d090a857e312a2d798d2c"
+=======
+    "baselineSha256": "c9979b6fdbd142e00023862602a3305a59af213adcc05daff1d4fc664e4f5b61"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -2678,14 +3573,22 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.java",
     "source": "modules/mod/interface/c65ef44b1af0/main/java/nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.java",
+<<<<<<< HEAD
     "baselineSha256": "e3d90e1e80039dca75d19d9db809107c85bf9f2bd7dad0a67001dcf219f0d0d2"
+=======
+    "baselineSha256": "c65ef44b1af034432094eb5dba22ca4d3a44e54e211cdc09d7007d845f654871"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.java",
     "source": "modules/mod/interface/c65ef44b1af0/main/java/nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.java",
+<<<<<<< HEAD
     "baselineSha256": "e3d90e1e80039dca75d19d9db809107c85bf9f2bd7dad0a67001dcf219f0d0d2"
+=======
+    "baselineSha256": "c65ef44b1af034432094eb5dba22ca4d3a44e54e211cdc09d7007d845f654871"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
@@ -2699,35 +3602,55 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFrameStatistics.java",
     "source": "modules/mod/services/d3e181851b4f/main/java/nvvisionboost/NVVisionBoostFrameStatistics.java",
+<<<<<<< HEAD
     "baselineSha256": "49a77e5ec526783ca213a3c17d997993d8eb3c37cf907eabf353f6f856de65eb"
+=======
+    "baselineSha256": "d3e181851b4f816cba42cab325a1808b976b5c3e963f7379d9424f824fdcc398"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFrameStatistics.java",
     "source": "modules/mod/services/d3e181851b4f/main/java/nvvisionboost/NVVisionBoostFrameStatistics.java",
+<<<<<<< HEAD
     "baselineSha256": "49a77e5ec526783ca213a3c17d997993d8eb3c37cf907eabf353f6f856de65eb"
+=======
+    "baselineSha256": "d3e181851b4f816cba42cab325a1808b976b5c3e963f7379d9424f824fdcc398"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFrameStatistics.java",
     "source": "modules/mod/services/d3e181851b4f/main/java/nvvisionboost/NVVisionBoostFrameStatistics.java",
+<<<<<<< HEAD
     "baselineSha256": "49a77e5ec526783ca213a3c17d997993d8eb3c37cf907eabf353f6f856de65eb"
+=======
+    "baselineSha256": "d3e181851b4f816cba42cab325a1808b976b5c3e963f7379d9424f824fdcc398"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFrameStatistics.java",
     "source": "modules/mod/services/d3e181851b4f/main/java/nvvisionboost/NVVisionBoostFrameStatistics.java",
+<<<<<<< HEAD
     "baselineSha256": "49a77e5ec526783ca213a3c17d997993d8eb3c37cf907eabf353f6f856de65eb"
+=======
+    "baselineSha256": "d3e181851b4f816cba42cab325a1808b976b5c3e963f7379d9424f824fdcc398"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFrameStatistics.java",
     "source": "modules/mod/services/d3e181851b4f/main/java/nvvisionboost/NVVisionBoostFrameStatistics.java",
+<<<<<<< HEAD
     "baselineSha256": "49a77e5ec526783ca213a3c17d997993d8eb3c37cf907eabf353f6f856de65eb"
+=======
+    "baselineSha256": "d3e181851b4f816cba42cab325a1808b976b5c3e963f7379d9424f824fdcc398"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
@@ -2790,14 +3713,22 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostTextureScreen.java",
     "source": "modules/mod/interface/f40aa5f947ca/main/java/nvvisionboost/NVVisionBoostTextureScreen.java",
+<<<<<<< HEAD
     "baselineSha256": "64fd5415600b27d73cfc87f4358da0a7e2899c42329b09d57307a3f999eb91e5"
+=======
+    "baselineSha256": "fb06dda67f9c2dd7b81d351314362976918946b51643fc30250e39a4ef2b1395"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostTextureScreen.java",
     "source": "modules/mod/interface/f40aa5f947ca/main/java/nvvisionboost/NVVisionBoostTextureScreen.java",
+<<<<<<< HEAD
     "baselineSha256": "64fd5415600b27d73cfc87f4358da0a7e2899c42329b09d57307a3f999eb91e5"
+=======
+    "baselineSha256": "fb06dda67f9c2dd7b81d351314362976918946b51643fc30250e39a4ef2b1395"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
@@ -2811,28 +3742,44 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostGPU.java",
     "source": "modules/mod/configuration/8bbd7b8ceece/main/java/nvvisionboost/NVVisionBoostGPU.java",
+<<<<<<< HEAD
     "baselineSha256": "5bfcae048542d0b119b6c1ddbb04ce39ef9e123037957fd4190eac55ad234fc5"
+=======
+    "baselineSha256": "8bbd7b8ceece6bfa1fbf74360fc2c37dc0db110b3e2ebcac736c4082eb640f0b"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostGPU.java",
     "source": "modules/mod/configuration/8bbd7b8ceece/main/java/nvvisionboost/NVVisionBoostGPU.java",
+<<<<<<< HEAD
     "baselineSha256": "5bfcae048542d0b119b6c1ddbb04ce39ef9e123037957fd4190eac55ad234fc5"
+=======
+    "baselineSha256": "8bbd7b8ceece6bfa1fbf74360fc2c37dc0db110b3e2ebcac736c4082eb640f0b"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostGPU.java",
     "source": "adapters/neoforge-262/mod/main/java/nvvisionboost/NVVisionBoostGPU.java",
+<<<<<<< HEAD
     "baselineSha256": "9b9180f8629d0cb64fc8fc934a249389e179fb4e7fe3771dba102911da640dfb"
+=======
+    "baselineSha256": "2d80c67ac49560c1895f9c533f7f742a29d1cbd71783eccda892904db1d43c1e"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFerriteCore.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostFerriteCore.java",
+<<<<<<< HEAD
     "baselineSha256": "372d1a5db2240add5be1b308c7711dfc5955cc17e3f8c80db259de30916036d4"
+=======
+    "baselineSha256": "78edc29d5a116d978ff1b76b38322362cc364cdf5fd72983a7dd8057d59ab808"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -2895,42 +3842,66 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostHardwareBudget.java",
     "source": "modules/mod/services/f96e9a8867fe/main/java/nvvisionboost/NVVisionBoostHardwareBudget.java",
+<<<<<<< HEAD
     "baselineSha256": "9de4664f8a9217268572106ca9916660cf2827257b7be98fdd7b0c4685d84878"
+=======
+    "baselineSha256": "f96e9a8867fe580061d51a89b98267fab2ade5e3aacf0fdc524c8d07c843f643"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostHardwareBudget.java",
     "source": "modules/mod/services/f96e9a8867fe/main/java/nvvisionboost/NVVisionBoostHardwareBudget.java",
+<<<<<<< HEAD
     "baselineSha256": "9de4664f8a9217268572106ca9916660cf2827257b7be98fdd7b0c4685d84878"
+=======
+    "baselineSha256": "f96e9a8867fe580061d51a89b98267fab2ade5e3aacf0fdc524c8d07c843f643"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostHardwareBudget.java",
     "source": "modules/mod/services/f96e9a8867fe/main/java/nvvisionboost/NVVisionBoostHardwareBudget.java",
+<<<<<<< HEAD
     "baselineSha256": "9de4664f8a9217268572106ca9916660cf2827257b7be98fdd7b0c4685d84878"
+=======
+    "baselineSha256": "f96e9a8867fe580061d51a89b98267fab2ade5e3aacf0fdc524c8d07c843f643"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostHardwareBudget.java",
     "source": "modules/mod/services/f96e9a8867fe/main/java/nvvisionboost/NVVisionBoostHardwareBudget.java",
+<<<<<<< HEAD
     "baselineSha256": "9de4664f8a9217268572106ca9916660cf2827257b7be98fdd7b0c4685d84878"
+=======
+    "baselineSha256": "f96e9a8867fe580061d51a89b98267fab2ade5e3aacf0fdc524c8d07c843f643"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostTextureOptimizer.java",
     "source": "modules/mod/performance/5bd31cc25eed/main/java/nvvisionboost/NVVisionBoostTextureOptimizer.java",
+<<<<<<< HEAD
     "baselineSha256": "db79eb6a4fbcfbb4521a9f17adbc257f766bc13d4e285a6f79e77ff2c3fe0e64"
+=======
+    "baselineSha256": "5bd31cc25eed5a45a731b3bbdb2000d9255f6299228fb06ab63f49848227581d"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostTextureOptimizer.java",
     "source": "modules/mod/performance/5bd31cc25eed/main/java/nvvisionboost/NVVisionBoostTextureOptimizer.java",
+<<<<<<< HEAD
     "baselineSha256": "db79eb6a4fbcfbb4521a9f17adbc257f766bc13d4e285a6f79e77ff2c3fe0e64"
+=======
+    "baselineSha256": "5bd31cc25eed5a45a731b3bbdb2000d9255f6299228fb06ab63f49848227581d"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
@@ -2972,70 +3943,110 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostShaderEngine.java",
     "source": "modules/mod/integrations/42fc1bc9f4f5/main/java/nvvisionboost/NVVisionBoostShaderEngine.java",
+<<<<<<< HEAD
     "baselineSha256": "48bca4a7ac567ee04f4af9c4867224ed8120176e702e9ac18381c207fe6cc929"
+=======
+    "baselineSha256": "42fc1bc9f4f56c8946040367fca09a31fbdc509f98c54ef7357631b8319b8124"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFileFingerprint.java",
     "source": "modules/mod/services/c3be5f5b3d76/main/java/nvvisionboost/NVVisionBoostFileFingerprint.java",
+<<<<<<< HEAD
     "baselineSha256": "677216450a8934c05af9b9dc5a1bfaa45d201a8d668a52813594658f4856c48f"
+=======
+    "baselineSha256": "c3be5f5b3d76904003ca81a584208277acee68f5a5c10eb1a862964b4f128461"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFileFingerprint.java",
     "source": "modules/mod/services/c3be5f5b3d76/main/java/nvvisionboost/NVVisionBoostFileFingerprint.java",
+<<<<<<< HEAD
     "baselineSha256": "677216450a8934c05af9b9dc5a1bfaa45d201a8d668a52813594658f4856c48f"
+=======
+    "baselineSha256": "c3be5f5b3d76904003ca81a584208277acee68f5a5c10eb1a862964b4f128461"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFileFingerprint.java",
     "source": "modules/mod/services/c3be5f5b3d76/main/java/nvvisionboost/NVVisionBoostFileFingerprint.java",
+<<<<<<< HEAD
     "baselineSha256": "677216450a8934c05af9b9dc5a1bfaa45d201a8d668a52813594658f4856c48f"
+=======
+    "baselineSha256": "c3be5f5b3d76904003ca81a584208277acee68f5a5c10eb1a862964b4f128461"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFileFingerprint.java",
     "source": "modules/mod/services/c3be5f5b3d76/main/java/nvvisionboost/NVVisionBoostFileFingerprint.java",
+<<<<<<< HEAD
     "baselineSha256": "677216450a8934c05af9b9dc5a1bfaa45d201a8d668a52813594658f4856c48f"
+=======
+    "baselineSha256": "c3be5f5b3d76904003ca81a584208277acee68f5a5c10eb1a862964b4f128461"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFileFingerprint.java",
     "source": "modules/mod/services/c3be5f5b3d76/main/java/nvvisionboost/NVVisionBoostFileFingerprint.java",
+<<<<<<< HEAD
     "baselineSha256": "677216450a8934c05af9b9dc5a1bfaa45d201a8d668a52813594658f4856c48f"
+=======
+    "baselineSha256": "c3be5f5b3d76904003ca81a584208277acee68f5a5c10eb1a862964b4f128461"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostIrisShaderCache.java",
     "source": "modules/mod/integrations/d33931712eb1/main/java/nvvisionboost/NVVisionBoostIrisShaderCache.java",
+<<<<<<< HEAD
     "baselineSha256": "ed86cc47ac9704a33f85746c2a658782d233516ee51db80c90a8a018a77a3008"
+=======
+    "baselineSha256": "d33931712eb1e022f0d986db4ade65fc356ecf40a5797367f5070b0b97e8e7cb"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostIrisShaderCache.java",
     "source": "modules/mod/integrations/d33931712eb1/main/java/nvvisionboost/NVVisionBoostIrisShaderCache.java",
+<<<<<<< HEAD
     "baselineSha256": "ed86cc47ac9704a33f85746c2a658782d233516ee51db80c90a8a018a77a3008"
+=======
+    "baselineSha256": "d33931712eb1e022f0d986db4ade65fc356ecf40a5797367f5070b0b97e8e7cb"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostIrisShaderCache.java",
     "source": "modules/mod/integrations/d33931712eb1/main/java/nvvisionboost/NVVisionBoostIrisShaderCache.java",
+<<<<<<< HEAD
     "baselineSha256": "ed86cc47ac9704a33f85746c2a658782d233516ee51db80c90a8a018a77a3008"
+=======
+    "baselineSha256": "d33931712eb1e022f0d986db4ade65fc356ecf40a5797367f5070b0b97e8e7cb"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostIrisShaderCache.java",
     "source": "modules/mod/integrations/d33931712eb1/main/java/nvvisionboost/NVVisionBoostIrisShaderCache.java",
+<<<<<<< HEAD
     "baselineSha256": "ed86cc47ac9704a33f85746c2a658782d233516ee51db80c90a8a018a77a3008"
+=======
+    "baselineSha256": "d33931712eb1e022f0d986db4ade65fc356ecf40a5797367f5070b0b97e8e7cb"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -3049,14 +4060,22 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostMenuLayout.java",
     "source": "modules/mod/interface/3c07115c426c/main/java/nvvisionboost/NVVisionBoostMenuLayout.java",
+<<<<<<< HEAD
     "baselineSha256": "bc3e2d5c805513f857c3341d96e14e30620b19f751f8f29f61ec598c9b8a545a"
+=======
+    "baselineSha256": "3c07115c426c37d027294fc68491f563cc2079f6d5cf492388dd70acd38552f0"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostGPU.java",
     "source": "modules/mod/shared/c3286c1e18a6/main/java/nvvisionboost/NVVisionBoostGPU.java",
+<<<<<<< HEAD
     "baselineSha256": "5ce1f3c161986d91eb320816ff3ec1466ffadcf58df20157911a2213187af8cf"
+=======
+    "baselineSha256": "c3286c1e18a6621af07fb80b3b58a33040a3f04bbf1d737ebcf4446b8658f05b"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
@@ -3084,42 +4103,66 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFsr1Upscaler.java",
     "source": "modules/mod/rendering/a31c4f4f0988/main/java/nvvisionboost/NVVisionBoostFsr1Upscaler.java",
+<<<<<<< HEAD
     "baselineSha256": "22b5aed47c2b599854eadef68bf4c476d21844d4add121c2ea2062e84d7c7ed1"
+=======
+    "baselineSha256": "a31c4f4f098811ccd283afea1d93f4232a563cb485e1ec2757c43afeb8019c34"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFsr1Upscaler.java",
     "source": "modules/mod/rendering/a31c4f4f0988/main/java/nvvisionboost/NVVisionBoostFsr1Upscaler.java",
+<<<<<<< HEAD
     "baselineSha256": "22b5aed47c2b599854eadef68bf4c476d21844d4add121c2ea2062e84d7c7ed1"
+=======
+    "baselineSha256": "a31c4f4f098811ccd283afea1d93f4232a563cb485e1ec2757c43afeb8019c34"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFsr1Upscaler.java",
     "source": "modules/mod/rendering/a31c4f4f0988/main/java/nvvisionboost/NVVisionBoostFsr1Upscaler.java",
+<<<<<<< HEAD
     "baselineSha256": "22b5aed47c2b599854eadef68bf4c476d21844d4add121c2ea2062e84d7c7ed1"
+=======
+    "baselineSha256": "a31c4f4f098811ccd283afea1d93f4232a563cb485e1ec2757c43afeb8019c34"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFsr1Upscaler.java",
     "source": "modules/mod/rendering/a31c4f4f0988/main/java/nvvisionboost/NVVisionBoostFsr1Upscaler.java",
+<<<<<<< HEAD
     "baselineSha256": "22b5aed47c2b599854eadef68bf4c476d21844d4add121c2ea2062e84d7c7ed1"
+=======
+    "baselineSha256": "a31c4f4f098811ccd283afea1d93f4232a563cb485e1ec2757c43afeb8019c34"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/mixin/NVVisionBoostBlockEntityDistanceMixin.java",
     "source": "modules/mod/shared/c526284a5717/main/java/nvvisionboost/mixin/NVVisionBoostBlockEntityDistanceMixin.java",
+<<<<<<< HEAD
     "baselineSha256": "56042d52026ba235f8a7159cc9bccf810533a66292cca1b4d54e177895fb0be2"
+=======
+    "baselineSha256": "c526284a5717ff0162532557032b01c995cfc6cc666cea839ffb484902255386"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostPerformanceScreen.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostPerformanceScreen.java",
+<<<<<<< HEAD
     "baselineSha256": "dd0ba90375a45dc5316e5851ccb9e307e5c9f428d40cd821e985e3082e128228"
+=======
+    "baselineSha256": "dba7042af4435e82ee8317123ca9fb8817740492afa9aeb408b72a333a37a31b"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -3140,7 +4183,11 @@
     "kind": "mod",
     "path": "main/resources/nvvisionboost.mixins.json",
     "source": "adapters/neoforge-2612/mod/main/resources/nvvisionboost.mixins.json",
+<<<<<<< HEAD
     "baselineSha256": "16c0fed5885085bd4cb4d272fde48078e1548c4c83694c0d9d7efcda792453aa"
+=======
+    "baselineSha256": "febbcbe4dd266011ab3d2f780bbde887bc210fe4e991f76b012f0e5546db239f"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
@@ -3196,7 +4243,11 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostConfigScreen.java",
     "source": "adapters/neoforge-12110/mod/main/java/nvvisionboost/NVVisionBoostConfigScreen.java",
+<<<<<<< HEAD
     "baselineSha256": "40bafe3fbadf9f321bf741a5ea071e8269ead195408bb5742024eef4eddf8020"
+=======
+    "baselineSha256": "9be39da59b4eb99685ce1d656a316d84607f1b039fa324865699fd7c8a92f7a2"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
@@ -3224,7 +4275,11 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostUpscaleBudget.java",
     "source": "modules/mod/rendering/d32f48026afa/main/java/nvvisionboost/NVVisionBoostUpscaleBudget.java",
+<<<<<<< HEAD
     "baselineSha256": "52edfff5d9ddc635e9d435cb3ead31d0247da98985147dd8c807860512e41331"
+=======
+    "baselineSha256": "d32f48026afad1dbdf52d6cc72b200b9204b4a8812389c10513ff3ecda4e8b28"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -3266,35 +4321,55 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostMemoryMonitor.java",
     "source": "modules/mod/services/e0313fb3a43d/main/java/nvvisionboost/NVVisionBoostMemoryMonitor.java",
+<<<<<<< HEAD
     "baselineSha256": "a2d4d438483a7193246bd1278af0b6d36a2e262b4c61134c83ab4cad8851125b"
+=======
+    "baselineSha256": "e0313fb3a43d3f3bc02f2fdc43a0c526637ad0cb9ab7c077f4ba80d874d56d86"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostMemoryMonitor.java",
     "source": "modules/mod/services/e0313fb3a43d/main/java/nvvisionboost/NVVisionBoostMemoryMonitor.java",
+<<<<<<< HEAD
     "baselineSha256": "a2d4d438483a7193246bd1278af0b6d36a2e262b4c61134c83ab4cad8851125b"
+=======
+    "baselineSha256": "e0313fb3a43d3f3bc02f2fdc43a0c526637ad0cb9ab7c077f4ba80d874d56d86"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostMemoryMonitor.java",
     "source": "modules/mod/services/e0313fb3a43d/main/java/nvvisionboost/NVVisionBoostMemoryMonitor.java",
+<<<<<<< HEAD
     "baselineSha256": "a2d4d438483a7193246bd1278af0b6d36a2e262b4c61134c83ab4cad8851125b"
+=======
+    "baselineSha256": "e0313fb3a43d3f3bc02f2fdc43a0c526637ad0cb9ab7c077f4ba80d874d56d86"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostMemoryMonitor.java",
     "source": "modules/mod/services/e0313fb3a43d/main/java/nvvisionboost/NVVisionBoostMemoryMonitor.java",
+<<<<<<< HEAD
     "baselineSha256": "a2d4d438483a7193246bd1278af0b6d36a2e262b4c61134c83ab4cad8851125b"
+=======
+    "baselineSha256": "e0313fb3a43d3f3bc02f2fdc43a0c526637ad0cb9ab7c077f4ba80d874d56d86"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/mixin/NVVisionBoostGameRendererMixin.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/mixin/NVVisionBoostGameRendererMixin.java",
+<<<<<<< HEAD
     "baselineSha256": "a7ebcd72df495e386e1825fd954c9326ee44acf86b3b4fbafa93625c99d808a6"
+=======
+    "baselineSha256": "af96807eca9257df8c0bbf54f45f9f96fd1dfaf2d7040be917028248db1b077a"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -3343,21 +4418,33 @@
     "kind": "mod",
     "path": "main/resources/META-INF/mods.toml",
     "source": "adapters/forge-1201/mod/main/resources/META-INF/mods.toml",
+<<<<<<< HEAD
     "baselineSha256": "636dd276babe54351cd0b0845dce09ebc095b20dc3e024b06d984b173c3d7f40"
+=======
+    "baselineSha256": "ac593a6807731a9ee5d4ffea18a044cc2ef9238dac891d45c7fc9f4f599337bc"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostIrisShaderCache.java",
     "source": "modules/mod/integrations/d33931712eb1/main/java/nvvisionboost/NVVisionBoostIrisShaderCache.java",
+<<<<<<< HEAD
     "baselineSha256": "ed86cc47ac9704a33f85746c2a658782d233516ee51db80c90a8a018a77a3008"
+=======
+    "baselineSha256": "d33931712eb1e022f0d986db4ade65fc356ecf40a5797367f5070b0b97e8e7cb"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFerriteScreen.java",
     "source": "adapters/neoforge-2612/mod/main/java/nvvisionboost/NVVisionBoostFerriteScreen.java",
+<<<<<<< HEAD
     "baselineSha256": "23616122dfa52a43f2ea520024467132c7e1cc8c5009a73d3e7d5c4c5e9f5c74"
+=======
+    "baselineSha256": "43e03687fefb8628f59ee92e2a5d442b854247fadf893ffb92bc9e4a413e84c3"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
@@ -3378,14 +4465,22 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostOculusShaderCache.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostOculusShaderCache.java",
+<<<<<<< HEAD
     "baselineSha256": "280e4c3ca49083908f91311535ed88c164026400d581866f28c2e3ba572743f8"
+=======
+    "baselineSha256": "28c39d4366c380d907077e20b970c3acc6d64b455a0cf5a3989678cf58f1439b"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/UpscalingManager.java",
     "source": "modules/mod/rendering/ff198b08c0c0/main/java/nvvisionboost/UpscalingManager.java",
+<<<<<<< HEAD
     "baselineSha256": "0093a45faaff158bdb856363e04356df475af8be9f73f6765692c811cd823d05"
+=======
+    "baselineSha256": "ff198b08c0c0a455e506751a327c0c8cf4cc7ce1d8012876648caf51c8bd0bf6"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -3497,77 +4592,121 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFsr1Upscaler.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostFsr1Upscaler.java",
+<<<<<<< HEAD
     "baselineSha256": "85e5aebcbaaf17e627f60ace0e05ae100c40a1e1c96048e91984785797eea3f0"
+=======
+    "baselineSha256": "5bee252514906811c3bfb0a3e4dcee6006112303e2cb16f2917971b9918c3bdb"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/VisionOptimizer.java",
     "source": "modules/mod/performance/f7207da07d7e/main/java/nvvisionboost/VisionOptimizer.java",
+<<<<<<< HEAD
     "baselineSha256": "bdc6a80781b2d5a607cef70ed707a63d015762c1654fe648eb680c7e8f445a7f"
+=======
+    "baselineSha256": "f7207da07d7e33ef9233d658e624ee26d671f00816b7dc1f005c59c0752a44d4"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/VisionOptimizer.java",
     "source": "modules/mod/performance/f7207da07d7e/main/java/nvvisionboost/VisionOptimizer.java",
+<<<<<<< HEAD
     "baselineSha256": "bdc6a80781b2d5a607cef70ed707a63d015762c1654fe648eb680c7e8f445a7f"
+=======
+    "baselineSha256": "f7207da07d7e33ef9233d658e624ee26d671f00816b7dc1f005c59c0752a44d4"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostMemoryMonitor.java",
     "source": "modules/mod/services/e0313fb3a43d/main/java/nvvisionboost/NVVisionBoostMemoryMonitor.java",
+<<<<<<< HEAD
     "baselineSha256": "a2d4d438483a7193246bd1278af0b6d36a2e262b4c61134c83ab4cad8851125b"
+=======
+    "baselineSha256": "e0313fb3a43d3f3bc02f2fdc43a0c526637ad0cb9ab7c077f4ba80d874d56d86"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "addon",
     "path": "main/resources/META-INF/mods.toml",
     "source": "adapters/forge-1201/addon/main/resources/META-INF/mods.toml",
+<<<<<<< HEAD
     "baselineSha256": "ebc43929591e9321037b59262ff15b778805e19bb4408444ce5c85b19310a636"
+=======
+    "baselineSha256": "90c3b99fc9f0e277e885556921df3d324c16f5eeda562f187b5b147f6c75c4c1"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostMenuButton.java",
     "source": "modules/mod/interface/638cc0f9fe13/main/java/nvvisionboost/NVVisionBoostMenuButton.java",
+<<<<<<< HEAD
     "baselineSha256": "425b8c1fd12cebc711cb34583d74075e2e75b043a8b45b2bca95d7a5de2707e8"
+=======
+    "baselineSha256": "638cc0f9fe1310b6984a69962b1199069e01c8005b5c148559509d4d9b104889"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostMenuButton.java",
     "source": "modules/mod/interface/638cc0f9fe13/main/java/nvvisionboost/NVVisionBoostMenuButton.java",
+<<<<<<< HEAD
     "baselineSha256": "425b8c1fd12cebc711cb34583d74075e2e75b043a8b45b2bca95d7a5de2707e8"
+=======
+    "baselineSha256": "638cc0f9fe1310b6984a69962b1199069e01c8005b5c148559509d4d9b104889"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostMenuButton.java",
     "source": "modules/mod/interface/638cc0f9fe13/main/java/nvvisionboost/NVVisionBoostMenuButton.java",
+<<<<<<< HEAD
     "baselineSha256": "425b8c1fd12cebc711cb34583d74075e2e75b043a8b45b2bca95d7a5de2707e8"
+=======
+    "baselineSha256": "638cc0f9fe1310b6984a69962b1199069e01c8005b5c148559509d4d9b104889"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostMenuButton.java",
     "source": "modules/mod/interface/638cc0f9fe13/main/java/nvvisionboost/NVVisionBoostMenuButton.java",
+<<<<<<< HEAD
     "baselineSha256": "425b8c1fd12cebc711cb34583d74075e2e75b043a8b45b2bca95d7a5de2707e8"
+=======
+    "baselineSha256": "638cc0f9fe1310b6984a69962b1199069e01c8005b5c148559509d4d9b104889"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostMenuButton.java",
     "source": "modules/mod/interface/638cc0f9fe13/main/java/nvvisionboost/NVVisionBoostMenuButton.java",
+<<<<<<< HEAD
     "baselineSha256": "425b8c1fd12cebc711cb34583d74075e2e75b043a8b45b2bca95d7a5de2707e8"
+=======
+    "baselineSha256": "638cc0f9fe1310b6984a69962b1199069e01c8005b5c148559509d4d9b104889"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostGPU.java",
     "source": "modules/mod/shared/c3286c1e18a6/main/java/nvvisionboost/NVVisionBoostGPU.java",
+<<<<<<< HEAD
     "baselineSha256": "5ce1f3c161986d91eb320816ff3ec1466ffadcf58df20157911a2213187af8cf"
+=======
+    "baselineSha256": "c3286c1e18a6621af07fb80b3b58a33040a3f04bbf1d737ebcf4446b8658f05b"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -3581,49 +4720,77 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostSpatialUpscaler.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostSpatialUpscaler.java",
+<<<<<<< HEAD
     "baselineSha256": "f2b537fe8fd7ef685b58b3500b11b3b4229485249b26aec49fcfebc168db44f8"
+=======
+    "baselineSha256": "8072aaa0a48abca126086e3c1b8108ae2bfa97eaf8d9b06d03be656d20b46bb9"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostLanguage.java",
     "source": "modules/mod/interface/6d742ff587f3/main/java/nvvisionboost/NVVisionBoostLanguage.java",
+<<<<<<< HEAD
     "baselineSha256": "6bd4a1b92380e4001aba03ff4278e24a736c7f92ef85ca51a687f99610004b24"
+=======
+    "baselineSha256": "4cdbf766912f0a350e0a6dd12b3e33e851ee257a646e8e1a4bbb0ba4f78a9901"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostLanguage.java",
     "source": "modules/mod/interface/6d742ff587f3/main/java/nvvisionboost/NVVisionBoostLanguage.java",
+<<<<<<< HEAD
     "baselineSha256": "6bd4a1b92380e4001aba03ff4278e24a736c7f92ef85ca51a687f99610004b24"
+=======
+    "baselineSha256": "4cdbf766912f0a350e0a6dd12b3e33e851ee257a646e8e1a4bbb0ba4f78a9901"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostLanguage.java",
     "source": "modules/mod/interface/6d742ff587f3/main/java/nvvisionboost/NVVisionBoostLanguage.java",
+<<<<<<< HEAD
     "baselineSha256": "6bd4a1b92380e4001aba03ff4278e24a736c7f92ef85ca51a687f99610004b24"
+=======
+    "baselineSha256": "4cdbf766912f0a350e0a6dd12b3e33e851ee257a646e8e1a4bbb0ba4f78a9901"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostLanguage.java",
     "source": "modules/mod/interface/6d742ff587f3/main/java/nvvisionboost/NVVisionBoostLanguage.java",
+<<<<<<< HEAD
     "baselineSha256": "6bd4a1b92380e4001aba03ff4278e24a736c7f92ef85ca51a687f99610004b24"
+=======
+    "baselineSha256": "4cdbf766912f0a350e0a6dd12b3e33e851ee257a646e8e1a4bbb0ba4f78a9901"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostLanguage.java",
     "source": "modules/mod/interface/6d742ff587f3/main/java/nvvisionboost/NVVisionBoostLanguage.java",
+<<<<<<< HEAD
     "baselineSha256": "6bd4a1b92380e4001aba03ff4278e24a736c7f92ef85ca51a687f99610004b24"
+=======
+    "baselineSha256": "4cdbf766912f0a350e0a6dd12b3e33e851ee257a646e8e1a4bbb0ba4f78a9901"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostLanguage.java",
     "source": "modules/mod/interface/6d742ff587f3/main/java/nvvisionboost/NVVisionBoostLanguage.java",
+<<<<<<< HEAD
     "baselineSha256": "6bd4a1b92380e4001aba03ff4278e24a736c7f92ef85ca51a687f99610004b24"
+=======
+    "baselineSha256": "4cdbf766912f0a350e0a6dd12b3e33e851ee257a646e8e1a4bbb0ba4f78a9901"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
@@ -3672,91 +4839,143 @@
     "kind": "addon",
     "path": "main/java/nvvisionboost/vulkanbridge/BridgeCpuOptimizer.java",
     "source": "modules/addon/cpu/runtime/common/main/java/nvvisionboost/vulkanbridge/BridgeCpuOptimizer.java",
+<<<<<<< HEAD
     "baselineSha256": "573287f91f0d471ea0d5e8cdd77bbcd92e483355db32cd6d50c9ff132ae3de47"
+=======
+    "baselineSha256": "dc1feb9d86120a8cd4ec571500a3807372e2dc2ac79a434f165cd91466a69d6f"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "addon",
     "path": "main/java/nvvisionboost/vulkanbridge/BridgeCpuOptimizer.java",
     "source": "modules/addon/cpu/runtime/common/main/java/nvvisionboost/vulkanbridge/BridgeCpuOptimizer.java",
+<<<<<<< HEAD
     "baselineSha256": "573287f91f0d471ea0d5e8cdd77bbcd92e483355db32cd6d50c9ff132ae3de47"
+=======
+    "baselineSha256": "dc1feb9d86120a8cd4ec571500a3807372e2dc2ac79a434f165cd91466a69d6f"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "addon",
     "path": "main/java/nvvisionboost/vulkanbridge/BridgeCpuOptimizer.java",
     "source": "modules/addon/cpu/runtime/common/main/java/nvvisionboost/vulkanbridge/BridgeCpuOptimizer.java",
+<<<<<<< HEAD
     "baselineSha256": "573287f91f0d471ea0d5e8cdd77bbcd92e483355db32cd6d50c9ff132ae3de47"
+=======
+    "baselineSha256": "dc1feb9d86120a8cd4ec571500a3807372e2dc2ac79a434f165cd91466a69d6f"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "addon",
     "path": "main/java/nvvisionboost/vulkanbridge/BridgeCpuOptimizer.java",
     "source": "modules/addon/cpu/runtime/common/main/java/nvvisionboost/vulkanbridge/BridgeCpuOptimizer.java",
+<<<<<<< HEAD
     "baselineSha256": "573287f91f0d471ea0d5e8cdd77bbcd92e483355db32cd6d50c9ff132ae3de47"
+=======
+    "baselineSha256": "dc1feb9d86120a8cd4ec571500a3807372e2dc2ac79a434f165cd91466a69d6f"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "addon",
     "path": "main/java/nvvisionboost/vulkanbridge/BridgeCpuOptimizer.java",
     "source": "modules/addon/cpu/runtime/common/main/java/nvvisionboost/vulkanbridge/BridgeCpuOptimizer.java",
+<<<<<<< HEAD
     "baselineSha256": "573287f91f0d471ea0d5e8cdd77bbcd92e483355db32cd6d50c9ff132ae3de47"
+=======
+    "baselineSha256": "dc1feb9d86120a8cd4ec571500a3807372e2dc2ac79a434f165cd91466a69d6f"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.java",
     "source": "modules/mod/interface/898099464d7a/main/java/nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.java",
+<<<<<<< HEAD
     "baselineSha256": "2176d0c74c38811a0fd46d955c0b14c4e7b5d4af292d122e1af9356676588725"
+=======
+    "baselineSha256": "898099464d7a4937665ed6dfadea4e60b651f7122d135013f99786f9747e3391"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.java",
     "source": "modules/mod/interface/898099464d7a/main/java/nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.java",
+<<<<<<< HEAD
     "baselineSha256": "2176d0c74c38811a0fd46d955c0b14c4e7b5d4af292d122e1af9356676588725"
+=======
+    "baselineSha256": "898099464d7a4937665ed6dfadea4e60b651f7122d135013f99786f9747e3391"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "test/java/nvvisionboost/NVVisionBoostMenuLayoutTest.java",
     "source": "modules/mod/interface/286ded9c089b/test/java/nvvisionboost/NVVisionBoostMenuLayoutTest.java",
+<<<<<<< HEAD
     "baselineSha256": "9e957a39cd1b2d8ff1266573d4e9ede7924ef356f3d7e7f07ce59603258571a4"
+=======
+    "baselineSha256": "286ded9c089bc29969c9992095ed895e3691452fdae47b5caa44c70b8bc704e2"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "test/java/nvvisionboost/NVVisionBoostMenuLayoutTest.java",
     "source": "modules/mod/interface/286ded9c089b/test/java/nvvisionboost/NVVisionBoostMenuLayoutTest.java",
+<<<<<<< HEAD
     "baselineSha256": "9e957a39cd1b2d8ff1266573d4e9ede7924ef356f3d7e7f07ce59603258571a4"
+=======
+    "baselineSha256": "286ded9c089bc29969c9992095ed895e3691452fdae47b5caa44c70b8bc704e2"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "test/java/nvvisionboost/NVVisionBoostMenuLayoutTest.java",
     "source": "modules/mod/interface/286ded9c089b/test/java/nvvisionboost/NVVisionBoostMenuLayoutTest.java",
+<<<<<<< HEAD
     "baselineSha256": "9e957a39cd1b2d8ff1266573d4e9ede7924ef356f3d7e7f07ce59603258571a4"
+=======
+    "baselineSha256": "286ded9c089bc29969c9992095ed895e3691452fdae47b5caa44c70b8bc704e2"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "test/java/nvvisionboost/NVVisionBoostMenuLayoutTest.java",
     "source": "modules/mod/interface/286ded9c089b/test/java/nvvisionboost/NVVisionBoostMenuLayoutTest.java",
+<<<<<<< HEAD
     "baselineSha256": "9e957a39cd1b2d8ff1266573d4e9ede7924ef356f3d7e7f07ce59603258571a4"
+=======
+    "baselineSha256": "286ded9c089bc29969c9992095ed895e3691452fdae47b5caa44c70b8bc704e2"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "test/java/nvvisionboost/NVVisionBoostMenuLayoutTest.java",
     "source": "modules/mod/interface/286ded9c089b/test/java/nvvisionboost/NVVisionBoostMenuLayoutTest.java",
+<<<<<<< HEAD
     "baselineSha256": "9e957a39cd1b2d8ff1266573d4e9ede7924ef356f3d7e7f07ce59603258571a4"
+=======
+    "baselineSha256": "286ded9c089bc29969c9992095ed895e3691452fdae47b5caa44c70b8bc704e2"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostCore.java",
     "source": "adapters/neoforge-12110/mod/main/java/nvvisionboost/NVVisionBoostCore.java",
+<<<<<<< HEAD
     "baselineSha256": "d72b89777c00f0269592394f1592ac67c3f18b736625993138f8cf59c0f81343"
+=======
+    "baselineSha256": "59101cbef9278b8610e2c679cf74a4f6e0aefaabc4f0f0a8ce2c624a715d505a"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
@@ -3777,28 +4996,44 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostMemoryMonitor.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostMemoryMonitor.java",
+<<<<<<< HEAD
     "baselineSha256": "a92d4871f4ceaeb355f6af7517b43686ab8beabf702c0c9e58f6675f88d2a1b3"
+=======
+    "baselineSha256": "4e4eca931c54b802303bbacfd237ebcc36dfe5bfe0e274c907db397e9b83eb31"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostScreenEvents.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostScreenEvents.java",
+<<<<<<< HEAD
     "baselineSha256": "36e64139018a63e8bdf388e9623262892ab54cc98a4aadcf7396f09acecb9209"
+=======
+    "baselineSha256": "7416154cff641898dcb7e7ea5668ccec1c8a0d3054a394e29260f7f5fc54b523"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostNativeRenderer.java",
     "source": "adapters/neoforge-262/mod/main/java/nvvisionboost/NVVisionBoostNativeRenderer.java",
+<<<<<<< HEAD
     "baselineSha256": "cd3113f20f757335b44d80b790f4071a9f388ed311fbd53931f7103346e2a313"
+=======
+    "baselineSha256": "444f9ee5683548218d97f4741763bee4727b2d8b7055c065fe789abce692e7ea"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostNativeRenderer.java",
     "source": "adapters/fabric-262/mod/main/java/nvvisionboost/NVVisionBoostNativeRenderer.java",
+<<<<<<< HEAD
     "baselineSha256": "1a312d901f0678fdfafb4a20135032026b5172be745533076d55e3876deb942d"
+=======
+    "baselineSha256": "cd765dac1b392a199cd3af04696d2a18b1a5645dd4676b4d69da2c441c45c123"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
@@ -3826,7 +5061,11 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostOptionButton.java",
     "source": "modules/mod/services/436bd8af5d7e/main/java/nvvisionboost/NVVisionBoostOptionButton.java",
+<<<<<<< HEAD
     "baselineSha256": "c3a9d2f20f58c9ebbda21648c4fbabf50eb11bb012ef6f4791fe7b7864fff20d"
+=======
+    "baselineSha256": "e62e084663f7895f1fe1820f58b16d1ab5055dbd5491a3852df97c258840d616"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -3840,35 +5079,55 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostPerformanceScreen.java",
     "source": "modules/mod/interface/e737801cd808/main/java/nvvisionboost/NVVisionBoostPerformanceScreen.java",
+<<<<<<< HEAD
     "baselineSha256": "cee94791493da5178cbd8be9005b81170347db529a81b3bc3e8dba28359a8832"
+=======
+    "baselineSha256": "3e50d6edb28747ae4d2a13f8b7d45430d9f5f48de43feb79f6a695f0deb6f1d5"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostPerformanceScreen.java",
     "source": "modules/mod/interface/e737801cd808/main/java/nvvisionboost/NVVisionBoostPerformanceScreen.java",
+<<<<<<< HEAD
     "baselineSha256": "cee94791493da5178cbd8be9005b81170347db529a81b3bc3e8dba28359a8832"
+=======
+    "baselineSha256": "3e50d6edb28747ae4d2a13f8b7d45430d9f5f48de43feb79f6a695f0deb6f1d5"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFsr1Upscaler.java",
     "source": "modules/mod/rendering/a31c4f4f0988/main/java/nvvisionboost/NVVisionBoostFsr1Upscaler.java",
+<<<<<<< HEAD
     "baselineSha256": "22b5aed47c2b599854eadef68bf4c476d21844d4add121c2ea2062e84d7c7ed1"
+=======
+    "baselineSha256": "a31c4f4f098811ccd283afea1d93f4232a563cb485e1ec2757c43afeb8019c34"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "mod",
     "path": "test/java/nvvisionboost/NVVisionBoostRenderingPolicyTest.java",
     "source": "modules/mod/shared/61f43577008b/test/java/nvvisionboost/NVVisionBoostRenderingPolicyTest.java",
+<<<<<<< HEAD
     "baselineSha256": "ad5c83572127da597e4d663f3978448aff15fd653f3d9947855137d92af9a704"
+=======
+    "baselineSha256": "61f43577008ba3e7744cbb37f8772df8d22ab0099b154ca8522e6d184f8d0f68"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-262",
     "kind": "mod",
     "path": "main/resources/nvvisionboost.mixins.json",
     "source": "adapters/fabric-262/mod/main/resources/nvvisionboost.mixins.json",
+<<<<<<< HEAD
     "baselineSha256": "2a8e5c9b3f095c0de0a8aa252f626c7c4e24b8ec326abd63a320b63cabaed567"
+=======
+    "baselineSha256": "273f81749cd1d96b1be4827335dac7cf2eaca5b209290d5e3cb856bae1a66483"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -3917,7 +5176,11 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostOptionButton.java",
     "source": "modules/mod/shared/df112b132c53/main/java/nvvisionboost/NVVisionBoostOptionButton.java",
+<<<<<<< HEAD
     "baselineSha256": "d9e3149555b1db2817f20be74165dc1fc7fc0fdf3c1b32c9387a7c7ac93e2758"
+=======
+    "baselineSha256": "df112b132c53c0f5a3b9b4ce9555ac87eb110b667b04f22566a80527d8c8de03"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
@@ -3945,28 +5208,44 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFrameTiming.java",
     "source": "modules/mod/rendering/39f070837386/main/java/nvvisionboost/NVVisionBoostFrameTiming.java",
+<<<<<<< HEAD
     "baselineSha256": "a4eacbdd77ca6b76dc95628ddb75087bf9cf4b7f9d110bf852e5cc7f16480ca6"
+=======
+    "baselineSha256": "39f0708373863e1a78ff61c73712bc5063241aaa3143dbf7d25bfdd146fd4379"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFrameTiming.java",
     "source": "modules/mod/rendering/39f070837386/main/java/nvvisionboost/NVVisionBoostFrameTiming.java",
+<<<<<<< HEAD
     "baselineSha256": "a4eacbdd77ca6b76dc95628ddb75087bf9cf4b7f9d110bf852e5cc7f16480ca6"
+=======
+    "baselineSha256": "39f0708373863e1a78ff61c73712bc5063241aaa3143dbf7d25bfdd146fd4379"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostOptionButton.java",
     "source": "modules/mod/services/f29820f284b8/main/java/nvvisionboost/NVVisionBoostOptionButton.java",
+<<<<<<< HEAD
     "baselineSha256": "fadec69d47fb1ec493e965dc49c4423f340afa49d90d031a4585fd76b9da0068"
+=======
+    "baselineSha256": "9f60b0bdfa07ac9be0f8a04c0233166e337276d3a161de23a801aad703fec446"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostOptionButton.java",
     "source": "modules/mod/services/f29820f284b8/main/java/nvvisionboost/NVVisionBoostOptionButton.java",
+<<<<<<< HEAD
     "baselineSha256": "fadec69d47fb1ec493e965dc49c4423f340afa49d90d031a4585fd76b9da0068"
+=======
+    "baselineSha256": "9f60b0bdfa07ac9be0f8a04c0233166e337276d3a161de23a801aad703fec446"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -3980,14 +5259,22 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFrameStatistics.java",
     "source": "modules/mod/services/d3e181851b4f/main/java/nvvisionboost/NVVisionBoostFrameStatistics.java",
+<<<<<<< HEAD
     "baselineSha256": "49a77e5ec526783ca213a3c17d997993d8eb3c37cf907eabf353f6f856de65eb"
+=======
+    "baselineSha256": "d3e181851b4f816cba42cab325a1808b976b5c3e963f7379d9424f824fdcc398"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-2612",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostNativeRenderer.java",
     "source": "adapters/neoforge-2612/mod/main/java/nvvisionboost/NVVisionBoostNativeRenderer.java",
+<<<<<<< HEAD
     "baselineSha256": "a4b81ed259a6475a60e8bbd6f6e20224c741bfd207540a0a73a849d0771c89e0"
+=======
+    "baselineSha256": "0bf5f8803843343489a6ec68b31b5ae2860b84b793c0b0a1143cf4a4f16b7952"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -4036,7 +5323,11 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostCompatibility.java",
     "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostCompatibility.java",
+<<<<<<< HEAD
     "baselineSha256": "cbb85f331ad1398e891120d052d66f1aa02b9f1410f98315b31dbd5f2c506840"
+=======
+    "baselineSha256": "0d62a8904acb6aa4d4e95067932464bbf9a8e060f6f458a64f64d8f336f7a3ef"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -4092,28 +5383,44 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostDistantHorizonsCompatibility.java",
     "source": "modules/mod/integrations/f43ab4555597/main/java/nvvisionboost/NVVisionBoostDistantHorizonsCompatibility.java",
+<<<<<<< HEAD
     "baselineSha256": "b39efae69f93651f26ee041e126f628c7937fb10f9b6f431346714bcb3de6e6c"
+=======
+    "baselineSha256": "f43ab4555597fd07f808c6c99d594a3f007ba000b3727a1f0cd250b2a83d9631"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-262",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostDistantHorizonsCompatibility.java",
     "source": "modules/mod/integrations/f43ab4555597/main/java/nvvisionboost/NVVisionBoostDistantHorizonsCompatibility.java",
+<<<<<<< HEAD
     "baselineSha256": "b39efae69f93651f26ee041e126f628c7937fb10f9b6f431346714bcb3de6e6c"
+=======
+    "baselineSha256": "f43ab4555597fd07f808c6c99d594a3f007ba000b3727a1f0cd250b2a83d9631"
+>>>>>>> origin/master
   },
   {
     "target": "fabric-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostDistantHorizonsCompatibility.java",
     "source": "modules/mod/integrations/f43ab4555597/main/java/nvvisionboost/NVVisionBoostDistantHorizonsCompatibility.java",
+<<<<<<< HEAD
     "baselineSha256": "b39efae69f93651f26ee041e126f628c7937fb10f9b6f431346714bcb3de6e6c"
+=======
+    "baselineSha256": "f43ab4555597fd07f808c6c99d594a3f007ba000b3727a1f0cd250b2a83d9631"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-12110",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostDistantHorizonsCompatibility.java",
     "source": "modules/mod/integrations/f43ab4555597/main/java/nvvisionboost/NVVisionBoostDistantHorizonsCompatibility.java",
+<<<<<<< HEAD
     "baselineSha256": "b39efae69f93651f26ee041e126f628c7937fb10f9b6f431346714bcb3de6e6c"
+=======
+    "baselineSha256": "f43ab4555597fd07f808c6c99d594a3f007ba000b3727a1f0cd250b2a83d9631"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
@@ -4372,7 +5679,11 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostAssetAnalyzer.java",
     "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostAssetAnalyzer.java",
+<<<<<<< HEAD
     "baselineSha256": "c01e7771edaaf5fee21e9f1fbf4146ab5b0e69616ce920bb6aa2c0e2df792cc9"
+=======
+    "baselineSha256": "d4eb3eb596d26a2c008a991a16c34732493a5d4e324c75381ec5a508955226a1"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
@@ -4386,28 +5697,44 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostClient.java",
     "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostClient.java",
+<<<<<<< HEAD
     "baselineSha256": "312d0f7c482502f446a653b7a61ef530649cc6744dd677853f30ed244d36f91e"
+=======
+    "baselineSha256": "5619c2ad8706b52a73389124d99df1d9e95c8d8a802183779e44b18e9e5e4d39"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostClientEvents.java",
     "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostClientEvents.java",
+<<<<<<< HEAD
     "baselineSha256": "d042dd4954030ee0ce140b6f9914b9e0fbc82361d78a091252122684be27d6b6"
+=======
+    "baselineSha256": "fd53f36030c589f0f5fcac7808cca896f0db4255fa22482a8d364c2b2ba65e25"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostCompatibility.java",
     "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostCompatibility.java",
+<<<<<<< HEAD
     "baselineSha256": "57a6469376a42b28db4faa95bff0e014314c3a4c07e442ff6937e7fa8c0a7936"
+=======
+    "baselineSha256": "63cf1820cf30bf2fc16c623e7d4425beceb99243568778d09128362070c222e9"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostConfigScreen.java",
     "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostConfigScreen.java",
+<<<<<<< HEAD
     "baselineSha256": "f674820c76cb15238fef741b084dcf0ff182a4dfe5704d33e32bc7903503267c"
+=======
+    "baselineSha256": "54b94158082850337240f1a18c2cf0c3c8523a56070b2042d3a22eadf0bb46ff"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
@@ -4421,14 +5748,22 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostCore.java",
     "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostCore.java",
+<<<<<<< HEAD
     "baselineSha256": "aa8c52e9d8bbb1eea5bf9a48b1f5de9d1873b120ae93ca75cf38edae3b480988"
+=======
+    "baselineSha256": "9855d916e8f23fe0513700c38ea69719e82f4f369724d1aa235e88047c44027b"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostCreateCompatibility.java",
     "source": "modules/mod/integrations/7da95f6767ba/main/java/nvvisionboost/NVVisionBoostCreateCompatibility.java",
+<<<<<<< HEAD
     "baselineSha256": "9002465987c49556f5db1e3cd88c552b841f9791ed793100ee814441bf1a99f5"
+=======
+    "baselineSha256": "7da95f6767ba9ae15873f94c7edba5ee8aba118c1b56cadff48ecaba93cdd7a3"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
@@ -4456,42 +5791,73 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostDistantHorizonsCompatibility.java",
     "source": "modules/mod/integrations/f43ab4555597/main/java/nvvisionboost/NVVisionBoostDistantHorizonsCompatibility.java",
+<<<<<<< HEAD
     "baselineSha256": "b39efae69f93651f26ee041e126f628c7937fb10f9b6f431346714bcb3de6e6c"
+=======
+    "baselineSha256": "f43ab4555597fd07f808c6c99d594a3f007ba000b3727a1f0cd250b2a83d9631"
+  },
+  {
+    "target": "neoforge-1211",
+    "kind": "mod",
+    "path": "main/java/nvvisionboost/NVVisionBoostEntityBufferGuard.java",
+    "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostEntityBufferGuard.java",
+    "baselineSha256": "2d1cc12c44825ca9bb70f2979b0069dcd7cb5638c39a93e528ad241fe91c012a"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFerriteConfig.java",
     "source": "modules/mod/integrations/27cdd1e1aa69/main/java/nvvisionboost/NVVisionBoostFerriteConfig.java",
+<<<<<<< HEAD
     "baselineSha256": "ab6d284f1b0b9494eff26af710d4868c34b762c12705e95f2d9a152dcbd3431a"
+=======
+    "baselineSha256": "27cdd1e1aa69a51cc5d8f650b346a47a32b34c4219b3950d0cc0ff749bb3b89b"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFerriteCore.java",
     "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostFerriteCore.java",
+<<<<<<< HEAD
     "baselineSha256": "1ecca2a60c98fc9aaabb38d0a66d3401afd2a385deef9a48699cc591a0e116b6"
+=======
+    "baselineSha256": "293f66539368c9728551b9270d1a08efce9c3f5e6b2203ff596dfd8dfc976d38"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFerriteOptions.java",
     "source": "modules/mod/integrations/6f829c69dce9/main/java/nvvisionboost/NVVisionBoostFerriteOptions.java",
+<<<<<<< HEAD
     "baselineSha256": "bbfb1d7521ae754af8ef33bb3411064f29e877003de652a5f0171436d6fa803c"
+=======
+    "baselineSha256": "6f829c69dce9352ab7788ad223e1916f8fd0073a75a96040bad01bf62742b8cd"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFerriteScreen.java",
     "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostFerriteScreen.java",
+<<<<<<< HEAD
     "baselineSha256": "2c31dfe99c0d3ea9838e1dc55011477479191cf4cfb316513c6a62101981c871"
+=======
+    "baselineSha256": "d115e2e22934e908b8a93c7b6a08b167e3c9794c3ef03117956a077b027c62ce"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFileFingerprint.java",
     "source": "modules/mod/services/c3be5f5b3d76/main/java/nvvisionboost/NVVisionBoostFileFingerprint.java",
+<<<<<<< HEAD
     "baselineSha256": "677216450a8934c05af9b9dc5a1bfaa45d201a8d668a52813594658f4856c48f"
+=======
+    "baselineSha256": "c3be5f5b3d76904003ca81a584208277acee68f5a5c10eb1a862964b4f128461"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
@@ -4505,28 +5871,44 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFrameStatistics.java",
     "source": "modules/mod/services/d3e181851b4f/main/java/nvvisionboost/NVVisionBoostFrameStatistics.java",
+<<<<<<< HEAD
     "baselineSha256": "49a77e5ec526783ca213a3c17d997993d8eb3c37cf907eabf353f6f856de65eb"
+=======
+    "baselineSha256": "d3e181851b4f816cba42cab325a1808b976b5c3e963f7379d9424f824fdcc398"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFrameTiming.java",
     "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostFrameTiming.java",
+<<<<<<< HEAD
     "baselineSha256": "b7da184f27eed317227a10e2b844e6d5d8b5b6f7e8292eb815ddcc0f950c2ce6"
+=======
+    "baselineSha256": "920a7251fb192acd0bd3855398b74aacdce47fa7be95cf73140b261dfe3d3ba7"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostFsr1Upscaler.java",
     "source": "modules/mod/rendering/a31c4f4f0988/main/java/nvvisionboost/NVVisionBoostFsr1Upscaler.java",
+<<<<<<< HEAD
     "baselineSha256": "22b5aed47c2b599854eadef68bf4c476d21844d4add121c2ea2062e84d7c7ed1"
+=======
+    "baselineSha256": "a31c4f4f098811ccd283afea1d93f4232a563cb485e1ec2757c43afeb8019c34"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostGPU.java",
     "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostGPU.java",
+<<<<<<< HEAD
     "baselineSha256": "d62becd20a16e37deb84784618f94a6a65d48060b5cf1da94bbdc48d129b2fda"
+=======
+    "baselineSha256": "c7dfcd51aacd9d01a8bdf9f1d04d4da07de53f9cc8c534124d2d2b8b0941c9fb"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
@@ -4547,21 +5929,33 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostGpuTimer.java",
     "source": "modules/mod/shared/0f2deb61e8e6/main/java/nvvisionboost/NVVisionBoostGpuTimer.java",
+<<<<<<< HEAD
     "baselineSha256": "b91051b83d680fe21a58dfd30e6c21d320fd7163a3daeb028ee7197d5eb09c77"
+=======
+    "baselineSha256": "0f2deb61e8e60b6d6ffee9c3aba0e6f0f98d76615ec29118243a5644a6554384"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostHardwareBudget.java",
     "source": "modules/mod/services/f96e9a8867fe/main/java/nvvisionboost/NVVisionBoostHardwareBudget.java",
+<<<<<<< HEAD
     "baselineSha256": "9de4664f8a9217268572106ca9916660cf2827257b7be98fdd7b0c4685d84878"
+=======
+    "baselineSha256": "f96e9a8867fe580061d51a89b98267fab2ade5e3aacf0fdc524c8d07c843f643"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostHelp.java",
     "source": "modules/mod/interface/f0c13a90ead4/main/java/nvvisionboost/NVVisionBoostHelp.java",
+<<<<<<< HEAD
     "baselineSha256": "24c4b8e7aa335ac5317e319f6ebe58cdd389f4bf02c3d8062757e1887c5a33b6"
+=======
+    "baselineSha256": "c39c08214f64faedf700a8f6d7e691982e0fa37a40775e822506110dd9384f27"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
@@ -4575,42 +5969,66 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostLanguage.java",
     "source": "modules/mod/interface/6d742ff587f3/main/java/nvvisionboost/NVVisionBoostLanguage.java",
+<<<<<<< HEAD
     "baselineSha256": "6bd4a1b92380e4001aba03ff4278e24a736c7f92ef85ca51a687f99610004b24"
+=======
+    "baselineSha256": "4cdbf766912f0a350e0a6dd12b3e33e851ee257a646e8e1a4bbb0ba4f78a9901"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostLogger.java",
     "source": "modules/mod/services/af336f65a301/main/java/nvvisionboost/NVVisionBoostLogger.java",
+<<<<<<< HEAD
     "baselineSha256": "c6fd3db07060ab2aca91b37f181d2eae54f6b115e5e2986f10685c3c0010fe6d"
+=======
+    "baselineSha256": "af336f65a301c44ca1d5bf810220012c04e56b4d31458bf1f092f3e411c3e92d"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostMemoryMonitor.java",
     "source": "modules/mod/services/e0313fb3a43d/main/java/nvvisionboost/NVVisionBoostMemoryMonitor.java",
+<<<<<<< HEAD
     "baselineSha256": "a2d4d438483a7193246bd1278af0b6d36a2e262b4c61134c83ab4cad8851125b"
+=======
+    "baselineSha256": "e0313fb3a43d3f3bc02f2fdc43a0c526637ad0cb9ab7c077f4ba80d874d56d86"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostMenuButton.java",
     "source": "modules/mod/interface/638cc0f9fe13/main/java/nvvisionboost/NVVisionBoostMenuButton.java",
+<<<<<<< HEAD
     "baselineSha256": "425b8c1fd12cebc711cb34583d74075e2e75b043a8b45b2bca95d7a5de2707e8"
+=======
+    "baselineSha256": "638cc0f9fe1310b6984a69962b1199069e01c8005b5c148559509d4d9b104889"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostMenuLayout.java",
     "source": "modules/mod/interface/3c07115c426c/main/java/nvvisionboost/NVVisionBoostMenuLayout.java",
+<<<<<<< HEAD
     "baselineSha256": "bc3e2d5c805513f857c3341d96e14e30620b19f751f8f29f61ec598c9b8a545a"
+=======
+    "baselineSha256": "3c07115c426c37d027294fc68491f563cc2079f6d5cf492388dd70acd38552f0"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostNativeRenderer.java",
     "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostNativeRenderer.java",
+<<<<<<< HEAD
     "baselineSha256": "98cf478a337bc113967cffa6d489f84b60a35bcd021f0ee7de45bae1611f2f74"
+=======
+    "baselineSha256": "a285412ef1eb6ec5a718ef19e6fc872bb9e1b95c21493d891fdd23d65b2248a4"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
@@ -4638,28 +6056,44 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostOculusShaderCache.java",
     "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostOculusShaderCache.java",
+<<<<<<< HEAD
     "baselineSha256": "86b202c5023f91ab515e2c71e7368916b482061f53776d1b04f8134a4a23aa88"
+=======
+    "baselineSha256": "59316a9213e3aef7de7258c678138e50ab7376097a5d134fc373b8453a47d83e"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostOptionButton.java",
     "source": "modules/mod/shared/df112b132c53/main/java/nvvisionboost/NVVisionBoostOptionButton.java",
+<<<<<<< HEAD
     "baselineSha256": "d9e3149555b1db2817f20be74165dc1fc7fc0fdf3c1b32c9387a7c7ac93e2758"
+=======
+    "baselineSha256": "df112b132c53c0f5a3b9b4ce9555ac87eb110b667b04f22566a80527d8c8de03"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostPerformance.java",
     "source": "modules/mod/performance/c9979b6fdbd1/main/java/nvvisionboost/NVVisionBoostPerformance.java",
+<<<<<<< HEAD
     "baselineSha256": "edad18bde2efb60967619ac2028ba520e1ed4369bd0d090a857e312a2d798d2c"
+=======
+    "baselineSha256": "c9979b6fdbd142e00023862602a3305a59af213adcc05daff1d4fc664e4f5b61"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostPerformanceScreen.java",
     "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostPerformanceScreen.java",
+<<<<<<< HEAD
     "baselineSha256": "cf37873ff32b8bae675313b069e452f6ad7ed69486945a640658f59b8e17ce0c"
+=======
+    "baselineSha256": "e88debe4ad69524ed4b6a918a8fbf4b9db9968b1ff9c93d3449b49aa35b8b967"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
@@ -4673,21 +6107,33 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostRenderController.java",
     "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostRenderController.java",
+<<<<<<< HEAD
     "baselineSha256": "f08c7707f7d3c2d27e984ef4a88acc947ccf900cecc159f74ccf14ffbb50b0f2"
+=======
+    "baselineSha256": "28654386189e6fef17135d32679d7d4c63e3a5df719cdf73f10f90bf3f073dd5"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostResolutionPolicy.java",
     "source": "modules/mod/services/40ecfc6e085b/main/java/nvvisionboost/NVVisionBoostResolutionPolicy.java",
+<<<<<<< HEAD
     "baselineSha256": "f3e0e1fbf64ce0c00bbd5d67888dd6a5347a9ef389d283e9864f49776f9c1a4f"
+=======
+    "baselineSha256": "40ecfc6e085b5b8bbd3f0e449b68992900d75a4f54a1fa73f310d5ff935d513c"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostScreenEvents.java",
     "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostScreenEvents.java",
+<<<<<<< HEAD
     "baselineSha256": "400c79535285bdcfcf8cb76f191447aa70e279cc9e21cb882ddf9adb750a4ef0"
+=======
+    "baselineSha256": "3b748bbe8de768ab49dfba1ff3796852ada0f8a2d025813b5a220bfdbb158f78"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
@@ -4701,21 +6147,33 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostShaderEngine.java",
     "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostShaderEngine.java",
+<<<<<<< HEAD
     "baselineSha256": "575580471531c55547301a16eab9749ccc3020f81f7bc2e1032f96ecb4af53a8"
+=======
+    "baselineSha256": "913227653b804501bf3897253b6268eab3de2276e920fd52046bfa290ed83011"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostShaderLifecycle.java",
     "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostShaderLifecycle.java",
+<<<<<<< HEAD
     "baselineSha256": "894bdfcbbfcb9988a227ed979fc6d9bdfa16c7d1b2b6aa78c6d00960506d3f1a"
+=======
+    "baselineSha256": "57b7887f9a79bda3cf312c416fd53f3329e34b782bd2d43b2e6032c06c3af812"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostShaderQuality.java",
     "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostShaderQuality.java",
+<<<<<<< HEAD
     "baselineSha256": "f4b4c526c491d51274633ba432b9027536586a9337cd5900994415604e243245"
+=======
+    "baselineSha256": "f5493bbaaa9bab81c15309c022d3d79dc6404445ee528e3228e6243716411af6"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
@@ -4736,49 +6194,77 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostSpatialUpscaler.java",
     "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostSpatialUpscaler.java",
+<<<<<<< HEAD
     "baselineSha256": "0ed96d52048e1d7dedb1c0d500ddabbc578a597b55c8618f2074e7d69bce9872"
+=======
+    "baselineSha256": "8cd8b6af1e1ba0bf2507c09b3d203ea3270a9eafaf88559542ecaafda4551591"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostTargetBindings.java",
     "source": "modules/mod/shared/892115233543/main/java/nvvisionboost/NVVisionBoostTargetBindings.java",
+<<<<<<< HEAD
     "baselineSha256": "0ecb7fa9cb686f886c351efe85c4b639cd5cd14e61e60e61b5fe4ee52f064357"
+=======
+    "baselineSha256": "892115233543e3e771f65eaaf807ccdb830cd70ac729f1de5d31a2d105e29db2"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostTextureOptimizer.java",
     "source": "modules/mod/performance/5bd31cc25eed/main/java/nvvisionboost/NVVisionBoostTextureOptimizer.java",
+<<<<<<< HEAD
     "baselineSha256": "db79eb6a4fbcfbb4521a9f17adbc257f766bc13d4e285a6f79e77ff2c3fe0e64"
+=======
+    "baselineSha256": "5bd31cc25eed5a45a731b3bbdb2000d9255f6299228fb06ab63f49848227581d"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostTextureScreen.java",
     "source": "modules/mod/interface/783fda83db15/main/java/nvvisionboost/NVVisionBoostTextureScreen.java",
+<<<<<<< HEAD
     "baselineSha256": "547c47b4d46cc97c028dc723417b7f53eb5e4c9acc1ae84871f039359d811cb5"
+=======
+    "baselineSha256": "74888be28474346025a947e3a87af3de3f01c8f097814ad643747c0890364217"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostUi.java",
     "source": "modules/mod/interface/dee3a934c82f/main/java/nvvisionboost/NVVisionBoostUi.java",
+<<<<<<< HEAD
     "baselineSha256": "f114f522737ca23351e1b6e8f32ca0769da7ab10d3a71378438d18c606e9b879"
+=======
+    "baselineSha256": "83325f1509dba2d595d8be13878c2c132296eb5b94f8ce6acd254e3da91b67ea"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostUpscaleBudget.java",
     "source": "modules/mod/rendering/d32f48026afa/main/java/nvvisionboost/NVVisionBoostUpscaleBudget.java",
+<<<<<<< HEAD
     "baselineSha256": "52edfff5d9ddc635e9d435cb3ead31d0247da98985147dd8c807860512e41331"
+=======
+    "baselineSha256": "d32f48026afad1dbdf52d6cc72b200b9204b4a8812389c10513ff3ecda4e8b28"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostVisualPolicy.java",
     "source": "modules/mod/services/9f4f7403f842/main/java/nvvisionboost/NVVisionBoostVisualPolicy.java",
+<<<<<<< HEAD
     "baselineSha256": "269d9a24b09ebc3ee2c0be15b96738f36d1b9e3e028805dfabbbafdb3245ab90"
+=======
+    "baselineSha256": "9f4f7403f8422f5b1a3e8f0bcc3f32a2e986036d6d1bbcf1db3652d8ac339739"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
@@ -4799,28 +6285,44 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionDynamicController.java",
     "source": "modules/mod/rendering/69c601071211/main/java/nvvisionboost/NVVisionDynamicController.java",
+<<<<<<< HEAD
     "baselineSha256": "f2de99ad61ebf30048b054e219ca15dcab62bb5823bd114a8e09110e853fb4de"
+=======
+    "baselineSha256": "69c6010712118f639b5e5220b6b5c7960d7d5fa4fab1248351a17dcc58fc209b"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionVramManager.java",
     "source": "modules/mod/services/67a0d93cc41c/main/java/nvvisionboost/NVVisionVramManager.java",
+<<<<<<< HEAD
     "baselineSha256": "849a4ee9db1bd735759c3fb6e65196d25de427e69a16e2f5470724adc8b32357"
+=======
+    "baselineSha256": "67a0d93cc41c2191720410fb5e187b1c0f6336695a449cad8a997bed08a76e93"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/UpscalingManager.java",
     "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/UpscalingManager.java",
+<<<<<<< HEAD
     "baselineSha256": "3edad288ed5089b54eb5dc0467ab06bbcd7d4856fbe7d56b85e4eb2a7c7a11af"
+=======
+    "baselineSha256": "2ad7ccda8f28f9cf664910481624e2cc32d591ef5689cb3fc570af89608adcfc"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/VisionOptimizer.java",
     "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/VisionOptimizer.java",
+<<<<<<< HEAD
     "baselineSha256": "61c1504ad5bdc376230e8b7d708fd4d9ccdd5b5b61e1f39ce5b2050fa86396b2"
+=======
+    "baselineSha256": "955c36deccc1821cf703147f56b87a37b72fcc694abf9e103274552d75aba05c"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
@@ -4834,35 +6336,69 @@
     "kind": "mod",
     "path": "main/java/nvvisionboost/mixin/NVVisionBoostBlockEntityDistanceMixin.java",
     "source": "modules/mod/shared/c526284a5717/main/java/nvvisionboost/mixin/NVVisionBoostBlockEntityDistanceMixin.java",
+<<<<<<< HEAD
     "baselineSha256": "56042d52026ba235f8a7159cc9bccf810533a66292cca1b4d54e177895fb0be2"
+=======
+    "baselineSha256": "c526284a5717ff0162532557032b01c995cfc6cc666cea839ffb484902255386"
+  },
+  {
+    "target": "neoforge-1211",
+    "kind": "mod",
+    "path": "main/java/nvvisionboost/mixin/NVVisionBoostBufferBuilderAccessor.java",
+    "source": "modules/mod/shared/c4fad481dc1a/main/java/nvvisionboost/mixin/NVVisionBoostBufferBuilderAccessor.java",
+    "baselineSha256": "c4fad481dc1ab010b9138a9ccae20e8e0cbad10deb3ab11653cacb485ba92f9d"
+  },
+  {
+    "target": "neoforge-1211",
+    "kind": "mod",
+    "path": "main/java/nvvisionboost/mixin/NVVisionBoostBufferSourceAccessor.java",
+    "source": "modules/mod/shared/b4a4f2982ad5/main/java/nvvisionboost/mixin/NVVisionBoostBufferSourceAccessor.java",
+    "baselineSha256": "b4a4f2982ad5c8116e8f0e6a6d8abf9aabf6d975dbbb49cf8e50a4617af37c5c"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/mixin/NVVisionBoostGameRendererMixin.java",
     "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/mixin/NVVisionBoostGameRendererMixin.java",
+<<<<<<< HEAD
     "baselineSha256": "edeb1986c20e2379562772ccc7e89284be3f6e2dad2b88707b99c12a645392a3"
+=======
+    "baselineSha256": "46ca0a86e560ff83a330f322409fcb3b03c7d558cff89af74e28480e7cb14348"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/mixin/NVVisionBoostMinecraftAccessor.java",
     "source": "modules/mod/shared/b32f89b492de/main/java/nvvisionboost/mixin/NVVisionBoostMinecraftAccessor.java",
+<<<<<<< HEAD
     "baselineSha256": "676875cad3f15751372c4a3ef09d65dd8b68aabbfcd89c405abd57f826d0910c"
+=======
+    "baselineSha256": "b32f89b492dee2f36a6851b0cd5a47d3e9b22361df1039f0f4a153c2c761179f"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/mixin/NVVisionBoostWeatherParticlesMixin.java",
     "source": "modules/mod/shared/98722f7acf4c/main/java/nvvisionboost/mixin/NVVisionBoostWeatherParticlesMixin.java",
+<<<<<<< HEAD
     "baselineSha256": "3ff933f43fa2ed46f780f7e9f6628cc6625b576cb9159e4c07c912b69743c0f6"
+=======
+    "baselineSha256": "98722f7acf4cd86296cf815a66a4b4b3c4e72824c51fec7d7ad32f9fd3771985"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/mixin/NVVisionBoostWindowMixin.java",
     "source": "modules/mod/rendering/fc70a72bc018/main/java/nvvisionboost/mixin/NVVisionBoostWindowMixin.java",
+<<<<<<< HEAD
     "baselineSha256": "9b6fcdcae6d596daedabc17f5c1afcc0297f047110f4b989f9feba69fcd98b6f"
+=======
+    "baselineSha256": "fc70a72bc01835e3da4b357c0a96b90639a7802128aa39b059dae6d0e33e51b0"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
@@ -4890,7 +6426,11 @@
     "kind": "mod",
     "path": "main/resources/nvvisionboost.mixins.json",
     "source": "adapters/neoforge-1211/mod/main/resources/nvvisionboost.mixins.json",
+<<<<<<< HEAD
     "baselineSha256": "79ad6f6f952964d3edbb2dadfb56719d8a5aeb2cf1467396304348b9942d3824"
+=======
+    "baselineSha256": "3af66c0a701e60bdcd57c108ad9f1a2eed68ccb5d8fa8c15f6e5526c49cf5a05"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
@@ -4918,7 +6458,11 @@
     "kind": "mod",
     "path": "main/resources/assets/nvvisionboost/shaders/upscale.frag",
     "source": "modules/mod/integrations/3dc848dbbbb2/main/resources/assets/nvvisionboost/shaders/upscale.frag",
+<<<<<<< HEAD
     "baselineSha256": "8c3957ae5fda32c1869aef9165d7b6932372cd01b450528efea26bbf00da38ef"
+=======
+    "baselineSha256": "3dc848dbbbb2421ee49644958014006bcd30baf12c0f1025e6e03c704844f50f"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
@@ -4946,14 +6490,22 @@
     "kind": "mod",
     "path": "main/resources/assets/nvvisionboost/ui/en_us.json",
     "source": "adapters/neoforge-1211/mod/main/resources/assets/nvvisionboost/ui/en_us.json",
+<<<<<<< HEAD
     "baselineSha256": "3f84313634a8b6313b42f3a23076659952341c2294558bb04802da216b6a3e73"
+=======
+    "baselineSha256": "cbcbb7f2948f7f811d268742137d01bbc804bbd0468e656d8f912088fdba0eab"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/resources/META-INF/neoforge.mods.toml",
     "source": "adapters/neoforge-1211/mod/main/resources/META-INF/neoforge.mods.toml",
+<<<<<<< HEAD
     "baselineSha256": "173bf9cb0b2b5d414e17ee2b35b2c3e21b4b92f8f6ac36fbb4e9392234867ba0"
+=======
+    "baselineSha256": "70c5f8f8a5e95b51f0cd71c9693f29a7f7311e83bd3c833cea751f0a3ed05a82"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
@@ -4988,28 +6540,44 @@
     "kind": "mod",
     "path": "test/java/nvvisionboost/NVVisionBoostMenuLayoutTest.java",
     "source": "modules/mod/interface/286ded9c089b/test/java/nvvisionboost/NVVisionBoostMenuLayoutTest.java",
+<<<<<<< HEAD
     "baselineSha256": "9e957a39cd1b2d8ff1266573d4e9ede7924ef356f3d7e7f07ce59603258571a4"
+=======
+    "baselineSha256": "286ded9c089bc29969c9992095ed895e3691452fdae47b5caa44c70b8bc704e2"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "test/java/nvvisionboost/NVVisionBoostOpenGLSmokeTest.java",
     "source": "adapters/neoforge-1211/mod/test/java/nvvisionboost/NVVisionBoostOpenGLSmokeTest.java",
+<<<<<<< HEAD
     "baselineSha256": "c3eab58afd151a682dfafd4f9dbe1430239edbb4bd226bbbb3741fb0e833ef82"
+=======
+    "baselineSha256": "482048490668773581e4cd505d465250947fa03101cf7a72f08b4ab7c7077e87"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "test/java/nvvisionboost/NVVisionBoostRegressionTest.java",
     "source": "adapters/neoforge-1211/mod/test/java/nvvisionboost/NVVisionBoostRegressionTest.java",
+<<<<<<< HEAD
     "baselineSha256": "37d82d3b2c9bcf0f26393491e1effdca9663ec8d5dadfc0633141b5a16950b4f"
+=======
+    "baselineSha256": "db57709bb21981b5abd4ced1a54dc0d2c3190866ad60b42705c2c0cf6c5fde47"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "test/java/nvvisionboost/NVVisionBoostRenderingPolicyTest.java",
     "source": "modules/mod/shared/61f43577008b/test/java/nvvisionboost/NVVisionBoostRenderingPolicyTest.java",
+<<<<<<< HEAD
     "baselineSha256": "ad5c83572127da597e4d663f3978448aff15fd653f3d9947855137d92af9a704"
+=======
+    "baselineSha256": "61f43577008ba3e7744cbb37f8772df8d22ab0099b154ca8522e6d184f8d0f68"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
@@ -5022,8 +6590,13 @@
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "test/java/nvvisionboost/NVVisionBoostStabilityTest.java",
+<<<<<<< HEAD
     "source": "adapters/neoforge-1211/mod/test/java/nvvisionboost/NVVisionBoostStabilityTest.java",
     "baselineSha256": "b5f0250e794f9af2fa5c0ace9a0f28e4bff0dd56cf75da73b5d75beff85914dd"
+=======
+    "source": "modules/mod/shared/8a56edab19c8/test/java/nvvisionboost/NVVisionBoostStabilityTest.java",
+    "baselineSha256": "8a56edab19c837f3308d61aa9e04e80f092092fbeec6a340b5f17cc8d4c21bb5"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
@@ -5044,7 +6617,11 @@
     "kind": "addon",
     "path": "main/java/nvvisionboost/vulkanbridge/BridgeCpuOptimizer.java",
     "source": "modules/addon/cpu/runtime/common/main/java/nvvisionboost/vulkanbridge/BridgeCpuOptimizer.java",
+<<<<<<< HEAD
     "baselineSha256": "573287f91f0d471ea0d5e8cdd77bbcd92e483355db32cd6d50c9ff132ae3de47"
+=======
+    "baselineSha256": "dc1feb9d86120a8cd4ec571500a3807372e2dc2ac79a434f165cd91466a69d6f"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
@@ -5121,7 +6698,11 @@
     "kind": "addon",
     "path": "main/resources/META-INF/neoforge.mods.toml",
     "source": "adapters/neoforge-1211/addon/main/resources/META-INF/neoforge.mods.toml",
+<<<<<<< HEAD
     "baselineSha256": "b0b256991e0470f5920978a66ff8681c2d5d1bb2350d59baefe22594fd1bd9e9"
+=======
+    "baselineSha256": "6a8ed3efbb81d31577270dea2f756d2682341f4eb206251a330c8442a844d8f4"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
@@ -5281,62 +6862,100 @@
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "main/java/nvvisionboost/NVVisionBoostOptionsPlacement.java",
+<<<<<<< HEAD
     "source": "modules/mod/interface/options-adapter/main/java/nvvisionboost/NVVisionBoostOptionsPlacement.java",
     "baselineSha256": "9c8635478eb978f6c7043ea7d98f7273832878f46280614bd2c29ef2bf57985c"
+=======
+    "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostOptionsPlacement.java",
+    "baselineSha256": "3f3c9e1ce427b8a7a8c926a800f86843df62c2d3d0d4699a5e5dd8acb62ef6f4"
+>>>>>>> origin/master
   },
   {
     "target": "neoforge-1211",
     "kind": "mod",
     "path": "test/java/nvvisionboost/NVVisionBoostOptionsPlacementTest.java",
+<<<<<<< HEAD
     "source": "modules/mod/interface/options-adapter/test/java/nvvisionboost/NVVisionBoostOptionsPlacementTest.java",
     "baselineSha256": "08d87956c7d7f0f4e06dad85821396211e3c82a7861409bf2acab2b3e48a23b8"
+=======
+    "source": "adapters/neoforge-1211/mod/test/java/nvvisionboost/NVVisionBoostOptionsPlacementTest.java",
+    "baselineSha256": "84affbcb4e535289fb6a6b11f45b8a08399e8f8baf6527e9b5825721d9def170"
+>>>>>>> origin/master
   },
   {
     "target": "forge-1201",
     "kind": "addon",
+<<<<<<< HEAD
     "baselineSha256": "2ea4070164eda9770f64d86c602adba531b9ef6b8f14d10ac1dcc0db965cb145",
+=======
+    "baselineSha256": "fb3c5180ca234b3c4d1bd76cfb69509308bd16099bf7cb7dff1bec962f50d06c",
+>>>>>>> origin/master
     "path": "main/java/nvvisionboost/vulkanbridge/CpuPolicy.java",
     "source": "modules/addon/cpu/main/java/nvvisionboost/vulkanbridge/CpuPolicy.java"
   },
   {
     "target": "fabric-262",
     "kind": "addon",
+<<<<<<< HEAD
     "baselineSha256": "2ea4070164eda9770f64d86c602adba531b9ef6b8f14d10ac1dcc0db965cb145",
+=======
+    "baselineSha256": "fb3c5180ca234b3c4d1bd76cfb69509308bd16099bf7cb7dff1bec962f50d06c",
+>>>>>>> origin/master
     "path": "main/java/nvvisionboost/vulkanbridge/CpuPolicy.java",
     "source": "modules/addon/cpu/main/java/nvvisionboost/vulkanbridge/CpuPolicy.java"
   },
   {
     "target": "neoforge-2612",
     "kind": "addon",
+<<<<<<< HEAD
     "baselineSha256": "2ea4070164eda9770f64d86c602adba531b9ef6b8f14d10ac1dcc0db965cb145",
+=======
+    "baselineSha256": "fb3c5180ca234b3c4d1bd76cfb69509308bd16099bf7cb7dff1bec962f50d06c",
+>>>>>>> origin/master
     "path": "main/java/nvvisionboost/vulkanbridge/CpuPolicy.java",
     "source": "modules/addon/cpu/main/java/nvvisionboost/vulkanbridge/CpuPolicy.java"
   },
   {
     "target": "neoforge-262",
     "kind": "addon",
+<<<<<<< HEAD
     "baselineSha256": "2ea4070164eda9770f64d86c602adba531b9ef6b8f14d10ac1dcc0db965cb145",
+=======
+    "baselineSha256": "fb3c5180ca234b3c4d1bd76cfb69509308bd16099bf7cb7dff1bec962f50d06c",
+>>>>>>> origin/master
     "path": "main/java/nvvisionboost/vulkanbridge/CpuPolicy.java",
     "source": "modules/addon/cpu/main/java/nvvisionboost/vulkanbridge/CpuPolicy.java"
   },
   {
     "target": "fabric-12110",
     "kind": "addon",
+<<<<<<< HEAD
     "baselineSha256": "2ea4070164eda9770f64d86c602adba531b9ef6b8f14d10ac1dcc0db965cb145",
+=======
+    "baselineSha256": "fb3c5180ca234b3c4d1bd76cfb69509308bd16099bf7cb7dff1bec962f50d06c",
+>>>>>>> origin/master
     "path": "main/java/nvvisionboost/vulkanbridge/CpuPolicy.java",
     "source": "modules/addon/cpu/main/java/nvvisionboost/vulkanbridge/CpuPolicy.java"
   },
   {
     "target": "neoforge-12110",
     "kind": "addon",
+<<<<<<< HEAD
     "baselineSha256": "2ea4070164eda9770f64d86c602adba531b9ef6b8f14d10ac1dcc0db965cb145",
+=======
+    "baselineSha256": "fb3c5180ca234b3c4d1bd76cfb69509308bd16099bf7cb7dff1bec962f50d06c",
+>>>>>>> origin/master
     "path": "main/java/nvvisionboost/vulkanbridge/CpuPolicy.java",
     "source": "modules/addon/cpu/main/java/nvvisionboost/vulkanbridge/CpuPolicy.java"
   },
   {
     "target": "neoforge-1211",
     "kind": "addon",
+<<<<<<< HEAD
     "baselineSha256": "2ea4070164eda9770f64d86c602adba531b9ef6b8f14d10ac1dcc0db965cb145",
+=======
+    "baselineSha256": "fb3c5180ca234b3c4d1bd76cfb69509308bd16099bf7cb7dff1bec962f50d06c",
+>>>>>>> origin/master
     "path": "main/java/nvvisionboost/vulkanbridge/CpuPolicy.java",
     "source": "modules/addon/cpu/main/java/nvvisionboost/vulkanbridge/CpuPolicy.java"
   },
@@ -5535,6 +7154,7 @@
     "path": "main/java/nvvisionboost/vulkanbridge/CpuMinecraftAdapter.java",
     "source": "modules/addon/shared/1e2274031a9b/main/java/nvvisionboost/vulkanbridge/CpuMinecraftAdapter.java",
     "baselineSha256": "1e2274031a9bcc029f368884e22fdd1d73ff6da1b6ddfbc6dd3d1b05f21488c9"
+<<<<<<< HEAD
   },
   {
     "target": "neoforge-1211",
@@ -11324,5 +12944,7 @@
     "path": "main/java/nvvisionboost/rendering/FabricStencilAdapter.java",
     "source": "adapters/fabric-1211/mod/main/java/nvvisionboost/rendering/FabricStencilAdapter.java",
     "baselineSha256": "c2baa44f6e3639d5c227b66b509a073b64698d0455d8f2339fc578d3ba5ba2fe"
+=======
+>>>>>>> origin/master
   }
 ]

@@ -356,9 +356,13 @@
   "Renderizador de shaders: ": "Shader renderer: ",
   "Abre as configurações do NVVision. Também pode ser acessado por F8. Sem impacto no hardware.": "Opens NVVision settings. Also available through F8. No hardware impact.",
   "Seleciona uma predefinição de GPU para consulta. Use Aplicar para alterar os ajustes. Escolher na lista não muda sua placa de vídeo.": "Selects a GPU preset for reference. Use Apply to change settings. Selecting a list entry does not change your graphics card.",
+<<<<<<< HEAD
   "Seleciona um pacote para análise. Use Preparar shader selecionado para o preparo; a seleção e execução final continuam no Iris/Oculus. Clique direito seleciona o pacote anterior.": "Selects a pack for analysis. Use Prepare selected shader for preparation; final selection and rendering stay with Iris/Oculus. Right-click selects the previous pack.",
   "Queda de FPS? Teste desativar": "FPS drops? Try disabling",
   "Persistent Mapping (se disponível).": "Persistent Mapping (if available).",
   "Sodium/Embeddium e outros: veja 'i'.": "Sodium/Embeddium and others: see 'i'.",
   "Se houver perda de FPS ou conflito, teste desativar Persistent Mapping, quando disponível, e opções avançadas de integração do Sodium, Embeddium ou outros otimizadores, uma por vez. Compare o FPS no mesmo local e restaure as opções que não ajudarem. Não desinstale as dependências do NVVision.": "If FPS drops or a conflict occurs, try disabling Persistent Mapping, where available, and advanced integration options in Sodium, Embeddium or other optimization mods, one at a time. Compare FPS in the same location and restore options that do not help. Keep NVVision dependencies installed."
+=======
+  "Seleciona um pacote para análise. Use Preparar shader selecionado para o preparo; a seleção e execução final continuam no Iris/Oculus. Clique direito seleciona o pacote anterior.": "Selects a pack for analysis. Use Prepare selected shader for preparation; final selection and rendering stay with Iris/Oculus. Right-click selects the previous pack."
+>>>>>>> origin/master
 }

@@ -7,7 +7,11 @@ import net.minecraft.client.gui.components.*;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 
+<<<<<<< HEAD
 /** Renderer-independent controls; explicit changes require a restart. */
+=======
+/** Controles independentes do renderizador; alterações são explícitas e exigem reinício. */
+>>>>>>> origin/master
 public final class NVVisionBoostFerriteScreen extends Screen {
   private final Screen parent;
   private static final java.util.List<NVVisionBoostFerriteOptions.Option> UI_OPTIONS =

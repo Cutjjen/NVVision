@@ -3,7 +3,11 @@ package nvvisionboost;
 import java.lang.management.GarbageCollectorMXBean;
 import java.lang.management.ManagementFactory;
 
+<<<<<<< HEAD
 /** Heap telemetry never forces garbage collection or deletes other mods' resources. */
+=======
+/** Telemetria de heap; nunca força coleta nem elimina recursos de outros mods. */
+>>>>>>> origin/master
 public final class NVVisionBoostMemoryMonitor {
   private static long nextSample, nextLog, lastGcCount, lastGcMs;
   private static boolean pressure;

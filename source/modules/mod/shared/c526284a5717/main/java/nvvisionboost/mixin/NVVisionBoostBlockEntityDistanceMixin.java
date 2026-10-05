@@ -28,7 +28,11 @@ public abstract class NVVisionBoostBlockEntityDistanceMixin {
     var id = BuiltInRegistries.BLOCK_ENTITY_TYPE.getKey(entity.getType());
     if (id == null || !id.getNamespace().equals("minecraft")) return;
     var renderer = ((BlockEntityRenderDispatcher) (Object) this).getRenderer(entity);
+<<<<<<< HEAD
     // Preserve geometry from beacons and other long-distance renderers.
+=======
+    // Beacons e outros renderizadores de longo alcance mantêm sua geometria.
+>>>>>>> origin/master
     if (renderer == null || renderer.shouldRenderOffScreen(entity)) return;
     int distance = NVVisionBoostPerformance.blockEntityDistance();
     var position = entity.getBlockPos();

@@ -21,17 +21,31 @@ public final class BridgeCpuOptimizer {
 
   private BridgeCpuOptimizer() {}
 
+<<<<<<< HEAD
   /** Report whether the addon has read its local configuration. */
+=======
+  /** Informa se a configuração local já foi lida durante a inicialização do addon. */
+>>>>>>> origin/master
   public static boolean initialized() {
     return initialized;
   }
 
+<<<<<<< HEAD
   /** Return the active in-memory CPU profile for the configuration screen. */
+=======
+  /** Retorna o perfil ativo em memória para que a interface mostre o estado aplicado. */
+>>>>>>> origin/master
   public static String mode() {
     return profile;
   }
 
+<<<<<<< HEAD
   /** Read an individual saved control; unknown controls are unavailable. */
+=======
+  /**
+   * Consulta o valor individual salvo; controles desconhecidos são sinalizados como indisponíveis.
+   */
+>>>>>>> origin/master
   public static String control(String key) {
     return switch (key) {
       case "distance" -> customDistance;
@@ -40,7 +54,11 @@ public final class BridgeCpuOptimizer {
     };
   }
 
+<<<<<<< HEAD
   /** Load local controls once; unreadable configuration leaves optimization disabled. */
+=======
+  /** Lê uma vez os controles locais; uma configuração ilegível mantém a otimização desligada. */
+>>>>>>> origin/master
   public static void initialize(Path directory) {
     if (initialized) return;
     config = directory.resolve("cpu.properties");
@@ -57,7 +75,11 @@ public final class BridgeCpuOptimizer {
     initialized = true;
   }
 
+<<<<<<< HEAD
   /** Read all properties, including unknown user keys that must be preserved. */
+=======
+  /** Lê as propriedades completas, incluindo chaves de usuário que precisam ser preservadas. */
+>>>>>>> origin/master
   private static Properties read() throws IOException {
     Properties saved = new Properties();
     if (Files.exists(config))
@@ -67,7 +89,11 @@ public final class BridgeCpuOptimizer {
     return saved;
   }
 
+<<<<<<< HEAD
   /** Atomically persist CPU choices while retaining unrelated properties. */
+=======
+  /** Persiste somente as escolhas de CPU por escrita atômica, mantendo as demais propriedades. */
+>>>>>>> origin/master
   private static void save(String mode, String distance, String particles) throws IOException {
     Properties saved = read(); // Preserve unknown user keys.
     saved.setProperty("profile", mode);
@@ -78,13 +104,21 @@ public final class BridgeCpuOptimizer {
     BridgeFiles.atomic(config, output.toString());
   }
 
+<<<<<<< HEAD
   /** Request a known profile; change state only after successful persistence. */
+=======
+  /** Solicita um perfil conhecido; a alteração só ocorre se a persistência tiver sucesso. */
+>>>>>>> origin/master
   public static String request(String value) {
     if (config == null || !CpuPolicy.validProfile(value)) return "Perfil CPU indisponível.";
     return change(value, customDistance, customParticles);
   }
 
+<<<<<<< HEAD
   /** Cycle an individual control and select the custom profile. */
+=======
+  /** Avança um controle individual e seleciona o perfil personalizado. */
+>>>>>>> origin/master
   public static String cycleControl(String key) {
     if (config == null) return "Addon CPU indisponível.";
     return switch (key) {
@@ -95,7 +129,11 @@ public final class BridgeCpuOptimizer {
     };
   }
 
+<<<<<<< HEAD
   /** Save the choice and schedule application on the client thread when required. */
+=======
+  /** Salva a escolha e agenda sua aplicação imediata na thread do cliente quando necessário. */
+>>>>>>> origin/master
   private static String change(String mode, String distance, String particles) {
     try {
       save(mode, distance, particles);
@@ -119,7 +157,11 @@ public final class BridgeCpuOptimizer {
     return "Perfil CPU: " + mode + "; entidades=" + distance + "; partículas=" + particles;
   }
 
+<<<<<<< HEAD
   /** Reevaluate limits at most once per second, without rewriting options every frame. */
+=======
+  /** Reavalia os limites no máximo uma vez por segundo, sem reescrever opções a cada quadro. */
+>>>>>>> origin/master
   public static void tick() {
     if (!initialized || ("off".equals(profile) && !active)) return;
     long now = System.nanoTime();
@@ -128,7 +170,11 @@ public final class BridgeCpuOptimizer {
     applyOptions(Minecraft.getInstance());
   }
 
+<<<<<<< HEAD
   /** Apply reversible limits in a world and respect changes made by the user or other mods. */
+=======
+  /** Aplica limites reversíveis somente no mundo e respeita mudanças feitas por usuário ou mods. */
+>>>>>>> origin/master
   private static void applyOptions(Minecraft client) {
     if (client == null || client.options == null) return;
     if (client.level == null || "off".equals(profile)) {
@@ -160,7 +206,11 @@ public final class BridgeCpuOptimizer {
     active = ceiling >= 0 || limit >= 0;
   }
 
+<<<<<<< HEAD
   /** Log effective settings after a choice, rather than every frame. */
+=======
+  /** Registra o estado efetivo após uma escolha, sem gerar registros a cada quadro. */
+>>>>>>> origin/master
   private static void logApplied(Minecraft client) {
     if (client == null || client.options == null) return;
     LOG.info(
@@ -171,7 +221,11 @@ public final class BridgeCpuOptimizer {
         CpuMinecraftAdapter.particles(client));
   }
 
+<<<<<<< HEAD
   /** Restore only values still owned by the addon. */
+=======
+  /** Restaura apenas os valores que continuam sob controle do addon. */
+>>>>>>> origin/master
   private static void release(Minecraft client) {
     if (!active || client == null || client.options == null) return;
     double current = client.options.entityDistanceScaling().get();
@@ -183,7 +237,11 @@ public final class BridgeCpuOptimizer {
     active = false;
   }
 
+<<<<<<< HEAD
   /** Release temporary values and save restored settings before client shutdown. */
+=======
+  /** Libera os valores temporários e salva a restauração antes do encerramento do cliente. */
+>>>>>>> origin/master
   public static void shutdown() {
     Minecraft client = Minecraft.getInstance();
     if (client == null || client.options == null) return;

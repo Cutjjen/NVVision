@@ -2,7 +2,11 @@ package nvvisionboost;
 
 import net.minecraft.client.Minecraft;
 
+<<<<<<< HEAD
 /** Optional visual-cost rules do not change world ticks or data. */
+=======
+/** Regras opcionais de custo visual. Nenhuma altera ticks ou dados do mundo. */
+>>>>>>> origin/master
 public final class NVVisionBoostPerformance {
   private static boolean blockEntityCullingAllowed;
   private static long nextCheck;
@@ -18,7 +22,11 @@ public final class NVVisionBoostPerformance {
     long now = System.nanoTime();
     if (now < nextCheck) return;
     nextCheck = now + 250_000_000L;
+<<<<<<< HEAD
     // Preserve geometry in shadow passes and machine renderers.
+=======
+    // Não remova geometria dos passes de sombras ou dos renderizadores de máquinas.
+>>>>>>> origin/master
     blockEntityCullingAllowed =
         !NVVisionBoostCompatibility.externalShaderBackendAvailable()
             && !NVVisionBoostCreateCompatibility.protectsMachineRendering();

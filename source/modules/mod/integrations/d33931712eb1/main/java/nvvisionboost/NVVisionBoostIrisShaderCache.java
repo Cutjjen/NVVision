@@ -12,8 +12,22 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
 /**
+<<<<<<< HEAD
  * Shader resource preparation cache. Iris owns pack selection, loading, compilation and rendering.
  * This service reads and indexes resources without injecting OpenGL programs into Iris.
+=======
+ * NVVisionBoost - Iris Shader Preparation Cache
+ *
+ * <p>IMPORTANTE:
+ *
+ * <p>Iris continua sendo responsável por: - carregar shaderpacks; - selecionar shaderpacks; -
+ * compilar o pipeline utilizado para renderização; - renderizar os shaders.
+ *
+ * <p>NVVisionBoost faz somente: - análise; - hashing; - indexação; - cache de preparação; -
+ * validação GLSL opcional; - otimizações auxiliares.
+ *
+ * <p>Nenhum programa OpenGL criado aqui é injetado no Iris.
+>>>>>>> origin/master
  */
 public final class NVVisionBoostIrisShaderCache {
   private record Cached(long stamp, Result result) {}
@@ -101,8 +115,15 @@ public final class NVVisionBoostIrisShaderCache {
   }
 
   /**
+<<<<<<< HEAD
    * Discover the configured Iris shaderpack reflectively without a mandatory compile-time
    * dependency.
+=======
+   * Tenta descobrir o shaderpack atualmente configurado no Iris.
+   *
+   * <p>Não existe dependência direta de compilação com Iris. Reflection é utilizada para evitar que
+   * NVVisionBoost deixe de carregar caso Iris não esteja instalado.
+>>>>>>> origin/master
    */
   public static Optional<Path> detectIrisShaderPack(Path gameDir) {
     if (gameDir == null) {
@@ -115,7 +136,16 @@ public final class NVVisionBoostIrisShaderCache {
 
     String shaderName = null;
 
+<<<<<<< HEAD
     /* Try IrisApi first; available public APIs vary between versions. */
+=======
+    /*
+     * Primeiro tenta IrisApi.
+     *
+     * Iris deriva da arquitetura Iris, mas as APIs disponíveis
+     * podem variar conforme a versão.
+     */
+>>>>>>> origin/master
     try {
       Class<?> apiClass = Class.forName("net.irisshaders.iris.api.v0.IrisApi");
 
@@ -133,10 +163,23 @@ public final class NVVisionBoostIrisShaderCache {
         shaderName = invokeString(api, "getCurrentShaderPackName");
       }
     } catch (Throwable ignored) {
+<<<<<<< HEAD
       /* An optional public API change must not fail initialization. */
     }
 
     /* Then use the existing compatibility-layer detection. */
+=======
+      /*
+       * Não falhar se a API pública mudou.
+       */
+    }
+
+    /*
+     * Segunda tentativa:
+     * usar a detecção já existente na camada
+     * de compatibilidade.
+     */
+>>>>>>> origin/master
     if (shaderName == null || shaderName.isBlank()) {
       try {
         shaderName = NVVisionBoostCompatibility.externalShaderPackName();
@@ -144,7 +187,17 @@ public final class NVVisionBoostIrisShaderCache {
       }
     }
 
+<<<<<<< HEAD
     /* Fall back to NVVision's persisted selection as an analysis reference, without enabling the shader. */
+=======
+    /*
+     * Fallback:
+     * seleção persistida pelo NVVisionBoost.
+     *
+     * Isso NÃO significa que o NVVisionBoost está ativando
+     * o shader. É somente uma referência para análise/cache.
+     */
+>>>>>>> origin/master
     if (shaderName == null || shaderName.isBlank()) {
       try {
         shaderName = NVVisionBoostShader.selected(gameDir.resolve("config/nvvisionboost"));
@@ -164,7 +217,13 @@ public final class NVVisionBoostIrisShaderCache {
       return Optional.of(direct);
     }
 
+<<<<<<< HEAD
     /* Some APIs return a pack name without the ZIP extension. */
+=======
+    /*
+     * Algumas APIs retornam o nome sem .zip.
+     */
+>>>>>>> origin/master
     if (!shaderName.toLowerCase(Locale.ROOT).endsWith(".zip")) {
       Path zip = shaderpacks.resolve(shaderName + ".zip").normalize();
 
@@ -173,7 +232,13 @@ public final class NVVisionBoostIrisShaderCache {
       }
     }
 
+<<<<<<< HEAD
     /* Compare names case-insensitively. */
+=======
+    /*
+     * Comparação case-insensitive.
+     */
+>>>>>>> origin/master
     try {
       if (Files.isDirectory(shaderpacks)) {
         try (DirectoryStream<Path> stream = Files.newDirectoryStream(shaderpacks)) {
@@ -208,7 +273,15 @@ public final class NVVisionBoostIrisShaderCache {
     return compileSelected(gameDir, active.get());
   }
 
+<<<<<<< HEAD
   /** Analyze and prepare shaderpack resources without enabling the shader. */
+=======
+  /**
+   * Analisa e prepara o cache do shaderpack.
+   *
+   * <p>NÃO ativa o shader.
+   */
+>>>>>>> origin/master
   public static synchronized Result compileSelected(Path gameDir, Path shaderPack) {
     if (gameDir == null || shaderPack == null || !Files.exists(shaderPack)) {
       return new Result(false, "", "", null, 0, 0, 0, 0, "Shaderpack não encontrado.");
@@ -272,9 +345,15 @@ public final class NVVisionBoostIrisShaderCache {
 
         sourceHashes.add(sourceHash + "  " + entry.name);
 
+<<<<<<< HEAD
         // Shaderpacks require their backend's includes, macros and options.
         // Compilar cada arquivo cru gera falhas artificiais e o resultado
         // Only inspect and read resources here; shader execution belongs to the backend.
+=======
+        // Shaderpacks precisam de includes, macros e opções do backend.
+        // Compilar cada arquivo cru gera falhas artificiais e o resultado
+        // era destruído. Aqui apenas verificamos/leemos os recursos.
+>>>>>>> origin/master
       }
 
       Collections.sort(sourceHashes);
@@ -407,8 +486,13 @@ public final class NVVisionBoostIrisShaderCache {
 
           shaders.add(new EntryData(relative, bytes));
         } else if (isTexture(lower) && size <= MAX_TEXTURE_FILE) {
+<<<<<<< HEAD
           // Read actual contents to warm the operating system file cache.
           // The loaded pipeline owns GPU texture creation.
+=======
+          // Leia o conteúdo real e aqueça o cache de arquivos do SO.
+          // A criação das texturas GPU pertence ao pipeline carregado.
+>>>>>>> origin/master
           try (InputStream input = Files.newInputStream(path)) {
             hashResource(input, MAX_TEXTURE_FILE, packDigest);
           }

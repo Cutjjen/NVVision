@@ -26,7 +26,11 @@ public final class NVVisionBoostShaderEngine {
     return PREPARING.get();
   }
 
+<<<<<<< HEAD
   /** Read on a worker; change profiles and pipelines only on the client thread. */
+=======
+  /** Leitura em worker; alterações no perfil e no pipeline apenas na thread cliente. */
+>>>>>>> origin/master
   public static boolean prepareAsync(Path game, String name, boolean activate) {
     var config = NVVisionBoostCore.cfg;
     if (game == null
@@ -96,7 +100,11 @@ public final class NVVisionBoostShaderEngine {
   private record Preparation(
       NVVisionBoostShader.Pack pack, NVVisionBoostIrisShaderCache.Result result) {}
 
+<<<<<<< HEAD
   /** Only an explicit manual UI action may disable the backend. */
+=======
+  /** Somente ação manual da interface solicita desligar o backend. */
+>>>>>>> origin/master
   public static boolean disableExternal() {
     if (!com.mojang.blaze3d.systems.RenderSystem.isOnRenderThread()) return false;
     for (String name : new String[] {"net.irisshaders.iris.Iris", "net.coderbot.iris.Iris"}) {
@@ -266,7 +274,11 @@ public final class NVVisionBoostShaderEngine {
    *
    * <p>It does NOT change the shader selected in Iris.
    */
+<<<<<<< HEAD
   /** Generic profile based on estimated shaderpack cost. */
+=======
+  /** Perfil genérico por custo estimado, aplicável a qualquer shaderpack. */
+>>>>>>> origin/master
   public static void applyRecommended(NVVisionBoostCore.Config cfg, NVVisionBoostShader.Pack pack) {
     if (cfg == null || pack == null || !cfg.shaderAutoProfile) return;
     int score = Math.max(0, Math.min(100, pack.score));
@@ -283,8 +295,13 @@ public final class NVVisionBoostShaderEngine {
         cfg.entityDistancePercent = Math.min(cfg.entityDistancePercent, score >= 70 ? 80 : 90);
       }
     }
+<<<<<<< HEAD
     // Preserve scale, shader options, Flywheel backend and simulation.
     // Manual scale remains the user's choice.
+=======
+    // Não muda escala, shader options, backend Flywheel ou simulação.
+    // Escala manual continua pertencendo ao usuário.
+>>>>>>> origin/master
     forceIrisArchitecture(cfg);
     NVVisionBoostCore.saveConfig();
     NVVisionBoostCore.log(
@@ -296,7 +313,15 @@ public final class NVVisionBoostShaderEngine {
             + NVVisionBoostCreateCompatibility.summary());
   }
 
+<<<<<<< HEAD
   /** Legacy entry point: prepare resources and request loading through the available backend. */
+=======
+  /**
+   * Legacy method kept because older UI/classes may still call it.
+   *
+   * <p>Prepara recursos e solicita carregamento real ao backend disponível.
+   */
+>>>>>>> origin/master
   public static boolean activateWithIris(Path game, String shaderName) {
     if (!compileSelectedByName(game, shaderName)) {
       loadStatus = "Falha ao ler os recursos do shaderpack.";
@@ -305,7 +330,15 @@ public final class NVVisionBoostShaderEngine {
     return loadShaderPipeline(shaderName);
   }
 
+<<<<<<< HEAD
   /** Legacy alias using the available backend; does not create a native shader renderer. */
+=======
+  /**
+   * Legacy method kept for source compatibility.
+   *
+   * <p>Alias legado: usa o backend disponível; não cria renderer nativo.
+   */
+>>>>>>> origin/master
   public static boolean activateNative(Path game, String shaderName) {
     if (!compileSelectedByName(game, shaderName)) {
       loadStatus = "Falha ao ler os recursos do shaderpack.";
@@ -366,7 +399,11 @@ public final class NVVisionBoostShaderEngine {
       config.getClass().getMethod("setShaderPackName", String.class).invoke(config, shaderName);
       modified = true;
       config.getClass().getMethod("setShadersEnabled", boolean.class).invoke(config, true);
+<<<<<<< HEAD
       // Persist first: reload may reread saved configuration.
+=======
+      // reload pode reler a configuração persistida: grave antes.
+>>>>>>> origin/master
       config.getClass().getMethod("save").invoke(config);
       NVVisionBoostNativeRenderer.reset();
       backend.getMethod("reload").invoke(null);

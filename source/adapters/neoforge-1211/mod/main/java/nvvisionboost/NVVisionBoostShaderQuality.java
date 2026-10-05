@@ -3,7 +3,11 @@ package nvvisionboost;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.Screen;
 
+<<<<<<< HEAD
 /** The shaderpack owns option semantics; do not rewrite queues, properties or GLSL. */
+=======
+/** A semântica das opções pertence ao pack. Não altera filas/propriedades/GLSL. */
+>>>>>>> origin/master
 public final class NVVisionBoostShaderQuality {
   private static String status = "Ajuste sombras e reflexos nas opções do shaderpack.";
 
@@ -17,7 +21,11 @@ public final class NVVisionBoostShaderQuality {
     return status;
   }
 
+<<<<<<< HEAD
   /** Retained API entry point without unsafe generic option mappings. */
+=======
+  /** API antiga preservada; não aplica mais mapeamentos genéricos inseguros. */
+>>>>>>> origin/master
   public static boolean apply(NVVisionBoostCore.Config config) {
     status = "Aplicação genérica desativada. Use as opções próprias do shaderpack.";
     return false;

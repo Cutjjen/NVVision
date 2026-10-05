@@ -6,7 +6,11 @@ import java.nio.file.*;
 import java.util.*;
 import java.util.regex.*;
 
+<<<<<<< HEAD
 /** Edit only root configuration keys, with an original backup and external-change protection. */
+=======
+/** Edição limitada às chaves raiz, com backup original e proteção contra alterações externas. */
+>>>>>>> origin/master
 public final class NVVisionBoostFerriteConfig {
   private final Path file, backup, journal;
   private static final int LIMIT = 262144;

@@ -5,7 +5,11 @@ import net.minecraft.client.gui.GuiGraphicsExtractor;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.network.chat.Component;
 
+<<<<<<< HEAD
 /** Themed button with visible focus, pixel-fitted text and optional reverse cycling. */
+=======
+/** Botão temático com foco visível, texto ajustado em pixels e ciclo reverso opcional. */
+>>>>>>> origin/master
 public final class NVVisionBoostOptionButton extends Button {
   private final OnPress leftPress;
   private final OnPress rightPress;

@@ -2,7 +2,11 @@ package nvvisionboost;
 
 import java.util.Locale;
 
+<<<<<<< HEAD
 /** Describe potential hardware costs rather than measured FPS gains. */
+=======
+/** Descrições de custo potencial; não representam medições de FPS. */
+>>>>>>> origin/master
 public final class NVVisionBoostHelp {
   public static String help(String label, boolean reverse) {
     String value = label.toLowerCase(Locale.ROOT);

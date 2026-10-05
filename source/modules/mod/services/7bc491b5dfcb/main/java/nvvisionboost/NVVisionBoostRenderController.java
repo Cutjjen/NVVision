@@ -41,7 +41,11 @@ public final class NVVisionBoostRenderController {
     sustainedLowSamples = 0;
   }
 
+<<<<<<< HEAD
   /** Called by the central monitor once per second, never every frame. */
+=======
+  /** Chamado uma vez por segundo pelo monitor central, nunca por frame. */
+>>>>>>> origin/master
   public static void observePerformance(NVVisionBoostCore.Config config, int fps) {
     Minecraft mc = Minecraft.getInstance();
     if (mc == null
@@ -164,7 +168,11 @@ public final class NVVisionBoostRenderController {
     if (lowFpsSamples >= 2) {
       boolean changed = false;
       String reason = "";
+<<<<<<< HEAD
       // The GPU controller owns scale; preserve distance when pixel cost is the likely bottleneck.
+=======
+      // O controlador GPU decide escala; preserve distância quando pixels são o provável gargalo.
+>>>>>>> origin/master
       if (config.adaptiveRenderDistance
           && !(config.gpuAwareResolution
               && config.dynamicResolution
@@ -256,7 +264,11 @@ public final class NVVisionBoostRenderController {
       set(options.renderDistance(), effectiveRenderDistance(config));
 
       if (NVVisionBoostCreateCompatibility.protectsMachineRendering()) {
+<<<<<<< HEAD
         // Do not reduce machine simulation distance because of resolution scale.
+=======
+        // Não reduza o alcance de simulação das máquinas por causa da escala.
+>>>>>>> origin/master
         snapshot.restoreSimulationOnly(options);
       } else if (config.simulationOptimization) {
         int sim = NVVisionBoostVisualPolicy.simulationDistance(config, snapshot.simulationDistance);

@@ -2,7 +2,11 @@ package nvvisionboost;
 
 import java.util.*;
 
+<<<<<<< HEAD
 /** Graphics-API-independent menu geometry shared by target distributions. */
+=======
+/** Geometria independente da API gráfica, compartilhada pelas duas distribuições. */
+>>>>>>> origin/master
 public final class NVVisionBoostMenuLayout {
   public record Rect(int x, int y, int width, int height) {}
 
@@ -39,7 +43,11 @@ public final class NVVisionBoostMenuLayout {
         left + 16,
         content,
         top,
+<<<<<<< HEAD
         Math.max(top + 26, height - 110),
+=======
+        Math.max(top + 22, height - 72),
+>>>>>>> origin/master
         columns,
         content < 600);
   }

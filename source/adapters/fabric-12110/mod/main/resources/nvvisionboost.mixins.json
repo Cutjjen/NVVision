@@ -11,8 +11,12 @@
     "NVVisionBoostWindowMixin",
     "NVVisionBoostOptionsScreenMixin",
     "NVVisionBoostIrisDepthMixin",
+<<<<<<< HEAD
     "NVVisionBoostMinecraftTargetAccessor",
     "NVVisionBoostRenderTargetAccessor"
+=======
+    "NVVisionBoostMinecraftTargetAccessor"
+>>>>>>> origin/master
   ],
   "injectors": {
     "defaultRequire": 1

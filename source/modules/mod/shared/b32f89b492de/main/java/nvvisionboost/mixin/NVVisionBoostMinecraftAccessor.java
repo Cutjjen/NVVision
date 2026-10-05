@@ -7,7 +7,14 @@ import org.spongepowered.asm.mixin.Mutable;
 import org.spongepowered.asm.mixin.gen.Accessor;
 import org.spongepowered.asm.mixin.gen.Invoker;
 
+<<<<<<< HEAD
 /** Accessor for temporary framebuffer exchange during world rendering. */
+=======
+/**
+ * Accessor utilizado exclusivamente para trocar temporariamente o framebuffer durante a
+ * renderização do mundo.
+ */
+>>>>>>> origin/master
 @Mixin(Minecraft.class)
 public interface NVVisionBoostMinecraftAccessor {
   @Invoker("getFramerateLimit")

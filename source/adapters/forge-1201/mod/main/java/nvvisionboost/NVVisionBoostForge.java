@@ -12,7 +12,11 @@ import net.minecraftforge.fml.common.Mod;
 @Mod(NVVisionBoostForge.ID)
 public final class NVVisionBoostForge {
   public static final String ID = "nvvisionboost";
+<<<<<<< HEAD
   public static final String VERSION = "0.8.16";
+=======
+  public static final String VERSION = "0.7.18";
+>>>>>>> origin/master
   public static final int CONFIG_SCHEMA = 5;
 
   static Path root;
@@ -76,7 +80,33 @@ public final class NVVisionBoostForge {
 
       cfg = Config.load(cfgFile);
 
+<<<<<<< HEAD
       /* Forge EventBusSubscriber registers client and screen events. Manual class registration is unsupported and can cause NoSuchMethodException. */
+=======
+      /*
+       * ====================================================
+       * FORGE 47.2.0 EVENT BUS
+       * ====================================================
+       *
+       * NÃO registrar manualmente:
+       *
+       * NVVisionBoostClient.class
+       * NVVisionBoostScreenEvents.class
+       *
+       * Essas classes utilizam @Mod.EventBusSubscriber.
+       *
+       * Não utilizar:
+       *
+       * EventBus.register(Class)
+       * modEventBus.register(Class)
+       * MinecraftForge.EVENT_BUS.register(Class)
+       *
+       * Isso elimina o antigo:
+       *
+       * NoSuchMethodException:
+       * EventBus.register(java.lang.Class)
+       */
+>>>>>>> origin/master
 
       NVVisionBoostGPU.Info gpu = NVVisionBoostGPU.detect();
 
@@ -101,7 +131,14 @@ public final class NVVisionBoostForge {
           cfg.gpuPresetApplied = false;
         }
 
+<<<<<<< HEAD
         /* Oculus executes shaderpacks. */
+=======
+        /*
+         * Oculus é responsável pela execução dos
+         * shaderpacks.
+         */
+>>>>>>> origin/master
         cfg.nativeShaderRenderer = false;
 
         cfg.rendererBackend = NVVisionBoostCompatibility.oculus() ? "iris-compatible" : "auto";
@@ -363,8 +400,14 @@ public final class NVVisionBoostForge {
   // ============================================================
 
   /**
+<<<<<<< HEAD
    * Change internal scale through this entry point; invalidate the previous rendering
    * configuration.
+=======
+   * Único ponto recomendado para alterar a escala interna.
+   *
+   * <p>A troca de escala invalida completamente o framebuffer anterior.
+>>>>>>> origin/master
    */
   static void setRenderScalePercent(int percent) {
     Config config = cfg;
@@ -385,7 +428,16 @@ public final class NVVisionBoostForge {
 
     saveConfig();
 
+<<<<<<< HEAD
     /* The internal target must match the requested resolution before reuse. */
+=======
+    /*
+     * Fundamental:
+     *
+     * o TextureTarget criado para a resolução anterior
+     * não pode continuar sendo reutilizado.
+     */
+>>>>>>> origin/master
     NVVisionBoostNativeRenderer.reset();
 
     log("[NVVB Upscaler] Scale changed: " + previous + "% -> " + normalized + "%");
@@ -405,7 +457,15 @@ public final class NVVisionBoostForge {
 
     config.upscalingEnabled = enabled;
 
+<<<<<<< HEAD
     /* Enabling at 100% initially selects 85%; subsequent choices range from 10% to 100%. */
+=======
+    /*
+     * Se ativado em 100%, escolhemos inicialmente 85%.
+     * Depois o usuário pode escolher qualquer escala
+     * entre 10 e 100%.
+     */
+>>>>>>> origin/master
     if (enabled && config.renderScalePercent >= 100) {
       config.renderScalePercent = 85;
     }
@@ -427,7 +487,11 @@ public final class NVVisionBoostForge {
     setUpscalingEnabled(!config.upscalingEnabled);
   }
 
+<<<<<<< HEAD
   /** Apply multiple graphics-option changes together. */
+=======
+  /** Utilizado quando múltiplas opções gráficas mudam de uma vez. */
+>>>>>>> origin/master
   static void resetUpscaler() {
     NVVisionBoostNativeRenderer.reset();
   }
@@ -628,7 +692,11 @@ public final class NVVisionBoostForge {
   // ============================================================
 
   public static final class Config {
+<<<<<<< HEAD
     /** Master enable state, independent of the selected internal scale. */
+=======
+    /** Estado mestre do mod, independente da escala interna selecionada. */
+>>>>>>> origin/master
     public boolean isEnabled() {
       return enabled;
     }
@@ -654,7 +722,11 @@ public final class NVVisionBoostForge {
     boolean transparencyOptimization = true;
 
     boolean dynamicResolution = false;
+<<<<<<< HEAD
     // Optional features preserve previous behavior by default.
+=======
+    // Recursos opcionais: preservam o comportamento anterior por padrão.
+>>>>>>> origin/master
     boolean backgroundFpsLimit = false;
     int backgroundFps = 30;
     boolean reduceWeatherParticles = false;
@@ -735,7 +807,11 @@ public final class NVVisionBoostForge {
 
     void normalize() {
       configSchema = CONFIG_SCHEMA;
+<<<<<<< HEAD
       frameGenerationEnabled = false; // No temporal backend is implemented.
+=======
+      frameGenerationEnabled = false; // Sem backend temporal nesta versão.
+>>>>>>> origin/master
       backgroundFps = NVVisionBoostIO.clamp(backgroundFps, 10, 120);
       blockEntityDistance = NVVisionBoostIO.clamp(blockEntityDistance, 16, 256);
       simulationDistance = NVVisionBoostIO.clamp(simulationDistance, 4, 32);
@@ -758,7 +834,16 @@ public final class NVVisionBoostForge {
 
       entityDistancePercent = NVVisionBoostIO.clamp(entityDistancePercent, 50, 100);
 
+<<<<<<< HEAD
       /* The renderer accepts scales from 10% to 100%. */
+=======
+      /*
+       * CORREÇÃO 0.6.7:
+       *
+       * antes era 50-100.
+       * agora o renderer aceita 10-100.
+       */
+>>>>>>> origin/master
       renderScalePercent = NVVisionBoostIO.clamp(renderScalePercent, 10, 100);
 
       upscalerSharpnessPercent = NVVisionBoostIO.clamp(upscalerSharpnessPercent, 0, 100);
@@ -773,14 +858,26 @@ public final class NVVisionBoostForge {
         profile = "balanced";
       }
 
+<<<<<<< HEAD
       /* The removed native shader backend cannot be enabled. */
+=======
+      /*
+       * Backend nativo de shader não é mais permitido.
+       */
+>>>>>>> origin/master
       if (!"auto".equalsIgnoreCase(rendererBackend)
           && !"iris-compatible".equalsIgnoreCase(rendererBackend)
           && !"oculus".equalsIgnoreCase(rendererBackend)) {
         rendererBackend = "auto";
       }
 
+<<<<<<< HEAD
       /* NVVision does not execute shaderpacks. */
+=======
+      /*
+       * NVVisionBoost não executa shaderpack.
+       */
+>>>>>>> origin/master
       nativeShaderRenderer = false;
 
       irisIntegration = NVVisionBoostCompatibility.externalShaderBackendAvailable();
@@ -796,7 +893,11 @@ public final class NVVisionBoostForge {
           com.google.gson.JsonObject object =
               com.google.gson.JsonParser.parseString(Files.readString(path, StandardCharsets.UTF_8))
                   .getAsJsonObject();
+<<<<<<< HEAD
           // Read each field independently so an invalid value does not discard other preferences.
+=======
+          // Leia por campo: um valor inválido não elimina as outras preferências.
+>>>>>>> origin/master
           for (java.lang.reflect.Field field : Config.class.getDeclaredFields()) {
             if (java.lang.reflect.Modifier.isStatic(field.getModifiers())) continue;
             com.google.gson.JsonElement value = object.get(field.getName());
@@ -819,7 +920,11 @@ public final class NVVisionBoostForge {
           if (config.configSchema < 5 && !object.has("upscalerMode")) config.upscalerMode = 0;
         } catch (java.io.IOException | RuntimeException error) {
           log("Configuração inválida; valores padrão usados: " + error.getMessage());
+<<<<<<< HEAD
           // Preserve the invalid file so the player can recover preferences.
+=======
+          // Preserve o arquivo defeituoso para o jogador recuperar preferências.
+>>>>>>> origin/master
           try {
             Files.copy(
                 path,

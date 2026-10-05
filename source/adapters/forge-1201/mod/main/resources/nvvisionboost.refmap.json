@@ -33,11 +33,14 @@
     "nvvisionboost/mixin/NVVisionBoostWindowMixin": {
       "getHeight": "Lcom/mojang/blaze3d/platform/Window;m_85442_()I",
       "getWidth": "Lcom/mojang/blaze3d/platform/Window;m_85441_()I"
+<<<<<<< HEAD
     },
     "nvvisionboost/mixin/NVVisionBoostRenderTargetAccessor": {
       "colorTextureId": "f_83923_:I",
       "depthBufferId": "f_83924_:I",
       "stencilEnabled": "stencilEnabled:Z"
+=======
+>>>>>>> origin/master
     }
   },
   "data": {
@@ -75,6 +78,7 @@
       "nvvisionboost/mixin/NVVisionBoostWindowMixin": {
         "getHeight": "Lcom/mojang/blaze3d/platform/Window;m_85442_()I",
         "getWidth": "Lcom/mojang/blaze3d/platform/Window;m_85441_()I"
+<<<<<<< HEAD
       },
       "nvvisionboost/mixin/NVVisionBoostRenderTargetAccessor": {
         "colorTextureId": "f_83923_:I",
@@ -84,3 +88,9 @@
     }
   }
 }
+=======
+      }
+    }
+  }
+}
+>>>>>>> origin/master

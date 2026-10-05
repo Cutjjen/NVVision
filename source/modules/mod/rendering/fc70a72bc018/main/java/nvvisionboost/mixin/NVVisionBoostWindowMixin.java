@@ -7,7 +7,11 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
+<<<<<<< HEAD
 /** Only getters used inside the 3D pass expose internal dimensions. */
+=======
+/** Somente os getters usados no passe 3D enxergam as dimensões internas. */
+>>>>>>> origin/master
 @Mixin(Window.class)
 public abstract class NVVisionBoostWindowMixin {
   @Inject(method = "getWidth", at = @At("RETURN"), cancellable = true)

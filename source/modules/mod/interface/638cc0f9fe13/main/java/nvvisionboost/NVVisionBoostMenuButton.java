@@ -4,7 +4,11 @@ import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.components.Tooltip;
 import net.minecraft.network.chat.Component;
 
+<<<<<<< HEAD
 /** Themed button factory preserves Minecraft events and narration. */
+=======
+/** Fábrica de botões temáticos sem substituir os eventos ou a narração do Minecraft. */
+>>>>>>> origin/master
 public final class NVVisionBoostMenuButton {
   public static Builder builder(Component message, Button.OnPress press) {
     return new Builder(message, press);

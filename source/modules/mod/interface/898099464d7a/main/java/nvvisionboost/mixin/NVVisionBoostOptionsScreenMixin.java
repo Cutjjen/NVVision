@@ -15,6 +15,10 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(OptionsScreen.class)
 public abstract class NVVisionBoostOptionsScreenMixin extends Screen {
   @Unique private Button nvvb$menu;
+<<<<<<< HEAD
+=======
+  @Unique private Button nvvb$done;
+>>>>>>> origin/master
 
   protected NVVisionBoostOptionsScreenMixin(Component title) {
     super(title);
@@ -22,7 +26,19 @@ public abstract class NVVisionBoostOptionsScreenMixin extends Screen {
 
   @Inject(method = "init()V", at = @At("TAIL"))
   private void nvvb$addMenu(CallbackInfo ci) {
+<<<<<<< HEAD
     // Vanilla has built its widgets; only the NVVision entry belongs to this mixin.
+=======
+    // Vanilla clears widgets on rebuild; never retain a button from the previous layout.
+    nvvb$done = null;
+    String doneLabel = Component.translatable("gui.done").getString();
+    for (var child : children()) {
+      if (child instanceof Button button && button.getMessage().getString().equals(doneLabel)) {
+        nvvb$done = button;
+        break;
+      }
+    }
+>>>>>>> origin/master
     nvvb$menu =
         addRenderableWidget(
             nvvisionboost.NVVisionBoostMenuButton.builder(
@@ -41,6 +57,19 @@ public abstract class NVVisionBoostOptionsScreenMixin extends Screen {
   @Unique
   private void nvvb$placeMenu() {
     if (nvvb$menu == null) return;
+<<<<<<< HEAD
     nvvisionboost.NVVisionBoostOptionsScreenAdapter.place(this, nvvb$menu);
+=======
+    int buttonWidth = Math.min(150, Math.max(1, (width - 18) / 2));
+    int left = (width - buttonWidth * 2 - 8) / 2;
+    int y = nvvb$done != null ? nvvb$done.getY() : Math.max(0, height - 28);
+    if (nvvb$done != null) {
+      nvvb$done.setWidth(buttonWidth);
+      nvvb$done.setX(left);
+    }
+    nvvb$menu.setWidth(buttonWidth);
+    nvvb$menu.setX(left + buttonWidth + 8);
+    nvvb$menu.setY(y);
+>>>>>>> origin/master
   }
 }

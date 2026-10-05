@@ -2,9 +2,13 @@ package nvvisionboost;
 
 import net.minecraft.client.Minecraft;
 
+<<<<<<< HEAD
 /**
  * Prepare the active pack once per world and pack, without per-frame or scale-triggered reloads.
  */
+=======
+/** Prepara o pack ativo uma vez por mundo/pack, sem reload por frame ou escala. */
+>>>>>>> origin/master
 public final class NVVisionBoostShaderLifecycle {
   private static Object world;
   private static String observed = "", attempted = "";
@@ -36,7 +40,11 @@ public final class NVVisionBoostShaderLifecycle {
     if (!NVVisionBoostCompatibility.externalShadersEnabled()) {
       observed = "";
       stableSamples = 0;
+<<<<<<< HEAD
       return; // Do not enable shaders disabled by the user in Iris.
+=======
+      return; // Não liga shaders que o usuário desativou no Iris.
+>>>>>>> origin/master
     }
     String pack = NVVisionBoostCompatibility.externalShaderPackName();
     if (pack == null || pack.isBlank()) return;
@@ -54,7 +62,11 @@ public final class NVVisionBoostShaderLifecycle {
     }
   }
 
+<<<<<<< HEAD
   /** Manual preparation also satisfies preparation for this session. */
+=======
+  /** O botão manual também satisfaz a preparação desta sessão. */
+>>>>>>> origin/master
   public static void markPrepared(String pack) {
     Minecraft mc = Minecraft.getInstance();
     if (mc == null || pack == null) return;

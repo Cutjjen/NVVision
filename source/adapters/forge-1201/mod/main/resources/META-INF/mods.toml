@@ -6,11 +6,19 @@ clientSideOnly=true
 
 [[mods]]
 modId="nvvisionboost"
+<<<<<<< HEAD
 version="0.8.16"
 displayName="NVIDIA Vision Boost"
 authors="Cutjjen"
 # Category: optimization
 description='''Client-side graphics optimization by Cutjjen: hardware presets, spatial upscaling, dynamic resolution and local visual controls. Open settings with F8 or Minecraft Options.'''
+=======
+version="0.7.20"
+displayName="NVIDIA Vision Boost"
+authors="Cutjjen"
+# Category: optimization
+description='''Client-side optimization mod by Cutjjen. GPU presets, Options-only configuration button, clean configuration interface, Embeddium compatibility, F8 key mapping, shaderpack/resource-pack import, shader analysis and adaptive visual optimization for Minecraft 1.20.1 Forge.'''
+>>>>>>> origin/master
 displayTest="IGNORE_ALL_VERSION"
 
 [[dependencies.nvvisionboost]]

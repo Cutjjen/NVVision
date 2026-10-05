@@ -5,21 +5,47 @@ import com.mojang.blaze3d.pipeline.TextureTarget;
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.Minecraft;
 import nvvisionboost.mixin.NVVisionBoostMinecraftAccessor;
+<<<<<<< HEAD
 import nvvisionboost.rendering.MinecraftGlStateAdapter;
+=======
+>>>>>>> origin/master
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL13;
 import org.lwjgl.opengl.GL30;
 
 /**
+<<<<<<< HEAD
  * Internal-resolution world renderer for Minecraft 1.21.1 / NeoForge / Java 21. Preserve native
  * window and UI dimensions; the external shader backend owns shader execution. No temporal history
  * or frame generation is implemented.
+=======
+ * NVVisionBoost 0.6.6 — correção dos passes de resolução interna
+ *
+ * <p>Stable internal-resolution renderer.
+ *
+ * <p>Minecraft 1.20.1 Forge 47.2.0 Java 17
+ *
+ * <p>OBJETIVO:
+ *
+ * <p>- reduzir somente a resolução do mundo 3D; - manter janela/HUD/GUI na resolução nativa; -
+ * evitar resizeDisplay(); - evitar histórico temporal inválido; - evitar resíduos de entidades; -
+ * evitar tela preta ao trocar escala; - não executar shaderpacks; - deixar Oculus responsável pelos
+ * shaders.
+ *
+ * <p>Esta versão usa um upscale espacial estável através de framebuffer blit.
+ *
+ * <p>Frame Generation permanece fora deste renderer até existir implementação temporal segura com
+ * motion vectors.
+>>>>>>> origin/master
  */
 public final class NVVisionBoostNativeRenderer {
   private static TextureTarget lowTarget;
 
   private static RenderTarget originalTarget;
+<<<<<<< HEAD
   private static final NVVisionBoostTargetLease TARGET_LEASE = new NVVisionBoostTargetLease();
+=======
+>>>>>>> origin/master
 
   private static boolean worldPassActive = false;
   private static boolean processingBlocked;
@@ -33,15 +59,24 @@ public final class NVVisionBoostNativeRenderer {
   private static void checkTarget(RenderTarget target, String label) {
     int previous = GL11.glGetInteger(GL30.GL_DRAW_FRAMEBUFFER_BINDING);
     try {
+<<<<<<< HEAD
       MinecraftGlStateAdapter.bindFramebuffer(GL30.GL_DRAW_FRAMEBUFFER, target.frameBufferId);
+=======
+      GL30.glBindFramebuffer(GL30.GL_DRAW_FRAMEBUFFER, target.frameBufferId);
+>>>>>>> origin/master
       int status = GL30.glCheckFramebufferStatus(GL30.GL_DRAW_FRAMEBUFFER);
       if (status != GL30.GL_FRAMEBUFFER_COMPLETE)
         throw new IllegalStateException(
             label + ": framebuffer incompleto 0x" + Integer.toHexString(status));
+<<<<<<< HEAD
       if (GL11.glGetInteger(GL13.GL_SAMPLES) > 0)
         throw new IllegalStateException(label + ": target multisample requer resoluÃ§Ã£o nativa");
     } finally {
       MinecraftGlStateAdapter.bindFramebuffer(GL30.GL_DRAW_FRAMEBUFFER, previous);
+=======
+    } finally {
+      GL30.glBindFramebuffer(GL30.GL_DRAW_FRAMEBUFFER, previous);
+>>>>>>> origin/master
     }
   }
 
@@ -65,14 +100,22 @@ public final class NVVisionBoostNativeRenderer {
             framebuffer.getClass().getMethod("hasDepthAttachment").invoke(framebuffer))) continue;
         int id =
             ((Number) framebuffer.getClass().getMethod("getId").invoke(framebuffer)).intValue();
+<<<<<<< HEAD
         MinecraftGlStateAdapter.bindFramebuffer(GL30.GL_DRAW_FRAMEBUFFER, id);
+=======
+        GL30.glBindFramebuffer(GL30.GL_DRAW_FRAMEBUFFER, id);
+>>>>>>> origin/master
         int status = GL30.glCheckFramebufferStatus(GL30.GL_DRAW_FRAMEBUFFER);
         if (status != GL30.GL_FRAMEBUFFER_COMPLETE)
           throw new IllegalStateException(
               "Framebuffer de shaders " + id + " incompleto: 0x" + Integer.toHexString(status));
       }
     } finally {
+<<<<<<< HEAD
       MinecraftGlStateAdapter.bindFramebuffer(GL30.GL_DRAW_FRAMEBUFFER, previous);
+=======
+      GL30.glBindFramebuffer(GL30.GL_DRAW_FRAMEBUFFER, previous);
+>>>>>>> origin/master
     }
   }
 
@@ -85,6 +128,7 @@ public final class NVVisionBoostNativeRenderer {
   private static java.lang.reflect.Method depthTextureMethod;
   private static long lastDiagnosticNanos;
   private static String measuredResolution = "Nenhum passe observado.";
+<<<<<<< HEAD
   // Trace only three frames after target creation/reset, without pixel readback or glFinish.
   private static int alignmentDiagnosticFrames = 3;
 
@@ -143,6 +187,8 @@ public final class NVVisionBoostNativeRenderer {
     }
   }
 
+=======
+>>>>>>> origin/master
   private static String lastMeasurementKey = "";
 
   private static int mainWidth = 0;
@@ -173,9 +219,19 @@ public final class NVVisionBoostNativeRenderer {
   // LEVEL RENDER
   // ============================================================
 
+<<<<<<< HEAD
   /** Render the world through the internal target; HUD and menus retain the native target. */
   /** Wrap the complete world pass, including shader hooks and the hand. */
   /** Dimensions exposed to 3D passes; the physical window remains unchanged. */
+=======
+  /**
+   * Executa somente o LevelRenderer dentro do framebuffer interno reduzido.
+   *
+   * <p>HUD, menus e GUI permanecem no framebuffer principal.
+   */
+  /** Envolve todo o mundo, incluindo os hooks de shaders e a mão. */
+  /** Dimensões vistas pelos passes 3D; a janela física permanece intacta. */
+>>>>>>> origin/master
   public static int worldWidth(int nativeWidth) {
     return worldPassActive && RenderSystem.isOnRenderThread() ? lowWidth : nativeWidth;
   }
@@ -214,9 +270,15 @@ public final class NVVisionBoostNativeRenderer {
       RenderSystem.bindTexture(remapTargetTexture(boundZero, oldColor, oldDepth, target));
       RenderSystem.activeTexture(active);
       RenderSystem.bindTexture(remapTargetTexture(bound, oldColor, oldDepth, target));
+<<<<<<< HEAD
       MinecraftGlStateAdapter.bindFramebuffer(
           GL30.GL_READ_FRAMEBUFFER, read == oldFbo ? target.frameBufferId : read);
       MinecraftGlStateAdapter.bindFramebuffer(
+=======
+      GL30.glBindFramebuffer(
+          GL30.GL_READ_FRAMEBUFFER, read == oldFbo ? target.frameBufferId : read);
+      GL30.glBindFramebuffer(
+>>>>>>> origin/master
           GL30.GL_DRAW_FRAMEBUFFER, draw == oldFbo ? target.frameBufferId : draw);
     }
   }
@@ -232,8 +294,13 @@ public final class NVVisionBoostNativeRenderer {
   }
 
   /**
+<<<<<<< HEAD
    * Recover a target after an interrupted frame without switching framebuffers, clearing buffers or
    * recompiling shaders here.
+=======
+   * Recupera o target se um mod interrompeu o frame anterior com exceção. Não troca framebuffer,
+   * não limpa buffers e não recompila shaders aqui.
+>>>>>>> origin/master
    */
   public static void prepareFrame() {
     if (!RenderSystem.isOnRenderThread()) return;
@@ -264,8 +331,14 @@ public final class NVVisionBoostNativeRenderer {
   }
 
   /**
+<<<<<<< HEAD
    * Sample pipeline dimensions infrequently after the backend frame. Special buffers and shadow
    * maps may have independent dimensions.
+=======
+   * Diagnóstico de baixa frequência, após o backend terminar seu frame. getCurrentWidth/Height
+   * refletem a base dos buffers do pipeline; buffers especiais e mapas de sombras podem ter
+   * resoluções próprias.
+>>>>>>> origin/master
    */
   private static void observePipelineResolution() {
     long now = System.nanoTime();
@@ -316,7 +389,11 @@ public final class NVVisionBoostNativeRenderer {
         }
       }
     } catch (ReflectiveOperationException | RuntimeException error) {
+<<<<<<< HEAD
       backendSize = "dimensÃµes do backend nÃ£o verificadas";
+=======
+      backendSize = "dimensões do backend não verificadas";
+>>>>>>> origin/master
     }
     RenderTarget active =
         ((NVVisionBoostMinecraftAccessor) Minecraft.getInstance()).nvvb$getMainRenderTarget();
@@ -324,7 +401,11 @@ public final class NVVisionBoostNativeRenderer {
     measuredResolution =
         "Mundo: "
             + targetSize
+<<<<<<< HEAD
             + " | SaÃ­da: "
+=======
+            + " | Saída: "
+>>>>>>> origin/master
             + mainWidth
             + "x"
             + mainHeight
@@ -340,12 +421,20 @@ public final class NVVisionBoostNativeRenderer {
   // OLD API COMPATIBILITY
   // ============================================================
 
+<<<<<<< HEAD
   /** Compatibility entry point for earlier mixin versions. */
+=======
+  /** Compatibilidade com versões anteriores do mixin. */
+>>>>>>> origin/master
   public static void beginFrame() {
     beginFrameInternal();
   }
 
+<<<<<<< HEAD
   /** Compatibility entry point for earlier callers. */
+=======
+  /** Compatibilidade com versões anteriores. */
+>>>>>>> origin/master
   public static void endFrame() {
     if (worldPassActive) {
       endFrameInternal();
@@ -358,9 +447,16 @@ public final class NVVisionBoostNativeRenderer {
   }
 
   /**
+<<<<<<< HEAD
    * Oculus 1.8.0 compares depth versions rather than texture identities. Invalidate only the
    * version counter before beginLevelRendering so the backend reattaches depth and recalculates
    * pack-defined sizes, including when returning to native resolution.
+=======
+   * Oculus 1.8.0 compara a versão do depth, mas não a identidade da textura. Dois RenderTargets
+   * podem ter a mesma versão e IDs diferentes. Invalide somente esse contador antes do
+   * beginLevelRendering do backend: ele próprio reanexa o depth e recalcula os tamanhos conforme as
+   * diretivas do pack. Também executa ao voltar à resolução nativa, sem recarregar shaders.
+>>>>>>> origin/master
    */
   private static void synchronizeShaderDepthTarget() {
     // A selected pipeline can exist before IrisApi reports a shader pack in use.
@@ -387,17 +483,29 @@ public final class NVVisionBoostNativeRenderer {
       int attachedDepth = ((Number) depthTextureMethod.invoke(targets)).intValue();
       if (attachedDepth == current.getDepthTextureId()) return;
       if (depthVersionField == null)
+<<<<<<< HEAD
         throw new IllegalStateException("Backend sem contador de depth compatÃ­vel");
+=======
+        throw new IllegalStateException("Backend sem contador de depth compatível");
+>>>>>>> origin/master
       int version =
           ((Number) current.getClass().getMethod("iris$getDepthBufferVersion").invoke(current))
               .intValue();
       depthVersionField.setInt(targets, ~version);
     } catch (ReflectiveOperationException | RuntimeException error) {
+<<<<<<< HEAD
       // Do not continue with depth owned by another framebuffer.
       failedFrames++;
       processingBlocked = true;
       shaderDepthBridgeFailed = true;
       lastError = "IntegraÃ§Ã£o de depth com shaders: " + describe(error);
+=======
+      // Não continue com um depth que pertence a outro framebuffer.
+      failedFrames++;
+      processingBlocked = true;
+      shaderDepthBridgeFailed = true;
+      lastError = "Integração de depth com shaders: " + describe(error);
+>>>>>>> origin/master
       NVVisionBoostCore.log("[NVVB Upscaler] " + lastError);
       worldPassActive = false;
       restoreOriginalTarget();
@@ -407,7 +515,11 @@ public final class NVVisionBoostNativeRenderer {
           resizeAuxiliaryTargets(mc, mainWidth, mainHeight);
           originalTarget.bindWrite(true);
         } catch (RuntimeException recovery) {
+<<<<<<< HEAD
           NVVisionBoostCore.log("[NVVB Upscaler] RecuperaÃ§Ã£o de targets: " + describe(recovery));
+=======
+          NVVisionBoostCore.log("[NVVB Upscaler] Recuperação de targets: " + describe(recovery));
+>>>>>>> origin/master
         }
       }
       originalTarget = null;
@@ -462,8 +574,13 @@ public final class NVVisionBoostNativeRenderer {
       mainWidth = lowWidth = width;
       mainHeight = lowHeight = height;
       // No modo nativo, o backend possui o framebuffer do passe.
+<<<<<<< HEAD
       // Restore only auxiliary targets previously resized by this renderer.
       // Do not bind the main target at every HEAD hook; another pass may be active.
+=======
+      // Só restaure targets auxiliares que este renderer já redimensionou.
+      // Não vincule o target principal em cada HEAD: isso pode substituir
+>>>>>>> origin/master
       // o framebuffer escolhido por Oculus/Flywheel ou por outro mixin.
       if (auxiliaryWidth > 0 && auxiliaryHeight > 0) {
         resizeAuxiliaryTargets(client, width, height);
@@ -483,7 +600,11 @@ public final class NVVisionBoostNativeRenderer {
       skippedFrames++;
       return false;
     }
+<<<<<<< HEAD
     // Vanilla PostChain runs outside the wrapped world pass. Preserve native resolution.
+=======
+    // PostChain vanilla roda fora do passe encapsulado. Preserve a resolução
+>>>>>>> origin/master
     // nativa nesse caso em vez de misturar targets de tamanhos distintos.
     if (client != null && client.gameRenderer.currentEffect() != null) {
       skippedFrames++;
@@ -508,7 +629,16 @@ public final class NVVisionBoostNativeRenderer {
       return false;
     }
 
+<<<<<<< HEAD
     /* Only spatial upscaling runs here; unrelated options must not replace targets at 100% scale. */
+=======
+    /*
+     * Somente upscaling espacial é executado neste renderer.
+     *
+     * Sharpness/frame generation não devem forçar troca de
+     * framebuffer quando a escala está em 100%.
+     */
+>>>>>>> origin/master
     if (!cfg.upscalingEnabled) {
       skippedFrames++;
 
@@ -564,7 +694,19 @@ public final class NVVisionBoostNativeRenderer {
 
       mainHeight = current.viewHeight;
 
+<<<<<<< HEAD
       /* Scale multiplies both dimensions: 100% native, 75% three quarters, 50% half, 25% one quarter, 10% minimum. */
+=======
+      /*
+       * Escala real permitida:
+       *
+       * 100% = resolução nativa
+       * 75%  = 0.75 da largura/altura
+       * 50%  = metade
+       * 25%  = quarto
+       * 10%  = mínimo experimental
+       */
+>>>>>>> origin/master
       int scale = clamp(NVVisionBoostFrameTiming.effectiveScale(cfg), 10, 100);
 
       if (scale >= 100) {
@@ -583,7 +725,18 @@ public final class NVVisionBoostNativeRenderer {
 
       int requestedHeight = Math.max(1, Math.round(mainHeight * scale / 100.0f));
 
+<<<<<<< HEAD
       /* Resize internal attachments when dimensions change and avoid retaining pixels from previous frames. */
+=======
+      /*
+       * Alteração de escala/resolução:
+       *
+       * descartar completamente o framebuffer antigo.
+       *
+       * Isto é fundamental para impedir imagens antigas
+       * de entidades aparecendo no próximo frame.
+       */
+>>>>>>> origin/master
       if (lowTarget == null
           || requestedWidth != allocatedWidth
           || requestedHeight != allocatedHeight
@@ -595,14 +748,28 @@ public final class NVVisionBoostNativeRenderer {
       }
 
       if (lowTarget == null) {
+<<<<<<< HEAD
         throw new IllegalStateException("Framebuffer interno nÃ£o foi criado.");
+=======
+        throw new IllegalStateException("Framebuffer interno não foi criado.");
+>>>>>>> origin/master
       }
 
       lowWidth = requestedWidth;
 
       lowHeight = requestedHeight;
 
+<<<<<<< HEAD
       /* Clear color and depth each frame so unwritten pixels cannot retain previous entities or chunks. */
+=======
+      /*
+       * Limpa COLOR + DEPTH antes de cada frame.
+       *
+       * Isto evita que fragmentos do frame anterior
+       * sobrevivam quando chunks/entidades deixam de
+       * escrever determinados pixels.
+       */
+>>>>>>> origin/master
       lowTarget.bindWrite(true);
 
       lowTarget.setClearColor(0.0f, 0.0f, 0.0f, 1.0f);
@@ -611,20 +778,38 @@ public final class NVVisionBoostNativeRenderer {
 
       RenderSystem.viewport(0, 0, lowWidth, lowHeight);
 
+<<<<<<< HEAD
       /* Lend world attachments while preserving main-target identity for references retained by other mods. */
       TARGET_LEASE.begin(originalTarget, lowTarget);
 
       originalTarget.bindWrite(true);
+=======
+      /*
+       * A troca acontece somente durante a chamada
+       * LevelRenderer.renderLevel().
+       */
+      accessor.nvvb$setMainRenderTarget(lowTarget);
+
+      lowTarget.bindWrite(true);
+>>>>>>> origin/master
 
       RenderSystem.viewport(0, 0, lowWidth, lowHeight);
 
       worldPassActive = true;
+<<<<<<< HEAD
       // Outlines and transparency use the world resolution.
       resizeAuxiliaryTargets(mc, lowWidth, lowHeight);
       // reload pode trocar o FBO vinculado: reafirme o destino reduzido.
       originalTarget.bindWrite(true);
       RenderSystem.viewport(0, 0, lowWidth, lowHeight);
       traceAlignment("inicio-mundo");
+=======
+      // Outline e transparência usam a mesma resolução do mundo.
+      resizeAuxiliaryTargets(mc, lowWidth, lowHeight);
+      // reload pode trocar o FBO vinculado: reafirme o destino reduzido.
+      lowTarget.bindWrite(true);
+      RenderSystem.viewport(0, 0, lowWidth, lowHeight);
+>>>>>>> origin/master
 
       lastError = "";
 
@@ -663,12 +848,20 @@ public final class NVVisionBoostNativeRenderer {
       worldPassActive = false;
 
       restoreOriginalTarget();
+<<<<<<< HEAD
       // Recovery must not leave the native world using a reduced pipeline.
+=======
+      // Uma falha não pode deixar o mundo nativo com pipeline reduzido.
+>>>>>>> origin/master
       try {
         resizeAuxiliaryTargets(mc, mainWidth, mainHeight);
         if (originalTarget != null) originalTarget.bindWrite(true);
       } catch (Throwable recovery) {
+<<<<<<< HEAD
         NVVisionBoostCore.log("[NVVB Upscaler] RecuperaÃ§Ã£o de shaders: " + describe(recovery));
+=======
+        NVVisionBoostCore.log("[NVVB Upscaler] Recuperação de shaders: " + describe(recovery));
+>>>>>>> origin/master
       }
       originalTarget = null;
 
@@ -687,11 +880,19 @@ public final class NVVisionBoostNativeRenderer {
 
     try {
       if (lowTarget == null) {
+<<<<<<< HEAD
         throw new IllegalStateException("lowTarget desapareceu durante renderizaÃ§Ã£o.");
       }
 
       if (originalTarget == null) {
         throw new IllegalStateException("originalTarget nÃ£o estÃ¡ disponÃ­vel.");
+=======
+        throw new IllegalStateException("lowTarget desapareceu durante renderização.");
+      }
+
+      if (originalTarget == null) {
+        throw new IllegalStateException("originalTarget não está disponível.");
+>>>>>>> origin/master
       }
 
       /*
@@ -699,6 +900,7 @@ public final class NVVisionBoostNativeRenderer {
        *
        * Restauramos primeiro o target real do Minecraft.
        */
+<<<<<<< HEAD
       // Observe the world while the main target still owns reduced attachments.
       observePipelineResolution();
       traceAlignment("fim-mundo/antes-upscale");
@@ -708,6 +910,8 @@ public final class NVVisionBoostNativeRenderer {
       // reconstruction.
       worldPassActive = false;
       preserveStencilRequirement(originalTarget);
+=======
+>>>>>>> origin/master
       if (checkPipelineAfterResize) {
         checkPipelineAfterResize = false;
         int status = GL30.glCheckFramebufferStatus(GL30.GL_DRAW_FRAMEBUFFER);
@@ -715,6 +919,7 @@ public final class NVVisionBoostNativeRenderer {
           throw new IllegalStateException(
               "Pipeline externo terminou com framebuffer incompleto: 0x"
                   + Integer.toHexString(status));
+<<<<<<< HEAD
         checkTarget(lowTarget, "Target interno apÃ³s pipeline");
         checkShaderTargets();
       }
@@ -724,13 +929,34 @@ public final class NVVisionBoostNativeRenderer {
       blitToOriginal();
 
       /* Restore native resolution before subsequent rendering outside the world pass. */
+=======
+        checkTarget(lowTarget, "Target interno após pipeline");
+        checkShaderTargets();
+      }
+      observePipelineResolution();
+      restoreOriginalTarget();
+
+      /*
+       * Depois copiamos a imagem reduzida para o framebuffer
+       * principal utilizando upscale espacial.
+       */
+      blitToOriginal();
+
+      /*
+       * Garante que qualquer renderização posterior
+       * (mão/HUD/GUI/etc.) continue na resolução nativa.
+       */
+>>>>>>> origin/master
       if (originalTarget != null) {
         originalTarget.bindWrite(true);
       }
 
       RenderSystem.viewport(0, 0, mainWidth, mainHeight);
+<<<<<<< HEAD
       traceAlignment("fim-upscale");
       if (alignmentDiagnosticFrames > 0) alignmentDiagnosticFrames--;
+=======
+>>>>>>> origin/master
 
       processedFrames++;
 
@@ -756,8 +982,16 @@ public final class NVVisionBoostNativeRenderer {
   // ============================================================
 
   /**
+<<<<<<< HEAD
    * Spatial reconstruction into the main framebuffer, without temporal history, frame generation or
    * a native shaderpack backend.
+=======
+   * Upscale espacial do framebuffer interno para o framebuffer principal.
+   *
+   * <p>GL_LINEAR é utilizado para evitar pixelização extrema.
+   *
+   * <p>Não há history buffer. Não há frame generation. Não há shaderpack NV nativo.
+>>>>>>> origin/master
    */
   private static void blitToOriginal() {
     if (lowTarget == null || originalTarget == null) {
@@ -781,7 +1015,10 @@ public final class NVVisionBoostNativeRenderer {
             config.upscalerMode,
             config.upscalerSharpnessPercent,
             NVVisionBoostFrameTiming.performanceTarget(config))) {
+<<<<<<< HEAD
       transferWorldDepth();
+=======
+>>>>>>> origin/master
       originalTarget.bindWrite(true);
       RenderSystem.viewport(0, 0, mainWidth, mainHeight);
       return;
@@ -793,15 +1030,29 @@ public final class NVVisionBoostNativeRenderer {
       /*
        * Source = framebuffer reduzido.
        */
+<<<<<<< HEAD
       MinecraftGlStateAdapter.bindFramebuffer(GL30.GL_READ_FRAMEBUFFER, lowTarget.frameBufferId);
+=======
+      GL30.glBindFramebuffer(GL30.GL_READ_FRAMEBUFFER, lowTarget.frameBufferId);
+>>>>>>> origin/master
 
       /*
        * Destination = framebuffer principal.
        */
+<<<<<<< HEAD
       MinecraftGlStateAdapter.bindFramebuffer(
           GL30.GL_DRAW_FRAMEBUFFER, originalTarget.frameBufferId);
 
       /* Reconstruct color; transfer depth separately with NEAREST filtering. */
+=======
+      GL30.glBindFramebuffer(GL30.GL_DRAW_FRAMEBUFFER, originalTarget.frameBufferId);
+
+      /*
+       * Upscale somente COLOR.
+       *
+       * Não copiamos DEPTH em dimensões diferentes.
+       */
+>>>>>>> origin/master
       GL30.glBlitFramebuffer(
           0,
           0,
@@ -813,13 +1064,23 @@ public final class NVVisionBoostNativeRenderer {
           mainHeight,
           GL11.GL_COLOR_BUFFER_BIT,
           GL11.GL_LINEAR);
+<<<<<<< HEAD
       transferWorldDepth();
+=======
+>>>>>>> origin/master
     } finally {
       if (scissor) GL11.glEnable(GL11.GL_SCISSOR_TEST);
     }
 
+<<<<<<< HEAD
     /* Return to the main framebuffer. */
     MinecraftGlStateAdapter.bindFramebuffer(GL30.GL_READ_FRAMEBUFFER, originalTarget.frameBufferId);
+=======
+    /*
+     * Volta para o framebuffer principal.
+     */
+    GL30.glBindFramebuffer(GL30.GL_READ_FRAMEBUFFER, originalTarget.frameBufferId);
+>>>>>>> origin/master
     originalTarget.bindWrite(true);
 
     RenderSystem.viewport(0, 0, mainWidth, mainHeight);
@@ -829,6 +1090,7 @@ public final class NVVisionBoostNativeRenderer {
   // TARGET MANAGEMENT
   // ============================================================
 
+<<<<<<< HEAD
   private static void transferWorldDepth() {
     if (lowTarget.useDepth && originalTarget.useDepth) {
       NVVisionBoostDepthTransfer.copy(
@@ -847,6 +1109,17 @@ public final class NVVisionBoostNativeRenderer {
     NVVisionBoostCore.log("[NVVB Upscaler] Recriando framebuffer interno: " + width + "x" + height);
 
     /* Allocate valid depth for blocks, entities and transparency. */
+=======
+  private static void recreateTarget(int width, int height) {
+    NVVisionBoostCore.log("[NVVB Upscaler] Recriando framebuffer interno: " + width + "x" + height);
+
+    /*
+     * useDepth = true
+     *
+     * O LevelRenderer precisa de depth buffer válido para
+     * blocos, entidades e transparências.
+     */
+>>>>>>> origin/master
     int oldFramebuffer = lowTarget == null ? -1 : lowTarget.frameBufferId;
     int oldColor = lowTarget == null ? -1 : lowTarget.getColorTextureId();
     int oldDepth = lowTarget == null ? -1 : lowTarget.getDepthTextureId();
@@ -860,7 +1133,11 @@ public final class NVVisionBoostNativeRenderer {
       if (lowTarget == null) {
         lowTarget = new TextureTarget(width, height, true, Minecraft.ON_OSX);
       } else {
+<<<<<<< HEAD
         // Preserve the target object referenced by external hooks.
+=======
+        // Mantenha o objeto que os hooks externos já conhecem.
+>>>>>>> origin/master
         lowTarget.resize(width, height, Minecraft.ON_OSX);
       }
       // Forge mods such as Immersive Engineering enable packed depth/stencil
@@ -873,15 +1150,26 @@ public final class NVVisionBoostNativeRenderer {
         lowTarget.enableStencil();
       }
       lastDiagnosticNanos = 0L;
+<<<<<<< HEAD
       // The shader backend tracks attachment identities and dimensions at world-pass entry.
+=======
+      // Oculus acompanha depth/color IDs e dimensões em beginLevelRendering().
+>>>>>>> origin/master
 
       lowTarget.setClearColor(0.0f, 0.0f, 0.0f, 1.0f);
 
       lowTarget.clear(true);
+<<<<<<< HEAD
       checkTarget(lowTarget, "Target interno recÃ©m-alocado");
       checkPipelineAfterResize = true;
     } finally {
       // Allocation must not leave the atlas or shader texture unit unbound.
+=======
+      checkTarget(lowTarget, "Target interno recém-alocado");
+      checkPipelineAfterResize = true;
+    } finally {
+      // A alocação não pode deixar a unidade usada pelo atlas/shader sem textura.
+>>>>>>> origin/master
       RenderSystem.activeTexture(GL13.GL_TEXTURE0);
       RenderSystem.bindTexture(
           lowTarget == null
@@ -892,11 +1180,19 @@ public final class NVVisionBoostNativeRenderer {
           lowTarget == null
               ? validTexture(boundTexture)
               : remapTargetTexture(boundTexture, oldColor, oldDepth, lowTarget));
+<<<<<<< HEAD
       MinecraftGlStateAdapter.bindFramebuffer(
           GL30.GL_READ_FRAMEBUFFER,
           NVVisionBoostTargetBindings.framebuffer(
               previousRead, oldFramebuffer, lowTarget == null ? 0 : lowTarget.frameBufferId));
       MinecraftGlStateAdapter.bindFramebuffer(
+=======
+      GL30.glBindFramebuffer(
+          GL30.GL_READ_FRAMEBUFFER,
+          NVVisionBoostTargetBindings.framebuffer(
+              previousRead, oldFramebuffer, lowTarget == null ? 0 : lowTarget.frameBufferId));
+      GL30.glBindFramebuffer(
+>>>>>>> origin/master
           GL30.GL_DRAW_FRAMEBUFFER,
           NVVisionBoostTargetBindings.framebuffer(
               previousDraw, oldFramebuffer, lowTarget == null ? 0 : lowTarget.frameBufferId));
@@ -910,7 +1206,16 @@ public final class NVVisionBoostNativeRenderer {
 
     lowHeight = height;
 
+<<<<<<< HEAD
     /* A newly allocated target has no temporal history. */
+=======
+    /*
+     * Um target recém-criado não possui qualquer histórico.
+     *
+     * A implementação temporal antiga foi propositalmente
+     * removida.
+     */
+>>>>>>> origin/master
     NVVisionBoostCore.log("[NVVB Upscaler] Framebuffer interno criado.");
     NVVisionBoostCore.log(
         "[NVVB Upscaler] Depth/stencil: principal="
@@ -945,7 +1250,10 @@ public final class NVVisionBoostNativeRenderer {
 
   private static void restoreOriginalTarget() {
     try {
+<<<<<<< HEAD
       TARGET_LEASE.restore();
+=======
+>>>>>>> origin/master
       Minecraft mc = Minecraft.getInstance();
 
       if (mc == null) {
@@ -965,8 +1273,12 @@ public final class NVVisionBoostNativeRenderer {
       }
 
       originalTarget.bindWrite(true);
+<<<<<<< HEAD
       MinecraftGlStateAdapter.bindFramebuffer(
           GL30.GL_READ_FRAMEBUFFER, originalTarget.frameBufferId);
+=======
+      GL30.glBindFramebuffer(GL30.GL_READ_FRAMEBUFFER, originalTarget.frameBufferId);
+>>>>>>> origin/master
 
       if (mainWidth > 0 && mainHeight > 0) {
         RenderSystem.viewport(0, 0, mainWidth, mainHeight);
@@ -983,8 +1295,15 @@ public final class NVVisionBoostNativeRenderer {
   // ============================================================
 
   /**
+<<<<<<< HEAD
    * Invalidate rendering configuration after scale, enable-state, resolution, fullscreen or
    * graphics-setting changes.
+=======
+   * Deve ser chamado quando:
+   *
+   * <p>- upscaling é ativado/desativado; - escala muda; - resolução muda; - fullscreen muda; -
+   * configuração gráfica é recarregada.
+>>>>>>> origin/master
    */
   public static void reset() {
     Minecraft mc = Minecraft.getInstance();
@@ -1009,8 +1328,13 @@ public final class NVVisionBoostNativeRenderer {
     shaderDepthBridgeFailed = false;
     checkPipelineAfterResize = false;
 
+<<<<<<< HEAD
     // An option change does not invalidate same-sized GPU textures.
     // Preparation compares target identity, dimensions and shader selection.
+=======
+    // Uma alteração de opção não invalida texturas GPU de mesmo tamanho.
+    // A preparação compara identidade, dimensões e seleção do shader.
+>>>>>>> origin/master
     diagnosticLogged = false;
 
     lastError = "";
@@ -1018,7 +1342,11 @@ public final class NVVisionBoostNativeRenderer {
     NVVisionBoostCore.log("[NVVB Upscaler] Renderer resetado.");
   }
 
+<<<<<<< HEAD
   /** Request another diagnostic sample; resize buffers only when dimensions change. */
+=======
+  /** Solicita novo diagnóstico; buffers só mudam quando suas dimensões mudam. */
+>>>>>>> origin/master
   public static void invalidate() {
     NVVisionBoostFrameTiming.invalidateWorld();
     lastDiagnosticNanos = 0L;
@@ -1107,7 +1435,20 @@ public final class NVVisionBoostNativeRenderer {
       return false;
     }
 
+<<<<<<< HEAD
     /* Keep independent features outside the internal world renderer to avoid unnecessary framebuffer replacement. */
+=======
+    /*
+     * O renderer interno NÃO é mais responsável por:
+     *
+     * nativeShaderRenderer
+     * frame generation
+     * sharpening em resolução nativa
+     *
+     * Isso impede que recursos independentes provoquem
+     * substituição desnecessária do framebuffer.
+     */
+>>>>>>> origin/master
     return cfg.upscalingEnabled && NVVisionBoostFrameTiming.effectiveScale(cfg) < 100;
   }
 
@@ -1132,6 +1473,7 @@ public final class NVVisionBoostNativeRenderer {
 
     return throwable.getClass().getSimpleName() + ": " + message;
   }
+<<<<<<< HEAD
 
   /** Only the leased main framebuffer participates in this pixel contract. */
   public static boolean isReducedMainBound() {
@@ -1174,4 +1516,6 @@ public final class NVVisionBoostNativeRenderer {
     }
     return repair;
   }
+=======
+>>>>>>> origin/master
 }

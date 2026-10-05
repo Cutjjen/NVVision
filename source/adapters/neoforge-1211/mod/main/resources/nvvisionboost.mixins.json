@@ -9,10 +9,14 @@
     "NVVisionBoostWindowMixin",
     "NVVisionBoostBackgroundFpsMixin",
     "NVVisionBoostWeatherParticlesMixin",
+<<<<<<< HEAD
     "NVVisionBoostBlockEntityDistanceMixin",
     "NVVisionBoostRenderTargetAccessor",
     "NVVisionBoostViewportMixin",
     "NVVisionBoostScreenSizeMixin"
+=======
+    "NVVisionBoostBlockEntityDistanceMixin"
+>>>>>>> origin/master
   ],
   "injectors": {
     "defaultRequire": 1

@@ -7,7 +7,11 @@ import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
+<<<<<<< HEAD
 /** Policy and real file-I/O regressions without an OpenGL context or game initialization. */
+=======
+/** Regressões de políticas e I/O real; não exige contexto OpenGL ou inicialização do jogo. */
+>>>>>>> origin/master
 public final class NVVisionBoostRegressionTest {
   private static int checks;
 

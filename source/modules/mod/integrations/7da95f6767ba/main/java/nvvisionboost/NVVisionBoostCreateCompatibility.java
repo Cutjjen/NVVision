@@ -1,6 +1,10 @@
 package nvvisionboost;
 
+<<<<<<< HEAD
 /** Optional integration preserves Create/Flywheel ownership of machines. */
+=======
+/** Integração opcional: Create/Flywheel conservam o controle de suas máquinas. */
+>>>>>>> origin/master
 public final class NVVisionBoostCreateCompatibility {
   private NVVisionBoostCreateCompatibility() {}
 
@@ -16,7 +20,11 @@ public final class NVVisionBoostCreateCompatibility {
     return createLoaded() || flywheelLoaded();
   }
 
+<<<<<<< HEAD
   /** Allow manual scale without changing Flywheel backend or culling. */
+=======
+  /** A escala manual é permitida; não altera o backend ou culling do Flywheel. */
+>>>>>>> origin/master
   public static boolean allowsFramebufferScaling() {
     return NVVisionBoostDistantHorizonsCompatibility.allowsFramebufferScaling();
   }

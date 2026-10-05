@@ -2,7 +2,11 @@ package nvvisionboost;
 
 import java.util.*;
 
+<<<<<<< HEAD
 /** Schema verified for FerriteCore Forge 6.0.0/6.0.1; do not alter active mixins. */
+=======
+/** Esquema verificado no FerriteCore Forge 6.0.0/6.0.1; não altera mixins em execução. */
+>>>>>>> origin/master
 public final class NVVisionBoostFerriteOptions {
   public record Option(String key, String label, String help, boolean initial, String dependency) {}
 

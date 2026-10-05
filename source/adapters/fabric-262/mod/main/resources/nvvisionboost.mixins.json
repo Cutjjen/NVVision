@@ -10,8 +10,12 @@
     "NVVisionBoostGameRendererMixin",
     "NVVisionBoostWindowMixin",
     "NVVisionBoostOptionsScreenMixin",
+<<<<<<< HEAD
     "NVVisionBoostIrisDepthMixin",
     "NVVisionBoostRenderTargetAccessor"
+=======
+    "NVVisionBoostIrisDepthMixin"
+>>>>>>> origin/master
   ],
   "injectors": {
     "defaultRequire": 1

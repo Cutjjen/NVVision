@@ -10,13 +10,22 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 /**
+<<<<<<< HEAD
  * Wrap the complete world pass without replacing its call. Preserve other mods' Redirect hooks; HUD
  * and menus remain outside the internal-resolution pass.
+=======
+ * Escala o passe completo do mundo sem substituir sua chamada. Preserva o Redirect usado pelo
+ * ChaosCrafts Security Essentials. HUD e menus continuam fora do passe de resolução interna.
+>>>>>>> origin/master
  */
 @Mixin(value = GameRenderer.class, priority = 1100)
 public abstract class NVVisionBoostGameRendererMixin {
 
+<<<<<<< HEAD
   // Outside renderLevel: preserve the pipeline already selected by Oculus.
+=======
+  // Fora de renderLevel: não invalida o pipeline que Oculus já selecionou.
+>>>>>>> origin/master
   @Inject(method = "render(Lnet/minecraft/client/DeltaTracker;Z)V", at = @At("HEAD"))
   private void nvvb$prepareWorld(
       net.minecraft.client.DeltaTracker frame, boolean renderLevel, CallbackInfo ci) {
@@ -41,8 +50,13 @@ public abstract class NVVisionBoostGameRendererMixin {
     NVVisionBoostFrameTiming.beginWorld();
   }
 
+<<<<<<< HEAD
   // The call and Oculus TAIL callbacks have completed.
   // Inject preserves other mods' Redirect hooks without replacing the call.
+=======
+  // A chamada já terminou, incluindo todos os callbacks TAIL do Oculus.
+  // Inject preserva o Redirect de outros mods; não substitui a chamada.
+>>>>>>> origin/master
   @Inject(
       method = "render(Lnet/minecraft/client/DeltaTracker;Z)V",
       at =

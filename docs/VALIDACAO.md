@@ -22,6 +22,7 @@ Não foi realizado um novo teste de mundo/modpack nem medição comparativa de F
 
 
 
+<<<<<<< HEAD
 
 ## Paired release 0.8.16
 
@@ -30,3 +31,5 @@ Thirteen official loader/Minecraft targets and 26 production JARs were compiled 
 Gradle checkSources, checkRendererAdapters, generateFunctionIndex and generateSourceMap passed: 1,618 source bindings, 13 adapter contracts and 3,274 indexed functions in 359 registered Java files. Applicable policy/UI/OpenGL/Java 8 tests and production Minecraft references passed. The full all-platform Gradle build still encounters the recorded Fabric Loom client-jar cache/ZipFS limitation in this environment; delivery uses the validated compilation and production-remapping workflow.
 
 In-world visual checks and FPS measurements remain pending. Forge 1.12.2 has explicit native-rendering capability limits. See PORTS-0.8.16.md and each pair's VALIDACAO.json.
+=======
+>>>>>>> origin/master

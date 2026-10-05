@@ -6,7 +6,11 @@ import java.nio.file.*;
 import java.util.*;
 import java.util.regex.*;
 
+<<<<<<< HEAD
 /** Local UI translation does not change Minecraft language or resources. */
+=======
+/** Localização própria: não altera o idioma ou os recursos do Minecraft. */
+>>>>>>> origin/master
 public final class NVVisionBoostLanguage {
   private static boolean english;
   private static final Map<String, String> translations = load();

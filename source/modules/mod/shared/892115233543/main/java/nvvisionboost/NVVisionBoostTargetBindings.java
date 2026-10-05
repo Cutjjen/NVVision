@@ -3,7 +3,11 @@ package nvvisionboost;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL30;
 
+<<<<<<< HEAD
 /** Validate only during target recreation; add no queries to ordinary frames. */
+=======
+/** Validação apenas na recriação de targets; não adiciona consultas ao frame normal. */
+>>>>>>> origin/master
 final class NVVisionBoostTargetBindings {
   private NVVisionBoostTargetBindings() {}
 

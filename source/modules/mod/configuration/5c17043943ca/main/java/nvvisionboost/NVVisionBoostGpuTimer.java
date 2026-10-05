@@ -4,9 +4,13 @@ import org.lwjgl.opengl.GL;
 import org.lwjgl.opengl.GL15;
 import org.lwjgl.opengl.GL33;
 
+<<<<<<< HEAD
 /**
  * Timestamp queries do not occupy other mods' GL_TIME_ELAPSED queries and never wait for results.
  */
+=======
+/** Timestamps não ocupam GL_TIME_ELAPSED de outros mods. Nunca espera por resultados. */
+>>>>>>> origin/master
 final class NVVisionBoostGpuTimer {
   private static final int SLOTS = 4;
   private final int[] queries = new int[SLOTS * 3];

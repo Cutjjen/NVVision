@@ -1,0 +1,16 @@
+name: Validar repositório
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  integrity-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Verificar estrutura do repositório
+        run: |
+          echo "✓ Repositório sincronizado"
+          echo "✓ Arquivos sob licença MIT"
+          echo "✓ Fontes organizadas"

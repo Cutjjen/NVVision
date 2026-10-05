@@ -3,11 +3,19 @@ loaderVersion="[4,)"
 license="MIT"
 [[mods]]
 modId="nvvisionvulkanbridge"
+<<<<<<< HEAD
 version="0.8.16"
 displayName="NVVision Addon NeoForge"
 authors="Cutjjen"
 displayTest="IGNORE_ALL_VERSION"
 description='''Companion client-side optimization addon by Cutjjen: CPU presets and individual native-particle and visual entity-distance controls. Other players do not need this addon installed.'''
+=======
+version="0.2.5-neoforge.5"
+displayName="NVVision Addon NeoForge"
+authors="Cutjjen"
+displayTest="IGNORE_ALL_VERSION"
+description='''Client-side optimization controls. No network channels or remote installation requirements. No DLSS or frame generation.'''
+>>>>>>> origin/master
 [[dependencies.nvvisionvulkanbridge]]
 modId="minecraft"
 type="required"

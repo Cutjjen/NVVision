@@ -8,7 +8,11 @@ import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.components.Tooltip;
 import net.minecraft.network.chat.Component;
 
+<<<<<<< HEAD
 /** Local UI help preserves rendering, fonts and other mods' options. */
+=======
+/** Ajuda local da interface; não modifica renderização, fontes ou opções de outros mods. */
+>>>>>>> origin/master
 public final class NVVisionBoostUi {
   private static boolean loaded;
   private static final java.util.Map<Tooltip, String> tooltipText = new java.util.WeakHashMap<>();

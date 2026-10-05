@@ -9,7 +9,11 @@ import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
 
+<<<<<<< HEAD
 /** Reduce only tickRain splashes while preserving rain, sounds and mod particles. */
+=======
+/** Reduz apenas respingos criados por tickRain; preserva chuva, sons e partículas de mods. */
+>>>>>>> origin/master
 @Mixin(value = LevelRenderer.class, priority = 900)
 public abstract class NVVisionBoostWeatherParticlesMixin {
   @Unique private int nvvb$rainParticleCounter;

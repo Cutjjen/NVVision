@@ -1,6 +1,10 @@
 package nvvisionboost;
 
+<<<<<<< HEAD
 /** Optional cooperation without a compile-time dependency on a specific API version. */
+=======
+/** Cooperação opcional sem dependência de classes/API de uma versão específica. */
+>>>>>>> origin/master
 public final class NVVisionBoostDistantHorizonsCompatibility {
   private static Boolean reported;
 

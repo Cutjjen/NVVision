@@ -5,7 +5,11 @@ import java.util.*;
 import net.neoforged.fml.ModList;
 import net.neoforged.fml.loading.FMLPaths;
 
+<<<<<<< HEAD
 /** Query the public optional API and configure the next launch. */
+=======
+/** Integração opcional: apenas consulta API pública e configura a próxima inicialização. */
+>>>>>>> origin/master
 public final class NVVisionBoostFerriteCore {
   public record Detection(
       boolean installed, boolean supported, String status, Map<String, Boolean> runtime) {}

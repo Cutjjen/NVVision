@@ -11,7 +11,11 @@ import java.util.Locale;
 import java.util.zip.ZipException;
 import java.util.zip.ZipFile;
 
+<<<<<<< HEAD
 /** Report resources without modifying images, atlases or player files. */
+=======
+/** Relatório de recursos; nunca altera imagens, atlas ou arquivos do jogador. */
+>>>>>>> origin/master
 public final class NVVisionBoostAssetAnalyzer {
   public static final class Report {
     public int png, animated, large, mcmeta;
@@ -78,7 +82,11 @@ public final class NVVisionBoostAssetAnalyzer {
     }
   }
 
+<<<<<<< HEAD
   /** Older ZIP names may use CP437 without the UTF-8 flag; retry only for this decoding error. */
+=======
+  /** ZIPs antigos podem usar CP437 nos nomes sem marcar UTF-8. Só tenta fallback nesse erro. */
+>>>>>>> origin/master
   static ZipFile openResourceZip(Path file) throws IOException {
     try {
       return new ZipFile(file.toFile());

@@ -12,9 +12,23 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
 /**
+<<<<<<< HEAD
  * Shader resource preparation cache. Oculus owns pack selection, loading, compilation and
  * rendering. This service reads and indexes resources; it does not inject OpenGL programs into
  * Oculus.
+=======
+ * NVVisionBoost - Oculus Shader Preparation Cache
+ *
+ * <p>IMPORTANTE:
+ *
+ * <p>Oculus continua sendo responsável por: - carregar shaderpacks; - selecionar shaderpacks; -
+ * compilar o pipeline utilizado para renderização; - renderizar os shaders.
+ *
+ * <p>NVVisionBoost faz somente: - análise; - hashing; - indexação; - cache de preparação; -
+ * validação GLSL opcional; - otimizações auxiliares.
+ *
+ * <p>Nenhum programa OpenGL criado aqui é injetado no Oculus.
+>>>>>>> origin/master
  */
 public final class NVVisionBoostOculusShaderCache {
   private record Cached(long stamp, Result result) {}
@@ -102,8 +116,15 @@ public final class NVVisionBoostOculusShaderCache {
   }
 
   /**
+<<<<<<< HEAD
    * Discover the configured Oculus shaderpack through reflection without a mandatory compile-time
    * dependency.
+=======
+   * Tenta descobrir o shaderpack atualmente configurado no Oculus.
+   *
+   * <p>Não existe dependência direta de compilação com Oculus. Reflection é utilizada para evitar
+   * que NVVisionBoost deixe de carregar caso Oculus não esteja instalado.
+>>>>>>> origin/master
    */
   public static Optional<Path> detectOculusShaderPack(Path gameDir) {
     if (gameDir == null) {
@@ -116,7 +137,16 @@ public final class NVVisionBoostOculusShaderCache {
 
     String shaderName = null;
 
+<<<<<<< HEAD
     /* Try IrisApi first; Oculus API availability varies between versions. */
+=======
+    /*
+     * Primeiro tenta IrisApi.
+     *
+     * Oculus deriva da arquitetura Iris, mas as APIs disponíveis
+     * podem variar conforme a versão.
+     */
+>>>>>>> origin/master
     try {
       Class<?> apiClass = Class.forName("net.irisshaders.iris.api.v0.IrisApi");
 
@@ -134,10 +164,23 @@ public final class NVVisionBoostOculusShaderCache {
         shaderName = invokeString(api, "getCurrentShaderPackName");
       }
     } catch (Throwable ignored) {
+<<<<<<< HEAD
       /* An optional public API change must not fail initialization. */
     }
 
     /* Then use the existing compatibility-layer detection. */
+=======
+      /*
+       * Não falhar se a API pública mudou.
+       */
+    }
+
+    /*
+     * Segunda tentativa:
+     * usar a detecção já existente na camada
+     * de compatibilidade.
+     */
+>>>>>>> origin/master
     if (shaderName == null || shaderName.isBlank()) {
       try {
         shaderName = NVVisionBoostCompatibility.externalShaderPackName();
@@ -145,7 +188,17 @@ public final class NVVisionBoostOculusShaderCache {
       }
     }
 
+<<<<<<< HEAD
     /* Fall back to NVVision's persisted selection as an analysis reference, without enabling the shader. */
+=======
+    /*
+     * Fallback:
+     * seleção persistida pelo NVVisionBoost.
+     *
+     * Isso NÃO significa que o NVVisionBoost está ativando
+     * o shader. É somente uma referência para análise/cache.
+     */
+>>>>>>> origin/master
     if (shaderName == null || shaderName.isBlank()) {
       try {
         shaderName = NVVisionBoostShader.selected(gameDir.resolve("config/nvvisionboost"));
@@ -165,7 +218,13 @@ public final class NVVisionBoostOculusShaderCache {
       return Optional.of(direct);
     }
 
+<<<<<<< HEAD
     /* Some APIs return a pack name without the ZIP extension. */
+=======
+    /*
+     * Algumas APIs retornam o nome sem .zip.
+     */
+>>>>>>> origin/master
     if (!shaderName.toLowerCase(Locale.ROOT).endsWith(".zip")) {
       Path zip = shaderpacks.resolve(shaderName + ".zip").normalize();
 
@@ -174,7 +233,13 @@ public final class NVVisionBoostOculusShaderCache {
       }
     }
 
+<<<<<<< HEAD
     /* Compare names case-insensitively. */
+=======
+    /*
+     * Comparação case-insensitive.
+     */
+>>>>>>> origin/master
     try {
       if (Files.isDirectory(shaderpacks)) {
         try (DirectoryStream<Path> stream = Files.newDirectoryStream(shaderpacks)) {
@@ -209,7 +274,15 @@ public final class NVVisionBoostOculusShaderCache {
     return compileSelected(gameDir, active.get());
   }
 
+<<<<<<< HEAD
   /** Analyze and prepare shaderpack resources without enabling the shader. */
+=======
+  /**
+   * Analisa e prepara o cache do shaderpack.
+   *
+   * <p>NÃO ativa o shader.
+   */
+>>>>>>> origin/master
   public static synchronized Result compileSelected(Path gameDir, Path shaderPack) {
     if (gameDir == null || shaderPack == null || !Files.exists(shaderPack)) {
       return new Result(false, "", "", null, 0, 0, 0, 0, "Shaderpack não encontrado.");
@@ -273,9 +346,15 @@ public final class NVVisionBoostOculusShaderCache {
 
         sourceHashes.add(sourceHash + "  " + entry.name);
 
+<<<<<<< HEAD
         // Shaderpacks require their backend's includes, macros and options.
         // Compilar cada arquivo cru gera falhas artificiais e o resultado
         // Only inspect and read resources here; shader execution belongs to the backend.
+=======
+        // Shaderpacks precisam de includes, macros e opções do backend.
+        // Compilar cada arquivo cru gera falhas artificiais e o resultado
+        // era destruído. Aqui apenas verificamos/leemos os recursos.
+>>>>>>> origin/master
       }
 
       Collections.sort(sourceHashes);
@@ -408,8 +487,13 @@ public final class NVVisionBoostOculusShaderCache {
 
           shaders.add(new EntryData(relative, bytes));
         } else if (isTexture(lower) && size <= MAX_TEXTURE_FILE) {
+<<<<<<< HEAD
           // Read actual contents to warm the operating system file cache.
           // The loaded pipeline owns GPU texture creation.
+=======
+          // Leia o conteúdo real e aqueça o cache de arquivos do SO.
+          // A criação das texturas GPU pertence ao pipeline carregado.
+>>>>>>> origin/master
           try (InputStream input = Files.newInputStream(path)) {
             hashResource(input, MAX_TEXTURE_FILE, packDigest);
           }

@@ -4,7 +4,11 @@ import java.lang.reflect.Method;
 import java.util.Locale;
 import java.util.Optional;
 
+<<<<<<< HEAD
 /** Central detection resolves reflective metadata once. */
+=======
+/** Detecção centralizada; metadados reflexivos são resolvidos uma vez. */
+>>>>>>> origin/master
 public final class NVVisionBoostCompatibility {
   private static Object api;
   private static Method activeMethod,

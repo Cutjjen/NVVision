@@ -2,7 +2,11 @@ package nvvisionboost;
 
 import java.util.Arrays;
 
+<<<<<<< HEAD
 /** Actual frame intervals with fixed-memory percentiles and amortized updates. */
+=======
+/** Intervalos reais entre frames; percentis têm memória fixa e atualização amortizada. */
+>>>>>>> origin/master
 final class NVVisionBoostFrameStatistics {
   private final double[] samples = new double[120];
   private final double[] scratch = new double[120];

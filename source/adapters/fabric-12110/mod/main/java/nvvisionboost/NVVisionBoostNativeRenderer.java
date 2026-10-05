@@ -3,12 +3,18 @@ package nvvisionboost;
 import com.mojang.blaze3d.opengl.GlTexture;
 import com.mojang.blaze3d.pipeline.*;
 import net.minecraft.client.Minecraft;
+<<<<<<< HEAD
 import nvvisionboost.rendering.MinecraftGlStateAdapter;
+=======
+>>>>>>> origin/master
 import org.lwjgl.opengl.*;
 
 /** Minecraft 1.21.10 world-only target replacement. Never calls OpenGL for a Vulkan target. */
 public final class NVVisionBoostNativeRenderer {
+<<<<<<< HEAD
   private static final NVVisionBoostTargetLease TARGET_LEASE = new NVVisionBoostTargetLease();
+=======
+>>>>>>> origin/master
   private static TextureTarget low;
   private static RenderTarget original;
   private static final int[] originalViewport = new int[4];
@@ -46,11 +52,19 @@ public final class NVVisionBoostNativeRenderer {
   }
 
   public static int worldWidth(int width) {
+<<<<<<< HEAD
     return active && original != null ? original.width : width;
   }
 
   public static int worldHeight(int height) {
     return active && original != null ? original.height : height;
+=======
+    return active && low != null ? low.width : width;
+  }
+
+  public static int worldHeight(int height) {
+    return active && low != null ? low.height : height;
+>>>>>>> origin/master
   }
 
   private static String restriction = "Aguardando renderização.";
@@ -116,10 +130,14 @@ public final class NVVisionBoostNativeRenderer {
       int scale = NVVisionBoostFrameTiming.effectiveScale(cfg);
       int width = Math.min(fullWidth, Math.max(64, fullWidth * scale / 100)),
           height = Math.min(fullHeight, Math.max(64, fullHeight * scale / 100));
+<<<<<<< HEAD
       if (low == null
           || low.width != width
           || low.height != height
           || low.getColorTexture().getFormat() != target.getColorTexture().getFormat()) {
+=======
+      if (low == null || low.width != width || low.height != height) {
+>>>>>>> origin/master
         disposeTargets();
         low = new TextureTarget("NVVisionBoost Fabric world", width, height, true);
       }
@@ -128,7 +146,11 @@ public final class NVVisionBoostNativeRenderer {
             "Formato de profundidade incompatível com o target interno");
       original = target;
       GL11.glGetIntegerv(GL11.GL_VIEWPORT, originalViewport);
+<<<<<<< HEAD
       TARGET_LEASE.begin(original, low);
+=======
+      ((nvvisionboost.mixin.NVVisionBoostMinecraftTargetAccessor) mc).nvvb$setMainRenderTarget(low);
+>>>>>>> origin/master
       active = true;
       resolution = "Mundo: " + width + "x" + height + " | Saída: " + fullWidth + "x" + fullHeight;
     } catch (RuntimeException e) {
@@ -163,8 +185,13 @@ public final class NVVisionBoostNativeRenderer {
               cfg.upscalerSharpnessPercent,
               cfg.targetFps);
       if (!rendered) {
+<<<<<<< HEAD
         MinecraftGlStateAdapter.bindFramebuffer(GL30.GL_READ_FRAMEBUFFER, inputFbo);
         MinecraftGlStateAdapter.bindFramebuffer(GL30.GL_DRAW_FRAMEBUFFER, outputFbo);
+=======
+        GL30.glBindFramebuffer(GL30.GL_READ_FRAMEBUFFER, inputFbo);
+        GL30.glBindFramebuffer(GL30.GL_DRAW_FRAMEBUFFER, outputFbo);
+>>>>>>> origin/master
         GL30.glBlitFramebuffer(
             0,
             0,
@@ -177,14 +204,35 @@ public final class NVVisionBoostNativeRenderer {
             GL11.GL_COLOR_BUFFER_BIT,
             GL11.GL_LINEAR);
       }
+<<<<<<< HEAD
       NVVisionBoostDepthTransfer.copy(
           inputFbo, outputFbo, low.width, low.height, fullWidth, fullHeight, false);
+=======
+      GL30.glBindFramebuffer(GL30.GL_READ_FRAMEBUFFER, inputFbo);
+      GL30.glBindFramebuffer(GL30.GL_DRAW_FRAMEBUFFER, outputFbo);
+      GL30.glBlitFramebuffer(
+          0,
+          0,
+          low.width,
+          low.height,
+          0,
+          0,
+          fullWidth,
+          fullHeight,
+          GL11.GL_DEPTH_BUFFER_BIT,
+          GL11.GL_NEAREST);
+>>>>>>> origin/master
       processed++;
     } catch (RuntimeException e) {
       fail(e);
     } finally {
+<<<<<<< HEAD
       MinecraftGlStateAdapter.bindFramebuffer(GL30.GL_READ_FRAMEBUFFER, read);
       MinecraftGlStateAdapter.bindFramebuffer(GL30.GL_DRAW_FRAMEBUFFER, draw);
+=======
+      GL30.glBindFramebuffer(GL30.GL_READ_FRAMEBUFFER, read);
+      GL30.glBindFramebuffer(GL30.GL_DRAW_FRAMEBUFFER, draw);
+>>>>>>> origin/master
       GL11.glViewport(
           originalViewport[0], originalViewport[1], originalViewport[2], originalViewport[3]);
       if (scissor) GL11.glEnable(GL11.GL_SCISSOR_TEST);
@@ -193,7 +241,11 @@ public final class NVVisionBoostNativeRenderer {
   }
 
   private static void attach(int fbo, RenderTarget target) {
+<<<<<<< HEAD
     MinecraftGlStateAdapter.bindFramebuffer(GL30.GL_FRAMEBUFFER, fbo);
+=======
+    GL30.glBindFramebuffer(GL30.GL_FRAMEBUFFER, fbo);
+>>>>>>> origin/master
     GL30.glFramebufferTexture2D(
         GL30.GL_FRAMEBUFFER,
         GL30.GL_COLOR_ATTACHMENT0,
@@ -208,7 +260,14 @@ public final class NVVisionBoostNativeRenderer {
   }
 
   private static void restore() {
+<<<<<<< HEAD
     TARGET_LEASE.restore();
+=======
+    Minecraft mc = Minecraft.getInstance();
+    if (original != null && mc != null)
+      ((nvvisionboost.mixin.NVVisionBoostMinecraftTargetAccessor) mc)
+          .nvvb$setMainRenderTarget(original);
+>>>>>>> origin/master
     active = false;
     original = null;
   }
@@ -234,11 +293,19 @@ public final class NVVisionBoostNativeRenderer {
 
   private static void disposeTargets() {
     if (inputFbo != 0) {
+<<<<<<< HEAD
       MinecraftGlStateAdapter.deleteFramebuffer(inputFbo);
       inputFbo = 0;
     }
     if (outputFbo != 0) {
       MinecraftGlStateAdapter.deleteFramebuffer(outputFbo);
+=======
+      GL30.glDeleteFramebuffers(inputFbo);
+      inputFbo = 0;
+    }
+    if (outputFbo != 0) {
+      GL30.glDeleteFramebuffers(outputFbo);
+>>>>>>> origin/master
       outputFbo = 0;
     }
     release();

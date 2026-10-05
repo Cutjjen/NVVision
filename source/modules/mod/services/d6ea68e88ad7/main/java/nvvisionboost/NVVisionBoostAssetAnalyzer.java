@@ -9,7 +9,11 @@ import java.nio.file.Path;
 import java.util.Locale;
 import java.util.zip.ZipFile;
 
+<<<<<<< HEAD
 /** Report resources without modifying images, atlases or player files. */
+=======
+/** Relatório de recursos; nunca altera imagens, atlas ou arquivos do jogador. */
+>>>>>>> origin/master
 public final class NVVisionBoostAssetAnalyzer {
   public static final class Report {
     public int png, animated, large, mcmeta;
