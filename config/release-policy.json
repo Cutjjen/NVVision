@@ -1,0 +1,11 @@
+{
+  "versionFormat": "major.minor.patch",
+  "increment": "patch",
+  "sharedModAddonVersion": true,
+  "example": [
+    "0.2.5",
+    "0.2.6"
+  ],
+  "loaderAndMinecraftInArtifactName": true,
+  "appliesTo": "New updates only; historical builds retain their original numbering."
+}

@@ -1,0 +1,181 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "neoforge-2612-addon - Client",
+      "presentation": {
+        "group": "Mod Development - neoforge-2612-addon",
+        "order": 0
+      },
+      "projectName": "neoforge-2612-addon",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\targets\\neoforge-2612-addon\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\targets\\neoforge-2612-addon\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dnvvisionvulkanbridge%%C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\targets\\neoforge-2612-addon\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\targets\\neoforge-2612-addon\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "neoforge-2612-mod - Client",
+      "presentation": {
+        "group": "Mod Development - neoforge-2612-mod",
+        "order": 0
+      },
+      "projectName": "neoforge-2612-mod",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\targets\\neoforge-2612-mod\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\targets\\neoforge-2612-mod\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dnvvisionboost%%C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\targets\\neoforge-2612-mod\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\targets\\neoforge-2612-mod\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "neoforge-262-addon - Client",
+      "presentation": {
+        "group": "Mod Development - neoforge-262-addon",
+        "order": 0
+      },
+      "projectName": "neoforge-262-addon",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\targets\\neoforge-262-addon\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\targets\\neoforge-262-addon\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dnvvisionvulkanbridge%%C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\targets\\neoforge-262-addon\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\targets\\neoforge-262-addon\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "neoforge-262-mod - Client",
+      "presentation": {
+        "group": "Mod Development - neoforge-262-mod",
+        "order": 0
+      },
+      "projectName": "neoforge-262-mod",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\targets\\neoforge-262-mod\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\targets\\neoforge-262-mod\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dnvvisionboost%%C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\targets\\neoforge-262-mod\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\targets\\neoforge-262-mod\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "neoforge-12110-addon - Client",
+      "presentation": {
+        "group": "Mod Development - neoforge-12110-addon",
+        "order": 0
+      },
+      "projectName": "neoforge-12110-addon",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\targets\\neoforge-12110-addon\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\targets\\neoforge-12110-addon\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dnvvisionvulkanbridge%%C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\targets\\neoforge-12110-addon\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\targets\\neoforge-12110-addon\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "neoforge-1211-addon - Client",
+      "presentation": {
+        "group": "Mod Development - neoforge-1211-addon",
+        "order": 0
+      },
+      "projectName": "neoforge-1211-addon",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\targets\\neoforge-1211-addon\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\targets\\neoforge-1211-addon\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dnvvisionvulkanbridge%%C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\targets\\neoforge-1211-addon\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\targets\\neoforge-1211-addon\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "neoforge-1211-mod - Client",
+      "presentation": {
+        "group": "Mod Development - neoforge-1211-mod",
+        "order": 0
+      },
+      "projectName": "neoforge-1211-mod",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\targets\\neoforge-1211-mod\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\targets\\neoforge-1211-mod\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dnvvisionboost%%C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\targets\\neoforge-1211-mod\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\targets\\neoforge-1211-mod\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "neoforge-12110-mod - Client",
+      "presentation": {
+        "group": "Mod Development - neoforge-12110-mod",
+        "order": 0
+      },
+      "projectName": "neoforge-12110-mod",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\targets\\neoforge-12110-mod\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\targets\\neoforge-12110-mod\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dnvvisionboost%%C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\targets\\neoforge-12110-mod\\bin\\main"
+      ],
+      "cwd "${workspaceFolder}\\targets\\neoforge-12110-addon\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}

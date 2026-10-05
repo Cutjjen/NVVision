@@ -1,0 +1,90 @@
+// One selected platform per artifact. Shared code stays independent of loader lifecycle.
+def variants = new groovy.json.JsonSlurper().parse(rootProject.file('config/versions.json'))
+def kind = project.name.endsWith('-addon') ? 'addon' : 'mod'
+def key = project.name.substring(0, project.name.length() - kind.length() - 1)
+def target = variants.find { it.key == key }
+if (!target) throw new GradleException("Unregistered target ${key}")
+def entries = new groovy.json.JsonSlurper().parse(rootProject.file('config/sources.json')).findAll { it.target == key && it.kind == kind }
+group = 'dev.cutjjen.nvvision'
+version = target[kind]
+base.archivesName = "${kind == 'mod' ? 'nvvisionboost' : 'nvvision-addon'}-${target.loader}-${target.minecraft}"
+java { toolchain.languageVersion = JavaLanguageVersion.of(target.java as int); withSourcesJar() }
+def generated = layout.buildDirectory.dir('generated/registered-sources')
+def prepare = tasks.register('prepareSources', Sync) {
+    into(generated)
+    entries.each { entry ->
+        from(rootProject.file("source/${entry.source}")) {
+            into(new File(entry.path).parent)
+            rename { new File(entry.path).name }
+        }
+    }
+}
+sourceSets {
+    main { java.setSrcDirs([generated.map { it.dir('main/java') }]); resources.setSrcDirs([generated.map { it.dir('main/resources') }]) }
+    test { java.setSrcDirs([generated.map { it.dir('test/java') }]); resources.setSrcDirs([]) }
+}
+tasks.withType(JavaCompile).configureEach { dependsOn(prepare); options.encoding = 'UTF-8'; options.release = target.java as int }
+tasks.named('processResources') { dependsOn(prepare) }
+tasks.named('sourcesJar') { dependsOn(prepare) }
+def regressionTests = kind == 'addon' ? ['CpuPolicyTest', 'CpuOptionLeaseTest', 'CpuConfigurationTest', 'BridgeRegressionTest'] : ['NVVisionBoostMenuLayoutTest', 'NVVisionBoostOptionsPlacementTest', 'NVVisionBoostLanguageTest', 'NVVisionBoostIrisBridgeTest', 'NVVisionBoostGlAdapterTest', 'NVVisionBoostTargetLeaseTest', 'NVVisionBoostOpenGLSmokeTest']
+regressionTests.each { testName ->
+    def entry = entries.find { it.path.startsWith('test/java/') && it.path.endsWith("/${testName}.java") }
+    if (entry) {
+        def regression = tasks.register("regression${testName}", JavaExec) {
+            group = 'verification'
+            dependsOn(tasks.named('testClasses'))
+            classpath = sourceSets.test.runtimeClasspath
+            mainClass = entry.path.substring('test/java/'.length(), entry.path.length() - '.java'.length()).replace('/', '.')
+            javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(target.java as int) }
+            if (testName in ['CpuConfigurationTest', 'BridgeRegressionTest']) args(layout.buildDirectory.dir("regression/${testName}").get().asFile.absolutePath)
+        }
+        tasks.named('check') { dependsOn(regression) }
+    }
+}
+tasks.withType(Jar).configureEach {
+    dependsOn(prepare)
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+    manifest.attributes('Implementation-Title': 'NVVision', 'Implementation-Vendor': 'Cutjjen', 'Implementation-Version': project.version)
+}
+repositories { mavenCentral(); maven { url = 'https://api.modrinth.com/maven' } }
+def id = kind == 'mod' ? 'nvvisionboost' : 'nvvisionvulkanbridge'
+if (target.loader == 'neoforge') {
+    neoForge {
+        enable { version = target.dependencies.platform; disableRecompilation = true }
+        runs { client { client() } }
+        mods { "${id}" { sourceSet(sourceSets.main) } }
+    }
+    tasks.withType(JavaCompile).configureEach { options.compilerArgs.add('-proc:none') }
+    if (kind == 'mod') dependencies { compileOnly "maven.modrinth:iris:${target.dependencies.iris}" }
+    dependencies { runtimeOnly "maven.modrinth:iris:${target.dependencies.iris}"; runtimeOnly "maven.modrinth:sodium:${target.dependencies.sodium}" }
+} else if (target.loader == 'forge') {
+    legacyForge {
+        enable { forgeVersion = target.dependencies.platform; disableRecompilation = true }
+        runs { client { client() } }
+        mods { "${id}" { sourceSet(sourceSets.main) } }
+    }
+    if (kind == 'mod') {
+        dependencies { annotationProcessor 'org.spongepowered:mixin:0.8.5:processor' }
+        mixin { add sourceSets.main, 'nvvisionboost.refmap.json'; config 'nvvisionboost.mixins.json' }
+        tasks.named('jar') { manifest.attributes('MixinConfigs': 'nvvisionboost.mixins.json') }
+    }
+} else {
+    dependencies {
+        minecraft "com.mojang:minecraft:${target.minecraft}"
+        if ((target.java as int) < 25) {
+            mappings loom.officialMojangMappings()
+            modImplementation "net.fabricmc:fabric-loader:${target.dependencies.platform}"
+            if (kind == 'mod') modCompileOnly "maven.modrinth:iris:${target.dependencies.iris}"
+            modRuntimeOnly "maven.modrinth:iris:${target.dependencies.iris}"
+            modRuntimeOnly "maven.modrinth:sodium:${target.dependencies.sodium}"
+        } else {
+            implementation "net.fabricmc:fabric-loader:${target.dependencies.platform}"
+            if (kind == 'mod') compileOnly "maven.modrinth:iris:${target.dependencies.iris}"
+            runtimeOnly "maven.modrinth:iris:${target.dependencies.iris}"
+            runtimeOnly "maven.modrinth:sodium:${target.dependencies.sodium}"
+        }
+    }
+    if ((target.java as int) < 25) loom { clientOnlyMinecraftJar() }
+}
+

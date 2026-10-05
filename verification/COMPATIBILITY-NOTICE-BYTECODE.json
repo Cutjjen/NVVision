@@ -1,0 +1,184 @@
+[
+  {
+    "target": "forge-1201",
+    "changedClasses": [
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostCompatibilityNotice.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostConfigScreen.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostForge$MachineProfile.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostForge.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostMenuLayout.class"
+      }
+    ],
+    "rendererAndAddonBytecodeUnchanged": true
+  },
+  {
+    "target": "fabric-262",
+    "changedClasses": [
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostCompatibilityNotice.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostConfigScreen.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostCore$MachineProfile.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostCore.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostMenuLayout.class"
+      }
+    ],
+    "rendererAndAddonBytecodeUnchanged": true
+  },
+  {
+    "target": "neoforge-2612",
+    "changedClasses": [
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostCompatibilityNotice.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostConfigScreen.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostCore$MachineProfile.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostCore.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostMenuLayout.class"
+      }
+    ],
+    "rendererAndAddonBytecodeUnchanged": true
+  },
+  {
+    "target": "neoforge-262",
+    "changedClasses": [
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostCompatibilityNotice.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostConfigScreen.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostCore$MachineProfile.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostCore.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostMenuLayout.class"
+      }
+    ],
+    "rendererAndAddonBytecodeUnchanged": true
+  },
+  {
+    "target": "fabric-12110",
+    "changedClasses": [
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostCompatibilityNotice.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostConfigScreen.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostCore$MachineProfile.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostCore.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostMenuLayout.class"
+      }
+    ],
+    "rendererAndAddonBytecodeUnchanged": true
+  },
+  {
+    "target": "neoforge-12110",
+    "changedClasses": [
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostCompatibilityNotice.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostConfigScreen.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostCore$MachineProfile.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostCore.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostMenuLayout.class"
+      }
+    ],
+    "rendererAndAddonBytecodeUnchanged": true
+  },
+  {
+    "target": "neoforge-1211",
+    "changedClasses": [
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostCompatibilityNotice.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostConfigScreen.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostCore$MachineProfile.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostCore.class"
+      },
+      {
+        "component": "mod",
+        "class": "nvvisionboost/NVVisionBoostMenuLayout.class"
+      }
+    ],
+    "rendererAndAddonBytecodeUnchanged": true
+  }
+]
