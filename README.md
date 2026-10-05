@@ -1,28 +1,121 @@
 # NVVision — Cutjjen
 
-Client-side graphics optimization controls and a companion addon for CPU-related visual budgets. Shared policies, configuration and UI connect to Minecraft through version-specific loader and rendering adapters.
+Projeto de otimização visual e controle de desempenho para Minecraft, com uma parte principal do mod e um addon complementar para políticas de CPU e ajustes visuais. O objetivo é manter a experiência do jogo mais responsiva sem quebrar o comportamento original do cliente ou do carregador.
 
-Press **F8** or use **Options → NVVisionBoost** to open settings. The menu supports Brazilian Portuguese and English, hardware-oriented presets, individual controls and explanatory tooltips. The addon limits local visual entity distance and native particles; it does not change server simulation or rewrite the mod loader.
+Pressione **F8** ou use **Opções → NVVisionBoost** para abrir a interface. O menu possui suporte para inglês e português, presets orientados a hardware, controles individuais e explicações por tooltip.
 
-## Project map
+## Visão geral do projeto
 
-- `source/modules/mod`: shared configuration, UI, rendering policies and integration services.
-- `source/modules/addon`: CPU policies, option ownership and configuration services.
-- `source/adapters`: loader entry points, events and Minecraft API differences.
-- `config/sources.json`: source-to-target registry with SHA-256 checksums.
-- `config/versions.json`: supported targets, Java versions and dependencies.
-- `gradle/target.gradle`: platform preparation, source staging and packaging rules.
-- `docs/ARCHITECTURE.md`: responsibilities and maintenance guide.
-- `docs/FUNCOES.md`: generated class/method index with source locations and available contracts.
-- `docs/SOURCE-MAP.md`: generated implementation, test and resource inventory for every target.
-- `docs/CURSEFORGE.md`: publication description and metadata guide.
-- `COPYRIGHT.md`: authorship and existing licensing boundaries.
+Este repositório reúne:
 
-Identical registered sources can serve multiple targets. API differences remain explicit; an adapter does not make an artifact compatible with arbitrary game versions or different loaders.
+- o código do mod principal em `source/`
+- os adaptadores por loader e versão do Minecraft em `source/adapters/`
+- a parte de CPU/addon em `source/modules/addon/`
+- a lógica compartilhada de UI, políticas e renderização em `source/modules/mod/`
+- os arquivos de configuração e versão em `config/`
+- os artefatos de pacote e plataforma em `targets/` e `Modloaders/`
+- documentação técnica e validação em `docs/` e `verification/`
 
-## Build and verification
+A estrutura foi criada para permitir um único código base servir vários loaders e versões do jogo, mantendo as diferenças específicas de cada plataforma em pontos isolados chamados adaptadores.
 
-Use a full JDK to run the Gradle Wrapper. Java toolchains select the required compiler for each registered target.
+## Estrutura principal do repositório
+
+```text
+NVVision-Organizado-Fontes/
+├─ README.md                              # Página principal do GitHub
+├─ build.gradle                           # Build principal do Gradle
+├─ settings.gradle                        # Configuração dos módulos
+├─ gradlew / gradlew.bat                  # Wrapper do Gradle
+├─ COPYRIGHT.md                           # Direitos autorais e limites de uso
+├─ config/                                # Registro de fontes, versões e políticas
+│  ├─ sources.json
+│  ├─ versions.json
+│  ├─ release-policy.json
+│  └─ ...
+├─ docs/                                  # Documentação do projeto
+│  ├─ ARCHITECTURE.md
+│  ├─ ESTRUTURA-DO-PROJETO.md
+│  ├─ FUNCOES.md
+│  ├─ SOURCE-MAP.md
+│  ├─ VALIDACAO.md
+│  └─ ...
+├─ source/                                # Código-fonte do mod
+│  ├─ modules/
+│  │  ├─ mod/
+│  │  └─ addon/
+│  ├─ adapters/
+│  └─ ...
+├─ targets/                               # Diretórios dos artefatos por loader/version
+├─ Modloaders/                            # Build final e pares de loader/minecraft
+├─ tools/                                 # Geradores de índice, mapas e porting tools
+├─ verification/                          # Validação e registros de compatibilidade
+├─ third-party/                           # Dependências e materiais externos
+├─ build/                                 # Saídas e arquivos temporários do Gradle
+└─ gradle/                                # Configuração do gradle e targets
+```
+
+## O que cada etapa faz
+
+### 1) `source/modules/mod`
+Responsável pela parte compartilhada do mod: interface gráfica, políticas de renderização, carregamento de configuração e integração com o cliente. Aqui ficam os componentes que devem funcionar de forma igual entre várias versões do jogo.
+
+### 2) `source/modules/addon`
+Contém a lógica do addon complementar, principalmente controles de CPU, limites visuais e políticas de otimização relacionadas a partículas, entidades e uso do cliente. É a camada de ajuste de desempenho e compatibilidade.
+
+### 3) `source/adapters`
+É o ponto de diferenciação entre versões e loaders. Cada adapter cuida das diferenças reais de API, eventos, classes e estrutura do jogo. Essa separação evita que o código principal fique acoplado a uma única versão do Minecraft.
+
+Exemplos:
+
+- `fabric-*`
+- `forge-*`
+- `neoforge-*`
+- `minecraft/`
+- `platform/`
+
+### 4) `config/`
+Armazena os metadados do projeto:
+
+- quais fontes pertencem a cada alvo
+- quais versões do Minecraft e loaders são registradas
+- regras de publicação e compatibilidade
+- políticas de release e integração
+
+Esses arquivos servem como mapa de identidade para compilar e validar o projeto corretamente.
+
+### 5) `targets/`
+Diretório dos alvos gerados para cada combinação de loader e versão. Aqui ficam as entradas de build para cada plataforma, como Fabric, Forge e NeoForge.
+
+### 6) `Modloaders/`
+Concentra os artefatos finais e os pares de mod+addon por loader e versão. É a área de distribuição da compilação pronta para uso por plataforma.
+
+### 7) `tools/`
+Armazena ferramentas de geração e automação: índice de funções, mapeamento de portas, geração de compatibilidade e análise de fontes. Esses scripts ajudam a manter o projeto consistente e rastreável.
+
+### 8) `docs/`
+Documentação técnica, arquitetura, validação, compatibilidade e histórico de alterações. É a base de explicação para quem precisa entender o projeto e manter o código.
+
+### 9) `verification/`
+Contém registros de validação, testes de compatibilidade, análise de ajustes e avaliações de release. É a camada de evidência que mostra o que foi testado e qual estado final foi validado.
+
+### 10) `third-party/`
+Guarda recursos, bibliotecas ou materiais externos que são utilizados ou referenciados pelo projeto.
+
+### 11) `gradle/` e `build.gradle`
+Definem a infraestrutura do build, toolchains Java e regras de compilação. Eles conectam o código com cada loader e versão suportada.
+
+## Fluxo de trabalho do projeto
+
+1. O código principal define comportamento compartilhado.
+2. Os adaptadores isolam diferenças por plataforma.
+3. A configuração registra os alvos válidos.
+4. O build monta cada versão para os loaders suportados.
+5. A validação compara compatibilidade, regras e portas.
+6. O projeto gera artefatos prontos para uso em `Modloaders/` e `targets/`.
+
+## Build e validação
+
+Use o wrapper do Gradle com JDK completo:
 
 ```powershell
 ./gradlew.bat "-Ploader=forge" build
@@ -30,24 +123,26 @@ Use a full JDK to run the Gradle Wrapper. Java toolchains select the required co
 ./gradlew.bat "-Ploader=fabric" "-Pminecraft=26.2" build
 ```
 
-Forge requires production remapping. Older Fabric targets use Loom remapping; unobfuscated targets do not. NeoForge uses ModDevGradle. Complete Gradle platform builds currently encounter a documented cache-access limitation in this environment; delivered artifacts use the validated compiler/remapper workflow. See `docs/VALIDACAO.md` for the historical record.
+Os checks de formatação, registro, adaptadores e compatibilidade devem ser executados antes de publicar uma release. A validação visual também é importante, porque a otimização de renderização e o comportamento do cliente dependem do ambiente real do jogo.
 
-Run formatting, registry checks, adapter checks, policy regressions and production-link verification before publishing. Automated checks do not replace visual testing in the target modpack.
+## Documentação complementar
 
-## Compatibility and limits
+- [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
+- [docs/ESTRUTURA-DO-PROJETO.md](docs/ESTRUTURA-DO-PROJETO.md)
+- [docs/FUNCOES.md](docs/FUNCOES.md)
+- [docs/SOURCE-MAP.md](docs/SOURCE-MAP.md)
+- [docs/VALIDACAO.md](docs/VALIDACAO.md)
+- [docs/COMPATIBILITY-NOTICE.md](docs/COMPATIBILITY-NOTICE.md)
 
-Iris/Oculus own shader execution. Optional integrations detect installed mods and restrict unsupported interventions. Other mods' particle renderers may not follow native settings. Empty UI background overrides intentionally prevent extra blur and are required.
+## Observações finais
 
-The addon preserves player choices and releases an option when another component changes it. Generated-cache refreshes retain configuration. DLSS and frame generation are not implemented. Performance requires in-game measurement. The user associated the NeoForge 1.21.1 visual issue with All the Mods 10 and requested retaining the renderer unchanged.
+Este projeto foi organizado para manter uma base comum e separar as variações por plataforma. Isso reduz duplicação, facilita manutenção e torna a portabilidade entre versões e loaders muito mais controlada.
 
-The settings footer provides compatibility troubleshooting guidance in both languages. Its information button explains how to test advanced optimizer options one at a time, without automatically editing other mods' settings. See `docs/COMPATIBILITY-NOTICE.md`.
+A arquitetura favorece:
 
-## Releases
+- reutilização do código principal
+- isolamento de diferenças de API
+- compatibilidade por alvo
+- análise de performance e renderização
+- documentação gerada e validação contínua
 
-This is the canonical source directory. Compiled pairs belong under `Modloaders/<loader>/<Minecraft>/<release>`. Both components receive the same numeric version on updates; prior releases remain available. `Modloaders/ATUAIS.json` identifies current pairs. Do not generate additional ZIP archives.
-
-Current source contracts and public maintenance documentation use English. Historical investigation/release records retain their original language; player-facing Brazilian Portuguese remains available.
-
-## Release numbering
-
-All thirteen maintained sets use version 0.8.16 for both NVVision and its addon. Each artifact retains its loader and Minecraft target. See [PORTS-0.8.16.md](docs/PORTS-0.8.16.md) for the target matrix, legacy capability limits and adapter maintenance policy.
