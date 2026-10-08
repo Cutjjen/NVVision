@@ -1,0 +1,102 @@
+# Fontes idênticas compartilhadas
+
+Somente arquivos com conteúdo SHA-256 idêntico, mesmo componente e mesmo caminho de destino foram consolidados. Variantes com APIs ou comportamento diferentes permanecem separadas. Fontes históricas em work foram preservadas e ficam fora do registro de compilação.
+
+- `bootstrap/java/nvvisionboost/vulkanbridge/bootstrap/BridgeBootstrap.java`: 2 cópias físicas substituídas por uma referência compartilhada (forge-1201, neoforge-1211).
+- `bootstrap/java/nvvisionboost/vulkanbridge/bootstrap/BridgeEnvironment.java`: 2 cópias físicas substituídas por uma referência compartilhada (forge-1201, neoforge-1211).
+- `main/java/nvvisionboost/vulkanbridge/BridgeBenchmarkPolicy.java`: 2 cópias físicas substituídas por uma referência compartilhada (forge-1201, neoforge-1211).
+- `main/java/nvvisionboost/vulkanbridge/BridgeFiles.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/vulkanbridge/BridgeOpaquePresent.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/vulkanbridge/BridgePolicy.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/vulkanbridge/BridgePreflight.java`: 2 cópias físicas substituídas por uma referência compartilhada (forge-1201, neoforge-1211).
+- `main/java/nvvisionboost/vulkanbridge/CpuMinecraftAdapter.java`: 2 cópias físicas substituídas por uma referência compartilhada (forge-1201, neoforge-1211).
+- `main/java/nvvisionboost/vulkanbridge/CpuMinecraftAdapter.java`: 5 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/vulkanbridge/platform/Platform.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/vulkanbridge/platform/PlatformAdapter.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `test/java/nvvisionboost/vulkanbridge/BridgeRegressionTest.java`: 2 cópias físicas substituídas por uma referência compartilhada (forge-1201, neoforge-1211).
+- `main/java/nvvisionboost/minecraft/VersionAdapter.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, neoforge-12110, neoforge-2612).
+- `main/java/nvvisionboost/mixin/NVVisionBoostBackgroundFpsMixin.java`: 2 cópias físicas substituídas por uma referência compartilhada (forge-1201, neoforge-1211).
+- `main/java/nvvisionboost/mixin/NVVisionBoostBlockEntityDistanceMixin.java`: 2 cópias físicas substituídas por uma referência compartilhada (forge-1201, neoforge-1211).
+- `main/java/nvvisionboost/mixin/NVVisionBoostBufferBuilderAccessor.java`: 2 cópias físicas substituídas por uma referência compartilhada (forge-1201, neoforge-1211).
+- `main/java/nvvisionboost/mixin/NVVisionBoostBufferSourceAccessor.java`: 2 cópias físicas substituídas por uma referência compartilhada (forge-1201, neoforge-1211).
+- `main/java/nvvisionboost/mixin/NVVisionBoostMinecraftAccessor.java`: 2 cópias físicas substituídas por uma referência compartilhada (forge-1201, neoforge-1211).
+- `main/java/nvvisionboost/mixin/NVVisionBoostMinecraftMixin.java`: 2 cópias físicas substituídas por uma referência compartilhada (neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, neoforge-12110, neoforge-2612).
+- `main/java/nvvisionboost/mixin/NVVisionBoostWeatherParticlesMixin.java`: 2 cópias físicas substituídas por uma referência compartilhada (forge-1201, neoforge-1211).
+- `main/java/nvvisionboost/mixin/NVVisionBoostWindowMixin.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostAssetAnalyzer.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostCacheMaintenance.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostCompatibility.java`: 2 cópias físicas substituídas por uma referência compartilhada (neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostContentManager.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostCore.java`: 2 cópias físicas substituídas por uma referência compartilhada (neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostCreateCompatibility.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostCreatePresets.java`: 2 cópias físicas substituídas por uma referência compartilhada (neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostCreatePresets.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, neoforge-1211).
+- `main/java/nvvisionboost/NVVisionBoostDependencies.java`: 2 cópias físicas substituídas por uma referência compartilhada (forge-1201, neoforge-1211).
+- `main/java/nvvisionboost/NVVisionBoostDistantHorizonsCompatibility.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostFerriteConfig.java`: 2 cópias físicas substituídas por uma referência compartilhada (forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostFerriteOptions.java`: 2 cópias físicas substituídas por uma referência compartilhada (forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostFileFingerprint.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostFrameStatistics.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostFrameTiming.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, neoforge-12110, neoforge-2612).
+- `main/java/nvvisionboost/NVVisionBoostFsr1Upscaler.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostGPU.java`: 2 cópias físicas substituídas por uma referência compartilhada (neoforge-12110, neoforge-2612).
+- `main/java/nvvisionboost/NVVisionBoostGpuCatalog.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostGpuCatalog.java`: 2 cópias físicas substituídas por uma referência compartilhada (forge-1201, neoforge-1211).
+- `main/java/nvvisionboost/NVVisionBoostGpuTheme.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostGpuTimer.java`: 2 cópias físicas substituídas por uma referência compartilhada (forge-1201, neoforge-1211).
+- `main/java/nvvisionboost/NVVisionBoostGpuTimer.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, neoforge-12110, neoforge-2612).
+- `main/java/nvvisionboost/NVVisionBoostHardwareBudget.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostHelp.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostImageQuality.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostIO.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostIrisShaderCache.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostLanguage.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostLogger.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostMemoryMonitor.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostMenuButton.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostMenuLayout.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostNativeShaderPackRuntime.java`: 2 cópias físicas substituídas por uma referência compartilhada (forge-1201, neoforge-1211).
+- `main/java/nvvisionboost/NVVisionBoostNativeShaderPackRuntime.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostNeoForge.java`: 2 cópias físicas substituídas por uma referência compartilhada (neoforge-12110, neoforge-2612).
+- `main/java/nvvisionboost/NVVisionBoostNvidiaBackend.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostOptionButton.java`: 2 cópias físicas substituídas por uma referência compartilhada (forge-1201, neoforge-1211).
+- `main/java/nvvisionboost/NVVisionBoostOptionButton.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-262, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostPerformance.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostPipeline.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostRenderController.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, neoforge-12110, neoforge-2612).
+- `main/java/nvvisionboost/NVVisionBoostResolutionPolicy.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostShader.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostShaderEngine.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostShaderLifecycle.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, neoforge-12110, neoforge-2612).
+- `main/java/nvvisionboost/NVVisionBoostShaderQuality.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, neoforge-12110, neoforge-2612).
+- `main/java/nvvisionboost/NVVisionBoostShaderStartupPolicy.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostSpatialUpscaler.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostTargetBindings.java`: 2 cópias físicas substituídas por uma referência compartilhada (forge-1201, neoforge-1211).
+- `main/java/nvvisionboost/NVVisionBoostTextureOptimizer.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, neoforge-1211, neoforge-12110, neoforge-2612).
+- `main/java/nvvisionboost/NVVisionBoostTextureScreen.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, neoforge-1211, neoforge-12110).
+- `main/java/nvvisionboost/NVVisionBoostUi.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, forge-1201, neoforge-1211, neoforge-12110).
+- `main/java/nvvisionboost/NVVisionBoostUi.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-262, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostUniformSnapshot.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-262, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostUpscaleBudget.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostVisualPolicy.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionBoostVulkanBridge.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/NVVisionDynamicController.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, neoforge-1211, neoforge-12110, neoforge-2612).
+- `main/java/nvvisionboost/NVVisionVramManager.java`: 3 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/platform/Platform.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/platform/PlatformAdapter.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/UpscalingManager.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, neoforge-12110, neoforge-2612, neoforge-262).
+- `main/java/nvvisionboost/VisionOptimizer.java`: 2 cópias físicas substituídas por uma referência compartilhada (neoforge-12110, neoforge-2612, neoforge-262).
+- `test/java/nvvisionboost/NVVisionBoostCreatePresetTest.java`: 2 cópias físicas substituídas por uma referência compartilhada (forge-1201, neoforge-1211).
+- `test/java/nvvisionboost/NVVisionBoostFerriteCoreTest.java`: 2 cópias físicas substituídas por uma referência compartilhada (forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `test/java/nvvisionboost/NVVisionBoostGpuCatalogTest.java`: 2 cópias físicas substituídas por uma referência compartilhada (forge-1201, neoforge-1211).
+- `test/java/nvvisionboost/NVVisionBoostLanguageTest.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `test/java/nvvisionboost/NVVisionBoostMenuLayoutTest.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, forge-1201, neoforge-1211, neoforge-12110, neoforge-2612, neoforge-262).
+- `test/java/nvvisionboost/NVVisionBoostOpenGLSmokeTest.java`: 2 cópias físicas substituídas por uma referência compartilhada (fabric-12110, fabric-262, neoforge-12110, neoforge-2612, neoforge-262).
+- `test/java/nvvisionboost/NVVisionBoostRenderingPolicyTest.java`: 2 cópias físicas substituídas por uma referência compartilhada (forge-1201, neoforge-1211).
+- `test/java/nvvisionboost/NVVisionBoostShaderStartupPolicyTest.java`: 2 cópias físicas substituídas por uma referência compartilhada (forge-1201, neoforge-1211).
+- `test/java/nvvisionboost/NVVisionBoostStabilityTest.java`: 2 cópias físicas substituídas por uma referência compartilhada (forge-1201, neoforge-1211).
+
+Registro ativo: 443 fontes físicas antes; 319 depois. A compilação usa o registro explícito, não todas as pastas históricas.
+
+Três fontes de bootstrap de javaagent/native helper, sem referências no mod/addon publicado e sem Premain-Class no manifesto, foram retiradas do registro ativo. As cópias históricas continuam preservadas em work. Registro final: 316 fontes físicas e 794 associações de destino.

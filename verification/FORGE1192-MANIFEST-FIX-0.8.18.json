@@ -1,0 +1,13 @@
+{
+  "key": "forge-1192",
+  "version": "0.8.18",
+  "checks": {
+    "CheckProductionMixins": "PASS production mixin selectors/accessors/invocations: 30 checks",
+    "CheckVersionLinks": "PASS production Minecraft links: 640 references",
+    "GUI inheritance": "PASS GUI inheritance: 2679 calls and 5 mixin superclasses"
+  },
+  "manifestResources": "1 existing Mixin config across two archives; event-only addon has no MixinConfigs header",
+  "negativeRegression": "0.8.17 addon references nonexistent nvvisionbridge.mixins.json",
+  "inWorldValidation": false,
+  "fpsMeasurement": false
+}

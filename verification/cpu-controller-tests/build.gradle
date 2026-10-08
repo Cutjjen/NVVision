@@ -1,0 +1,24 @@
+plugins { id 'java' }
+java { toolchain.languageVersion = JavaLanguageVersion.of(17) }
+tasks.withType(JavaCompile).configureEach { options.incremental = false }
+repositories { mavenCentral() }
+dependencies { implementation 'org.slf4j:slf4j-api:2.0.9'; runtimeOnly 'org.slf4j:slf4j-simple:2.0.9' }
+def names = ['BridgeCpuOptimizer.java', 'CpuMinecraftAdapter.java', 'CpuPolicy.java', 'CpuOptionLease.java', 'BridgeFiles.java']
+def entries = new groovy.json.JsonSlurper().parse(rootProject.file('config/sources.json')).findAll { it.target == 'forge-1201' && it.kind == 'addon' && names.contains(new File(it.path).name) }
+if (entries.size() != names.size()) throw new GradleException('Incomplete registered CPU controller test sources')
+def generated = layout.buildDirectory.dir('generated/controller')
+def prepare = tasks.register('prepareController', Sync) {
+    into(generated)
+    entries.each { entry -> from(rootProject.file("source/${entry.source}")) { into('nvvisionboost/vulkanbridge') } }
+}
+sourceSets.main.java.setSrcDirs([generated, file('fixtures')])
+tasks.named('compileJava') { dependsOn(prepare) }
+['CpuLiveTest', 'CpuCorruptConfigTest', 'CpuShutdownTest'].each { name ->
+    def verify = tasks.register("verify${name}", JavaExec) {
+        dependsOn(classes)
+        classpath = sourceSets.main.runtimeClasspath
+        mainClass = "nvvisionboost.vulkanbridge.${name}"
+        javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+    }
+    check.dependsOn(verify)
+}

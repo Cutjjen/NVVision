@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "nvvisionboost",
+  "version": "0.8.28",
+  "name": "NV Vision Boost Fabric",
+  "description": "Client-side graphics optimization by Cutjjen: hardware presets, spatial upscaling, dynamic resolution and local visual controls. Open settings with F8 or Minecraft Options.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "nvvisionboost.NVVisionBoostFabric"
+    ]
+  },
+  "mixins": [
+    "nvvisionboost.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "sodium": "*",
+    "iris": "1.11.4+mc26.2"
+  },
+  "license": "All-Rights-Reserved",
+  "authors": [
+    "Cutjjen"
+  ],
+  "custom": {
+    "nvvision:category": "optimization"
+  }
+}

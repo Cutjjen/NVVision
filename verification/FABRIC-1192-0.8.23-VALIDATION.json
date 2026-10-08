@@ -1,0 +1,43 @@
+{
+  "target": {
+    "key": "fabric-1192",
+    "minecraft": "1.19.2",
+    "loader": "fabric",
+    "java": 17,
+    "mod": "0.8.23",
+    "addon": "0.8.23",
+    "dependencies": {
+      "platform": "0.19.5",
+      "iris": "LgOJIpIS",
+      "sodium": "rAfhHfow"
+    },
+    "status": "Iris namespace and menu fixes; automated checks passed; in-world validation pending",
+    "artifacts": [
+      {
+        "component": "mod",
+        "file": "NVVisionBoost-0.8.23-MC-Fabric-1.19.2.jar",
+        "sha256": "de267b263186fbb6349b9bbb5b005e0f3f27b10742400462944e86188ef9ca38"
+      },
+      {
+        "component": "addon",
+        "file": "NVVisionAddon-0.8.23-MC-Fabric-1.19.2.jar",
+        "sha256": "c507369976e5ea3d12f189e5e57ff10ec23105a5fd391a932b29bfdaf39cbf45"
+      }
+    ]
+  },
+  "checks": {
+    "compilationJava17": true,
+    "actualInstalledIris166ApiDiscovery": true,
+    "namespaceAndPipelineContracts": true,
+    "openGLChecks": 108,
+    "layoutChecks": 2172,
+    "languageChecks": 389,
+    "productionMixinChecks": 38,
+    "productionReferenceChecks": 550,
+    "cpuPolicyChecks": 24,
+    "cpuOwnershipChecks": 18,
+    "cpuConfigurationChecks": 14,
+    "inWorldValidation": false,
+    "fpsMeasured": false
+  }
+}

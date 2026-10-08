@@ -1,0 +1,11 @@
+{
+  "version": "0.8.19",
+  "target": "forge-1192",
+  "compilation": "Java 17: both components passed",
+  "productionMixinChecks": 30,
+  "minecraftReferences": 640,
+  "gradleContracts": "13 targets / 1619 bindings",
+  "rendererGateCases": 4,
+  "inWorldValidation": false,
+  "note": "Rubidium detection and client dependency gate; Oculus optional. Existing rendering and CPU regressions passed."
+}

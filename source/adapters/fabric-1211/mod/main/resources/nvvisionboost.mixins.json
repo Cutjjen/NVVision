@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "nvvisionboost.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "NVVisionBoostMinecraftAccessor",
+    "NVVisionBoostGameRendererMixin",
+    "NVVisionBoostWindowMixin",
+    "NVVisionBoostBackgroundFpsMixin",
+    "NVVisionBoostWeatherParticlesMixin",
+    "NVVisionBoostBlockEntityDistanceMixin",
+    "NVVisionBoostRenderTargetAccessor",
+    "NVVisionBoostViewportMixin",
+    "NVVisionBoostScreenSizeMixin",
+    "NVVisionBoostMinecraftMixin",
+    "NVVisionBoostOptionsScreenMixin",
+    "NVVisionBoostCpuParticleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "nvvisionboost.refmap.json"
+}

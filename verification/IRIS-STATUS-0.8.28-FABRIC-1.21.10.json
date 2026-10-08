@@ -1,0 +1,30 @@
+{
+  "version": "0.8.28",
+  "target": "fabric-12110",
+  "cause": "Renderer emitted unconditional OpenGL sem shaders text whenever scaling restriction was empty; no demonstrated Iris API incompatibility.",
+  "change": "Version-bound shader status adapter uses actual backend availability, persisted enabled state and live Iris API state; log changes follow shader state even when scaling restrictions remain unchanged.",
+  "validation": {
+    "shaderStatusRegressionChecks": 5,
+    "realOpenGLRegressionChecks": 51,
+    "namedMixinChecks": 36,
+    "productionMinecraftReferences": 512,
+    "cpuAndUiRegression": true,
+    "inWorldValidation": true,
+    "fpsMeasured": false,
+    "fullPlatformGradleAssemble": false,
+    "userConfirmedFunctional": true
+  },
+  "artifacts": [
+    {
+      "component": "mod",
+      "file": "NVVisionBoost-0.8.28-MC-Fabric-1.21.10.jar",
+      "sha256": "11715391b7ae2d8e9ab02ddfe34fb9d6f882b4166e7451daf0e27d50cc1b1350"
+    },
+    {
+      "component": "addon",
+      "file": "NVVisionAddon-0.8.28-MC-Fabric-1.21.10.jar",
+      "sha256": "3d3c352c910a8664a704c04aa83441e3c39522c338114c7a9645e271ddcc6f43"
+    }
+  ],
+  "userAcceptance": "User confirmed this version works perfectly."
+}

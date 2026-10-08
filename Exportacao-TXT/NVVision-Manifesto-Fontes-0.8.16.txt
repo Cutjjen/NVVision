@@ -1,0 +1,2114 @@
+[
+  {
+    "path": ".gitattributes",
+    "sha256": "b1fdb66f8c0864bf25b1ca7c73415f36736ea81589ba49fa2163f66d77f9ddde"
+  },
+  {
+    "path": ".github/workflows/validate.yml",
+    "sha256": "3b1d68dfb46186c6fa31935990a75af11659cd3567260ef32a1df1e6d8c19da5"
+  },
+  {
+    "path": ".gitignore",
+    "sha256": "f6659d5d90f63085f1651c6246a32e8c5e9a478fd8aaf09983af4cec92943626"
+  },
+  {
+    "path": "build.gradle",
+    "sha256": "96148ff7e0862adccca2dd743b89d36c3691294b915fd8169f32259ec7bf06e3"
+  },
+  {
+    "path": "config/loader-matrix-decision.json",
+    "sha256": "0a0e017564362e171d3e47a3e5afb115307471b15a67890155b7cb09b87c757c"
+  },
+  {
+    "path": "config/ports-pending.json",
+    "sha256": "af9a325ddfe366d74f2ef6d7635f6c33859d67dab875316e59ae0dfa594ebbb1"
+  },
+  {
+    "path": "config/release-policy.json",
+    "sha256": "87b51addccd6921cfb5b4260e2bd8e217c580026bbdf44bb565c7bdc9fc75f9c"
+  },
+  {
+    "path": "config/sources-fabric-1192-candidate.json",
+    "sha256": "92c037db83b5941e0b81efed7ce67a3bf8135b0317082be8707a96dc306c1abf"
+  },
+  {
+    "path": "config/sources-fabric-1201-candidate.json",
+    "sha256": "b8bed5b8de92f53b895b8b6d0707279960bde353850d11ce2cfc91df5e6f5387"
+  },
+  {
+    "path": "config/sources-fabric-1211-candidate.json",
+    "sha256": "31e0e0f885552754adf03fee5d82285719d2553375a15e7cfd9eb1e8cd27809b"
+  },
+  {
+    "path": "config/sources-forge-1122-candidate.json",
+    "sha256": "fe87c81fb1a0a8a17f1783eb88f621a54dfec806caa2762cc22de8cf6c362c78"
+  },
+  {
+    "path": "config/sources-forge-1192-candidate.json",
+    "sha256": "ee7935f0271b257864a7031fc70ea52d07bb8c574ca864566d9526ad014f727f"
+  },
+  {
+    "path": "config/sources-neoforge-1201-candidate.json",
+    "sha256": "63bbf1956edce2ac2a9c6d7c53ad760d7c405adc1a643991b02abaa7e4eba0c8"
+  },
+  {
+    "path": "config/sources.json",
+    "sha256": "18b998f5ae4dbe546b89d3ba7d390101bfac8db8f347ee0ad51d6da4643656b0"
+  },
+  {
+    "path": "config/versions.json",
+    "sha256": "d82ed57080e40f8d5af38696b0bc8ae7310d7f4fbcfc7fc45cb01dc1c0167e74"
+  },
+  {
+    "path": "COPYRIGHT.md",
+    "sha256": "e15cbe3503b428f0e8752b8bace9619590cd6ea585398cc6b38e017873ac20f1"
+  },
+  {
+    "path": "docs/ADAPTER-PIXELS-1211-0.8.9.md",
+    "sha256": "32c427f8cdb143f841c0a47f7e81e8bb2e8c8b6c118712f75f3d3d4f09617854"
+  },
+  {
+    "path": "docs/ADAPTERS-RENDERIZACAO.md",
+    "sha256": "4f0235cbefea916ee6ed4e25bcb042e67e1881f9e186470b56568e2bbe023953"
+  },
+  {
+    "path": "docs/ARCHITECTURE.md",
+    "sha256": "1f969fb2a0bb4b042bd4ea795e237280015850cdcfb3af247c889674197c8382"
+  },
+  {
+    "path": "docs/ARQUITETURA.md",
+    "sha256": "2f3128ea80ec76ce6a79ded52c4c173394bca535b260a586207e1f1a54ffada9"
+  },
+  {
+    "path": "docs/ATUALIZACAO-0.8.6-neoforge.7.md",
+    "sha256": "214ff5d1a0666456d2d8bed5e98c3562e35da472ced039fbb4613667d9a5f311"
+  },
+  {
+    "path": "docs/ATUALIZACAO-ADAPTERS-ALINHAMENTO.md",
+    "sha256": "f599e39e1960e93370da5cc8051c5b13b3ebab11569ec5d73866573f93ab3393"
+  },
+  {
+    "path": "docs/ATUALIZACAO-FORGE-0.7.22.md",
+    "sha256": "c47b9014d3ad7f31788bf44f1fb61e46f17e83706c0ab3ed8d80e6f18bb7f8c1"
+  },
+  {
+    "path": "docs/ATUALIZACAO-FORGE-0.7.23.md",
+    "sha256": "fcb43c2f67d4bd53bce12cd741d1ad7233431ba8d29c3ae482214ebb7fe81eac"
+  },
+  {
+    "path": "docs/ATUALIZACAO-FORGE-0.7.24.md",
+    "sha256": "16f481cbf6fc9f83c575148a1c396d3d2cddd8ad4f3d3792c800dae36b04aaac"
+  },
+  {
+    "path": "docs/ATUALIZACAO-NEOFORGE-0.8.10.md",
+    "sha256": "0796a314c67fd2c37481887d178588866e2469ea34d2ab43789938f953877961"
+  },
+  {
+    "path": "docs/ATUALIZACAO-NEOFORGE-0.8.11.md",
+    "sha256": "4f39f1e7e65106f63ef6a2ad283ddfecd3e2bea548c0019224d346731387078a"
+  },
+  {
+    "path": "docs/AUDITORIA-ALINHAMENTO-UPSCALING.md",
+    "sha256": "ac482eb070c9ba5a266952d76c2659c2109326235f8b370efaa929ae9965214c"
+  },
+  {
+    "path": "docs/AUDITORIA-COMPATIBILIDADE-1211-0.8.11.md",
+    "sha256": "aa55b743b3b048df9d7117c644cdea4aecd377d3795bdada10219102886b1258"
+  },
+  {
+    "path": "docs/COMPATIBILITY-NOTICE.md",
+    "sha256": "faea925ffda9b906feeba215932d62a5ea9588c3460a83fe3b69534a0845bb62"
+  },
+  {
+    "path": "docs/CONSOLIDACAO-FONTES.md",
+    "sha256": "edce170d47b811c7051ba711277ab00154d01c1f62c24223d5d1a60339c8479b"
+  },
+  {
+    "path": "docs/CURSEFORGE.md",
+    "sha256": "5113466cc8820adc7096c41573d1cad923948b79023729e7f83b905ebb8ebd9c"
+  },
+  {
+    "path": "docs/ESTRUTURA-DO-PROJETO.md",
+    "sha256": "c37958c4603924fc30520963c63e17fa878d57320c5f0b8c3e23c4eace35eb3b"
+  },
+  {
+    "path": "docs/FUNCOES.md",
+    "sha256": "18f5342189d67b10d210624a1f8e0f73913c1035a31084b57140daf90e0abcad"
+  },
+  {
+    "path": "docs/INVESTIGACAO-ALINHAMENTO-1211.md",
+    "sha256": "6951b80b58e9354cdf15d6c04602914d9ee60913be6aea4de3ea044b9bddc587"
+  },
+  {
+    "path": "docs/INVESTIGACAO-CPU-TELA-CINZA-1201.md",
+    "sha256": "4a4f55c4e2058f2798d7c25da469e7540b5911988ad4a74b9db0d3674c2de046"
+  },
+  {
+    "path": "docs/PORTS-0.8.16.md",
+    "sha256": "10701dbc97a4b2029226ddeabea12ad4a7b30aeb182e969aba5a7f67d8f703cc"
+  },
+  {
+    "path": "docs/PUBLICATION-CLEANUP.md",
+    "sha256": "467f0b2a0e21c2f64ea6ee1cb67ec6a257a20be1f25b27a0cc80c4da9b1dd112"
+  },
+  {
+    "path": "docs/RENDERING-ADAPTERS.md",
+    "sha256": "9df9b530e7f8ba0164dfaf9b48c516bf4def574eeb89a19f660f61c2b9c1a066"
+  },
+  {
+    "path": "docs/RESULTADO-FINAL.md",
+    "sha256": "215d2ae3985d07f9934f0ab60e486d8df28713c8e78167ba21f02a9a40b99294"
+  },
+  {
+    "path": "docs/SOURCE-MAP.md",
+    "sha256": "86f998aed93c3ee863bf3b5fc8d93133abce8b7cc054e6a15d1a2846a2e7501c"
+  },
+  {
+    "path": "docs/UNIFIED-RELEASE.md",
+    "sha256": "fb0ca9d77c7f1bf93b505ebca0bb31ab2b8472e4273ff5c5513d2715a2f04253"
+  },
+  {
+    "path": "docs/VALIDACAO.md",
+    "sha256": "5545a8394778968f7f6a88451c3804948aca5ef6f4034cc02da1846553217c2c"
+  },
+  {
+    "path": "gradle/forge1122-target.gradle",
+    "sha256": "e1fb7acf2251013a8ff6a931270cc84e4ad6a663f5f1145e66e11a2755b8e634"
+  },
+  {
+    "path": "gradle/target.gradle",
+    "sha256": "98df494cd34e4ea132da4cd9b7eb7cb39ef01372684ad6dabcf2a9f52eeea951"
+  },
+  {
+    "path": "gradle/wrapper/gradle-wrapper.properties",
+    "sha256": "c56b08860acf573d3db2de5f9110a486c34eaa046c22fbe5ab2f3d79c987702e"
+  },
+  {
+    "path": "gradle.properties",
+    "sha256": "1e35e8232e73ced3b5714fe3fe6658f2e22489b8b6f9bbde422af4f2e1276495"
+  },
+  {
+    "path": "gradlew",
+    "sha256": "bf2ca3f9d7c42b831380b47ab9e7594ddc33054b3e09253a0c4862353d5d604b"
+  },
+  {
+    "path": "gradlew.bat",
+    "sha256": "0f0d6ba87457af8388eb632b380e462c9e78cc4213e6ce972be64f1668594708"
+  },
+  {
+    "path": "LICENSE",
+    "sha256": "c0c8e7b2f1bcd7fc787c2ccaebbd45b58f46f8ef83a941a7188ac0c5fef44fef"
+  },
+  {
+    "path": "README.md",
+    "sha256": "ad4da4536e857374d107de0df19d7896c3a1e8ab6a819e68bc96c374a00fe978"
+  },
+  {
+    "path": "settings.gradle",
+    "sha256": "3e0bed8987aef8cbb2f24fa04143071c912cf30619dbb1c22af79f55750110e0"
+  },
+  {
+    "path": "source/adapters/fabric-1192/addon/main/resources/fabric.mod.json",
+    "sha256": "064266a0e5787875f8b6698b2d39db841e9e5efce7c00e7583fd9b632dc97b2d"
+  },
+  {
+    "path": "source/adapters/fabric-1192/mod/main/java/nvvisionboost/legacy/Button.java",
+    "sha256": "44924d9354f534c6dc66ed5e6ad28cd68a74b9714112ff378b4d26bae09ab24e"
+  },
+  {
+    "path": "source/adapters/fabric-1192/mod/main/java/nvvisionboost/legacy/GuiGraphics.java",
+    "sha256": "59f8e7dc1efb507a7e33dbbde53ef57f04aa2479dc4373df332b75820002d260"
+  },
+  {
+    "path": "source/adapters/fabric-1192/mod/main/java/nvvisionboost/legacy/LegacyScreen.java",
+    "sha256": "bbbfc156ae5645021160fad1ad43be175550828d8669f936086c2d794e070a70"
+  },
+  {
+    "path": "source/adapters/fabric-1192/mod/main/java/nvvisionboost/legacy/Tooltip.java",
+    "sha256": "637e89fba605ba3dc16a80cde269222feb2ae322783d26a7c077f69a8fbb0085"
+  },
+  {
+    "path": "source/adapters/fabric-1192/mod/main/java/nvvisionboost/mixin/MinecraftFpsAccessor.java",
+    "sha256": "5956bb9fa190763dd8c1d928cc144daaf064c922eb49bdb205c55d3f9f25c58b"
+  },
+  {
+    "path": "source/adapters/fabric-1192/mod/main/java/nvvisionboost/mixin/NVVisionBoostBlockEntityDistanceMixin.java",
+    "sha256": "cdb4c7eaf06f597e17a31847c49a652aea54d0fa5749166e5403c3b3d6877413"
+  },
+  {
+    "path": "source/adapters/fabric-1192/mod/main/java/nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.java",
+    "sha256": "a4744492eee6e09e27227e7f6c0d572d6254879386a237fc0207a945d50e0405"
+  },
+  {
+    "path": "source/adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionBoostConfigScreen.java",
+    "sha256": "aa0ee6bf8ee520f0c41e63884f5dd7980f90f04e9c1423babd4ca520a00f3a6c"
+  },
+  {
+    "path": "source/adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionBoostCore.java",
+    "sha256": "92cad075af34fbcf665f0e4634ca4add83a2f61e3f394c6124e56717d6534a2c"
+  },
+  {
+    "path": "source/adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionBoostDependencyScreen.java",
+    "sha256": "2f83d5ef199c6c09d977aacf8890462be90928a322be035378852a26e6d2ec86"
+  },
+  {
+    "path": "source/adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionBoostFerriteScreen.java",
+    "sha256": "9bdfb4a7aa5f9297c0e66a80ce34d6f34861002071274395ebb65336901cbf8d"
+  },
+  {
+    "path": "source/adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionBoostMenuButton.java",
+    "sha256": "8b94dd7658221ddaa658d9649d6900ded913bf2f8634a5155119ea5732c994e5"
+  },
+  {
+    "path": "source/adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionBoostNativeRenderer.java",
+    "sha256": "0d98bd0659875dad2685a35342034dde6d390767859e0d9f10e522b7925e1d7e"
+  },
+  {
+    "path": "source/adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionBoostOptionButton.java",
+    "sha256": "d1520414bded8c2dd1215b70df03be1d959da3b97e98caafe780ad71e1a747b2"
+  },
+  {
+    "path": "source/adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionBoostOptionsScreenAdapter.java",
+    "sha256": "b340075f6671ae92f8e5ac49eca3c5f8148c173ba44cf8a42b3f70ec8308a782"
+  },
+  {
+    "path": "source/adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionBoostPerformanceScreen.java",
+    "sha256": "5ae983c53c682bf58effed639dc1b4909ff767034950e81d8af0a285a0a42ebf"
+  },
+  {
+    "path": "source/adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionBoostRenderController.java",
+    "sha256": "58bf3144485c3f193bdfb4dabd812a1364c335a65a1fc760c77ded95b7b4f82b"
+  },
+  {
+    "path": "source/adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionBoostTextureScreen.java",
+    "sha256": "eb19f8c4b6dc3f2cc7192f66943143a04dec609ee785cffe20f5562546a86d87"
+  },
+  {
+    "path": "source/adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionBoostUi.java",
+    "sha256": "ba56847d7529186801323955ce2a75cd1f9a23d0d0c85022fe373719fc27d94b"
+  },
+  {
+    "path": "source/adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionBoostVulkanBridgeScreen.java",
+    "sha256": "fde02e539cb496ca6617867c90685a64cd9959a20e68e59a03b075e7c445c8c1"
+  },
+  {
+    "path": "source/adapters/fabric-1192/mod/main/java/nvvisionboost/NVVisionDynamicController.java",
+    "sha256": "7708739890ac3aedc6dfd4cad1df03c40c58393c519288f8312ca732eb7fc949"
+  },
+  {
+    "path": "source/adapters/fabric-1192/mod/main/resources/fabric.mod.json",
+    "sha256": "9b68e8145be5a75b8763b25075e38876f9d20a3ba7ad52aab796c76fd9ceb099"
+  },
+  {
+    "path": "source/adapters/fabric-1192/mod/main/resources/nvvisionboost.mixins.json",
+    "sha256": "fdf7103add299f069a0611758229e54459fd2c9f40bb919b5d78940eaa8a29ea"
+  },
+  {
+    "path": "source/adapters/fabric-1192/mod/main/resources/third-party/nightconfig/GPL-3.0.txt",
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+  },
+  {
+    "path": "source/adapters/fabric-1192/mod/main/resources/third-party/nightconfig/LGPL-3.0.txt",
+    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+  },
+  {
+    "path": "source/adapters/fabric-1192/mod/main/resources/third-party/nightconfig/NOTICE.txt",
+    "sha256": "5802649724359b5746677573b8eb0361c1ba677fdfb09686cecd93f329a4356b"
+  },
+  {
+    "path": "source/adapters/fabric-1201/addon/main/resources/fabric.mod.json",
+    "sha256": "db63deb25e9497f015c00fcc7d5fdf9c4ed8e202daca2c22795949220fbb21e8"
+  },
+  {
+    "path": "source/adapters/fabric-1201/addon/main/resources/nvvisionbridge.mixins.json",
+    "sha256": "315ed3d698a8c9008e7efd11593ee368465f7448a8bbda714ada8f4fe2ac0a5a"
+  },
+  {
+    "path": "source/adapters/fabric-1201/mod/main/java/nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.java",
+    "sha256": "9d546942d67c4103232245ce9c9f2ff5be54ae01e73ceee8781539f047dded51"
+  },
+  {
+    "path": "source/adapters/fabric-1201/mod/main/java/nvvisionboost/NVVisionBoostClient.java",
+    "sha256": "9eb4ddc8afb6ab755c1c0280207fd45f69dc581970bbad2e99c4f5303313c493"
+  },
+  {
+    "path": "source/adapters/fabric-1201/mod/main/java/nvvisionboost/NVVisionBoostClientEvents.java",
+    "sha256": "ce611232aac5c7ded94415aed9beaa06b75854c9c69ea2c47d6de181fdcaf401"
+  },
+  {
+    "path": "source/adapters/fabric-1201/mod/main/java/nvvisionboost/NVVisionBoostCore.java",
+    "sha256": "ce54bc06d25d12d8eb61fb505ec2b25c0dfc70f7dbf7e866180e7dc9a067fd61"
+  },
+  {
+    "path": "source/adapters/fabric-1201/mod/main/java/nvvisionboost/NVVisionBoostFerriteCore.java",
+    "sha256": "2471fe53afc4570d06b3cb11891f7d764eb21b1c855e27199b963c8012e75f45"
+  },
+  {
+    "path": "source/adapters/fabric-1201/mod/main/java/nvvisionboost/NVVisionBoostForge.java",
+    "sha256": "8382efca04c3823a9056ba8ab2164c77525dded57da88487714b22f64be9a2f6"
+  },
+  {
+    "path": "source/adapters/fabric-1201/mod/main/java/nvvisionboost/NVVisionBoostNativeRenderer.java",
+    "sha256": "7b5d5986ef5546a60b60b981ac06e5c9acea9b67adc4725e49187b13d4861495"
+  },
+  {
+    "path": "source/adapters/fabric-1201/mod/main/java/nvvisionboost/VisionOptimizer.java",
+    "sha256": "75ec39eabd8ab4c6d1957bf19b0c6526b466083a88447c94314393125cb7f8eb"
+  },
+  {
+    "path": "source/adapters/fabric-1201/mod/main/resources/fabric.mod.json",
+    "sha256": "460c321763e80120bf6bc94bb63ffdb1b8cbd71c47a5d6cb0db84e8ea334fb75"
+  },
+  {
+    "path": "source/adapters/fabric-1201/mod/main/resources/nvvisionboost.mixins.json",
+    "sha256": "73d8c65cc30eb06cb0d0b9de241db64c21d1359d33c0f9d540fdd1b23dde69a9"
+  },
+  {
+    "path": "source/adapters/fabric-1201/mod/main/resources/third-party/nightconfig/GPL-3.0.txt",
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+  },
+  {
+    "path": "source/adapters/fabric-1201/mod/main/resources/third-party/nightconfig/LGPL-3.0.txt",
+    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+  },
+  {
+    "path": "source/adapters/fabric-1201/mod/main/resources/third-party/nightconfig/NOTICE.txt",
+    "sha256": "5802649724359b5746677573b8eb0361c1ba677fdfb09686cecd93f329a4356b"
+  },
+  {
+    "path": "source/adapters/fabric-1211/addon/main/java/nvvisionboost/vulkanbridge/FabricBridge.java",
+    "sha256": "e73d926c18acfcdf5909635b043ed031b5a2f7a5868b21aa69ff180ef2af2375"
+  },
+  {
+    "path": "source/adapters/fabric-1211/addon/main/java/nvvisionboost/vulkanbridge/mixin/FabricCpuLifecycleMixin.java",
+    "sha256": "12af0b9d62c9b2207ef1dbafae940dcca6ed0abfe3a5a93488525fdd87dc706d"
+  },
+  {
+    "path": "source/adapters/fabric-1211/addon/main/resources/fabric.mod.json",
+    "sha256": "cc93d68c816f74a50dc44320d1bb4e5ec354ae6df84c0bc3940b73207d43080a"
+  },
+  {
+    "path": "source/adapters/fabric-1211/addon/main/resources/nvvisionbridge.mixins.json",
+    "sha256": "91c157dada40e2c4844ad57abc439346df499ca412499f0a5857eba5df4573a9"
+  },
+  {
+    "path": "source/adapters/fabric-1211/mod/main/java/nvvisionboost/mixin/NVVisionBoostMinecraftMixin.java",
+    "sha256": "738e3c68a194301756dff7d1f8822923329d5010f9ce8b9134da594d3b22e07c"
+  },
+  {
+    "path": "source/adapters/fabric-1211/mod/main/java/nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.java",
+    "sha256": "e3d90e1e80039dca75d19d9db809107c85bf9f2bd7dad0a67001dcf219f0d0d2"
+  },
+  {
+    "path": "source/adapters/fabric-1211/mod/main/java/nvvisionboost/mixin/NVVisionBoostRenderTargetAccessor.java",
+    "sha256": "623803a12b1c3ae0a38339d27df3b6c0f88e96fe9fa1e8e0b7833ed61358a4e1"
+  },
+  {
+    "path": "source/adapters/fabric-1211/mod/main/java/nvvisionboost/NVVisionBoostClient.java",
+    "sha256": "9eb4ddc8afb6ab755c1c0280207fd45f69dc581970bbad2e99c4f5303313c493"
+  },
+  {
+    "path": "source/adapters/fabric-1211/mod/main/java/nvvisionboost/NVVisionBoostClientEvents.java",
+    "sha256": "dabac35b1e69f47cb340380eda6f8a8cc214f77a1344f3a154b14ac224ec3856"
+  },
+  {
+    "path": "source/adapters/fabric-1211/mod/main/java/nvvisionboost/NVVisionBoostCore.java",
+    "sha256": "817cedc97c17e6464d3d67384b855fb3df5f8274622b316ea7038d1cbcda950d"
+  },
+  {
+    "path": "source/adapters/fabric-1211/mod/main/java/nvvisionboost/NVVisionBoostFabric.java",
+    "sha256": "fa17c31d9383d00b11444bfaa74456a7bdfeca874da3f7b64229affb7ab9a9c2"
+  },
+  {
+    "path": "source/adapters/fabric-1211/mod/main/java/nvvisionboost/NVVisionBoostFerriteCore.java",
+    "sha256": "2471fe53afc4570d06b3cb11891f7d764eb21b1c855e27199b963c8012e75f45"
+  },
+  {
+    "path": "source/adapters/fabric-1211/mod/main/java/nvvisionboost/NVVisionBoostNativeRenderer.java",
+    "sha256": "3c4f7985e632dc027af9a15e8eb65d764d997a037226b7643dda921d01d5a113"
+  },
+  {
+    "path": "source/adapters/fabric-1211/mod/main/java/nvvisionboost/rendering/FabricStencilAdapter.java",
+    "sha256": "c2baa44f6e3639d5c227b66b509a073b64698d0455d8f2339fc578d3ba5ba2fe"
+  },
+  {
+    "path": "source/adapters/fabric-1211/mod/main/java/nvvisionboost/VisionOptimizer.java",
+    "sha256": "75ec39eabd8ab4c6d1957bf19b0c6526b466083a88447c94314393125cb7f8eb"
+  },
+  {
+    "path": "source/adapters/fabric-1211/mod/main/resources/fabric.mod.json",
+    "sha256": "96999641c11bf80c65bab465fc9c0aab0101e43929f473075d41644e5e0fd9ee"
+  },
+  {
+    "path": "source/adapters/fabric-1211/mod/main/resources/nvvisionboost.mixins.json",
+    "sha256": "4373142dfa16f1b8e4175dbcdffdd7527ced1a92cdeab80007f5089ab51b8ac2"
+  },
+  {
+    "path": "source/adapters/fabric-1211/mod/main/resources/third-party/nightconfig/GPL-3.0.txt",
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+  },
+  {
+    "path": "source/adapters/fabric-1211/mod/main/resources/third-party/nightconfig/LGPL-3.0.txt",
+    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+  },
+  {
+    "path": "source/adapters/fabric-1211/mod/main/resources/third-party/nightconfig/NOTICE.txt",
+    "sha256": "5802649724359b5746677573b8eb0361c1ba677fdfb09686cecd93f329a4356b"
+  },
+  {
+    "path": "source/adapters/fabric-12110/addon/main/java/nvvisionboost/vulkanbridge/BridgeApi.java",
+    "sha256": "4e8310344858d967880bd133749aaf570297f84dcaddeb9cd38021ea394a2098"
+  },
+  {
+    "path": "source/adapters/fabric-12110/addon/main/java/nvvisionboost/vulkanbridge/FabricBridge.java",
+    "sha256": "4998b80aea77a5507590951dbcba42b940ecbc41226f44e6426c15a3ae20c406"
+  },
+  {
+    "path": "source/adapters/fabric-12110/addon/main/java/nvvisionboost/vulkanbridge/mixin/BridgeRenderMixin.java",
+    "sha256": "2c7d0d1b6c242007b71ed1b571a5952e3863e8bffa4dd1a78ff9f5ba36a10692"
+  },
+  {
+    "path": "source/adapters/fabric-12110/addon/main/java/nvvisionboost/vulkanbridge/mixin/BridgeShutdownMixin.java",
+    "sha256": "85e13afa15bbaaf39b7cb6b2a0fe57d4dacbc9eea0c3a616a15be0af082a08ce"
+  },
+  {
+    "path": "source/adapters/fabric-12110/addon/main/resources/fabric.mod.json",
+    "sha256": "ff6efe44638b2cbe85b393dab5b1fc8a03be61a141e5ffcb006b877142848a25"
+  },
+  {
+    "path": "source/adapters/fabric-12110/addon/main/resources/nvvisionbridge.mixins.json",
+    "sha256": "481ba3bd8191c4329601f906306bfc079a9338e3b6860c1d0bc34e0375fe24da"
+  },
+  {
+    "path": "source/adapters/fabric-12110/addon/main/resources/nvvisionbridge.refmap.json",
+    "sha256": "fb9725bc5954c2fe8e1a29f9a8f0e153fa942a609050a69698cb1a41c46a67e8"
+  },
+  {
+    "path": "source/adapters/fabric-12110/mod/main/java/nvvisionboost/NVVisionBoostClient.java",
+    "sha256": "70213868228ac9af348a3a3ce5cdac10ed9eabb04c49bf8b2f52bfe4c35f34f9"
+  },
+  {
+    "path": "source/adapters/fabric-12110/mod/main/java/nvvisionboost/NVVisionBoostConfigScreen.java",
+    "sha256": "942c6d42d7ec9ac851664995c6af2658ac5e39439b6eee60b61fed07abb9d1d3"
+  },
+  {
+    "path": "source/adapters/fabric-12110/mod/main/java/nvvisionboost/NVVisionBoostCore.java",
+    "sha256": "b8bfbeab19b1ef30aa44bf52585b72a5c5c0a775b9b4a35ada368b8094f74a1e"
+  },
+  {
+    "path": "source/adapters/fabric-12110/mod/main/java/nvvisionboost/NVVisionBoostDepthTransfer.java",
+    "sha256": "cabb110c12172931405669e9e6d280cff7a9dc3eab5443dc821fd553c8b48597"
+  },
+  {
+    "path": "source/adapters/fabric-12110/mod/main/java/nvvisionboost/NVVisionBoostFabric.java",
+    "sha256": "9ed19ddf0ebc0eac7543a973ebde9275afadad46877826f0f2908dbe5846cf61"
+  },
+  {
+    "path": "source/adapters/fabric-12110/mod/main/java/nvvisionboost/NVVisionBoostNativeRenderer.java",
+    "sha256": "3490e885a882649a324e4cf8e21f39d661469f0de54b6ab6992d655f41700ff6"
+  },
+  {
+    "path": "source/adapters/fabric-12110/mod/main/resources/fabric.mod.json",
+    "sha256": "9593f3f6d12aae813e74c6d6f1f9814cdf3f8e603e0c4c999ab9aab07773afd8"
+  },
+  {
+    "path": "source/adapters/fabric-12110/mod/main/resources/nvvisionboost.mixins.json",
+    "sha256": "0fbf79d61b2f1ae24b0125941d4b0a5a4e24c62bce3b7c95634e0b47e49e5672"
+  },
+  {
+    "path": "source/adapters/fabric-12110/mod/main/resources/nvvisionboost.refmap.json",
+    "sha256": "eefb7f3af254c76651bf587e2be84c6b7fad172919175ae3f113c8f09decdcb7"
+  },
+  {
+    "path": "source/adapters/fabric-262/addon/main/java/nvvisionboost/vulkanbridge/BridgeApi.java",
+    "sha256": "f5c2181c076711f313564cc4dad205f0a6edd99f96df1a3610db77942b965264"
+  },
+  {
+    "path": "source/adapters/fabric-262/addon/main/java/nvvisionboost/vulkanbridge/FabricBridge.java",
+    "sha256": "8ad83357fb4031402df31b74d91664f1740ef8e073267b9de78dc001203d1ae1"
+  },
+  {
+    "path": "source/adapters/fabric-262/addon/main/java/nvvisionboost/vulkanbridge/mixin/BridgeRenderMixin.java",
+    "sha256": "8ad935589ccf43188374ce51e1d2c2c8fd21afef5cf277f8a5be505497f4a1f0"
+  },
+  {
+    "path": "source/adapters/fabric-262/addon/main/java/nvvisionboost/vulkanbridge/mixin/BridgeShutdownMixin.java",
+    "sha256": "8966345f4b55061154a07a896a2f4b669baf75ad947a42ca469e62a70b809c07"
+  },
+  {
+    "path": "source/adapters/fabric-262/addon/main/resources/fabric.mod.json",
+    "sha256": "0bf8814e261bebfc1b3fa901b1461b357af3bef8b5ad9765f69a27ce72ecf1b3"
+  },
+  {
+    "path": "source/adapters/fabric-262/addon/main/resources/nvvisionbridge.mixins.json",
+    "sha256": "a565d9ef5170d66602660ccf4b94e16ed044d2f711ccc02d5dc7f01684163914"
+  },
+  {
+    "path": "source/adapters/fabric-262/mod/main/java/nvvisionboost/NVVisionBoostClient.java",
+    "sha256": "d9c9579812eb67ca5cd2c222ddf96639b4e94292924b2019ef86bff43edb57d2"
+  },
+  {
+    "path": "source/adapters/fabric-262/mod/main/java/nvvisionboost/NVVisionBoostConfigScreen.java",
+    "sha256": "3fcec9c48a9609de170bdfada07a1574a84e777111661919b60dff7a6f65ed09"
+  },
+  {
+    "path": "source/adapters/fabric-262/mod/main/java/nvvisionboost/NVVisionBoostCore.java",
+    "sha256": "3e96c5c3c6da730aaf924c3854484dc1e062449f4e4fd9d1ea8ed8a885f81a60"
+  },
+  {
+    "path": "source/adapters/fabric-262/mod/main/java/nvvisionboost/NVVisionBoostDepthTransfer.java",
+    "sha256": "cabb110c12172931405669e9e6d280cff7a9dc3eab5443dc821fd553c8b48597"
+  },
+  {
+    "path": "source/adapters/fabric-262/mod/main/java/nvvisionboost/NVVisionBoostFabric.java",
+    "sha256": "dd8e4db351ae2f49f8d09f17e9bf80034809b94c7c05023a8b5195e3db7d7234"
+  },
+  {
+    "path": "source/adapters/fabric-262/mod/main/java/nvvisionboost/NVVisionBoostNativeRenderer.java",
+    "sha256": "a24fdaf93f89cba4d030deb06528afa9d8899cc1bf4a83d5e528971cc0f82f13"
+  },
+  {
+    "path": "source/adapters/fabric-262/mod/main/java/nvvisionboost/NVVisionBoostTargetLease.java",
+    "sha256": "5b64b5244a1d959ce7567e8c739273819265c240e30b6dc2c4ba38cacea5c9e7"
+  },
+  {
+    "path": "source/adapters/fabric-262/mod/main/resources/fabric.mod.json",
+    "sha256": "d6a9738eed218f8462bd6d53b9e4a55d077f4491b3cc5ccb39311b88531c596d"
+  },
+  {
+    "path": "source/adapters/fabric-262/mod/main/resources/nvvisionboost.mixins.json",
+    "sha256": "c65972de2c7fe62efa134759c6499b77acb8cb4c5b449cad07cbb46a9c5cce3a"
+  },
+  {
+    "path": "source/adapters/forge-1122/addon/main/java/nvvisionboost/legacy/addon/LegacyCpuAdapter.java",
+    "sha256": "d548b5262f59de18d8f0d37542f18b205423bbc43a2ea1c673c282f6aba97655"
+  },
+  {
+    "path": "source/adapters/forge-1122/addon/main/java/nvvisionboost/legacy/addon/LegacyIntegerLease.java",
+    "sha256": "b8e0ed4a00289e7351880479772c433fdbfbc4d7b0cc2199ac8b6bf45c7b6bc5"
+  },
+  {
+    "path": "source/adapters/forge-1122/addon/main/java/nvvisionboost/legacy/addon/NVVisionLegacyAddon.java",
+    "sha256": "389ba9fb5d80abc04f2920acef024950ee141e5f13de3972e97009f7d1ec5bac"
+  },
+  {
+    "path": "source/adapters/forge-1122/addon/main/resources/COPYRIGHT.md",
+    "sha256": "1817be7ae5c6d71da390d79358d4da3794d00c57579cfcda5266bee870aaac44"
+  },
+  {
+    "path": "source/adapters/forge-1122/addon/main/resources/LICENSE.txt",
+    "sha256": "37b0d832225bdb5ec195f5b1b7051aff1be5a26a1b98ecb6480d70d703e1287a"
+  },
+  {
+    "path": "source/adapters/forge-1122/addon/test/java/nvvisionboost/legacy/addon/LegacyLeaseTest.java",
+    "sha256": "18c0d9a1c9af38ea15eceaff429b08be4538736f4872bd8f432c5be9684e4f7d"
+  },
+  {
+    "path": "source/adapters/forge-1122/mod/main/java/nvvisionboost/legacy/LegacyClient.java",
+    "sha256": "a5bff47dc139d8076a0e63f41032b389d84b51c5362e4bfaf2df28296337f345"
+  },
+  {
+    "path": "source/adapters/forge-1122/mod/main/java/nvvisionboost/legacy/LegacyConfig.java",
+    "sha256": "c0f8cade1aa207ac12879b73b31b3767fd98f463b4f6ef1ddbfa1a4b67fb9214"
+  },
+  {
+    "path": "source/adapters/forge-1122/mod/main/java/nvvisionboost/legacy/LegacyMenu.java",
+    "sha256": "cc256da4c96c07ea4bac7bbea7dcd6276d0b69054fe6b4af8cfd90f8b684da53"
+  },
+  {
+    "path": "source/adapters/forge-1122/mod/main/java/nvvisionboost/legacy/LegacyMinecraftAdapter.java",
+    "sha256": "721bf8f3659013993544230fedaf0790cf27f293f54eccf87a41c7cfc18cdaf5"
+  },
+  {
+    "path": "source/adapters/forge-1122/mod/main/java/nvvisionboost/legacy/NVVisionLegacy.java",
+    "sha256": "289475daea90e669110f5f72780db68ba26fe66f0b4b2222f67c13d86353884f"
+  },
+  {
+    "path": "source/adapters/forge-1122/mod/main/resources/COPYRIGHT.md",
+    "sha256": "1817be7ae5c6d71da390d79358d4da3794d00c57579cfcda5266bee870aaac44"
+  },
+  {
+    "path": "source/adapters/forge-1122/mod/main/resources/LICENSE.txt",
+    "sha256": "37b0d832225bdb5ec195f5b1b7051aff1be5a26a1b98ecb6480d70d703e1287a"
+  },
+  {
+    "path": "source/adapters/forge-1122/mod/test/java/nvvisionboost/legacy/LegacyConfigTest.java",
+    "sha256": "7437bcf45f140de561a9454aee0ecbb5b3cc6f16407ab8f5e41764ef72727ac8"
+  },
+  {
+    "path": "source/adapters/forge-1192/addon/main/resources/META-INF/mods.toml",
+    "sha256": "76118588636eff41f0791c4bfbef487bbfab1e17d11574708e492b1a2208c62c"
+  },
+  {
+    "path": "source/adapters/forge-1192/mod/main/java/nvvisionboost/NVVisionBoostForge.java",
+    "sha256": "1b203cd85e541ef535231415b9f79fef1e836b970cfe1678981af0e4253353cd"
+  },
+  {
+    "path": "source/adapters/forge-1192/mod/main/java/nvvisionboost/NVVisionBoostScreenEvents.java",
+    "sha256": "ae4ee04937e3a31000e90f0714c3210e36f57f265e56a584bf35ff5d2a01352e"
+  },
+  {
+    "path": "source/adapters/forge-1192/mod/main/resources/META-INF/mods.toml",
+    "sha256": "976f92bae18243bd282f9d03d18e16d07534cd7a536e77e54320c9738954b8e6"
+  },
+  {
+    "path": "source/adapters/forge-1192/mod/main/resources/nvvisionboost.mixins.json",
+    "sha256": "47624aac438b34b8c2aac5af4666d058d80a8255c4e306600573dee027982a88"
+  },
+  {
+    "path": "source/adapters/forge-1201/addon/main/java/nvvisionboost/vulkanbridge/BridgeApi.java",
+    "sha256": "5f83b9784ae08683b0b4bc8a0bfd07faa908f0db060f0a2cc4171165c715f9b1"
+  },
+  {
+    "path": "source/adapters/forge-1201/addon/main/java/nvvisionboost/vulkanbridge/BridgeBenchmark.java",
+    "sha256": "1e7be9062eab7c26115bbf6b81f50ad58c58f04dae89f3c84c53a13542be480e"
+  },
+  {
+    "path": "source/adapters/forge-1201/addon/main/java/nvvisionboost/vulkanbridge/BridgeCpuOptimizer.java",
+    "sha256": "99654da536b34996b333a548c0ce5b0bf5bfa5124d103e0671486a31d5cb34f7"
+  },
+  {
+    "path": "source/adapters/forge-1201/addon/main/java/nvvisionboost/vulkanbridge/BridgePresentation.java",
+    "sha256": "278e379add74560cfeb4e404b8c140b95d7a77d9fb0c09aa2721e4c26e932ea9"
+  },
+  {
+    "path": "source/adapters/forge-1201/addon/main/java/nvvisionboost/vulkanbridge/BridgeTestSession.java",
+    "sha256": "66a9a693e2301148e6b0fa187ac84a75766136ea94aa72979e704878cee5391e"
+  },
+  {
+    "path": "source/adapters/forge-1201/addon/main/java/nvvisionboost/vulkanbridge/NVVisionVulkanBridge.java",
+    "sha256": "1552d56280c99e682a5a8cbb6d7ad6247cd83f095339ba9db453fd98bc0ee5f9"
+  },
+  {
+    "path": "source/adapters/forge-1201/addon/main/resources/META-INF/mods.toml",
+    "sha256": "b67fa4270848bd421172c43bbf44924d98e5ac31ea93592c5add2df0e96876b7"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/mixin/NVVisionBoostGameRendererMixin.java",
+    "sha256": "cb8ac3fcc6c096c39d6611bfd0c43c149d765c5f3329baf1d2fcaf9bdd045cd6"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/mixin/NVVisionBoostRenderTargetAccessor.java",
+    "sha256": "29d2cf2dd4afed46710c9db5acda380a4a7f15d09ffd8d4c5c2d3f9b4f7b21a7"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostAssetAnalyzer.java",
+    "sha256": "2c00c8a3feb5d731c3f960d1ecd3db5ada47d2ee3b5c288dc8855826b3063668"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostClient.java",
+    "sha256": "9e9f7f2ea11d7a06bb31678e5e3c3d3cf173c8f9d691a7519e3edc4287647754"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostClientEvents.java",
+    "sha256": "877c79ab760ae34a4aa10f352ea566f06f8774adc159fe15899fb4ad6fc5b8aa"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostCompatibility.java",
+    "sha256": "e82dca28650e5c89395f4321b47179afd5fb2250c653eed8c31652eda45775e7"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostConfigScreen.java",
+    "sha256": "3532fea2a63eb4651b8758a30ef3670bf9a2027b6146158f16fcf6367205c52d"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostContentManager.java",
+    "sha256": "047ae455bdadc7b3abd2557805cdc3ec3c3d371bc1125f557400825c3ef9781a"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostCreatePresets.java",
+    "sha256": "4f6e8f7f22fe3b82c702693727ae21c1f894a21b97a3d7470944670a42b1bdf2"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostDependencyScreen.java",
+    "sha256": "9d52b7d96a3771b4081de2671e124f0b0cdb4bd3c34c8d0073360800c6149d7a"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostDepthTransfer.java",
+    "sha256": "cabb110c12172931405669e9e6d280cff7a9dc3eab5443dc821fd553c8b48597"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostDistantHorizonsCompatibility.java",
+    "sha256": "b2ce962ee64286f67747d91a6f7fe3d84f706a9663f56c0c271ffb84d39fe892"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostEntityBufferGuard.java",
+    "sha256": "9e47391f7a54a732f1da9f0e39857597f5f6cd3c6bf20b2380847fbee54bbe1f"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostFerriteCore.java",
+    "sha256": "1b7032749e07c9eb8833092a335a5ff0a6ea5d334c5fcd1aede002debd61de6f"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostFerriteScreen.java",
+    "sha256": "aa6db122b8b948ba12762ea630cfc0f0730e0dad65b5f946d9531ff51ae26b86"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostForge.java",
+    "sha256": "efc304159ae83a3bf627a771a1cbf7477fbcf5d1a3c5080f0703e8b0d7d2049b"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostFrameTiming.java",
+    "sha256": "485d7409b43b077d905a021d28e512410ae7131cf4badbaccb6207f93fc6cacf"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostFsr1Upscaler.java",
+    "sha256": "5c9c7af798c1f8f736e15e9beaec374bffac38d84719ff2b19040cf706f0f92e"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostGPU.java",
+    "sha256": "f0bd86fd56ec80580a75616cf4900a12cc825ba67fcb12b30fae72b82eb5387c"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostHardwareBudget.java",
+    "sha256": "57557d6c10926c4f5c33388fe04a4351708f3404436fd71583c031537591d0ee"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostIO.java",
+    "sha256": "d6b27d9b22c6329710f0776e73405854d23e9355151702fd9679d40830669931"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostMemoryMonitor.java",
+    "sha256": "90ddf7ae771edc3d72e33a9bd8c768a37e6e8eed5e2b357eec5736140445f14a"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostNativeRenderer.java",
+    "sha256": "10e863bc280a21e5220b9e87f23890296d0a12cc64e64d52eece4eafb348b973"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostNvidiaBackend.java",
+    "sha256": "8eb139da85d49910dadcca4e95e487f130a540fcb222fe81a2fa017d05df0d18"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostOculusShaderCache.java",
+    "sha256": "d879b01bf0e9e722cfb27118f19342dcfcb5ae62273a3c6bf086d9c408b7c47d"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostPerformance.java",
+    "sha256": "332aae95fa88c92de6d0da86e46df41f8bdbca1d17d2a7c7aa4eca9bf57d6485"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostPerformanceScreen.java",
+    "sha256": "e3989cb242465deff653cbeb263aea48521049ed306f7fcb55184792a48b95b9"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostPipelineGate.java",
+    "sha256": "8f0690c24bf3f04b9ad6d70d08cda500aec4ee6e1a274ded5a17ce84a775da03"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostRenderController.java",
+    "sha256": "34c74c3b072d0ad09a7a14aec513cb3bf96f721c364588e92a4bde26576653f4"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostScreenEvents.java",
+    "sha256": "3a2041fbb044a946f2723e1e9842d0d113dda498ff99827df18c63a44c7d4c8d"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostShader.java",
+    "sha256": "c272d6a9d549f2e9cec1f1a1b0c646fea789c9880b8a118a4eae9e21256bd112"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostShaderEngine.java",
+    "sha256": "7d577ddc4372a883690722e02d36e3c6b109e11343c52089fc7e7a9121d52ed4"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostShaderLifecycle.java",
+    "sha256": "982de9af58e68d85a69772cead0689690188214f7ad8088e53ecc0af54e9bd11"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostShaderQuality.java",
+    "sha256": "a765d2b8e6480d0f160bab196f37565bc2ff04612462a8cdf8fa4b4c782189c3"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostShaderStartup.java",
+    "sha256": "eabe554ad23963b8bcf552ccc416bb90e2ab544291deb0c1104154a19c6e375c"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostSpatialUpscaler.java",
+    "sha256": "8dc8f9810545ee50b7f86e2827b40ea6a6e4c131523d404a01117d8fce2ff611"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostTextureOptimizer.java",
+    "sha256": "a54becb3cfd2e72dbf22536a5540fc94fe78d82c99bf2639fe9403af08cb25f8"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostTextureScreen.java",
+    "sha256": "696da5049dedacbf715e588f0520bcba5e13a77abb614e95985e012486a2abf1"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostVisualPolicy.java",
+    "sha256": "9c74c3ee3ae0a4021181b31a2c092c6ca65fd9138d2773b2b512ee7661740481"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostVulkanBridgeScreen.java",
+    "sha256": "459cec322e9085c815a5a4766d5caf44021e71b13e1b920590ea34b36f346d28"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionDynamicController.java",
+    "sha256": "1cc7bb0ee452372b06f9262658c7800145860f052d8dac18c8f922dfec6348d5"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/UpscalingManager.java",
+    "sha256": "89f3d85ac9585dc2db0561fc923f98761b5d5280418717c46238258e8e412ab4"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/java/nvvisionboost/VisionOptimizer.java",
+    "sha256": "74ab3f58f758115f7f0e321084d310f3568e306fee9ba7cdd892142927d2c8b1"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/resources/assets/nvvisionboost/lang/en_us.json",
+    "sha256": "2ee5ca1f6c71ab27a8370b5dca8a8e210926ddbf9b18d284b9389425a54c8226"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/resources/assets/nvvisionboost/lang/pt_br.json",
+    "sha256": "3db65d02e44482deef49ed90b6054d5e5b73ce8d6cfc9ac1ed7840b83699c56c"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/resources/META-INF/mods.toml",
+    "sha256": "ecb99c3a48142276d011d4e2d9d2c62bbcfa4d3edd3a0c65f3f9aaac115d3502"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/resources/nvvisionboost.mixins.json",
+    "sha256": "b956950f1ed4121bafe8b507884e43c6879325c049a083c6a121aa3de469c845"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/main/resources/nvvisionboost.refmap.json",
+    "sha256": "2587f78b4223f5be318ea04122f31af559650230711f0c1181725636bba76daf"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/test/java/nvvisionboost/NVVisionBoostEntityBufferSmokeTest.java",
+    "sha256": "a3eecb408f0bbcac34456677414f6005771edea6fd10c98abf5e95fe28a96b63"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/test/java/nvvisionboost/NVVisionBoostOpenGLSmokeTest.java",
+    "sha256": "c5babd8c2f94edc185ad7f4f1e229d446001637aaa6dde09cab9a44b2dab6515"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/test/java/nvvisionboost/NVVisionBoostPipelineGateTest.java",
+    "sha256": "01d3464d5d0fe6f02c3e99cdca30e95adf0e488d0145a1f3279e3a038d0665e3"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/test/java/nvvisionboost/NVVisionBoostRegressionTest.java",
+    "sha256": "7915f461321df43cba0a1975969328541b06b8586dcef07413a95cfd37e578ae"
+  },
+  {
+    "path": "source/adapters/forge-1201/mod/test/java/nvvisionboost/NVVisionBoostTargetLeaseTest.java",
+    "sha256": "701e0802d666c3742119e930c9d5b0b7e57096984bb38b24207d6404dbf3b613"
+  },
+  {
+    "path": "source/adapters/minecraft/1.20.1/VersionAdapter.java",
+    "sha256": "5ff1e9485d80cc8332f66fe497f285c19a69736d7e209412acc075714fc0d9c3"
+  },
+  {
+    "path": "source/adapters/minecraft/1.21.1/VersionAdapter.java",
+    "sha256": "17b990f428d8a4530697bc12afab5593f5f0b150597e7d6eff40071387df2f7a"
+  },
+  {
+    "path": "source/adapters/minecraft/26.2/VersionAdapter.java",
+    "sha256": "f9a7cb43de25af76579379f6351dfa5d049fbbf1ebf7e319c14b9ccc9fe4731c"
+  },
+  {
+    "path": "source/adapters/neoforge-1201/addon/main/java/nvvisionboost/vulkanbridge/platform/LoaderAdapter.java",
+    "sha256": "d9298ffd18ae82a9299bb3efa819f603cb8bf209e6b5e0af796a1da48b2d4591"
+  },
+  {
+    "path": "source/adapters/neoforge-1201/addon/main/resources/META-INF/mods.toml",
+    "sha256": "ebc43929591e9321037b59262ff15b778805e19bb4408444ce5c85b19310a636"
+  },
+  {
+    "path": "source/adapters/neoforge-1201/mod/main/java/nvvisionboost/NVVisionBoostForge.java",
+    "sha256": "9b24f7daa4d53ddf092f6a092ea197f87996acc3c3a6d7941017965dcd68c71a"
+  },
+  {
+    "path": "source/adapters/neoforge-1201/mod/main/java/nvvisionboost/platform/LoaderAdapter.java",
+    "sha256": "b6236bd6c448f5f82bac4327b643bc055025bb1c91e3e66607f96f5a81ee2922"
+  },
+  {
+    "path": "source/adapters/neoforge-1201/mod/main/resources/META-INF/mods.toml",
+    "sha256": "ecf19c938ee7f83aec1d0e326aab45948d303df7626f4c410c316c772b7d3c42"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/addon/main/java/nvvisionboost/vulkanbridge/BridgeApi.java",
+    "sha256": "a3a774d4ac728252303e276da3c7d8962cdfefd8809d6987400c474da93724aa"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/addon/main/java/nvvisionboost/vulkanbridge/CpuOptionLease.java",
+    "sha256": "586668d747f04911f6b578e876b91494072fe0b5e281accf5d1e8d29a7af1b3a"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/addon/main/java/nvvisionboost/vulkanbridge/NVVisionVulkanBridge.java",
+    "sha256": "e7d76542eef515ad912b27c1072304a5cdb4cbf8aae4dee57b6c8dff179f690f"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/addon/main/java/nvvisionboost/vulkanbridge/platform/LoaderAdapter.java",
+    "sha256": "1c922e116a14ec3e63c065a0e31d3d9d6e46b1245f07b4890e62c2ff27e3764e"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/addon/main/resources/META-INF/neoforge.mods.toml",
+    "sha256": "b3d5666d292f1fb11152ca37b73a03658520f290ac181913a8719dedd675a7bc"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/mixin/NVVisionBoostGameRendererMixin.java",
+    "sha256": "bd75c2aabe86c2c5d89509a5c9b505f9951c8bf9d69a251a7dcae20f82cceb00"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/mixin/NVVisionBoostRenderTargetAccessor.java",
+    "sha256": "e0b726b1faa08fe858c2545fed0bb7901756c120fab775d69f2b0a54794d2fb5"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/mixin/NVVisionBoostScreenSizeMixin.java",
+    "sha256": "4bc315fb5b2d7c2e8f9bf722f023f428245d1b80285f67fdd0cfc184efdfafcc"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/mixin/NVVisionBoostViewportMixin.java",
+    "sha256": "51f3687295df897e6592521c260244ff36ef8e5d60322a2c8f8b903f9e9f4d1d"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostAssetAnalyzer.java",
+    "sha256": "14aaee3c0c2b5b51309e2071b3a0c403ff48f8133bfa66ac837fe9249756dd92"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostClient.java",
+    "sha256": "b34ca3c09b436c38090ea73e107baeb665a4ffe74d159029ae704cef5cca9dd5"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostClientEvents.java",
+    "sha256": "bbdf59515ca17c6cc83ecd67868647e3971e1b4bf265462728af05f55af95ab3"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostCompatibility.java",
+    "sha256": "6ee331fb26406765ab9a90c4eef3118f1948547de20e3dea3a619a941563d018"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostConfigScreen.java",
+    "sha256": "c3e19c38123f046b42f761b2bd236d5c4de063ccab999ea8494c3f0718e64091"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostCore.java",
+    "sha256": "804d8d01023e4ec4fa143fd67b8cea3380ca0475e46513d604ef90892ff809f3"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostDependencyScreen.java",
+    "sha256": "d453d1e621004580b92245b2a92c07019daa2a734a4e438d9d7d243ab2903f14"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostDepthTransfer.java",
+    "sha256": "cabb110c12172931405669e9e6d280cff7a9dc3eab5443dc821fd553c8b48597"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostEntityBufferGuard.java",
+    "sha256": "92c6f28975f000485fcd2bcf5abe4fb61bbe23adb30662d8b5f35204f8d2b276"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostFerriteCore.java",
+    "sha256": "a97bcd41f08ae527c149fdc6449a972cdcc56d343a2718261357112b960decf1"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostFerriteScreen.java",
+    "sha256": "7f3c76a6e62f6aceec20f7c7f099fc468714fd696ab6fb59fad991355bb24c9e"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostForge.java",
+    "sha256": "92b82cfa96b7bbe5e6f2a74431b8df00d654b99b268c8368dcbf875d7795a71b"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostFrameTiming.java",
+    "sha256": "48118abcabd43d7730ef1bf106d5843b43de4212b54cf0214e33d3b28b11175e"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostGPU.java",
+    "sha256": "168a01a37cca51e6d4d2be76f25711323fba9bb7d7cd6e1c1e57d77e5c006c81"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostNativeRenderer.java",
+    "sha256": "24c36d0aac864c1b253188e57a2dd56b6536f95a693d08ebfbe8fbf532b9d2ee"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostNeoForge.java",
+    "sha256": "d14805c4a6f8effcc50de03075dfd46c30258f16bf65f995ee39bde09102182f"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostOculusShaderCache.java",
+    "sha256": "c26f2519d759709d095394a3776045cdf93872279f5ddd55871a9ab897385a5a"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostOptionsPlacement.java",
+    "sha256": "3f3c9e1ce427b8a7a8c926a800f86843df62c2d3d0d4699a5e5dd8acb62ef6f4"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostPerformanceScreen.java",
+    "sha256": "35b0c20f79e2663398ffa981959dec3e526d56723f2a92c9ee5dcdd97214434e"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostRenderController.java",
+    "sha256": "3912d15885d2334521b237d47125a8a37f9abb5a13734d1bc8ddfda7dde0a1fd"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostScreenEvents.java",
+    "sha256": "f56d03f03e9e0039066474b2a139e0431a0a107dce1307a52929d2c57c3c2669"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostShaderEngine.java",
+    "sha256": "4f3db826f3815a8fc33d298eaa51d6cc0e08cae9fb7e2d8cb12a4fae7b526650"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostShaderLifecycle.java",
+    "sha256": "abbb1b161aea96cca4e8d6c0c6db08481164d89a0cfdd32bef64dc6c75552f67"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostShaderQuality.java",
+    "sha256": "d998ef64581d1bdecae2befc9075344a866083b3a8b8a5e5c1e27b9728b41415"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostShaderStartup.java",
+    "sha256": "bb161799d937e67072b3c42bd6e2f03f575c09acf63d73f8ab3b390e0491a3c9"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostSodiumExtraAdapter.java",
+    "sha256": "f3d54cacfebbae7ac4108e18e7a2a2cc5b3e217c5eaa26460f1e4df57882fc33"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostSpatialUpscaler.java",
+    "sha256": "1d40138fbba781f71c3093398f752343edaefc940e50fc045d1b76dd3ca838ef"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostVulkanBridgeScreen.java",
+    "sha256": "0b9265375ae282b93836f037eb8674d6dd3b6426a26fd64daec950554fd0c06a"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/platform/LoaderAdapter.java",
+    "sha256": "2e9a48f1ca93173b39b98f865db479a0676cce6cd65232fa466830ab143a3f37"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/UpscalingManager.java",
+    "sha256": "9ef0c99b2d28415af8c86beb6d3ecc288c9483a3c23594cc0c6370c11a7f2c0a"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/java/nvvisionboost/VisionOptimizer.java",
+    "sha256": "a5caf133ba945c3a7c5ae8ea611ff97c9574256d542fde170e3edca7d8bcf1e4"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/resources/assets/nvvisionboost/lang/en_us.json",
+    "sha256": "9b4e6df802655efcd5bea12a5e22f17229c611ccd2e3bf0d38eff69c9bd28439"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/resources/assets/nvvisionboost/lang/pt_br.json",
+    "sha256": "fc00c3070c92f54e86d5070efbe06f10a2899e017da54e4f7b83b62efee892cc"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/resources/assets/nvvisionboost/ui/en_us.json",
+    "sha256": "e0b3821e70ce49275b19cddbadade64a333e63b8e173d2d98aec6ecb1166cb20"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/resources/META-INF/neoforge.mods.toml",
+    "sha256": "77b687ec67c8855e6f99b8c5aec5091ea448bc800a55d441e01c18b623b443ee"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/main/resources/nvvisionboost.mixins.json",
+    "sha256": "e871d893c6ef10998ba30048a864b44a8c0924fad080f8c2a7422fe8243ad545"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/test/java/nvvisionboost/NVVisionBoostOpenGLSmokeTest.java",
+    "sha256": "56e4373e0e46f9b7bdbe0bea3307c9a7eb8ab0e85bbd4da0886976b8ac5a932b"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/test/java/nvvisionboost/NVVisionBoostOptionsPlacementTest.java",
+    "sha256": "84affbcb4e535289fb6a6b11f45b8a08399e8f8baf6527e9b5825721d9def170"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/test/java/nvvisionboost/NVVisionBoostPixelAdapterTest.java",
+    "sha256": "ebf82d647a5afbac9d75642448078db6c2b1d46bd85f5898a1d6ebe6e9d38990"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/test/java/nvvisionboost/NVVisionBoostRegressionTest.java",
+    "sha256": "bdced3213425066e5bf97069f45fb75e7c0dd109a0aeac7b62fc3180a200c253"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/test/java/nvvisionboost/NVVisionBoostStabilityTest.java",
+    "sha256": "b5f0250e794f9af2fa5c0ace9a0f28e4bff0dd56cf75da73b5d75beff85914dd"
+  },
+  {
+    "path": "source/adapters/neoforge-1211/mod/test/java/nvvisionboost/NVVisionBoostTargetLeaseTest.java",
+    "sha256": "74df9eb5fe2f46b07145a0894d6778fcb4af18e6061ada3e54b98ce8a361d287"
+  },
+  {
+    "path": "source/adapters/neoforge-12110/addon/main/java/nvvisionboost/vulkanbridge/BridgeApi.java",
+    "sha256": "76fed2ef9bbc2ce72caeb95acfcf4752880a9a2bf3971a441543937a859e4726"
+  },
+  {
+    "path": "source/adapters/neoforge-12110/addon/main/java/nvvisionboost/vulkanbridge/NeoForgeBridge.java",
+    "sha256": "5072ee40da59ff5afa8af2a627d1939f841a1f64c5d98f106ff5b8e007d6b8ad"
+  },
+  {
+    "path": "source/adapters/neoforge-12110/addon/main/resources/META-INF/neoforge.mods.toml",
+    "sha256": "e01fc1d1512e2cd04a516ae11ef6bf20b3afaf53483271caa23dfbb3ea6197bb"
+  },
+  {
+    "path": "source/adapters/neoforge-12110/addon/main/resources/nvvisionbridge.mixins.json",
+    "sha256": "ea383ed25b4061b9fd1038cb46b8c610562baa54d0d19b1f06c94e1fbee4bd98"
+  },
+  {
+    "path": "source/adapters/neoforge-12110/mod/main/java/nvvisionboost/NVVisionBoostClient.java",
+    "sha256": "642adbb586b0b9fe54316200e231a3798261c5cacb7d5db3d3f72b40118efc2d"
+  },
+  {
+    "path": "source/adapters/neoforge-12110/mod/main/java/nvvisionboost/NVVisionBoostConfigScreen.java",
+    "sha256": "9036c6829a62c2066f2dfc25dfd67051c53f9335cd525ba3670563cfa9164426"
+  },
+  {
+    "path": "source/adapters/neoforge-12110/mod/main/java/nvvisionboost/NVVisionBoostCore.java",
+    "sha256": "e8f96af565dc1610331d7952c9121fb9acd3a631fafd2094744aeca6a4677354"
+  },
+  {
+    "path": "source/adapters/neoforge-12110/mod/main/java/nvvisionboost/NVVisionBoostDepthTransfer.java",
+    "sha256": "cabb110c12172931405669e9e6d280cff7a9dc3eab5443dc821fd553c8b48597"
+  },
+  {
+    "path": "source/adapters/neoforge-12110/mod/main/java/nvvisionboost/NVVisionBoostFerriteScreen.java",
+    "sha256": "cf535ff4d6eb371af8d24518326910c5c7be263fe426e45c267859b226e4aeea"
+  },
+  {
+    "path": "source/adapters/neoforge-12110/mod/main/java/nvvisionboost/NVVisionBoostNativeRenderer.java",
+    "sha256": "61a2cc4930819a62f072da3068301cdbb42fb5f465f55f23d7b88c0be3508c11"
+  },
+  {
+    "path": "source/adapters/neoforge-12110/mod/main/resources/META-INF/neoforge.mods.toml",
+    "sha256": "3dc952e12a5541b23a6731ba99feeeced93740f1cd6e973cc91d3c44b7aea66c"
+  },
+  {
+    "path": "source/adapters/neoforge-12110/mod/main/resources/nvvisionboost.mixins.json",
+    "sha256": "d85ccbae7151f184634dc61fa8387d173bec048d4248220eed5569c369a33f6e"
+  },
+  {
+    "path": "source/adapters/neoforge-2612/addon/main/java/nvvisionboost/vulkanbridge/NeoForgeBridge.java",
+    "sha256": "a42138b640672cc33673d884fae664e00ad2abad5fe0499bc4af9b4b3e5d9dc7"
+  },
+  {
+    "path": "source/adapters/neoforge-2612/addon/main/resources/META-INF/neoforge.mods.toml",
+    "sha256": "ceef8d1be0926f7341d0cd5645cc8e5c8933b782338998a2e3c341a1950385e6"
+  },
+  {
+    "path": "source/adapters/neoforge-2612/mod/main/java/nvvisionboost/mixin/NVVisionBoostGameRendererAccessor.java",
+    "sha256": "31386f8dbcf06a3d4f0cac539d173bc29bcf1dbfc5fac74c5dbfc4004a4d1c8c"
+  },
+  {
+    "path": "source/adapters/neoforge-2612/mod/main/java/nvvisionboost/mixin/NVVisionBoostGameRendererMixin.java",
+    "sha256": "7542b26b366bd8ccd0ddb1a49fc828e51cbd238e7fcdcbf46dba6362d6908a5e"
+  },
+  {
+    "path": "source/adapters/neoforge-2612/mod/main/java/nvvisionboost/mixin/NVVisionBoostMinecraftAccessor.java",
+    "sha256": "33859816781fe3a885423b7d571ca0e58426036e7a6578df533ab8204892b2fc"
+  },
+  {
+    "path": "source/adapters/neoforge-2612/mod/main/java/nvvisionboost/NVVisionBoostConfigScreen.java",
+    "sha256": "eee70cab869d053e0c73d632e4f880e72b259acf9d096cb6432966a092c71989"
+  },
+  {
+    "path": "source/adapters/neoforge-2612/mod/main/java/nvvisionboost/NVVisionBoostDepthTransfer.java",
+    "sha256": "cabb110c12172931405669e9e6d280cff7a9dc3eab5443dc821fd553c8b48597"
+  },
+  {
+    "path": "source/adapters/neoforge-2612/mod/main/java/nvvisionboost/NVVisionBoostFerriteScreen.java",
+    "sha256": "ab3702391f7077d7e64ac777073fb6964302149fa652153a4c616dd5e94ecbb4"
+  },
+  {
+    "path": "source/adapters/neoforge-2612/mod/main/java/nvvisionboost/NVVisionBoostNativeRenderer.java",
+    "sha256": "429e2f0a1f9f6bebaa9ba64d735a379b60808e2c97f881d598aeef87d75ed59c"
+  },
+  {
+    "path": "source/adapters/neoforge-2612/mod/main/java/nvvisionboost/NVVisionBoostPerformanceScreen.java",
+    "sha256": "83c71aca2fbacfb9b7e7661caf11b1b03ece1ab6f0ac0739d355de89a346893b"
+  },
+  {
+    "path": "source/adapters/neoforge-2612/mod/main/java/nvvisionboost/NVVisionBoostTextureScreen.java",
+    "sha256": "7027d4cf93e834052e229a8f98d6f280dcd1cb746714ea5654c5dd5e5e91359c"
+  },
+  {
+    "path": "source/adapters/neoforge-2612/mod/main/resources/META-INF/neoforge.mods.toml",
+    "sha256": "0fe6a8682a4175baf06a2602da0d29f6c655cd46a2a2080b9a2285f165bde33b"
+  },
+  {
+    "path": "source/adapters/neoforge-2612/mod/main/resources/nvvisionboost.mixins.json",
+    "sha256": "b0fec70c5af195ffe399c59c13894f4f8cfee9b05882fe212dc1acc33d757b34"
+  },
+  {
+    "path": "source/adapters/neoforge-262/addon/main/java/nvvisionboost/vulkanbridge/NeoForgeBridge.java",
+    "sha256": "3407efb31f23016500e06ac2f74bf844df0a694d0f31e1875a84e9856e19c331"
+  },
+  {
+    "path": "source/adapters/neoforge-262/addon/main/resources/META-INF/neoforge.mods.toml",
+    "sha256": "e1b1ed64f5730c576e0f44fcdbf935c1d041421edeecaf7ab7bd737cf763eb65"
+  },
+  {
+    "path": "source/adapters/neoforge-262/mod/main/java/nvvisionboost/NVVisionBoostConfigScreen.java",
+    "sha256": "5e78bd491bd18722aff3befc2a93a7e7995f8b60d015d71469fd204578871132"
+  },
+  {
+    "path": "source/adapters/neoforge-262/mod/main/java/nvvisionboost/NVVisionBoostDepthTransfer.java",
+    "sha256": "cabb110c12172931405669e9e6d280cff7a9dc3eab5443dc821fd553c8b48597"
+  },
+  {
+    "path": "source/adapters/neoforge-262/mod/main/java/nvvisionboost/NVVisionBoostFerriteScreen.java",
+    "sha256": "cc14ec3ea88d2ada50d7e5776d2c82aa4e2955f6f11f2ea62fd9bb1c27ade9ea"
+  },
+  {
+    "path": "source/adapters/neoforge-262/mod/main/java/nvvisionboost/NVVisionBoostGPU.java",
+    "sha256": "b05b675c9aa9e63818e55686d5a1f0f6daf57edb21eac56fe6151f28da653e46"
+  },
+  {
+    "path": "source/adapters/neoforge-262/mod/main/java/nvvisionboost/NVVisionBoostNativeRenderer.java",
+    "sha256": "b94ba7fe9920c36a59635339ebcc1b059baea4003fc19caed32e3be7f2e0d7a4"
+  },
+  {
+    "path": "source/adapters/neoforge-262/mod/main/java/nvvisionboost/NVVisionBoostNeoForge.java",
+    "sha256": "f87b0a98213e5fb737a29106d4934e50e5a37844e80e8ed4eac54537aebc8b88"
+  },
+  {
+    "path": "source/adapters/neoforge-262/mod/main/resources/META-INF/neoforge.mods.toml",
+    "sha256": "fe4f87866ad47f748a44fa53bac1f23edcce15c01355fb3a06793aee7fe7cca6"
+  },
+  {
+    "path": "source/adapters/neoforge-262/mod/main/resources/nvvisionboost.mixins.json",
+    "sha256": "c42d35f5a01cb6c5589df1070f623a15c0cb1e0af4f7e77edf1d7e8783b9483a"
+  },
+  {
+    "path": "source/adapters/platform/Fabric/addon/LoaderAdapter.java",
+    "sha256": "ab4109ef27807d91633749984d0189e49e45859a8ae30078bc4d639e225c6992"
+  },
+  {
+    "path": "source/adapters/platform/Fabric/mod/LoaderAdapter.java",
+    "sha256": "1de51a8b59bd68d57f5ca6b76297b4da607235c31cdc2647256d8afc3c0247ef"
+  },
+  {
+    "path": "source/adapters/platform/Forge/addon/LoaderAdapter.java",
+    "sha256": "daad791b2bd67911e4af2aacaef3b5c7d836964fd50c2c1d1241001ff8d2d84f"
+  },
+  {
+    "path": "source/adapters/platform/Forge/mod/LoaderAdapter.java",
+    "sha256": "91f3c491484e515d393f2a4ffbe071c7ed38e5efa20661451070b859568d2f7b"
+  },
+  {
+    "path": "source/adapters/platform/NeoForge/addon/LoaderAdapter.java",
+    "sha256": "1a4657dbda2f8bf85998979a52194242847c642869d99f87f314caa8e707b8d1"
+  },
+  {
+    "path": "source/adapters/platform/NeoForge/mod/LoaderAdapter.java",
+    "sha256": "cf1a0ddaaec01fe702c4e28f1552c4897ffdb0d057979ee6392061d55d08e7fd"
+  },
+  {
+    "path": "source/modules/addon/adapters/addon/main/java/nvvisionboost/vulkanbridge/platform/Platform.java",
+    "sha256": "65642f67962185096a89b866dea6359f5a2beac16c63ddbb12e0d4db77d524ef"
+  },
+  {
+    "path": "source/modules/addon/adapters/addon/main/java/nvvisionboost/vulkanbridge/platform/PlatformAdapter.java",
+    "sha256": "903029f5d064699d6271990c6f650815487f003f8432d799f4f5f38c609879f4"
+  },
+  {
+    "path": "source/modules/addon/cpu/main/java/nvvisionboost/vulkanbridge/CpuPolicy.java",
+    "sha256": "61d9a752bdc459fa8ecd7f436d8adafbd891b735f38e45642585a6768ad9687d"
+  },
+  {
+    "path": "source/modules/addon/cpu/runtime/common/main/java/nvvisionboost/vulkanbridge/BridgeCpuOptimizer.java",
+    "sha256": "be86e65fa4d0992388568c73e6906fac936ca9850023f2b195c5f4e60fcda1f1"
+  },
+  {
+    "path": "source/modules/addon/cpu/test/java/nvvisionboost/vulkanbridge/CpuConfigurationTest.java",
+    "sha256": "93e65c8509277c1dda481657e7f9a795bf911c20b7fd9f3b8f3690e8bd768ac7"
+  },
+  {
+    "path": "source/modules/addon/cpu/test/java/nvvisionboost/vulkanbridge/CpuOptionLeaseTest.java",
+    "sha256": "3858768a4f2d7e0e18e5b619c3f77b0400e7c645d99fe4c5dc2454cb220c4cfb"
+  },
+  {
+    "path": "source/modules/addon/cpu/test/java/nvvisionboost/vulkanbridge/CpuPolicyTest.java",
+    "sha256": "a2d93b3d915e3b8b06bcb808f214c9fd429826908677b801133048ed9c4861c6"
+  },
+  {
+    "path": "source/modules/addon/performance/08a14d4bdd78/main/java/nvvisionboost/vulkanbridge/CpuOptionLease.java",
+    "sha256": "f224e4793658c406bb31e5a183ea88c92bf6f7d9b53ab8e6bbc9d8853bb971e6"
+  },
+  {
+    "path": "source/modules/addon/rendering/d4faf00612a2/main/resources/nvvisionbridge.mixins.json",
+    "sha256": "d4faf00612a22f421eb79b32468162f3340c08ad7474c936866ba33acef61161"
+  },
+  {
+    "path": "source/modules/addon/services/20686c3ceade/main/java/nvvisionboost/vulkanbridge/BridgeOpaquePresent.java",
+    "sha256": "c36ff7f93c7385d86e0ab4ab014190ecaa0c9e36742bb5b0912f5e7b4804c524"
+  },
+  {
+    "path": "source/modules/addon/services/41f5167213b6/main/java/nvvisionboost/vulkanbridge/BridgeFiles.java",
+    "sha256": "41f5167213b62df41c1afc72a39a10e22463d8b313907480d15467815121d567"
+  },
+  {
+    "path": "source/modules/addon/services/8fbf9c2bdb2a/main/java/nvvisionboost/vulkanbridge/BridgePolicy.java",
+    "sha256": "8fbf9c2bdb2a36ed028da3e30e15c39a1d06f7548b6676962124b52b65db7a54"
+  },
+  {
+    "path": "source/modules/addon/services/b1e163f5cbfe/main/java/nvvisionboost/vulkanbridge/BridgeApi.java",
+    "sha256": "58f8d89e27bee335b923add40e5bb63c2af194b92bf8e659e62a0eda710f0fc3"
+  },
+  {
+    "path": "source/modules/addon/services/f90459b3561e/test/java/nvvisionboost/vulkanbridge/BridgeRegressionTest.java",
+    "sha256": "67493755309c74f3d447687e66dfcb6cbd70c544e43b7777ea029c585e40e862"
+  },
+  {
+    "path": "source/modules/addon/shared/1a092bfe87c2/main/java/nvvisionboost/vulkanbridge/BridgePreflight.java",
+    "sha256": "1a092bfe87c289b7ad5840f729d04c0aca1e24b01dd1e39f300776c2a99b9a35"
+  },
+  {
+    "path": "source/modules/addon/shared/1e2274031a9b/main/java/nvvisionboost/vulkanbridge/CpuMinecraftAdapter.java",
+    "sha256": "1e2274031a9bcc029f368884e22fdd1d73ff6da1b6ddfbc6dd3d1b05f21488c9"
+  },
+  {
+    "path": "source/modules/addon/shared/2c8eaf364f2f/test/java/nvvisionboost/vulkanbridge/BridgeRegressionTest.java",
+    "sha256": "2c8eaf364f2fcd18dd38156a5cb1eee57ecdbe625a5b222c838ca237f487374a"
+  },
+  {
+    "path": "source/modules/addon/shared/8cd8856f3ee6/main/java/nvvisionboost/vulkanbridge/BridgeBenchmarkPolicy.java",
+    "sha256": "8cd8856f3ee6d65b14324550f1eab460a3931b71282982228b6bb4f020be8167"
+  },
+  {
+    "path": "source/modules/addon/shared/907bc6d9773f/main/java/nvvisionboost/vulkanbridge/CpuMinecraftAdapter.java",
+    "sha256": "907bc6d9773fc6038b4e072284a5c8341c7b3d565b3ca0d944b65e86b6a413a2"
+  },
+  {
+    "path": "source/modules/mod/adapters/MinecraftAccess.java/main/java/nvvisionboost/minecraft/MinecraftAccess.java",
+    "sha256": "88b1b402cba1a8f97c89e52cc444076d27ac619ac980dbeee25452c3161a22d3"
+  },
+  {
+    "path": "source/modules/mod/adapters/MinecraftVersionAdapter.java/main/java/nvvisionboost/minecraft/MinecraftVersionAdapter.java",
+    "sha256": "e0369e0f940b5d1d6f47b3a94f1eaad57c671fcf11da706e9a05ce223de0ba12"
+  },
+  {
+    "path": "source/modules/mod/adapters/mod/main/java/nvvisionboost/platform/Platform.java",
+    "sha256": "2d556db6387723b8160a1142d96a5303fda7f1e656a46a6a1da86f9ffebfc341"
+  },
+  {
+    "path": "source/modules/mod/adapters/mod/main/java/nvvisionboost/platform/PlatformAdapter.java",
+    "sha256": "6e9e04d12e17a7bdc19e4fd008b19fca06cba0b0ddee0bce332352f989ae3778"
+  },
+  {
+    "path": "source/modules/mod/configuration/25d7d409d61f/test/java/nvvisionboost/NVVisionBoostNeoForgeConfigTest.java",
+    "sha256": "54aae56497a3b0a5fcb648a2391f463504bcd7f02fa515e124e56916a86d65e4"
+  },
+  {
+    "path": "source/modules/mod/configuration/5c17043943ca/main/java/nvvisionboost/NVVisionBoostGpuTimer.java",
+    "sha256": "cecbe6222b4bf438b4b1127c6a53e16f35c951abe2866f4e629fe0d3dc391bcc"
+  },
+  {
+    "path": "source/modules/mod/configuration/5fcbaf1fef14/main/java/nvvisionboost/NVVisionBoostGpuCatalog.java",
+    "sha256": "5fcbaf1fef14890f6b6951653c017965403aed382504485227092796c83c1067"
+  },
+  {
+    "path": "source/modules/mod/configuration/71b50cf51d28/main/java/nvvisionboost/NVVisionBoostGpuTimer.java",
+    "sha256": "4648eb48a1cc8a81aece6fd98aa1cbcc315c2d77662844544ebd125e5d2d8c5d"
+  },
+  {
+    "path": "source/modules/mod/configuration/8bbd7b8ceece/main/java/nvvisionboost/NVVisionBoostGPU.java",
+    "sha256": "8be2ebc83688e9a8c5fe9ecbfc8513fd5d9df570dff866e38753377e6293cd47"
+  },
+  {
+    "path": "source/modules/mod/integrations/0386b2d3638f/main/java/nvvisionboost/NVVisionBoostShaderLifecycle.java",
+    "sha256": "6415c123504710ff9558f1e747af0db1a5ac94056f81c3f865bb912775892e68"
+  },
+  {
+    "path": "source/modules/mod/integrations/1367072ff8f6/main/java/nvvisionboost/NVVisionBoostShader.java",
+    "sha256": "1367072ff8f68b261e65645ce790e7bacd093806310a0044ac84391b6ed2e0b5"
+  },
+  {
+    "path": "source/modules/mod/integrations/179aef91735a/main/java/nvvisionboost/NVVisionBoostShaderStartupPolicy.java",
+    "sha256": "179aef91735a593729605a14c5fb472ae6c66f750522fdce4edcaf9ddea2e94f"
+  },
+  {
+    "path": "source/modules/mod/integrations/27cdd1e1aa69/main/java/nvvisionboost/NVVisionBoostFerriteConfig.java",
+    "sha256": "9c12649259e02b4609d228cfe64dab5dfe4280e8543a3b9b004c07def1db565b"
+  },
+  {
+    "path": "source/modules/mod/integrations/2ae2612ac43a/main/java/nvvisionboost/NVVisionBoostShaderStartup.java",
+    "sha256": "09965fc885cc088bdcbc59d72535820be5ce6747ab984870eba1512be6d6532a"
+  },
+  {
+    "path": "source/modules/mod/integrations/37f41e619024/main/resources/assets/nvvisionboost/shaders/upscale.vert",
+    "sha256": "37f41e619024dc8e1480389a2ab192b049162038c2b97a8628dea89f8695727a"
+  },
+  {
+    "path": "source/modules/mod/integrations/3c81bd7661db/main/java/nvvisionboost/NVVisionBoostNeoForgeIntegrations.java",
+    "sha256": "b8865757e2a0c9ecfa8e5021ef410c792b93299d78978283b255bc844932221e"
+  },
+  {
+    "path": "source/modules/mod/integrations/3dc848dbbbb2/main/resources/assets/nvvisionboost/shaders/upscale.frag",
+    "sha256": "8741e982c47554db3251f9fd5ee6c18e7ba8b331be22fb0269665c83ab8cc8e0"
+  },
+  {
+    "path": "source/modules/mod/integrations/42fc1bc9f4f5/main/java/nvvisionboost/NVVisionBoostShaderEngine.java",
+    "sha256": "6b8e694e443a27f4821be94ff4b0011386da36700d558631ec9ac96aabd0cdd4"
+  },
+  {
+    "path": "source/modules/mod/integrations/5c34cd25146f/main/java/nvvisionboost/NVVisionBoostFerriteCore.java",
+    "sha256": "26c593bb8a05a6279cc689c38ab6442091f92950797914874d55ae4f442ef809"
+  },
+  {
+    "path": "source/modules/mod/integrations/610dd92b16f6/main/java/nvvisionboost/NVVisionBoostCompatibility.java",
+    "sha256": "5c3854376d31ca8ef7791a43ce77699ef16cf428109b209cf56e3afb03da1a91"
+  },
+  {
+    "path": "source/modules/mod/integrations/633ea0eedd8e/main/java/nvvisionboost/NVVisionBoostShaderQuality.java",
+    "sha256": "25b763736d84a9ce40366f179b08c96e3e89e0de07475c298463f801a28970f5"
+  },
+  {
+    "path": "source/modules/mod/integrations/6bc5adbbfe2f/main/java/nvvisionboost/NVVisionBoostCompatibility.java",
+    "sha256": "fc01deb33a5b61233949e9ed00b8c7401b9b450465198d76b3f8cbdcc89d52d0"
+  },
+  {
+    "path": "source/modules/mod/integrations/6f829c69dce9/main/java/nvvisionboost/NVVisionBoostFerriteOptions.java",
+    "sha256": "0f68ed38131a5ba22227dfc70df135ac7baf733b7b7bbed019acd2ca8383f27a"
+  },
+  {
+    "path": "source/modules/mod/integrations/7da95f6767ba/main/java/nvvisionboost/NVVisionBoostCreateCompatibility.java",
+    "sha256": "9ddbbb74bb0eefa66c78bda4eee3b6719a8394c56196d0e495f017e3b52913b9"
+  },
+  {
+    "path": "source/modules/mod/integrations/a486f5165257/main/java/nvvisionboost/NVVisionBoostCreatePresets.java",
+    "sha256": "6251f323fa761b74b643c261f347975c4334669508f29e4f6e868da6e4f41824"
+  },
+  {
+    "path": "source/modules/mod/integrations/a805fda9a17e/main/java/nvvisionboost/NVVisionBoostShaderLifecycle.java",
+    "sha256": "cad67fda31da617ac5319da99f4504d5073acb3cee30e0aa8492cbf7b7ad9456"
+  },
+  {
+    "path": "source/modules/mod/integrations/ab92d061ca7e/main/java/nvvisionboost/NVVisionBoostShaderQuality.java",
+    "sha256": "84720c71a9e0a7a7a1a289bd6fa655d786a665d8417c140e5108bc6818192e83"
+  },
+  {
+    "path": "source/modules/mod/integrations/cf33e4ddf816/main/java/nvvisionboost/NVVisionBoostNativeShaderPackRuntime.java",
+    "sha256": "cf33e4ddf816e07f198b47b1f5365a9c232f933d79f9640d08c8c1a1a98c84cd"
+  },
+  {
+    "path": "source/modules/mod/integrations/d33931712eb1/main/java/nvvisionboost/NVVisionBoostIrisShaderCache.java",
+    "sha256": "a80a241f10922aa6d74490955a1a100c89cf272b56566e90838badae7d649bb2"
+  },
+  {
+    "path": "source/modules/mod/integrations/e34cb0886619/main/java/nvvisionboost/NVVisionBoostCreatePresets.java",
+    "sha256": "e34cb0886619bab5f2f34790069eca8c0fa073e03d68a8e641e703f1dac22c64"
+  },
+  {
+    "path": "source/modules/mod/integrations/f3150819ccd2/test/java/nvvisionboost/NVVisionBoostFerriteCoreTest.java",
+    "sha256": "f3150819ccd245013108cf3669ee0043845865fa2bd16254893005b85d264826"
+  },
+  {
+    "path": "source/modules/mod/integrations/f32c6ecb467b/test/java/nvvisionboost/NVVisionBoostQualityAndCreateTest.java",
+    "sha256": "421af55e14cf6cb887e93e52f4e60873ce8a1e4dfa10e456ee983b04f62e8f89"
+  },
+  {
+    "path": "source/modules/mod/integrations/f43ab4555597/main/java/nvvisionboost/NVVisionBoostDistantHorizonsCompatibility.java",
+    "sha256": "84aaf9d2dd350652041e2c1b5ec651ff5047903fbdd74954049929a6f167bb09"
+  },
+  {
+    "path": "source/modules/mod/interface/286ded9c089b/test/java/nvvisionboost/NVVisionBoostMenuLayoutTest.java",
+    "sha256": "cfb7b5ad91bd21f06b7b0ce8ff81ad078b8527a3f01ef5f844c958abfe31d3ac"
+  },
+  {
+    "path": "source/modules/mod/interface/3c07115c426c/main/java/nvvisionboost/NVVisionBoostMenuLayout.java",
+    "sha256": "930545ee24cbaa78d7b7f1afc4fb73158b15b5707f9e62f0a3d7487532e71abd"
+  },
+  {
+    "path": "source/modules/mod/interface/5d14756fbc7a/main/java/nvvisionboost/NVVisionBoostPerformanceScreen.java",
+    "sha256": "b3e756e9742052564689481b928b1e8f24159acad0b98571c24215dbf171122a"
+  },
+  {
+    "path": "source/modules/mod/interface/5e5c78cdae96/main/java/nvvisionboost/NVVisionBoostGpuTheme.java",
+    "sha256": "5e5c78cdae968ae97cdf371ab1d70a6d51c3686632f27cb4adc93a5ab8baf9fd"
+  },
+  {
+    "path": "source/modules/mod/interface/638cc0f9fe13/main/java/nvvisionboost/NVVisionBoostMenuButton.java",
+    "sha256": "c7f91a83e0284bb548420764e4f8a6107f44ce003e8ce4ecaf614667db3f847f"
+  },
+  {
+    "path": "source/modules/mod/interface/6d742ff587f3/main/java/nvvisionboost/NVVisionBoostLanguage.java",
+    "sha256": "95b9efda501e7e61c83337ec1ec9d8aa3bd1f5c0b0217ad7e964128e40ccc3d1"
+  },
+  {
+    "path": "source/modules/mod/interface/783fda83db15/main/java/nvvisionboost/NVVisionBoostTextureScreen.java",
+    "sha256": "84bf52f8b44ea7118df4b9ca6355379414df75c1e081381fa64a15f7e511b41b"
+  },
+  {
+    "path": "source/modules/mod/interface/898099464d7a/main/java/nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.java",
+    "sha256": "1ba358ede5b2ff161b114757df15e56f2d52de190cd9a4c6a4e4a972a97c61b0"
+  },
+  {
+    "path": "source/modules/mod/interface/a709e778ccff/main/java/nvvisionboost/NVVisionBoostUi.java",
+    "sha256": "ee5e3d57c085fbb09e9447fe6eb86dde205779ce0dd2c7228a848bd996f6560b"
+  },
+  {
+    "path": "source/modules/mod/interface/b85e37d6f61d/test/java/nvvisionboost/NVVisionBoostLanguageTest.java",
+    "sha256": "ad3cafe6f3f30c1c2bb807dc6df1e31b8b186cf090a259dddf8a7772a3693ab1"
+  },
+  {
+    "path": "source/modules/mod/interface/bb647b85a880/main/resources/assets/nvvisionboost/ui/en_us.json",
+    "sha256": "700bbdd53294459fdf187f8c5d80902ea6e7d42aca838d3ba754ac290f30b5c3"
+  },
+  {
+    "path": "source/modules/mod/interface/c65ef44b1af0/main/java/nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.java",
+    "sha256": "77ad0f3fa676b3689cf6268e61c419b59a78d9c5b973ed2311923480c5948fb0"
+  },
+  {
+    "path": "source/modules/mod/interface/common/main/java/nvvisionboost/NVVisionBoostCompatibilityNotice.java",
+    "sha256": "c4b93641411b5bf0c9586fdf37f69cd7a0170187d90d11b0568324c5a4aedeaf"
+  },
+  {
+    "path": "source/modules/mod/interface/dee3a934c82f/main/java/nvvisionboost/NVVisionBoostUi.java",
+    "sha256": "fcbed50b189867998b070be0c44c81c2ac34b2df503c1acd19c26866bb39a692"
+  },
+  {
+    "path": "source/modules/mod/interface/e737801cd808/main/java/nvvisionboost/NVVisionBoostPerformanceScreen.java",
+    "sha256": "94b2041b1d21d6812a8efe3b8091ee463022ea8ae789d11253fc8a0cc5fcc2cf"
+  },
+  {
+    "path": "source/modules/mod/interface/f0c13a90ead4/main/java/nvvisionboost/NVVisionBoostHelp.java",
+    "sha256": "a5e66ffcc7fa6bad34dee6a9824667c2d7a9f802b04a5c110791b6a1bb771452"
+  },
+  {
+    "path": "source/modules/mod/interface/f40aa5f947ca/main/java/nvvisionboost/NVVisionBoostTextureScreen.java",
+    "sha256": "8dcd57451c0f54b7eba7a8cbe8c814be116c1666a3b916e6afc4444c237d9dc7"
+  },
+  {
+    "path": "source/modules/mod/interface/options-adapter/main/java/nvvisionboost/NVVisionBoostOptionsPlacement.java",
+    "sha256": "9c8635478eb978f6c7043ea7d98f7273832878f46280614bd2c29ef2bf57985c"
+  },
+  {
+    "path": "source/modules/mod/interface/options-adapter/main/java/nvvisionboost/NVVisionBoostOptionsScreenAdapter.java",
+    "sha256": "f55f3cdc92f2d2c31d02afe9a1a3bd74ace4a189239af4f211145a889e1dc1c2"
+  },
+  {
+    "path": "source/modules/mod/interface/options-adapter/test/java/nvvisionboost/NVVisionBoostOptionsPlacementTest.java",
+    "sha256": "08d87956c7d7f0f4e06dad85821396211e3c82a7861409bf2acab2b3e48a23b8"
+  },
+  {
+    "path": "source/modules/mod/performance/418fb7ce0be4/main/java/nvvisionboost/VisionOptimizer.java",
+    "sha256": "00c362a9645770b83c5471ad17d4e46fac0b39c265899666857be5a96ac39f4a"
+  },
+  {
+    "path": "source/modules/mod/performance/57c2f34dc94f/main/java/nvvisionboost/NVVisionBoostTextureOptimizer.java",
+    "sha256": "272c958410679f38f35b6d14997d50e0253c548c6e57399149fb14bf947bdee6"
+  },
+  {
+    "path": "source/modules/mod/performance/5bd31cc25eed/main/java/nvvisionboost/NVVisionBoostTextureOptimizer.java",
+    "sha256": "2cca21c0ab00eaeb2ee05f156b03147c8bd488b3fb031266122b29cae8e1890a"
+  },
+  {
+    "path": "source/modules/mod/performance/c9979b6fdbd1/main/java/nvvisionboost/NVVisionBoostPerformance.java",
+    "sha256": "45dc17c7886c8d8138dc6260bbbd8e17a486ff7bc1e6310e545f67df101952cc"
+  },
+  {
+    "path": "source/modules/mod/performance/f7207da07d7e/main/java/nvvisionboost/VisionOptimizer.java",
+    "sha256": "479a14238dc12de13d1a4a798e547d1a44853636aaf69418c79b22e932be9f40"
+  },
+  {
+    "path": "source/modules/mod/rendering/028dc9d06bce/main/java/nvvisionboost/mixin/NVVisionBoostMinecraftMixin.java",
+    "sha256": "895736ace858676df9598691e06c269d2ea42cd52d1b7eacb2c9089afdc69548"
+  },
+  {
+    "path": "source/modules/mod/rendering/39f070837386/main/java/nvvisionboost/NVVisionBoostFrameTiming.java",
+    "sha256": "778595a89cf10af3125ebd84b5737394475e1695ba9e81deb2d9294c222ec019"
+  },
+  {
+    "path": "source/modules/mod/rendering/5e9eda0afbdc/main/java/nvvisionboost/NVVisionBoostSpatialUpscaler.java",
+    "sha256": "7bfe58896415ffe7d66f18af0868f93ad4ef3888b22919a69e3b08d6ee0c220b"
+  },
+  {
+    "path": "source/modules/mod/rendering/69c601071211/main/java/nvvisionboost/NVVisionDynamicController.java",
+    "sha256": "8c826ee709a054ffd3cfedf59a9341fe73d94725bc287f2263400cead9aba7d2"
+  },
+  {
+    "path": "source/modules/mod/rendering/88fa452490e1/main/java/nvvisionboost/mixin/NVVisionBoostIrisDepthMixin.java",
+    "sha256": "88fa452490e1a087cc473db361730d2ce8cce1541a0368d7b2b585a9c2fbf2e4"
+  },
+  {
+    "path": "source/modules/mod/rendering/92912aedf880/main/java/nvvisionboost/mixin/NVVisionBoostMinecraftTargetAccessor.java",
+    "sha256": "e767fe949bacfc76142e38dd6477f85055b115e995ecd44693317b6d506e70ba"
+  },
+  {
+    "path": "source/modules/mod/rendering/9306a63f710b/main/java/nvvisionboost/mixin/NVVisionBoostOptionsMixin.java",
+    "sha256": "9306a63f710be3b9b18eaadb3fbf04820571ea007f37bd3902855c0842fdf078"
+  },
+  {
+    "path": "source/modules/mod/rendering/93f1dd3f9862/main/java/nvvisionboost/mixin/NVVisionBoostIrisDepthMixin.java",
+    "sha256": "22b0ca5f84e422c0f5b2e752b4ef881acc62fd3fa269d729002a68afbcad5c20"
+  },
+  {
+    "path": "source/modules/mod/rendering/9909ab575c1e/main/java/nvvisionboost/NVVisionDynamicController.java",
+    "sha256": "e6ce57f81f25f1ae6cee1923130125764a3d91e095e1f86f630e6b1ae507375e"
+  },
+  {
+    "path": "source/modules/mod/rendering/a050a520c7e8/main/java/nvvisionboost/NVVisionBoostFrameTiming.java",
+    "sha256": "b6d01e204d78c66554e20e10bcabd62d66b9e793c27a960a24177f2361cfb739"
+  },
+  {
+    "path": "source/modules/mod/rendering/a31c4f4f0988/main/java/nvvisionboost/NVVisionBoostFsr1Upscaler.java",
+    "sha256": "09fdae454865c917a477e31c4c5613d33b2459e3d4bdca8f1a06b3cce6ef7aab"
+  },
+  {
+    "path": "source/modules/mod/rendering/b4c250accbc1/main/java/nvvisionboost/compat/NVVisionBoostMixinPlugin.java",
+    "sha256": "2fda01004ad76c83624e8cb252af0095854a06ebf4ddee31ae80fc822a1a20b3"
+  },
+  {
+    "path": "source/modules/mod/rendering/bf59c94e0a6d/main/java/nvvisionboost/mixin/NVVisionBoostMinecraftMixin.java",
+    "sha256": "738e3c68a194301756dff7d1f8822923329d5010f9ce8b9134da594d3b22e07c"
+  },
+  {
+    "path": "source/modules/mod/rendering/d32f48026afa/main/java/nvvisionboost/NVVisionBoostUpscaleBudget.java",
+    "sha256": "3a698b382f0bdfcc6953fc970a02d3be6d7ec3129792f35b9a59fba3739540dc"
+  },
+  {
+    "path": "source/modules/mod/rendering/d515f9d544d6/main/java/nvvisionboost/mixin/NVVisionBoostGameRendererAccessor.java",
+    "sha256": "d515f9d544d6f8e63b373c87f8559f5ff56006811da21af1a09851efce6c830b"
+  },
+  {
+    "path": "source/modules/mod/rendering/depth-transfer/main/java/nvvisionboost/NVVisionBoostDepthTransfer.java",
+    "sha256": "f88408e9b7aea1c4025b842de93517cd03bd8161068e05ffaca2ec2aaa922b7f"
+  },
+  {
+    "path": "source/modules/mod/rendering/fa5a22498ede/main/java/nvvisionboost/mixin/NVVisionBoostGameRendererMixin.java",
+    "sha256": "8551fbfcb8c7d91ddff9ee1f7b814ababcf1b9910e7735ac96a5c7463d5e0a94"
+  },
+  {
+    "path": "source/modules/mod/rendering/fc70a72bc018/main/java/nvvisionboost/mixin/NVVisionBoostWindowMixin.java",
+    "sha256": "1998e5717ba28dfc40c2d192abc145064a10d9c7bc8559de4cfd1eca606005b8"
+  },
+  {
+    "path": "source/modules/mod/rendering/ff198b08c0c0/main/java/nvvisionboost/UpscalingManager.java",
+    "sha256": "2721d4b313e5a154d59eff744090a4f3fc19a1f33e95c7d4dd96a8ccc5ef4af3"
+  },
+  {
+    "path": "source/modules/mod/rendering/ff56b56088ba/main/java/nvvisionboost/mixin/NVVisionBoostGameRendererMixin.java",
+    "sha256": "ff56b56088ba6c6df8079c98951c88313bcdec21722cb0401de26502e148b8b6"
+  },
+  {
+    "path": "source/modules/mod/rendering/ff63671771e6/main/java/nvvisionboost/mixin/NVVisionBoostGameRendererAccessor.java",
+    "sha256": "a0a13974c998be132eea27a624265a9cf75cafbdc41412a804a6315b1e810975"
+  },
+  {
+    "path": "source/modules/mod/rendering/legacy-gl/main/java/nvvisionboost/rendering/MinecraftGlStateAdapter.java",
+    "sha256": "bc23ef1fb7ffdf9b43ae9da80904d2343bcf6f7f460c330cb808d3c0b47015e1"
+  },
+  {
+    "path": "source/modules/mod/rendering/legacy-gl/test/java/nvvisionboost/NVVisionBoostGlAdapterTest.java",
+    "sha256": "2eb7a4838122ca8be3f73936a3612b8b07e880c875eec1058aaa30c89447861e"
+  },
+  {
+    "path": "source/modules/mod/rendering/modern-gl/main/java/nvvisionboost/rendering/MinecraftGlStateAdapter.java",
+    "sha256": "8e4c84d40c3fdf703060a724cc0462aeac06ebef9dfbdc840eed9e3a2622f389"
+  },
+  {
+    "path": "source/modules/mod/rendering/modern-gl/test/java/nvvisionboost/NVVisionBoostGlAdapterTest.java",
+    "sha256": "5ae8a5071801406edd6ffdc32315987bfcf21ea240a2c744a10c6d12ae85fd7b"
+  },
+  {
+    "path": "source/modules/mod/rendering/pixel-adapter/main/java/nvvisionboost/NVVisionBoostPixelAdapter.java",
+    "sha256": "c67629dfb91d525a5e2ddbbb1f12c365d2a2df7ad2a8022f91f60a113dd3d42f"
+  },
+  {
+    "path": "source/modules/mod/rendering/target-adapter/main/java/nvvisionboost/rendering/RenderTargetAdapter.java",
+    "sha256": "7209fd3cf6ce259df72326d5b46acbde912110fc388953e734672f59cad00bf4"
+  },
+  {
+    "path": "source/modules/mod/rendering/target-adapter/main/java/nvvisionboost/rendering/WorldTargetLease.java",
+    "sha256": "aa93b0c8da6c95af016de27005e7618ec2f8d38b137a93bd03d3cdf8246929b8"
+  },
+  {
+    "path": "source/modules/mod/services/28066533e3af/main/java/nvvisionboost/NVVisionBoostUniformSnapshot.java",
+    "sha256": "f52804a3f9c143b0e9a31a1d9c7f6531752bcc0dba3493d55431b42ccde05afc"
+  },
+  {
+    "path": "source/modules/mod/services/32b1ee9bd074/main/java/nvvisionboost/NVVisionBoostContentManager.java",
+    "sha256": "32b1ee9bd074d514cf82e068fa8f9d7e0f501a669633ee6a76e5ec672fd6c6db"
+  },
+  {
+    "path": "source/modules/mod/services/3c165c338f7f/main/java/nvvisionboost/NVVisionBoostClient.java",
+    "sha256": "686057c085de47e14190c416566430c1bbb4babb62c8d9bfb69ecb22c520e2dc"
+  },
+  {
+    "path": "source/modules/mod/services/40c12afdf5ad/main/java/nvvisionboost/NVVisionBoostImageQuality.java",
+    "sha256": "40c12afdf5addb20cf1175a13fb56692746751ff01142a8eb665af4ec5eb30b6"
+  },
+  {
+    "path": "source/modules/mod/services/40ecfc6e085b/main/java/nvvisionboost/NVVisionBoostResolutionPolicy.java",
+    "sha256": "6d19ea5577ae57c80131b1dd23732b451f19ef0b2172e00a3279314864b95c2d"
+  },
+  {
+    "path": "source/modules/mod/services/436bd8af5d7e/main/java/nvvisionboost/NVVisionBoostOptionButton.java",
+    "sha256": "e917041fa5ce25a506cce722ada8a27c784e9273f6c7f325c37d39402a905abb"
+  },
+  {
+    "path": "source/modules/mod/services/4f40a7c669e0/test/java/nvvisionboost/NVVisionBoostOpenGLSmokeTest.java",
+    "sha256": "b6bcef6016c88e329c7e148cb38dbb74e9220c32e7dd6841dc4a8789a249ff5b"
+  },
+  {
+    "path": "source/modules/mod/services/4fa71012b9e9/main/java/nvvisionboost/NVVisionBoostIO.java",
+    "sha256": "4fa71012b9e9ae317991a07aa56a726f3613a720cbbfa8982b05bbd7d2676cb9"
+  },
+  {
+    "path": "source/modules/mod/services/5b47c4375880/main/java/nvvisionboost/NVVisionBoostDependencies.java",
+    "sha256": "884dfaea22f54beec2af6d68ca2d2d78f48221f9dff64694fc2c1a01b44e1b32"
+  },
+  {
+    "path": "source/modules/mod/services/622eaa72433e/main/java/nvvisionboost/NVVisionBoostIrisDepthSafety.java",
+    "sha256": "587102f93f37d62629e2f70c694a42f063b1fca0464374b39d3ec773be750dac"
+  },
+  {
+    "path": "source/modules/mod/services/67a0d93cc41c/main/java/nvvisionboost/NVVisionVramManager.java",
+    "sha256": "299446e575051d3578fc7d9916f00142c0b51bb9b8e7a21fa5f894462b6968eb"
+  },
+  {
+    "path": "source/modules/mod/services/757ef23f7167/main/java/nvvisionboost/NVVisionBoostResourceReload.java",
+    "sha256": "8604b3eb532221e9ec370ac8570d3b7c3b30bda37b07ca4b3cec70a132b33373"
+  },
+  {
+    "path": "source/modules/mod/services/7bc491b5dfcb/main/java/nvvisionboost/NVVisionBoostRenderController.java",
+    "sha256": "7b068ad27471aef1192254da5b26f750998a9422279affac5659f566827fc029"
+  },
+  {
+    "path": "source/modules/mod/services/8cb94c628cff/main/java/nvvisionboost/NVVisionBoostCacheMaintenance.java",
+    "sha256": "8cb94c628cff8bab73fe6e2f3166358a24dfd7f83fa1409c5b543a6ee89925be"
+  },
+  {
+    "path": "source/modules/mod/services/9f4f7403f842/main/java/nvvisionboost/NVVisionBoostVisualPolicy.java",
+    "sha256": "766e112be01f4d756e135130df52f96a9cb187a909eef028cababc6a6e98011b"
+  },
+  {
+    "path": "source/modules/mod/services/a1beef5f09ae/main/resources/assets/nvvisionboost/lang/en_us.json",
+    "sha256": "a1beef5f09aeacd051a182e6f3305288dade1d7bd2f24963a02bf8b53e9cb2f9"
+  },
+  {
+    "path": "source/modules/mod/services/a3346679114a/main/java/nvvisionboost/NVVisionBoostDependencies.java",
+    "sha256": "a3346679114a70244fe6c87fc86fdb9a5547b2a6eb5ff76a251d1c5686448685"
+  },
+  {
+    "path": "source/modules/mod/services/aaba2798e4e3/main/resources/assets/nvvisionboost/lang/pt_br.json",
+    "sha256": "aaba2798e4e33d0e3dc20c217f8bd97fe462b4cea3f7bf915d6cfee9c188c2fd"
+  },
+  {
+    "path": "source/modules/mod/services/acc462b9c91c/main/java/nvvisionboost/NVVisionBoostPipeline.java",
+    "sha256": "acc462b9c91ce41831c66f08d9dd099ce97f122c4000c992958cd9deed5243de"
+  },
+  {
+    "path": "source/modules/mod/services/af336f65a301/main/java/nvvisionboost/NVVisionBoostLogger.java",
+    "sha256": "ea7997951ce8673642c8c8bba040a5a4240b3e61d6d04394da01305c8fea4dcb"
+  },
+  {
+    "path": "source/modules/mod/services/b95e068ff2ca/main/java/nvvisionboost/NVVisionBoostRenderController.java",
+    "sha256": "7c134f51afb86916e357f3b184b2bacf268131780ac091e91a29c2511dba34e0"
+  },
+  {
+    "path": "source/modules/mod/services/bc75245bb9d8/main/java/nvvisionboost/NVVisionBoostUniformSnapshot.java",
+    "sha256": "bc75245bb9d8e2456296627744ba2f24c3ae77c75bc64e0ac10564f39598b1de"
+  },
+  {
+    "path": "source/modules/mod/services/c3be5f5b3d76/main/java/nvvisionboost/NVVisionBoostFileFingerprint.java",
+    "sha256": "457366a4f61cb4260258f905db0c2cf41b83b6bf515c0999c41e5ef4b99b9d3f"
+  },
+  {
+    "path": "source/modules/mod/services/d3e181851b4f/main/java/nvvisionboost/NVVisionBoostFrameStatistics.java",
+    "sha256": "8321a49ecf57ad9e3e3489541564ef32a007b91e923796640f4b088e0c72677d"
+  },
+  {
+    "path": "source/modules/mod/services/d6ea68e88ad7/main/java/nvvisionboost/NVVisionBoostAssetAnalyzer.java",
+    "sha256": "d1f65a2d24d0429267c5e0adc62901885557897b31c9701381a112d97f035f52"
+  },
+  {
+    "path": "source/modules/mod/services/d7759ee9966d/main/java/nvvisionboost/NVVisionBoostNvidiaBackend.java",
+    "sha256": "d7759ee9966d3212a624d1d037c99d691c7518369006e2b8f49ae80f3d72647c"
+  },
+  {
+    "path": "source/modules/mod/services/ddc27b630a01/test/java/nvvisionboost/NVVisionBoostIrisBridgeTest.java",
+    "sha256": "ddc27b630a012cbd236673fa574851a0c65632088353b2700c1d4f8f22270c4e"
+  },
+  {
+    "path": "source/modules/mod/services/e0313fb3a43d/main/java/nvvisionboost/NVVisionBoostMemoryMonitor.java",
+    "sha256": "b3c66294fa38cfbdb52ce86d9acf2125ff36dc7898f0e7ab956f02f2671d2beb"
+  },
+  {
+    "path": "source/modules/mod/services/f0992ebc9619/test/java/nvvisionboost/NVVisionBoostNeoForgeIrisSchemaTest.java",
+    "sha256": "e7b0853b5dc87430ecc9c60040dd93f32ad5eee3bba65e00b8157fc59473aade"
+  },
+  {
+    "path": "source/modules/mod/services/f29820f284b8/main/java/nvvisionboost/NVVisionBoostOptionButton.java",
+    "sha256": "dac16ef33274b7c145b1292d3bea4ae9644db0451b479ebb86cde95072d59449"
+  },
+  {
+    "path": "source/modules/mod/services/f5990f44ec46/main/java/nvvisionboost/NVVisionBoostVulkanBridge.java",
+    "sha256": "5a7cbbfb6899994d75b3e587ae351c49ff0ac6c93a0225041ac26cac0186b535"
+  },
+  {
+    "path": "source/modules/mod/services/f96e9a8867fe/main/java/nvvisionboost/NVVisionBoostHardwareBudget.java",
+    "sha256": "87b617cd4acb246e4b4d23af82a26c01488dd03a4d7dab6d9116b39b2c590a7e"
+  },
+  {
+    "path": "source/modules/mod/shared/0f2deb61e8e6/main/java/nvvisionboost/NVVisionBoostGpuTimer.java",
+    "sha256": "9fb59c3735463ce1a02d1f0aa2f3b44716cba77f4225ea4864319f7b60cd63a5"
+  },
+  {
+    "path": "source/modules/mod/shared/18931593c7e1/main/java/nvvisionboost/NVVisionBoostNativeShaderPackRuntime.java",
+    "sha256": "18931593c7e1aaf4c604d3b003256a6c61c3f42b6c9dc6ce4e3c9471b54afc48"
+  },
+  {
+    "path": "source/modules/mod/shared/222f8b15dc67/main/java/nvvisionboost/mixin/NVVisionBoostRenderTargetAccessor.java",
+    "sha256": "222f8b15dc67ea8e82385c739172230990c645e10525e8987b41e33579cdabfe"
+  },
+  {
+    "path": "source/modules/mod/shared/3e0c60185c35/test/java/nvvisionboost/NVVisionBoostShaderStartupPolicyTest.java",
+    "sha256": "3e0c60185c35e5ceca2a0239295f2c1d76d829c86bdc9ac9b875a43742b50b20"
+  },
+  {
+    "path": "source/modules/mod/shared/48009f770029/main/java/nvvisionboost/NVVisionBoostTargetLease.java",
+    "sha256": "48009f770029ed9b937fef7c0037683060171e763a2820809b93abd620310e32"
+  },
+  {
+    "path": "source/modules/mod/shared/5086a480e4b9/test/java/nvvisionboost/NVVisionBoostTargetLeaseTest.java",
+    "sha256": "5086a480e4b96574609d8b3b756669a1cc00a1eaf0c40b392afcc55b55a54654"
+  },
+  {
+    "path": "source/modules/mod/shared/61f43577008b/test/java/nvvisionboost/NVVisionBoostRenderingPolicyTest.java",
+    "sha256": "b9cf6b494ade0ceeb388ec7a56ab8cbea28ca65ad14f982c373fd83556f7acc3"
+  },
+  {
+    "path": "source/modules/mod/shared/738a59f6543d/main/java/nvvisionboost/NVVisionBoostGpuCatalog.java",
+    "sha256": "738a59f6543dee2c87349aa9d734600a80c480ae39faf2b942bfebd18ee0fcb6"
+  },
+  {
+    "path": "source/modules/mod/shared/892115233543/main/java/nvvisionboost/NVVisionBoostTargetBindings.java",
+    "sha256": "a0c49fc349791e31f9b081be01f77bd95710aaf7baf4bc29c87ecb1f2da1c5ff"
+  },
+  {
+    "path": "source/modules/mod/shared/8a56edab19c8/test/java/nvvisionboost/NVVisionBoostStabilityTest.java",
+    "sha256": "8a56edab19c837f3308d61aa9e04e80f092092fbeec6a340b5f17cc8d4c21bb5"
+  },
+  {
+    "path": "source/modules/mod/shared/8f32ac596c52/main/java/nvvisionboost/NVVisionBoostTargetLease.java",
+    "sha256": "8f32ac596c52320ad8037b1e51451ec2e2e501083a7a43284d2bf1bee0a88a4b"
+  },
+  {
+    "path": "source/modules/mod/shared/914d3ebb0b04/main/java/nvvisionboost/NVVisionBoostCore.java",
+    "sha256": "914d3ebb0b040f411069bdf464792ea26dd943fb3e7e4140c58b9316b74f5fc0"
+  },
+  {
+    "path": "source/modules/mod/shared/98722f7acf4c/main/java/nvvisionboost/mixin/NVVisionBoostWeatherParticlesMixin.java",
+    "sha256": "2e2cb2cdd534af8076c368a252b4f8d82e52b5ba7892f7c76706fc286dffc249"
+  },
+  {
+    "path": "source/modules/mod/shared/b18a424cad21/main/java/nvvisionboost/NVVisionBoostDependencies.java",
+    "sha256": "b18a424cad2129eedb49e4e27b7606920822ab52ea276c788d78fbb3b9b31860"
+  },
+  {
+    "path": "source/modules/mod/shared/b297292cc049/test/java/nvvisionboost/NVVisionBoostCreatePresetTest.java",
+    "sha256": "b297292cc049871dc5318624d2c564dd73944438efb71bc1a67b475830553505"
+  },
+  {
+    "path": "source/modules/mod/shared/b32f89b492de/main/java/nvvisionboost/mixin/NVVisionBoostMinecraftAccessor.java",
+    "sha256": "417fd86a4dd007b5dbb5e9e8b04441bc4a26802b2fa9e556115197eea4f90d3e"
+  },
+  {
+    "path": "source/modules/mod/shared/b4a4f2982ad5/main/java/nvvisionboost/mixin/NVVisionBoostBufferSourceAccessor.java",
+    "sha256": "b4a4f2982ad5c8116e8f0e6a6d8abf9aabf6d975dbbb49cf8e50a4617af37c5c"
+  },
+  {
+    "path": "source/modules/mod/shared/c3286c1e18a6/main/java/nvvisionboost/NVVisionBoostGPU.java",
+    "sha256": "62ec52cb5e3382f10c8d4de0a180b4df5c33bb4872a3dc8b1067cc5ab47d9fc0"
+  },
+  {
+    "path": "source/modules/mod/shared/c4fad481dc1a/main/java/nvvisionboost/mixin/NVVisionBoostBufferBuilderAccessor.java",
+    "sha256": "c4fad481dc1ab010b9138a9ccae20e8e0cbad10deb3ab11653cacb485ba92f9d"
+  },
+  {
+    "path": "source/modules/mod/shared/c526284a5717/main/java/nvvisionboost/mixin/NVVisionBoostBlockEntityDistanceMixin.java",
+    "sha256": "03b5e093a5b3c3b42f05c3b88a0e1193ba724d673677c57c5af9c4484174e073"
+  },
+  {
+    "path": "source/modules/mod/shared/c6db7f161757/main/java/nvvisionboost/minecraft/VersionAdapter.java",
+    "sha256": "c6db7f161757bae693477af931e7a92450ec1618fc3a0adc3ccf6569c5ccccbc"
+  },
+  {
+    "path": "source/modules/mod/shared/cce15fb8316e/test/java/nvvisionboost/NVVisionBoostTargetLeaseTest.java",
+    "sha256": "cce15fb8316e1c7839326af9aa90cd599389ce8f236ae282dace544b519f42b0"
+  },
+  {
+    "path": "source/modules/mod/shared/dcb25f48bd75/main/java/nvvisionboost/NVVisionBoostNeoForge.java",
+    "sha256": "dcb25f48bd75ea04c25ffa96b8a24f810c36784679eb68704f9c5f85d9bd08af"
+  },
+  {
+    "path": "source/modules/mod/shared/df112b132c53/main/java/nvvisionboost/NVVisionBoostOptionButton.java",
+    "sha256": "9cc30770cf6fb9fd51798f49cb6b04627d76894affe5236867f9e2fe823f86bb"
+  },
+  {
+    "path": "source/modules/mod/shared/dfb8d3454c87/main/java/nvvisionboost/NVVisionBoostTargetLease.java",
+    "sha256": "dfb8d3454c876ea70584dfca20b07ed12d926d3e205efdd66608e581b6034b87"
+  },
+  {
+    "path": "source/modules/mod/shared/e4b8954b96b7/test/java/nvvisionboost/NVVisionBoostGpuCatalogTest.java",
+    "sha256": "e4b8954b96b73eb04b1bfcb5af09db417ff73427889fefe8e579b9c8644233e4"
+  },
+  {
+    "path": "source/modules/mod/shared/e7484e8a3072/main/java/nvvisionboost/NVVisionBoostCore.java",
+    "sha256": "d5be590fdec0f85f3352db925b87e094ba66cd6e1a09c96265d538f63125bc45"
+  },
+  {
+    "path": "source/modules/mod/shared/f4cc1a00dd0b/main/java/nvvisionboost/mixin/NVVisionBoostBackgroundFpsMixin.java",
+    "sha256": "f4cc1a00dd0b8f509db6e14e426124f3f22e6d4f761c6f98376f39299368b7f7"
+  },
+  {
+    "path": "targets/fabric-1192-addon/build.gradle",
+    "sha256": "75da93b3d37c42c4740897223c67b1e21cccfda3dd532e11493d2c3f611286a6"
+  },
+  {
+    "path": "targets/fabric-1192-mod/build.gradle",
+    "sha256": "75da93b3d37c42c4740897223c67b1e21cccfda3dd532e11493d2c3f611286a6"
+  },
+  {
+    "path": "targets/fabric-1201-addon/build.gradle",
+    "sha256": "75da93b3d37c42c4740897223c67b1e21cccfda3dd532e11493d2c3f611286a6"
+  },
+  {
+    "path": "targets/fabric-1201-mod/build.gradle",
+    "sha256": "75da93b3d37c42c4740897223c67b1e21cccfda3dd532e11493d2c3f611286a6"
+  },
+  {
+    "path": "targets/fabric-1211-addon/build.gradle",
+    "sha256": "75da93b3d37c42c4740897223c67b1e21cccfda3dd532e11493d2c3f611286a6"
+  },
+  {
+    "path": "targets/fabric-1211-mod/build.gradle",
+    "sha256": "75da93b3d37c42c4740897223c67b1e21cccfda3dd532e11493d2c3f611286a6"
+  },
+  {
+    "path": "targets/fabric-12110-addon/build.gradle",
+    "sha256": "3cb0f61992facbc47de3fabdd21bc5d91396a839906b28b085777dc6d2adc6b5"
+  },
+  {
+    "path": "targets/fabric-12110-mod/build.gradle",
+    "sha256": "3cb0f61992facbc47de3fabdd21bc5d91396a839906b28b085777dc6d2adc6b5"
+  },
+  {
+    "path": "targets/fabric-262-addon/build.gradle",
+    "sha256": "94b160e1ff7c3c3747aff30621d1aaff99549528221e2cc960b35b28208c3038"
+  },
+  {
+    "path": "targets/fabric-262-mod/build.gradle",
+    "sha256": "94b160e1ff7c3c3747aff30621d1aaff99549528221e2cc960b35b28208c3038"
+  },
+  {
+    "path": "targets/forge-1122-addon/build.gradle",
+    "sha256": "4553050794f30553918ffb2113ea2c25b5b64583ea5b503602a20f9aaf879548"
+  },
+  {
+    "path": "targets/forge-1122-mod/build.gradle",
+    "sha256": "4553050794f30553918ffb2113ea2c25b5b64583ea5b503602a20f9aaf879548"
+  },
+  {
+    "path": "targets/forge-1192-addon/build.gradle",
+    "sha256": "9910129b0ed59ad58f3d2fdb80b9335bdbef3f20d753305110f31fa6cf4ecc91"
+  },
+  {
+    "path": "targets/forge-1192-mod/build.gradle",
+    "sha256": "9910129b0ed59ad58f3d2fdb80b9335bdbef3f20d753305110f31fa6cf4ecc91"
+  },
+  {
+    "path": "targets/forge-1201-addon/build.gradle",
+    "sha256": "4be1988575d0daa8f2257ddb1fdcfc528211ca37ba38d65f25d0f7f046b6a783"
+  },
+  {
+    "path": "targets/forge-1201-mod/build.gradle",
+    "sha256": "4be1988575d0daa8f2257ddb1fdcfc528211ca37ba38d65f25d0f7f046b6a783"
+  },
+  {
+    "path": "targets/neoforge-1201-addon/build.gradle",
+    "sha256": "9910129b0ed59ad58f3d2fdb80b9335bdbef3f20d753305110f31fa6cf4ecc91"
+  },
+  {
+    "path": "targets/neoforge-1201-mod/build.gradle",
+    "sha256": "9910129b0ed59ad58f3d2fdb80b9335bdbef3f20d753305110f31fa6cf4ecc91"
+  },
+  {
+    "path": "targets/neoforge-1211-addon/build.gradle",
+    "sha256": "279879242d9520429a69eb43cd4f040358252b62d1b5188db466d684a575c991"
+  },
+  {
+    "path": "targets/neoforge-1211-mod/build.gradle",
+    "sha256": "279879242d9520429a69eb43cd4f040358252b62d1b5188db466d684a575c991"
+  },
+  {
+    "path": "targets/neoforge-12110-addon/build.gradle",
+    "sha256": "279879242d9520429a69eb43cd4f040358252b62d1b5188db466d684a575c991"
+  },
+  {
+    "path": "targets/neoforge-12110-mod/build.gradle",
+    "sha256": "279879242d9520429a69eb43cd4f040358252b62d1b5188db466d684a575c991"
+  },
+  {
+    "path": "targets/neoforge-2612-addon/build.gradle",
+    "sha256": "279879242d9520429a69eb43cd4f040358252b62d1b5188db466d684a575c991"
+  },
+  {
+    "path": "targets/neoforge-2612-mod/build.gradle",
+    "sha256": "279879242d9520429a69eb43cd4f040358252b62d1b5188db466d684a575c991"
+  },
+  {
+    "path": "targets/neoforge-262-addon/build.gradle",
+    "sha256": "279879242d9520429a69eb43cd4f040358252b62d1b5188db466d684a575c991"
+  },
+  {
+    "path": "targets/neoforge-262-mod/build.gradle",
+    "sha256": "279879242d9520429a69eb43cd4f040358252b62d1b5188db466d684a575c991"
+  },
+  {
+    "path": "tools/BuildForgePortMappings.java",
+    "sha256": "74450345ba0654da0517bbc7f88781b4dbbaa498f20ca29892a75d133064efda"
+  },
+  {
+    "path": "tools/BuildPortMappings.java",
+    "sha256": "cd9af064f8e2c91f0bd06ef641ec84bcb6f63fcc33b41fc7bb11391369850d3a"
+  },
+  {
+    "path": "tools/forge1122/build.gradle",
+    "sha256": "d2b09d0eb3539c93e3842095c254eebf1b827587a32805a2e66883cf1f0abdfa"
+  },
+  {
+    "path": "tools/forge1122/gradle/wrapper/gradle-wrapper.properties",
+    "sha256": "1ca8fa8426a3c8eba4856369b583d99d15fcdc7c74ebb6395b96c9ee10a49367"
+  },
+  {
+    "path": "tools/forge1122/gradlew",
+    "sha256": "8c4c04dd98db1f00d49456dd162418a39312c5cb13d6865d783deb483bd1ed22"
+  },
+  {
+    "path": "tools/forge1122/gradlew.bat",
+    "sha256": "0008d785920c9ff5cab17403e0270ccc7ceee8e169b6d67a82d96a5475fec5c9"
+  },
+  {
+    "path": "tools/forge1122/settings.gradle",
+    "sha256": "3035585fa7b7120ecca651f910532cf3734cec00fab291afa91451261d5c17b3"
+  },
+  {
+    "path": "tools/FunctionIndex.java",
+    "sha256": "336f3a63e6a9a8fe60101555c9ab5ae60454dd2e62cd85534ec20c84eb69cb6c"
+  },
+  {
+    "path": "tools/java/CheckProductionMixins.java",
+    "sha256": "aa8f6ee40d7f32ee0e9da17481ae5e9d3aea852431cfd650faeb233467599ef3"
+  },
+  {
+    "path": "tools/java/CheckRendererMixins.java",
+    "sha256": "d864075b43a1ccd70dc1c1d040b60a84fbe559f93563fb7e6f241f3970417625"
+  },
+  {
+    "path": "tools/java/RemapRuntimeDirectory.java",
+    "sha256": "a8330c801a8064b1f5879c78a10d0f80f873121f15c4f08f2c50b6f0c1fabf78"
+  },
+  {
+    "path": "tools/LegacyJarMappings.java",
+    "sha256": "3467a642cf0d59a4813695225e1c880f82843b244748361c25c7e4783364f073"
+  },
+  {
+    "path": "tools/OfficialMinecraftMappings.java",
+    "sha256": "19752a9530296308c0f1157c3ae29402ace6f425c4d9c2260439563c47a3ff49"
+  }
+]

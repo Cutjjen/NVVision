@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "nvvisionboost.vulkanbridge.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "nvvisionbridge.refmap.json",
+  "client": [
+    "FabricCpuLifecycleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

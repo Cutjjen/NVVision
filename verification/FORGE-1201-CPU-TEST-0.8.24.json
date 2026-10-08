@@ -1,0 +1,47 @@
+{
+  "release": {
+    "key": "forge-1201",
+    "minecraft": "1.20.1",
+    "loader": "forge",
+    "java": 17,
+    "mod": "0.8.24",
+    "addon": "0.8.24",
+    "author": "Cutjjen",
+    "channel": "opt-in CPU test",
+    "artifacts": [
+      {
+        "component": "mod",
+        "file": "NVVisionBoost-0.8.24-MC-Forge-1.20.1.jar",
+        "sha256": "78bff9a3a5ca3c8b3fa81aa4e4226821b0667edb5db3014729ff907ad6c60d6a"
+      },
+      {
+        "component": "addon",
+        "file": "NVVisionAddon-0.8.24-MC-Forge-1.20.1.jar",
+        "sha256": "a705a6201bd8f343aef22ba6b64a0fe3e2c175448f2d87d52442aebd1aacbc8b"
+      }
+    ],
+    "inWorldValidation": false,
+    "fpsMeasured": false,
+    "stableReleaseUnchanged": "0.8.22",
+    "automatedChecksPassed": true,
+    "newControlsDefault": "off"
+  },
+  "validation": {
+    "javaCompilation": true,
+    "cpuConfigurationChecks": 20,
+    "cpuPolicyChecks": 24,
+    "cpuOwnershipChecks": 18,
+    "realOpenGLChecks": 108,
+    "layoutChecks": 2172,
+    "languageChecks": 389,
+    "productionMixinChecks": 32,
+    "productionMinecraftReferences": 750,
+    "newBudgetRegressionPassed": true,
+    "clientOnlyMetadata": true,
+    "packagedMixinResources": true,
+    "inWorldValidation": false,
+    "fpsMeasured": false,
+    "fullPlatformGradleAssemble": false
+  },
+  "stagingBatch": "C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\.local\\alignment-builds\\6fe404eb92594b80ab16461942064a2d"
+}

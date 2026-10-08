@@ -1,0 +1,113 @@
+{
+  "version": "0.8.22",
+  "removedSources": [
+    {
+      "source": "adapters/fabric-1211/mod/main/java/nvvisionboost/NVVisionBoostClient.java",
+      "sha256": "9eb4ddc8afb6ab755c1c0280207fd45f69dc581970bbad2e99c4f5303313c493"
+    },
+    {
+      "source": "adapters/fabric-1211/mod/main/java/nvvisionboost/NVVisionBoostFerriteCore.java",
+      "sha256": "2471fe53afc4570d06b3cb11891f7d764eb21b1c855e27199b963c8012e75f45"
+    },
+    {
+      "source": "adapters/fabric-1211/mod/main/java/nvvisionboost/VisionOptimizer.java",
+      "sha256": "75ec39eabd8ab4c6d1957bf19b0c6526b466083a88447c94314393125cb7f8eb"
+    },
+    {
+      "source": "adapters/fabric-1211/mod/main/java/nvvisionboost/mixin/NVVisionBoostMinecraftMixin.java",
+      "sha256": "738e3c68a194301756dff7d1f8822923329d5010f9ce8b9134da594d3b22e07c"
+    },
+    {
+      "source": "adapters/fabric-1211/mod/main/java/nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.java",
+      "sha256": "e3d90e1e80039dca75d19d9db809107c85bf9f2bd7dad0a67001dcf219f0d0d2"
+    },
+    {
+      "source": "adapters/fabric-12110/mod/main/java/nvvisionboost/NVVisionBoostDepthTransfer.java",
+      "sha256": "cabb110c12172931405669e9e6d280cff7a9dc3eab5443dc821fd553c8b48597"
+    },
+    {
+      "source": "adapters/fabric-262/addon/main/java/nvvisionboost/vulkanbridge/BridgeApi.java",
+      "sha256": "f5c2181c076711f313564cc4dad205f0a6edd99f96df1a3610db77942b965264"
+    },
+    {
+      "source": "adapters/fabric-262/mod/main/java/nvvisionboost/NVVisionBoostCore.java",
+      "sha256": "d5be590fdec0f85f3352db925b87e094ba66cd6e1a09c96265d538f63125bc45"
+    },
+    {
+      "source": "adapters/fabric-262/mod/main/java/nvvisionboost/NVVisionBoostDepthTransfer.java",
+      "sha256": "cabb110c12172931405669e9e6d280cff7a9dc3eab5443dc821fd553c8b48597"
+    },
+    {
+      "source": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostDepthTransfer.java",
+      "sha256": "cabb110c12172931405669e9e6d280cff7a9dc3eab5443dc821fd553c8b48597"
+    },
+    {
+      "source": "adapters/neoforge-1201/mod/main/java/nvvisionboost/NVVisionBoostForge.java",
+      "sha256": "bd3f9123684783e30e731a47560c3584950aa1d1b615143998b7415f5e59ed5e"
+    },
+    {
+      "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostDepthTransfer.java",
+      "sha256": "cabb110c12172931405669e9e6d280cff7a9dc3eab5443dc821fd553c8b48597"
+    },
+    {
+      "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostEntityBufferGuard.java",
+      "sha256": "92c6f28975f000485fcd2bcf5abe4fb61bbe23adb30662d8b5f35204f8d2b276"
+    },
+    {
+      "source": "adapters/neoforge-1211/mod/main/java/nvvisionboost/NVVisionBoostOptionsPlacement.java",
+      "sha256": "3f3c9e1ce427b8a7a8c926a800f86843df62c2d3d0d4699a5e5dd8acb62ef6f4"
+    },
+    {
+      "source": "adapters/neoforge-1211/mod/test/java/nvvisionboost/NVVisionBoostOptionsPlacementTest.java",
+      "sha256": "84affbcb4e535289fb6a6b11f45b8a08399e8f8baf6527e9b5825721d9def170"
+    },
+    {
+      "source": "adapters/neoforge-12110/addon/main/java/nvvisionboost/vulkanbridge/BridgeApi.java",
+      "sha256": "76fed2ef9bbc2ce72caeb95acfcf4752880a9a2bf3971a441543937a859e4726"
+    },
+    {
+      "source": "adapters/neoforge-12110/mod/main/java/nvvisionboost/NVVisionBoostCore.java",
+      "sha256": "d72b89777c00f0269592394f1592ac67c3f18b736625993138f8cf59c0f81343"
+    },
+    {
+      "source": "adapters/neoforge-12110/mod/main/java/nvvisionboost/NVVisionBoostDepthTransfer.java",
+      "sha256": "cabb110c12172931405669e9e6d280cff7a9dc3eab5443dc821fd553c8b48597"
+    },
+    {
+      "source": "adapters/neoforge-2612/addon/main/java/nvvisionboost/vulkanbridge/NeoForgeBridge.java",
+      "sha256": "a42138b640672cc33673d884fae664e00ad2abad5fe0499bc4af9b4b3e5d9dc7"
+    },
+    {
+      "source": "adapters/neoforge-2612/mod/main/java/nvvisionboost/NVVisionBoostDepthTransfer.java",
+      "sha256": "cabb110c12172931405669e9e6d280cff7a9dc3eab5443dc821fd553c8b48597"
+    },
+    {
+      "source": "adapters/neoforge-262/mod/main/java/nvvisionboost/NVVisionBoostDepthTransfer.java",
+      "sha256": "cabb110c12172931405669e9e6d280cff7a9dc3eab5443dc821fd553c8b48597"
+    },
+    {
+      "source": "modules/mod/shared/914d3ebb0b04/main/java/nvvisionboost/NVVisionBoostCore.java",
+      "sha256": "914d3ebb0b040f411069bdf464792ea26dd943fb3e7e4140c58b9316b74f5fc0"
+    }
+  ],
+  "consolidatedBindings": {
+    "adapters/fabric-1211/mod/main/java/nvvisionboost/NVVisionBoostClient.java": "adapters/fabric-1201/mod/main/java/nvvisionboost/NVVisionBoostClient.java",
+    "adapters/fabric-1211/mod/main/java/nvvisionboost/NVVisionBoostFerriteCore.java": "adapters/fabric-1201/mod/main/java/nvvisionboost/NVVisionBoostFerriteCore.java",
+    "adapters/fabric-1211/mod/main/java/nvvisionboost/VisionOptimizer.java": "adapters/fabric-1201/mod/main/java/nvvisionboost/VisionOptimizer.java",
+    "adapters/fabric-1211/mod/main/java/nvvisionboost/mixin/NVVisionBoostMinecraftMixin.java": "modules/mod/rendering/bf59c94e0a6d/main/java/nvvisionboost/mixin/NVVisionBoostMinecraftMixin.java",
+    "adapters/fabric-1211/mod/main/java/nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.java": "modules/mod/interface/c65ef44b1af0/main/java/nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.java",
+    "adapters/fabric-262/addon/main/java/nvvisionboost/vulkanbridge/BridgeApi.java": "adapters/fabric-12110/addon/main/java/nvvisionboost/vulkanbridge/BridgeApi.java",
+    "adapters/neoforge-12110/addon/main/java/nvvisionboost/vulkanbridge/BridgeApi.java": "adapters/fabric-12110/addon/main/java/nvvisionboost/vulkanbridge/BridgeApi.java",
+    "adapters/neoforge-12110/mod/main/java/nvvisionboost/NVVisionBoostCore.java": "adapters/fabric-12110/mod/main/java/nvvisionboost/NVVisionBoostCore.java",
+    "adapters/fabric-262/mod/main/java/nvvisionboost/NVVisionBoostCore.java": "modules/mod/shared/e7484e8a3072/main/java/nvvisionboost/NVVisionBoostCore.java",
+    "adapters/neoforge-1201/mod/main/java/nvvisionboost/NVVisionBoostForge.java": "adapters/forge-1201/mod/main/java/nvvisionboost/NVVisionBoostForge.java",
+    "adapters/neoforge-2612/addon/main/java/nvvisionboost/vulkanbridge/NeoForgeBridge.java": "adapters/neoforge-12110/addon/main/java/nvvisionboost/vulkanbridge/NeoForgeBridge.java"
+  },
+  "backup": "C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\.local\\refinement-0.8.22-backup",
+  "registeredJava": 359,
+  "inWorldValidation": false,
+  "preservedInaccessibleUnregisteredSources": [
+    "modules/mod/adapters/MinecraftAccess.java",
+    "modules/mod/adapters/MinecraftVersionAdapter.java"
+  ]
+}

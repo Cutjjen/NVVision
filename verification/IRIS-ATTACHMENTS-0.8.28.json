@@ -1,0 +1,32 @@
+{
+  "version": "0.8.28",
+  "target": "fabric-1211",
+  "scope": "Iris final-color and depth attachment caches after internal TextureTarget reallocation",
+  "hypothesis": "OpenGL texture names can be reused while external framebuffer attachment caches retain previous allocation associations. Invalidate caches before the normal Iris world pass.",
+  "validation": {
+    "javaCompilation": true,
+    "attachmentGenerationRegressionChecks": 7,
+    "realOpenGLRegressionChecks": 102,
+    "productionMixinChecks": 32,
+    "productionMinecraftLinks": 640,
+    "cpuAndUiRegression": true,
+    "inWorldValidation": true,
+    "fpsMeasured": false,
+    "fullPlatformGradleAssemble": false,
+    "userConfirmedFunctional": true,
+    "shaderUpscalingValidated": true
+  },
+  "artifacts": [
+    {
+      "component": "mod",
+      "file": "NVVisionBoost-0.8.28-MC-Fabric-1.21.1.jar",
+      "sha256": "7d7cd67715f41afcf343b9282fad82af364837fbc533a666332676cbe9fa6969"
+    },
+    {
+      "component": "addon",
+      "file": "NVVisionAddon-0.8.28-MC-Fabric-1.21.1.jar",
+      "sha256": "0ce6ad7b3a7dd5e67243059b3ccc047d7990f5e8f28174bb4f98c7462634c03a"
+    }
+  ],
+  "visualResult": "User confirmed this release works perfectly after testing Iris shader upscaling."
+}

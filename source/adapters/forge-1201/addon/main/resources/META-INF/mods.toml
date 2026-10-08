@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+clientSideOnly=true
+[[mods]]
+authors="Cutjjen"
+modId="nvvisionvulkanbridge"
+version="0.8.27"
+displayName="NVVision Addon Forge"
+displayTest="IGNORE_ALL_VERSION"
+# Category: optimization
+description="Client-side CPU controls and opt-in test budgets for local simulation, standard particles and block-entity models. No remote server changes or network channels."
+[[dependencies.nvvisionvulkanbridge]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="CLIENT"
+[[dependencies.nvvisionvulkanbridge]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="CLIENT"
+[[dependencies.nvvisionvulkanbridge]]
+modId="nvvisionboost"
+mandatory=true
+versionRange="[0.8.27,0.8.28)"
+ordering="AFTER"
+side="CLIENT"
+
+

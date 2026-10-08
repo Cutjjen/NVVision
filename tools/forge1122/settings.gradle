@@ -1,0 +1,2 @@
+rootProject.name = 'NVVision-Forge-Java8'
+include('mod', 'addon')

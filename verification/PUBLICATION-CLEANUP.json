@@ -1,0 +1,26 @@
+{
+  "translatedUniqueJavaComments": 275,
+  "translatedShaderComments": 2,
+  "commentTranslationPreservedExecutableTokens": true,
+  "sharedGroups": 7,
+  "inactiveNeoForgeBindingsRemoved": 3,
+  "registeredJavaFiles": 300,
+  "indexedMethods": 2718,
+  "sourceBindings": 854,
+  "compiledPairs": [
+    "Modloaders/Forge/1.20.1/NVVision-0.7.25-Addon-0.7.25",
+    "Modloaders/Fabric/26.2/NVVision-0.8.3-Addon-0.8.3",
+    "Modloaders/NeoForge/26.1.2/NVVision-0.8.5-Addon-0.8.5",
+    "Modloaders/NeoForge/26.2/NVVision-0.8.5-Addon-0.8.5",
+    "Modloaders/Fabric/1.21.10/NVVision-0.8.4-Addon-0.8.4",
+    "Modloaders/NeoForge/1.21.10/NVVision-0.8.6-Addon-0.8.6",
+    "Modloaders/NeoForge/1.21.1/NVVision-0.8.12-Addon-0.8.12"
+  ],
+  "automatedValidationPassed": true,
+  "inGameTestPerformed": false,
+  "fpsMeasured": false,
+  "cacheStabilityChecks": {
+    "neoforge1211": 19,
+    "forge1201": 26
+  }
+}

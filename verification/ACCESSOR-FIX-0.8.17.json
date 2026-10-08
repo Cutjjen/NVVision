@@ -1,0 +1,266 @@
+[
+  {
+    "key": "fabric-1211",
+    "version": "0.8.17",
+    "automatedTests": [
+      {
+        "suite": "nvvisionboost.NVVisionBoostGlAdapterTest",
+        "result": "PASS Minecraft tracked bindings after external OpenGL changes: 10 checks"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostLanguageTest",
+        "result": "PASS UI language: 389 checks"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostMenuLayoutTest",
+        "result": "PASS: 2172 verifica\ufffd\ufffdes de layout."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostOpenGLSmokeTest",
+        "result": "PASS GL: 102 verifica\ufffd\ufffdes com contexto real e janela invis\ufffdvel."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostOptionsPlacementTest",
+        "result": "PASS options placement: full vanilla grid, real column gap, stable placement, customized grid, occupied row and tiny screen"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostPixelAdapterTest",
+        "result": "Pixel adapter: 9 assertions passed"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostTargetLeaseTest",
+        "result": "PASS target identity and scaled depth/stencil: 70 checks"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.BridgeRegressionTest",
+        "result": "PASS BRIDGE: 25 checks."
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuConfigurationTest",
+        "result": "PASS CPU configuration: 14 checks"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuOptionLeaseTest",
+        "result": "CPU option ownership: 18 checks passed"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuPolicyTest",
+        "result": "PASS CPU policy: 24 checks"
+      }
+    ],
+    "productionChecks": {
+      "CheckProductionMixins": "PASS production mixin selectors/accessors/invocations: 31 checks",
+      "CheckVersionLinks": "PASS production Minecraft links: 625 references"
+    },
+    "inWorldValidation": false,
+    "fpsMeasurement": false
+  },
+  {
+    "key": "fabric-1201",
+    "version": "0.8.17",
+    "automatedTests": [
+      {
+        "suite": "nvvisionboost.NVVisionBoostGlAdapterTest",
+        "result": "PASS Minecraft tracked bindings after external OpenGL changes: 10 checks"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostLanguageTest",
+        "result": "PASS UI language: 389 checks"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostMenuLayoutTest",
+        "result": "PASS: 2172 verifica\ufffd\ufffdes de layout."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostOpenGLSmokeTest",
+        "result": "PASS GL: 108 verifica\ufffd\ufffdes com contexto real e janela invis\ufffdvel."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostOptionsPlacementTest",
+        "result": "PASS options placement: full vanilla grid, real column gap, stable placement, customized grid, occupied row and tiny screen"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostTargetLeaseTest",
+        "result": "PASS target identity and scaled depth/stencil: 66 checks"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.BridgeRegressionTest",
+        "result": "PASS BRIDGE: 25 checks."
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuConfigurationTest",
+        "result": "PASS CPU configuration: 14 checks"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuOptionLeaseTest",
+        "result": "CPU option ownership: 18 checks passed"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuPolicyTest",
+        "result": "PASS CPU policy: 24 checks"
+      }
+    ],
+    "productionChecks": {
+      "CheckProductionMixins": "PASS production mixin selectors/accessors/invocations: 37 checks",
+      "CheckVersionLinks": "PASS production Minecraft links: 615 references"
+    },
+    "inWorldValidation": false,
+    "fpsMeasurement": false
+  },
+  {
+    "key": "fabric-1192",
+    "version": "0.8.17",
+    "automatedTests": [
+      {
+        "suite": "nvvisionboost.NVVisionBoostGlAdapterTest",
+        "result": "PASS Minecraft tracked bindings after external OpenGL changes: 10 checks"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostLanguageTest",
+        "result": "PASS UI language: 389 checks"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostMenuLayoutTest",
+        "result": "PASS: 2172 verifica\ufffd\ufffdes de layout."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostOpenGLSmokeTest",
+        "result": "PASS GL: 108 verifica\ufffd\ufffdes com contexto real e janela invis\ufffdvel."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostOptionsPlacementTest",
+        "result": "PASS options placement: full vanilla grid, real column gap, stable placement, customized grid, occupied row and tiny screen"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostTargetLeaseTest",
+        "result": "PASS target identity and scaled depth/stencil: 66 checks"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.BridgeRegressionTest",
+        "result": "PASS BRIDGE: 25 checks."
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuConfigurationTest",
+        "result": "PASS CPU configuration: 14 checks"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuOptionLeaseTest",
+        "result": "CPU option ownership: 18 checks passed"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuPolicyTest",
+        "result": "PASS CPU policy: 24 checks"
+      }
+    ],
+    "productionChecks": {
+      "CheckProductionMixins": "PASS production mixin selectors/accessors/invocations: 38 checks",
+      "CheckVersionLinks": "PASS production Minecraft links: 549 references"
+    },
+    "inWorldValidation": false,
+    "fpsMeasurement": false
+  },
+  {
+    "key": "forge-1192",
+    "version": "0.8.17",
+    "automatedTests": [
+      {
+        "suite": "nvvisionboost.NVVisionBoostGlAdapterTest",
+        "result": "PASS Minecraft tracked bindings after external OpenGL changes: 10 checks"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostLanguageTest",
+        "result": "PASS UI language: 389 checks"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostMenuLayoutTest",
+        "result": "PASS: 2172 verifica\ufffd\ufffdes de layout."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostOpenGLSmokeTest",
+        "result": "PASS GL: 108 verifica\ufffd\ufffdes com contexto real e janela invis\ufffdvel."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostOptionsPlacementTest",
+        "result": "PASS options placement: full vanilla grid, real column gap, stable placement, customized grid, occupied row and tiny screen"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostTargetLeaseTest",
+        "result": "PASS target identity and scaled depth/stencil: 66 checks"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.BridgeRegressionTest",
+        "result": "PASS BRIDGE: 25 checks."
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuConfigurationTest",
+        "result": "PASS CPU configuration: 14 checks"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuOptionLeaseTest",
+        "result": "CPU option ownership: 18 checks passed"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuPolicyTest",
+        "result": "PASS CPU policy: 24 checks"
+      }
+    ],
+    "productionChecks": {
+      "CheckProductionMixins": "PASS production mixin selectors/accessors/invocations: 30 checks",
+      "CheckVersionLinks": "PASS production Minecraft links: 640 references"
+    },
+    "inWorldValidation": false,
+    "fpsMeasurement": false
+  },
+  {
+    "key": "neoforge-1201",
+    "version": "0.8.17",
+    "automatedTests": [
+      {
+        "suite": "nvvisionboost.NVVisionBoostGlAdapterTest",
+        "result": "PASS Minecraft tracked bindings after external OpenGL changes: 10 checks"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostLanguageTest",
+        "result": "PASS UI language: 389 checks"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostMenuLayoutTest",
+        "result": "PASS: 2172 verifica\ufffd\ufffdes de layout."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostOpenGLSmokeTest",
+        "result": "PASS GL: 108 verifica\ufffd\ufffdes com contexto real e janela invis\ufffdvel."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostOptionsPlacementTest",
+        "result": "PASS options placement: full vanilla grid, real column gap, stable placement, customized grid, occupied row and tiny screen"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostTargetLeaseTest",
+        "result": "PASS target identity and scaled depth/stencil: 66 checks"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.BridgeRegressionTest",
+        "result": "PASS BRIDGE: 25 checks."
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuConfigurationTest",
+        "result": "PASS CPU configuration: 14 checks"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuOptionLeaseTest",
+        "result": "CPU option ownership: 18 checks passed"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuPolicyTest",
+        "result": "PASS CPU policy: 24 checks"
+      }
+    ],
+    "productionChecks": {
+      "CheckProductionMixins": "PASS production mixin selectors/accessors/invocations: 29 checks",
+      "CheckVersionLinks": "PASS production Minecraft links: 706 references"
+    },
+    "inWorldValidation": false,
+    "fpsMeasurement": false
+  }
+]

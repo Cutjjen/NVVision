@@ -1,0 +1,1054 @@
+{
+  "version": "0.8.27",
+  "targets": [
+    {
+      "key": "forge-1201",
+      "minecraft": "1.20.1",
+      "loader": "forge",
+      "java": 17,
+      "mod": "0.8.27",
+      "addon": "0.8.27",
+      "dependencies": {
+        "iris": "",
+        "platform": "1.20.1-47.2.0",
+        "sodium": ""
+      },
+      "author": "Cutjjen",
+      "channel": "compiled hardware-control port",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.27-MC-Forge-1.20.1.jar",
+          "sha256": "e79a0c185ffcee680436492d04974fc4ef91519cc37846680aa87ce8e794a5cd"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.27-MC-Forge-1.20.1.jar",
+          "sha256": "4f4f41e218f892872f66fd22f414a2e1a5fbf26ab9dce839dc4709a0d9556952"
+        }
+      ],
+      "folder": "Modloaders\\Forge\\1.20.1\\NVVision-0.8.27-Addon-0.8.27",
+      "inWorldValidation": false,
+      "fpsMeasured": false,
+      "automatedChecksPassed": true,
+      "previousRelease": "0.8.26",
+      "status": "Compiled and automated checks passed; in-world acceptance pending",
+      "date": "2026-10-07"
+    },
+    {
+      "key": "fabric-262",
+      "minecraft": "26.2",
+      "loader": "fabric",
+      "java": 25,
+      "mod": "0.8.27",
+      "addon": "0.8.27",
+      "dependencies": {
+        "iris": "1.11.4+26.2-fabric",
+        "platform": "0.19.5",
+        "sodium": "mc26.2-0.9.2-fabric"
+      },
+      "author": "Cutjjen",
+      "channel": "compiled hardware-control port",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.27-MC-Fabric-26.2.jar",
+          "sha256": "34cf7373f137c42ae77fa6850692a9897fccb13e582d1ee55f6302f634049d92"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.27-MC-Fabric-26.2.jar",
+          "sha256": "17eddf48be3348f4edf848149ff1a310dcda58e2593eea8408334665880edd03"
+        }
+      ],
+      "folder": "Modloaders\\Fabric\\26.2\\NVVision-0.8.27-Addon-0.8.27",
+      "inWorldValidation": false,
+      "fpsMeasured": false,
+      "automatedChecksPassed": true,
+      "previousRelease": "0.8.22",
+      "status": "Compiled and automated checks passed; in-world acceptance pending",
+      "date": "2026-10-07"
+    },
+    {
+      "key": "neoforge-2612",
+      "minecraft": "26.1.2",
+      "loader": "neoforge",
+      "java": 25,
+      "mod": "0.8.27",
+      "addon": "0.8.27",
+      "dependencies": {
+        "iris": "qE5Y7GrZ",
+        "platform": "26.1.2.112",
+        "sodium": "zg4YQ9EL"
+      },
+      "author": "Cutjjen",
+      "channel": "compiled hardware-control port",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.27-MC-NeoForge-26.1.2.jar",
+          "sha256": "1ccc46f36f742af8cc8654a5205d7afda4ae4a61789e71b5a0aa6cc967f5778a"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.27-MC-NeoForge-26.1.2.jar",
+          "sha256": "79958acede24bae7f522e00a4c42b96371b2b79f190eb0f3de68fe48203d8e02"
+        }
+      ],
+      "folder": "Modloaders\\NeoForge\\26.1.2\\NVVision-0.8.27-Addon-0.8.27",
+      "inWorldValidation": false,
+      "fpsMeasured": false,
+      "automatedChecksPassed": true,
+      "previousRelease": "0.8.22",
+      "status": "Compiled and automated checks passed; in-world acceptance pending",
+      "date": "2026-10-07"
+    },
+    {
+      "key": "neoforge-262",
+      "minecraft": "26.2",
+      "loader": "neoforge",
+      "java": 25,
+      "mod": "0.8.27",
+      "addon": "0.8.27",
+      "dependencies": {
+        "iris": "k55HdONq",
+        "platform": "26.2.0.88",
+        "sodium": "DmnNKsfS"
+      },
+      "author": "Cutjjen",
+      "channel": "compiled hardware-control port",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.27-MC-NeoForge-26.2.jar",
+          "sha256": "68b548fcfe7aac20657c47fb030066f36c9ee00f2f5c245cd69982304c0e64d2"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.27-MC-NeoForge-26.2.jar",
+          "sha256": "63ec0a62ef0104147570449702091e1ca8293bd3c297714b811b9a92a7d4760a"
+        }
+      ],
+      "folder": "Modloaders\\NeoForge\\26.2\\NVVision-0.8.27-Addon-0.8.27",
+      "inWorldValidation": false,
+      "fpsMeasured": false,
+      "automatedChecksPassed": true,
+      "previousRelease": "0.8.22",
+      "status": "Compiled and automated checks passed; in-world acceptance pending",
+      "date": "2026-10-07"
+    },
+    {
+      "key": "fabric-12110",
+      "minecraft": "1.21.10",
+      "loader": "fabric",
+      "java": 21,
+      "mod": "0.8.27",
+      "addon": "0.8.27",
+      "dependencies": {
+        "iris": "1.9.7+1.21.10-fabric",
+        "platform": "0.19.5",
+        "sodium": "mc1.21.10-0.7.3-fabric"
+      },
+      "author": "Cutjjen",
+      "channel": "compiled hardware-control port",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.27-MC-Fabric-1.21.10.jar",
+          "sha256": "12402571fdd9c4fe0f8858c202f157df5d102fb427624a077662d42656451213"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.27-MC-Fabric-1.21.10.jar",
+          "sha256": "1dc2542347261cf5b6fac9c98d22b7e296dd54b9a3aa6054abb9084d543b65a6"
+        }
+      ],
+      "folder": "Modloaders\\Fabric\\1.21.10\\NVVision-0.8.27-Addon-0.8.27",
+      "inWorldValidation": false,
+      "fpsMeasured": false,
+      "automatedChecksPassed": true,
+      "previousRelease": "0.8.22",
+      "status": "Compiled and automated checks passed; in-world acceptance pending",
+      "date": "2026-10-07"
+    },
+    {
+      "key": "neoforge-12110",
+      "minecraft": "1.21.10",
+      "loader": "neoforge",
+      "java": 21,
+      "mod": "0.8.27",
+      "addon": "0.8.27",
+      "dependencies": {
+        "iris": "aBn2niiX",
+        "platform": "21.10.64",
+        "sodium": "PdQpfqPZ"
+      },
+      "author": "Cutjjen",
+      "channel": "compiled hardware-control port",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.27-MC-NeoForge-1.21.10.jar",
+          "sha256": "4a9a9672787e62277bda9eafd60019627b5f460e5f936fb72b904c87d24876c9"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.27-MC-NeoForge-1.21.10.jar",
+          "sha256": "6a131565f1e1e5bedcb115b217acbb63c83e421cf88d5dddab5ff0a5085b4066"
+        }
+      ],
+      "folder": "Modloaders\\NeoForge\\1.21.10\\NVVision-0.8.27-Addon-0.8.27",
+      "inWorldValidation": false,
+      "fpsMeasured": false,
+      "automatedChecksPassed": true,
+      "previousRelease": "0.8.22",
+      "status": "Compiled and automated checks passed; in-world acceptance pending",
+      "date": "2026-10-07"
+    },
+    {
+      "key": "neoforge-1211",
+      "minecraft": "1.21.1",
+      "loader": "neoforge",
+      "java": 21,
+      "mod": "0.8.27",
+      "addon": "0.8.27",
+      "dependencies": {
+        "iris": "KduFYu4t",
+        "platform": "21.1.251",
+        "sodium": "uMOpc5uV"
+      },
+      "author": "Cutjjen",
+      "channel": "compiled hardware-control port",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.27-MC-NeoForge-1.21.1.jar",
+          "sha256": "48e8cb75bc021edc1b9a601d7fbcf9a0c32bef467e8c7000089d6ce8c653c895"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.27-MC-NeoForge-1.21.1.jar",
+          "sha256": "f40ea289313c8a08d07c3849df83baf18e74211fc5e2ede0fa3c010d6a485568"
+        }
+      ],
+      "folder": "Modloaders\\NeoForge\\1.21.1\\NVVision-0.8.27-Addon-0.8.27",
+      "inWorldValidation": false,
+      "fpsMeasured": false,
+      "automatedChecksPassed": true,
+      "previousRelease": "0.8.22",
+      "status": "Compiled and automated checks passed; in-world acceptance pending",
+      "date": "2026-10-07"
+    },
+    {
+      "key": "fabric-1211",
+      "minecraft": "1.21.1",
+      "loader": "fabric",
+      "java": 21,
+      "mod": "0.8.27",
+      "addon": "0.8.27",
+      "dependencies": {
+        "platform": "0.19.5",
+        "iris": "zsoi0dso",
+        "sodium": "u1OEbNKx"
+      },
+      "author": "Cutjjen",
+      "channel": "compiled hardware-control port",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.27-MC-Fabric-1.21.1.jar",
+          "sha256": "09d592cbb4ee510e578170778ad5b58e01ae8035356c1879e16de88f8bde57ed"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.27-MC-Fabric-1.21.1.jar",
+          "sha256": "c7a2877e74027c395e5e0cd40da3e84608886a57f23142c665c8c65536478eb7"
+        }
+      ],
+      "folder": "Modloaders\\Fabric\\1.21.1\\NVVision-0.8.27-Addon-0.8.27",
+      "inWorldValidation": false,
+      "fpsMeasured": false,
+      "automatedChecksPassed": true,
+      "previousRelease": "0.8.22",
+      "status": "Compiled and automated checks passed; in-world acceptance pending",
+      "date": "2026-10-07"
+    },
+    {
+      "key": "fabric-1201",
+      "minecraft": "1.20.1",
+      "loader": "fabric",
+      "java": 17,
+      "mod": "0.8.27",
+      "addon": "0.8.27",
+      "dependencies": {
+        "platform": "0.19.5",
+        "iris": "s5eFLITc",
+        "sodium": "OihdIimA"
+      },
+      "author": "Cutjjen",
+      "channel": "consolidated",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.27-MC-Fabric-1.20.1.jar",
+          "sha256": "4d1ac1e315c6beef678ff4e88f0c81db7c1ca532177f57a8f5d0cd211a6a5e85"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.27-MC-Fabric-1.20.1.jar",
+          "sha256": "f21630897fccdea432bfc94d941c075df7806ac6ceddb9894944ab7be57475c8"
+        }
+      ],
+      "folder": "Modloaders\\Fabric\\1.20.1\\NVVision-0.8.27-Addon-0.8.27",
+      "inWorldValidation": true,
+      "fpsMeasured": false,
+      "automatedChecksPassed": true,
+      "previousRelease": "0.8.22",
+      "status": "Functional in-game tests confirmed by user on 2026-10-07",
+      "date": "2026-10-07",
+      "userConfirmedFunctional": true,
+      "validationDate": "2026-10-07",
+      "validationSource": "User confirmation and reviewed Fabric 1.20.1 logs",
+      "shaderUpscalingValidated": true
+    },
+    {
+      "key": "fabric-1192",
+      "minecraft": "1.19.2",
+      "loader": "fabric",
+      "java": 17,
+      "mod": "0.8.27",
+      "addon": "0.8.27",
+      "dependencies": {
+        "platform": "0.19.5",
+        "iris": "LgOJIpIS",
+        "sodium": "rAfhHfow"
+      },
+      "author": "Cutjjen",
+      "channel": "consolidated",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.27-MC-Fabric-1.19.2.jar",
+          "sha256": "336e596e2038ba1290cf8edbb8b612c71e4a695185d846a962cfbdce2b457e6b"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.27-MC-Fabric-1.19.2.jar",
+          "sha256": "a3f1582114e5ad94eb5a3b1200ada6c112e487ee15c41d9578f21eb4a1b93258"
+        }
+      ],
+      "folder": "Modloaders\\Fabric\\1.19.2\\NVVision-0.8.27-Addon-0.8.27",
+      "inWorldValidation": true,
+      "fpsMeasured": false,
+      "automatedChecksPassed": true,
+      "previousRelease": "0.8.23",
+      "status": "Functional in-game tests confirmed by user on 2026-10-07",
+      "date": "2026-10-07",
+      "userConfirmedFunctional": true,
+      "validationDate": "2026-10-07",
+      "validationSource": "User confirmation and reviewed Fabric 1.19.2 logs",
+      "shaderUpscalingValidated": false
+    },
+    {
+      "key": "forge-1192",
+      "minecraft": "1.19.2",
+      "loader": "forge",
+      "java": 17,
+      "mod": "0.8.27",
+      "addon": "0.8.27",
+      "dependencies": {
+        "platform": "1.19.2-43.5.0",
+        "iris": "",
+        "sodium": ""
+      },
+      "author": "Cutjjen",
+      "channel": "compiled hardware-control port",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.27-MC-Forge-1.19.2.jar",
+          "sha256": "827f81373a6a4303f58c494f7acf4b8ec1c9030ae97c2737cd571c9a18ecb61b"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.27-MC-Forge-1.19.2.jar",
+          "sha256": "8b847e67046b58c112b2efbf533f6a45b8884796408ecd4f7c63046553a984f9"
+        }
+      ],
+      "folder": "Modloaders\\Forge\\1.19.2\\NVVision-0.8.27-Addon-0.8.27",
+      "inWorldValidation": false,
+      "fpsMeasured": false,
+      "automatedChecksPassed": true,
+      "previousRelease": "0.8.22",
+      "status": "Compiled and automated checks passed; in-world acceptance pending",
+      "date": "2026-10-07"
+    },
+    {
+      "key": "forge-1122",
+      "minecraft": "1.12.2",
+      "loader": "forge",
+      "java": 8,
+      "mod": "0.8.27",
+      "addon": "0.8.27",
+      "dependencies": {
+        "platform": "1.12.2-14.23.5.2859",
+        "iris": "",
+        "sodium": ""
+      },
+      "adapterFamily": "forge-java8",
+      "capabilities": [
+        "native-rendering",
+        "gpu-visual-presets",
+        "cpu-particle-controls",
+        "cpu-entity-distance",
+        "bilingual-interface",
+        "client-only-multiplayer"
+      ],
+      "unavailable": [
+        "spatial-upscaling",
+        "dynamic-resolution",
+        "DLSS",
+        "frame-generation"
+      ],
+      "author": "Cutjjen",
+      "channel": "compiled hardware-control port",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.27-MC-Forge-1.12.2.jar",
+          "sha256": "9396e7a388c6e6b50d0987a610f49927bc8b413cf23cc1e04c918ed48c58ce93"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.27-MC-Forge-1.12.2.jar",
+          "sha256": "3ad52b277319663798586ecfe88457c3d3a6368c7ac35d409934c0fb0c8bf276"
+        }
+      ],
+      "folder": "Modloaders\\Forge\\1.12.2\\NVVision-0.8.27-Addon-0.8.27",
+      "inWorldValidation": false,
+      "fpsMeasured": false,
+      "automatedChecksPassed": true,
+      "previousRelease": "0.8.22",
+      "status": "Compiled and automated checks passed; in-world acceptance pending",
+      "date": "2026-10-07"
+    },
+    {
+      "key": "neoforge-1201",
+      "minecraft": "1.20.1",
+      "loader": "neoforge",
+      "java": 17,
+      "mod": "0.8.27",
+      "addon": "0.8.27",
+      "dependencies": {
+        "platform": "1.20.1-47.1.106",
+        "iris": "",
+        "sodium": ""
+      },
+      "adapterFamily": "legacy-neoforge",
+      "author": "Cutjjen",
+      "channel": "compiled hardware-control port",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.27-MC-NeoForge-1.20.1.jar",
+          "sha256": "2ed4898db4ebf8e21f76a9bac3072904271655b950beaa4538be6f3c1e150ae7"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.27-MC-NeoForge-1.20.1.jar",
+          "sha256": "2fc02f004a109bcf0b8a0b163e8db49c1469ef6c30c56d6ad171c37235345285"
+        }
+      ],
+      "folder": "Modloaders\\NeoForge\\1.20.1\\NVVision-0.8.27-Addon-0.8.27",
+      "inWorldValidation": false,
+      "fpsMeasured": false,
+      "automatedChecksPassed": true,
+      "previousRelease": "0.8.22",
+      "status": "Compiled and automated checks passed; in-world acceptance pending",
+      "date": "2026-10-07"
+    }
+  ],
+  "validation": [
+    {
+      "key": "forge-1201",
+      "javaCompilation": true,
+      "sourceWiring": true,
+      "productionMinecraftLinks": true,
+      "productionMixinValidation": true,
+      "cpuPolicyAndOwnership": true,
+      "realOpenGLRegression": true,
+      "layoutAndLocalization": true,
+      "fullPlatformGradleAssemble": false,
+      "inWorldValidation": false,
+      "fpsMeasured": false,
+      "legacyCapabilitiesOnly": false,
+      "source": "docs/HARDWARE-ADAPTERS-0.8.27.md",
+      "stagingDirectory": ".local\\alignment-builds\\7c220520f599431ebab9df878e05086c\\forge-1201"
+    },
+    {
+      "key": "fabric-262",
+      "javaCompilation": true,
+      "sourceWiring": true,
+      "productionMinecraftLinks": true,
+      "productionMixinValidation": true,
+      "cpuPolicyAndOwnership": true,
+      "realOpenGLRegression": true,
+      "layoutAndLocalization": true,
+      "fullPlatformGradleAssemble": false,
+      "inWorldValidation": false,
+      "fpsMeasured": false,
+      "legacyCapabilitiesOnly": false,
+      "source": "docs/HARDWARE-ADAPTERS-0.8.27.md",
+      "stagingDirectory": ".local\\alignment-builds\\7c220520f599431ebab9df878e05086c\\fabric-262"
+    },
+    {
+      "key": "neoforge-2612",
+      "javaCompilation": true,
+      "sourceWiring": true,
+      "productionMinecraftLinks": true,
+      "productionMixinValidation": true,
+      "cpuPolicyAndOwnership": true,
+      "realOpenGLRegression": true,
+      "layoutAndLocalization": true,
+      "fullPlatformGradleAssemble": false,
+      "inWorldValidation": false,
+      "fpsMeasured": false,
+      "legacyCapabilitiesOnly": false,
+      "source": "docs/HARDWARE-ADAPTERS-0.8.27.md",
+      "stagingDirectory": ".local\\alignment-builds\\7c220520f599431ebab9df878e05086c\\neoforge-2612"
+    },
+    {
+      "key": "neoforge-262",
+      "javaCompilation": true,
+      "sourceWiring": true,
+      "productionMinecraftLinks": true,
+      "productionMixinValidation": true,
+      "cpuPolicyAndOwnership": true,
+      "realOpenGLRegression": true,
+      "layoutAndLocalization": true,
+      "fullPlatformGradleAssemble": false,
+      "inWorldValidation": false,
+      "fpsMeasured": false,
+      "legacyCapabilitiesOnly": false,
+      "source": "docs/HARDWARE-ADAPTERS-0.8.27.md",
+      "stagingDirectory": ".local\\alignment-builds\\7c220520f599431ebab9df878e05086c\\neoforge-262"
+    },
+    {
+      "key": "fabric-12110",
+      "javaCompilation": true,
+      "sourceWiring": true,
+      "productionMinecraftLinks": true,
+      "productionMixinValidation": true,
+      "cpuPolicyAndOwnership": true,
+      "realOpenGLRegression": true,
+      "layoutAndLocalization": true,
+      "fullPlatformGradleAssemble": false,
+      "inWorldValidation": false,
+      "fpsMeasured": false,
+      "legacyCapabilitiesOnly": false,
+      "source": "docs/HARDWARE-ADAPTERS-0.8.27.md",
+      "stagingDirectory": ".local\\alignment-builds\\7c220520f599431ebab9df878e05086c\\fabric-12110"
+    },
+    {
+      "key": "neoforge-12110",
+      "javaCompilation": true,
+      "sourceWiring": true,
+      "productionMinecraftLinks": true,
+      "productionMixinValidation": true,
+      "cpuPolicyAndOwnership": true,
+      "realOpenGLRegression": true,
+      "layoutAndLocalization": true,
+      "fullPlatformGradleAssemble": false,
+      "inWorldValidation": false,
+      "fpsMeasured": false,
+      "legacyCapabilitiesOnly": false,
+      "source": "docs/HARDWARE-ADAPTERS-0.8.27.md",
+      "stagingDirectory": ".local\\alignment-builds\\7c220520f599431ebab9df878e05086c\\neoforge-12110"
+    },
+    {
+      "key": "neoforge-1211",
+      "javaCompilation": true,
+      "sourceWiring": true,
+      "productionMinecraftLinks": true,
+      "productionMixinValidation": true,
+      "cpuPolicyAndOwnership": true,
+      "realOpenGLRegression": true,
+      "layoutAndLocalization": true,
+      "fullPlatformGradleAssemble": false,
+      "inWorldValidation": false,
+      "fpsMeasured": false,
+      "legacyCapabilitiesOnly": false,
+      "source": "docs/HARDWARE-ADAPTERS-0.8.27.md",
+      "stagingDirectory": ".local\\alignment-builds\\7c220520f599431ebab9df878e05086c\\neoforge-1211"
+    },
+    {
+      "key": "fabric-1211",
+      "javaCompilation": true,
+      "sourceWiring": true,
+      "productionMinecraftLinks": true,
+      "productionMixinValidation": true,
+      "cpuPolicyAndOwnership": true,
+      "realOpenGLRegression": true,
+      "layoutAndLocalization": true,
+      "fullPlatformGradleAssemble": false,
+      "inWorldValidation": false,
+      "fpsMeasured": false,
+      "legacyCapabilitiesOnly": false,
+      "source": "docs/HARDWARE-ADAPTERS-0.8.27.md",
+      "stagingDirectory": "C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\.local\\ports\\fabric-1211"
+    },
+    {
+      "key": "fabric-1201",
+      "javaCompilation": true,
+      "sourceWiring": true,
+      "productionMinecraftLinks": true,
+      "productionMixinValidation": true,
+      "cpuPolicyAndOwnership": true,
+      "realOpenGLRegression": true,
+      "layoutAndLocalization": true,
+      "fullPlatformGradleAssemble": false,
+      "inWorldValidation": true,
+      "fpsMeasured": false,
+      "legacyCapabilitiesOnly": false,
+      "source": "docs/HARDWARE-ADAPTERS-0.8.27.md",
+      "stagingDirectory": "C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\.local\\ports\\fabric-1201",
+      "userConfirmedFunctional": true,
+      "validationDate": "2026-10-07",
+      "shaderUpscalingValidated": true,
+      "observedLocalSimulationChunks": 6,
+      "observedRejectedParticles": 1233
+    },
+    {
+      "key": "fabric-1192",
+      "javaCompilation": true,
+      "sourceWiring": true,
+      "productionMinecraftLinks": true,
+      "productionMixinValidation": true,
+      "cpuPolicyAndOwnership": true,
+      "realOpenGLRegression": true,
+      "layoutAndLocalization": true,
+      "fullPlatformGradleAssemble": false,
+      "inWorldValidation": true,
+      "fpsMeasured": false,
+      "legacyCapabilitiesOnly": false,
+      "source": "docs/HARDWARE-ADAPTERS-0.8.27.md",
+      "stagingDirectory": "C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\.local\\ports\\fabric-1192",
+      "userConfirmedFunctional": true,
+      "validationDate": "2026-10-07",
+      "shaderUpscalingValidated": false
+    },
+    {
+      "key": "forge-1192",
+      "javaCompilation": true,
+      "sourceWiring": true,
+      "productionMinecraftLinks": true,
+      "productionMixinValidation": true,
+      "cpuPolicyAndOwnership": true,
+      "realOpenGLRegression": true,
+      "layoutAndLocalization": true,
+      "fullPlatformGradleAssemble": false,
+      "inWorldValidation": false,
+      "fpsMeasured": false,
+      "legacyCapabilitiesOnly": false,
+      "source": "docs/HARDWARE-ADAPTERS-0.8.27.md",
+      "stagingDirectory": "C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\.local\\ports\\forge-1192"
+    },
+    {
+      "key": "forge-1122",
+      "javaCompilation": true,
+      "sourceWiring": true,
+      "productionMinecraftLinks": true,
+      "productionMixinValidation": false,
+      "cpuPolicyAndOwnership": true,
+      "realOpenGLRegression": false,
+      "layoutAndLocalization": false,
+      "fullPlatformGradleAssemble": false,
+      "inWorldValidation": false,
+      "fpsMeasured": false,
+      "legacyCapabilitiesOnly": true,
+      "source": "docs/HARDWARE-ADAPTERS-0.8.27.md",
+      "stagingDirectory": "C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\.local\\ports\\forge-1122"
+    },
+    {
+      "key": "neoforge-1201",
+      "javaCompilation": true,
+      "sourceWiring": true,
+      "productionMinecraftLinks": true,
+      "productionMixinValidation": true,
+      "cpuPolicyAndOwnership": true,
+      "realOpenGLRegression": true,
+      "layoutAndLocalization": true,
+      "fullPlatformGradleAssemble": false,
+      "inWorldValidation": false,
+      "fpsMeasured": false,
+      "legacyCapabilitiesOnly": false,
+      "source": "docs/HARDWARE-ADAPTERS-0.8.27.md",
+      "stagingDirectory": "C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\.local\\ports\\neoforge-1201"
+    }
+  ],
+  "previousReleaseByTarget": {
+    "forge-1201": {
+      "key": "forge-1201",
+      "minecraft": "1.20.1",
+      "loader": "forge",
+      "java": 17,
+      "mod": "0.8.26",
+      "addon": "0.8.26",
+      "dependencies": {
+        "iris": "",
+        "platform": "1.20.1-47.2.0",
+        "sodium": ""
+      },
+      "status": "Functional in-game tests confirmed by user on 2026-10-07",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.26-MC-Forge-1.20.1.jar",
+          "sha256": "568c20240f74ac72ce9335028b364712b7d48176246a7ee971a05fc234f8d625"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.26-MC-Forge-1.20.1.jar",
+          "sha256": "ff62d3d69b9103be9f7848be1d6b0c716790edff607ea0498a89b88b565bc69d"
+        }
+      ],
+      "author": "Cutjjen",
+      "channel": "consolidated",
+      "inWorldValidation": true,
+      "fpsMeasured": false,
+      "automatedChecksPassed": true,
+      "validationDate": "2026-10-07",
+      "validationSource": "User confirmation and Modpack 2.1 logs",
+      "previousStable": "0.8.22",
+      "folder": "Modloaders\\Forge\\1.20.1\\NVVision-0.8.26-Addon-0.8.26"
+    },
+    "fabric-262": {
+      "key": "fabric-262",
+      "minecraft": "26.2",
+      "loader": "fabric",
+      "java": 25,
+      "mod": "0.8.22",
+      "addon": "0.8.22",
+      "dependencies": {
+        "iris": "1.11.4+26.2-fabric",
+        "platform": "0.19.5",
+        "sodium": "mc26.2-0.9.2-fabric"
+      },
+      "status": "Automated checks passed; 0.8.22 in-world and FPS validation pending",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.22-MC-Fabric-26.2.jar",
+          "sha256": "2bf1794be4ab7a98bbc94ea6d41a6fa0325bb4d017a4979565e58dedfc6889cf"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.22-MC-Fabric-26.2.jar",
+          "sha256": "6b633bdce16b603d938ad8ba2bca9112a6ed6973de5f91ff728789f8f08cd814"
+        }
+      ]
+    },
+    "neoforge-2612": {
+      "key": "neoforge-2612",
+      "minecraft": "26.1.2",
+      "loader": "neoforge",
+      "java": 25,
+      "mod": "0.8.22",
+      "addon": "0.8.22",
+      "dependencies": {
+        "iris": "qE5Y7GrZ",
+        "platform": "26.1.2.112",
+        "sodium": "zg4YQ9EL"
+      },
+      "status": "Automated checks passed; 0.8.22 in-world and FPS validation pending",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.22-MC-NeoForge-26.1.2.jar",
+          "sha256": "3a99d5405724c3364be297561b23627ca2816607d766bb7ecfe9e5f14a57d749"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.22-MC-NeoForge-26.1.2.jar",
+          "sha256": "980cfeb29998b3ab4e3f169cdbfe164e9c4206c6c70d077b913b6cc55d388a45"
+        }
+      ]
+    },
+    "neoforge-262": {
+      "key": "neoforge-262",
+      "minecraft": "26.2",
+      "loader": "neoforge",
+      "java": 25,
+      "mod": "0.8.22",
+      "addon": "0.8.22",
+      "dependencies": {
+        "iris": "k55HdONq",
+        "platform": "26.2.0.88",
+        "sodium": "DmnNKsfS"
+      },
+      "status": "Automated checks passed; 0.8.22 in-world and FPS validation pending",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.22-MC-NeoForge-26.2.jar",
+          "sha256": "93faf4caff0a187ef8d046403c94f309a65eef4d693811e4440f49c325717ce0"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.22-MC-NeoForge-26.2.jar",
+          "sha256": "6a51abaa7085d2f368b40e9aa6787cb05813c024113549ebf18f03b2fb898efa"
+        }
+      ]
+    },
+    "fabric-12110": {
+      "key": "fabric-12110",
+      "minecraft": "1.21.10",
+      "loader": "fabric",
+      "java": 21,
+      "mod": "0.8.22",
+      "addon": "0.8.22",
+      "dependencies": {
+        "iris": "1.9.7+1.21.10-fabric",
+        "platform": "0.19.5",
+        "sodium": "mc1.21.10-0.7.3-fabric"
+      },
+      "status": "Automated checks passed; 0.8.22 in-world and FPS validation pending",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.22-MC-Fabric-1.21.10.jar",
+          "sha256": "aaee11e4ec878f05ce7ad212727bcd3fa3d59a1c8fc4e4e3d9c9c333436d9fa7"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.22-MC-Fabric-1.21.10.jar",
+          "sha256": "6742b923b20f186bfad09d50f582987ef0fcdd5038eebf58d04f1df7793f31f7"
+        }
+      ]
+    },
+    "neoforge-12110": {
+      "key": "neoforge-12110",
+      "minecraft": "1.21.10",
+      "loader": "neoforge",
+      "java": 21,
+      "mod": "0.8.22",
+      "addon": "0.8.22",
+      "dependencies": {
+        "iris": "aBn2niiX",
+        "platform": "21.10.64",
+        "sodium": "PdQpfqPZ"
+      },
+      "status": "Automated checks passed; 0.8.22 in-world and FPS validation pending",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.22-MC-NeoForge-1.21.10.jar",
+          "sha256": "560408ecd7a9ac3d9ef444a69f5a796b2a9df37b9ae2226d8249404c3d29b5b6"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.22-MC-NeoForge-1.21.10.jar",
+          "sha256": "d160cd60b889ac732d62eeca21007bec6b8c2eac759a798ae28fc4c98065e48a"
+        }
+      ]
+    },
+    "neoforge-1211": {
+      "key": "neoforge-1211",
+      "minecraft": "1.21.1",
+      "loader": "neoforge",
+      "java": 21,
+      "mod": "0.8.22",
+      "addon": "0.8.22",
+      "dependencies": {
+        "iris": "KduFYu4t",
+        "platform": "21.1.251",
+        "sodium": "uMOpc5uV"
+      },
+      "status": "Automated checks passed; 0.8.22 in-world and FPS validation pending",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.22-MC-NeoForge-1.21.1.jar",
+          "sha256": "7e791e090504dc734a30ae9e26615af120690bc227e37cb39e9506ca00144eeb"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.22-MC-NeoForge-1.21.1.jar",
+          "sha256": "ac8f253f66b94cd05c5108ab161bf670bd6e118bb17ff83e1ccce483bdea983a"
+        }
+      ]
+    },
+    "fabric-1211": {
+      "key": "fabric-1211",
+      "minecraft": "1.21.1",
+      "loader": "fabric",
+      "java": 21,
+      "mod": "0.8.22",
+      "addon": "0.8.22",
+      "dependencies": {
+        "platform": "0.19.5",
+        "iris": "zsoi0dso",
+        "sodium": "u1OEbNKx"
+      },
+      "status": "Automated checks passed; 0.8.22 in-world and FPS validation pending",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.22-MC-Fabric-1.21.1.jar",
+          "sha256": "af3ea5f449f1646a9ec167ff593fa557177bbd7f63fa7f7bb1e1553ae1ab2f8a"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.22-MC-Fabric-1.21.1.jar",
+          "sha256": "d80947f5918359d6af10fac76d3e1d425987975282fe13868e5f1fb5366b31f7"
+        }
+      ]
+    },
+    "fabric-1201": {
+      "key": "fabric-1201",
+      "minecraft": "1.20.1",
+      "loader": "fabric",
+      "java": 17,
+      "mod": "0.8.22",
+      "addon": "0.8.22",
+      "dependencies": {
+        "platform": "0.19.5",
+        "iris": "s5eFLITc",
+        "sodium": "OihdIimA"
+      },
+      "status": "Automated checks passed; 0.8.22 in-world and FPS validation pending",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.22-MC-Fabric-1.20.1.jar",
+          "sha256": "0c84f1dfcda13e9ebfd1d8b35324bb21c991e645f68a9999cbd551159ebc3200"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.22-MC-Fabric-1.20.1.jar",
+          "sha256": "a998b032d972c9f3d37ea2a35544d356be391d617b417a4545eeb24300c89351"
+        }
+      ]
+    },
+    "fabric-1192": {
+      "key": "fabric-1192",
+      "minecraft": "1.19.2",
+      "loader": "fabric",
+      "java": 17,
+      "mod": "0.8.23",
+      "addon": "0.8.23",
+      "dependencies": {
+        "platform": "0.19.5",
+        "iris": "LgOJIpIS",
+        "sodium": "rAfhHfow"
+      },
+      "status": "Iris namespace and menu fixes; automated checks passed; in-world validation pending",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.23-MC-Fabric-1.19.2.jar",
+          "sha256": "de267b263186fbb6349b9bbb5b005e0f3f27b10742400462944e86188ef9ca38"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.23-MC-Fabric-1.19.2.jar",
+          "sha256": "c507369976e5ea3d12f189e5e57ff10ec23105a5fd391a932b29bfdaf39cbf45"
+        }
+      ]
+    },
+    "forge-1192": {
+      "key": "forge-1192",
+      "minecraft": "1.19.2",
+      "loader": "forge",
+      "java": 17,
+      "mod": "0.8.22",
+      "addon": "0.8.22",
+      "dependencies": {
+        "platform": "1.19.2-43.5.0",
+        "iris": "",
+        "sodium": ""
+      },
+      "status": "Automated checks passed; 0.8.22 in-world and FPS validation pending",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.22-MC-Forge-1.19.2.jar",
+          "sha256": "b394aa9e5c0f834a7cd9ce1dc3bafa6da17397aa6605ef6e48be690ae6e53861"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.22-MC-Forge-1.19.2.jar",
+          "sha256": "3b6c41f093487f6454b36c686a2c3ef1c89848c9496a21a35a8289fd9f73f80c"
+        }
+      ]
+    },
+    "forge-1122": {
+      "key": "forge-1122",
+      "minecraft": "1.12.2",
+      "loader": "forge",
+      "java": 8,
+      "mod": "0.8.22",
+      "addon": "0.8.22",
+      "dependencies": {
+        "platform": "1.12.2-14.23.5.2859",
+        "iris": "",
+        "sodium": ""
+      },
+      "adapterFamily": "forge-java8",
+      "capabilities": [
+        "native-rendering",
+        "gpu-visual-presets",
+        "cpu-particle-controls",
+        "cpu-entity-distance",
+        "bilingual-interface",
+        "client-only-multiplayer"
+      ],
+      "unavailable": [
+        "spatial-upscaling",
+        "dynamic-resolution",
+        "DLSS",
+        "frame-generation"
+      ],
+      "status": "Automated checks passed; 0.8.22 in-world and FPS validation pending",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.22-MC-Forge-1.12.2.jar",
+          "sha256": "253d36854834920b50c07d4847eebfcafa28d0e963ee11fd5ffb3054cd01a1e2"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.22-MC-Forge-1.12.2.jar",
+          "sha256": "4754eac9784c3e61cb4cb1f17e2a49425da409c12c6a2d91f283a67cdd66ee28"
+        }
+      ]
+    },
+    "neoforge-1201": {
+      "key": "neoforge-1201",
+      "minecraft": "1.20.1",
+      "loader": "neoforge",
+      "java": 17,
+      "mod": "0.8.22",
+      "addon": "0.8.22",
+      "dependencies": {
+        "platform": "1.20.1-47.1.106",
+        "iris": "",
+        "sodium": ""
+      },
+      "adapterFamily": "legacy-neoforge",
+      "status": "Automated checks passed; 0.8.22 in-world and FPS validation pending",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.22-MC-NeoForge-1.20.1.jar",
+          "sha256": "cd19b6ac946c59adb10329283e433c20db605ed4703eab70f3cd888f34572dd3"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.22-MC-NeoForge-1.20.1.jar",
+          "sha256": "0e41f3eee4a37ecb6cafe77304922295c6520f03a26ee64c50ec0743867a1c92"
+        }
+      ]
+    }
+  }
+}

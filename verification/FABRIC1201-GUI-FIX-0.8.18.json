@@ -1,0 +1,59 @@
+{
+  "key": "fabric-1211",
+  "version": "0.8.18",
+  "productionChecks": {
+    "CheckProductionMixins": "PASS production mixin selectors/accessors/invocations: 31 checks",
+    "CheckVersionLinks": "PASS production Minecraft links: 625 references",
+    "CheckGuiInheritance": "PASS GUI inheritance: 2630 calls and 10 mixin superclasses"
+  },
+  "automatedTests": [
+    {
+      "suite": "nvvisionboost.NVVisionBoostGlAdapterTest",
+      "result": "PASS Minecraft tracked bindings after external OpenGL changes: 10 checks"
+    },
+    {
+      "suite": "nvvisionboost.NVVisionBoostLanguageTest",
+      "result": "PASS UI language: 389 checks"
+    },
+    {
+      "suite": "nvvisionboost.NVVisionBoostMenuLayoutTest",
+      "result": "PASS: 2172 verifica\ufffd\ufffdes de layout."
+    },
+    {
+      "suite": "nvvisionboost.NVVisionBoostOpenGLSmokeTest",
+      "result": "PASS GL: 102 verifica\ufffd\ufffdes com contexto real e janela invis\ufffdvel."
+    },
+    {
+      "suite": "nvvisionboost.NVVisionBoostOptionsPlacementTest",
+      "result": "PASS options placement: full vanilla grid, real column gap, stable placement, customized grid, occupied row and tiny screen"
+    },
+    {
+      "suite": "nvvisionboost.NVVisionBoostPixelAdapterTest",
+      "result": "Pixel adapter: 9 assertions passed"
+    },
+    {
+      "suite": "nvvisionboost.NVVisionBoostTargetLeaseTest",
+      "result": "PASS target identity and scaled depth/stencil: 70 checks"
+    },
+    {
+      "suite": "nvvisionboost.vulkanbridge.BridgeRegressionTest",
+      "result": "PASS BRIDGE: 25 checks."
+    },
+    {
+      "suite": "nvvisionboost.vulkanbridge.CpuConfigurationTest",
+      "result": "PASS CPU configuration: 14 checks"
+    },
+    {
+      "suite": "nvvisionboost.vulkanbridge.CpuOptionLeaseTest",
+      "result": "CPU option ownership: 18 checks passed"
+    },
+    {
+      "suite": "nvvisionboost.vulkanbridge.CpuPolicyTest",
+      "result": "PASS CPU policy: 24 checks"
+    }
+  ],
+  "independentOfficialMappingFixture": true,
+  "negativeRegression": "0.8.17 rejected: net/minecraft/class_429.aT_()V, matching user startup failure",
+  "inWorldValidation": false,
+  "fpsMeasurement": false
+}

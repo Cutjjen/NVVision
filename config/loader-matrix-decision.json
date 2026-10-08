@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-05",
+  "forge": "Keep the existing Forge 1.20.1 pair 0.8.15 unchanged. Modern Forge ports cancelled by the user; downloaded preparation files are not releases.",
+  "fabricAndNeoForgeRequestedMinecraft": [
+    "1.21.1",
+    "1.21.10",
+    "26.2"
+  ],
+  "pending": "Fabric 1.21.1 port remains to be implemented and validated; no artifact is claimed available.",
+  "existingReleasesPreserved": true
+}

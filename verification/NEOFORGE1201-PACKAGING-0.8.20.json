@@ -1,0 +1,12 @@
+{
+  "version": "0.8.20",
+  "target": "neoforge-1201",
+  "compilation": "Java 17: mod and addon passed",
+  "productionMixinChecks": 29,
+  "minecraftReferences": 706,
+  "archiveResources": "passed",
+  "regressions": "GL 10; framebuffer 66; real GL 108; layout 2172; language 389; bridge 25; CPU 24/18/14; options placement passed",
+  "inWorldValidation": false,
+  "cause": "Addon 0.8.17 manifest referenced nonexistent nvvisionbridge.mixins.json; confirmed in supplied stderr",
+  "fix": "Generate MixinConfigs only from packaged configurations; no dummy configuration or addon mixins added."
+}

@@ -1,0 +1,27 @@
+// ForgeGradle 3 runs with Java 8 in its own wrapper, isolated from the modern Gradle 9 build.
+def kind = project.name.endsWith('-addon') ? 'addon' : 'mod'
+if (rootProject.tasks.findByName('buildLegacy1122') == null) {
+    rootProject.tasks.register('buildLegacy1122', Exec) {
+        group = 'build'
+        description = 'Builds and reobfuscates the Java 8 Forge pair using the official legacy MDK toolchain.'
+        workingDir(rootProject.file('tools/forge1122'))
+        doFirst {
+            def configured = System.getenv('JAVA8_HOME')
+            def javaHome = configured ? new File(configured) : rootProject.javaToolchains.launcherFor {
+                languageVersion = JavaLanguageVersion.of(8)
+            }.get().metadata.installationPath.asFile
+            environment('JAVA_HOME', javaHome.absolutePath)
+            def windows = System.getProperty('os.name').toLowerCase().contains('windows')
+            commandLine(windows ? 'gradlew.bat' : './gradlew', '--no-daemon', 'build')
+        }
+    }
+}
+tasks.register('collectLegacyArtifact', Sync) {
+    dependsOn(rootProject.tasks.named('buildLegacy1122'))
+    from(rootProject.file("tools/forge1122/${kind}/build/libs")) {
+        include('*.jar'); exclude('*-sources.jar', '*-dev.jar')
+    }
+    into(layout.buildDirectory.dir('libs'))
+}
+tasks.named('assemble') { dependsOn('collectLegacyArtifact') }
+tasks.named('check') { dependsOn(rootProject.tasks.named('buildLegacy1122')) }

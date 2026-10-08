@@ -1,0 +1,12 @@
+.gradle/
+**/build/
+**/run/
+.idea/
+*.log
+local.properties
+
+.local/
+Modloaders/
+NVVision-Consolidadas/
+**/lib/modules
+

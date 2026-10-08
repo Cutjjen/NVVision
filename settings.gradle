@@ -1,0 +1,26 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven { url = 'https://maven.neoforged.net/releases' }
+        maven { url = 'https://maven.fabricmc.net/' }
+        maven { url = 'https://maven.minecraftforge.net/' }
+    }
+}
+plugins { id 'org.gradle.toolchains.foojay-resolver-convention' version '1.0.0' }
+rootProject.name = 'NVVision'
+include('policy-tests')
+project(':policy-tests').projectDir = file('verification/policy-tests')
+include('cpu-controller-tests')
+project(':cpu-controller-tests').projectDir = file('verification/cpu-controller-tests')
+def versions = new groovy.json.JsonSlurper().parse(file('config/versions.json'))
+def loader = providers.gradleProperty('loader').getOrElse('neoforge').toLowerCase()
+def minecraft = providers.gradleProperty('minecraft').orNull
+def selected = versions.findAll { (loader == 'all' || it.loader == loader) && (!minecraft || it.minecraft == minecraft) }
+if (selected.empty) throw new GradleException("No registered target for loader=${loader}, minecraft=${minecraft}")
+selected.each { target ->
+    ['mod', 'addon'].each { kind ->
+        def name = "${target.key}-${kind}"
+        include(name)
+        project(":${name}").projectDir = file("targets/${name}")
+    }
+}

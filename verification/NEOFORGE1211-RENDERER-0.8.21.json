@@ -1,0 +1,13 @@
+{
+  "version": "0.8.21",
+  "target": "neoforge-1211",
+  "compilation": "Java 21: mod and addon passed",
+  "productionMixinChecks": 23,
+  "minecraftReferences": 679,
+  "adapterCases": 5,
+  "gradleContracts": "13 targets / 1621 source bindings",
+  "regressions": "pixel 9, tracked GL 10, target lease 70, real GL 102, layout 2172, language 389, options placement, bridge 25, CPU 24/18/14 passed",
+  "inWorldValidation": false,
+  "fpsMeasured": false,
+  "scope": "Renderer identity/dependency adapter; private renderer APIs are not invoked. No universal version compatibility claim. Iris/Sodium compatibility remains upstream responsibility."
+}

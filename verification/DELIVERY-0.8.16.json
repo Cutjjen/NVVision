@@ -1,0 +1,171 @@
+{
+  "version": "0.8.16",
+  "pairedTargets": 13,
+  "artifacts": 26,
+  "files": [
+    {
+      "key": "fabric-1192",
+      "component": "mod",
+      "file": "Modloaders\\Fabric\\1.19.2\\NVVision-0.8.16-Addon-0.8.16\\NVVisionBoost-0.8.16-MC-Fabric-1.19.2.jar",
+      "sha256": "7032e69214ce129e7d766d9f9553b70c419abf1d5c73e809cc1cbb0a6650e1e9"
+    },
+    {
+      "key": "fabric-1192",
+      "component": "addon",
+      "file": "Modloaders\\Fabric\\1.19.2\\NVVision-0.8.16-Addon-0.8.16\\NVVisionAddon-0.8.16-MC-Fabric-1.19.2.jar",
+      "sha256": "69bf9a1c5c39ed82485d375afae87b151ea519690be54d2b4abc69b7f5725e9c"
+    },
+    {
+      "key": "fabric-1201",
+      "component": "mod",
+      "file": "Modloaders\\Fabric\\1.20.1\\NVVision-0.8.16-Addon-0.8.16\\NVVisionBoost-0.8.16-MC-Fabric-1.20.1.jar",
+      "sha256": "147a30e419f610c25a7d9d172c034b0d6ab9b506b5643ca00883020a9fe8d33b"
+    },
+    {
+      "key": "fabric-1201",
+      "component": "addon",
+      "file": "Modloaders\\Fabric\\1.20.1\\NVVision-0.8.16-Addon-0.8.16\\NVVisionAddon-0.8.16-MC-Fabric-1.20.1.jar",
+      "sha256": "f9c1047423d303fb197db73b6af5bdb28f313533bb518dacaad34257ac35533f"
+    },
+    {
+      "key": "fabric-1211",
+      "component": "mod",
+      "file": "Modloaders\\Fabric\\1.21.1\\NVVision-0.8.16-Addon-0.8.16\\NVVisionBoost-0.8.16-MC-Fabric-1.21.1.jar",
+      "sha256": "96f399aa2d7e497f68ffd4757f9c258dfc116e0fffcd659062c613c65ff9ad72"
+    },
+    {
+      "key": "fabric-1211",
+      "component": "addon",
+      "file": "Modloaders\\Fabric\\1.21.1\\NVVision-0.8.16-Addon-0.8.16\\NVVisionAddon-0.8.16-MC-Fabric-1.21.1.jar",
+      "sha256": "aaa711e2d55d75641d23b0e3127696f956892a0736da37bbf5234a3d8ce74a15"
+    },
+    {
+      "key": "fabric-12110",
+      "component": "mod",
+      "file": "Modloaders\\Fabric\\1.21.10\\NVVision-0.8.16-Addon-0.8.16\\NVVisionBoost-0.8.16-MC-Fabric-1.21.10.jar",
+      "sha256": "f6ad91237af26c08b86df87d141e1121b4fb53a3827dc1037e53d9d084925707"
+    },
+    {
+      "key": "fabric-12110",
+      "component": "addon",
+      "file": "Modloaders\\Fabric\\1.21.10\\NVVision-0.8.16-Addon-0.8.16\\NVVisionAddon-0.8.16-MC-Fabric-1.21.10.jar",
+      "sha256": "b6afcc7457f95726bef1ab00dbc21ee4d2c486df52b2d546c3e048abcc5791a6"
+    },
+    {
+      "key": "fabric-262",
+      "component": "mod",
+      "file": "Modloaders\\Fabric\\26.2\\NVVision-0.8.16-Addon-0.8.16\\NVVisionBoost-0.8.16-MC-Fabric-26.2.jar",
+      "sha256": "86fc6ad6079a915c4dd3348a01403b50985fd7a9f265ce825622a7ab353ab9a7"
+    },
+    {
+      "key": "fabric-262",
+      "component": "addon",
+      "file": "Modloaders\\Fabric\\26.2\\NVVision-0.8.16-Addon-0.8.16\\NVVisionAddon-0.8.16-MC-Fabric-26.2.jar",
+      "sha256": "c6a767ac8d9d065d6f4eada91a705a9845ce63885f68d94eba24c631ca8ae83d"
+    },
+    {
+      "key": "forge-1122",
+      "component": "mod",
+      "file": "Modloaders\\Forge\\1.12.2\\NVVision-0.8.16-Addon-0.8.16\\NVVisionBoost-0.8.16-MC-Forge-1.12.2.jar",
+      "sha256": "50edd69c504986b2b05909cd4a341d8789367e6a62d7cf64d2eee8603a07c509"
+    },
+    {
+      "key": "forge-1122",
+      "component": "addon",
+      "file": "Modloaders\\Forge\\1.12.2\\NVVision-0.8.16-Addon-0.8.16\\NVVisionAddon-0.8.16-MC-Forge-1.12.2.jar",
+      "sha256": "4fe80267a32d7e350486c4d9202d325bdb19a2dd5b9d8d3f8efe976a81527ac9"
+    },
+    {
+      "key": "forge-1192",
+      "component": "mod",
+      "file": "Modloaders\\Forge\\1.19.2\\NVVision-0.8.16-Addon-0.8.16\\NVVisionBoost-0.8.16-MC-Forge-1.19.2.jar",
+      "sha256": "62398600a79277b4b0dbd88948e1d00c2e93aadd9d952c17376f143aab432a91"
+    },
+    {
+      "key": "forge-1192",
+      "component": "addon",
+      "file": "Modloaders\\Forge\\1.19.2\\NVVision-0.8.16-Addon-0.8.16\\NVVisionAddon-0.8.16-MC-Forge-1.19.2.jar",
+      "sha256": "8cf1f29ea8061b5b8666f34975c04c1b090e44ede2e2383d63a00cd14cb8f746"
+    },
+    {
+      "key": "forge-1201",
+      "component": "mod",
+      "file": "Modloaders\\Forge\\1.20.1\\NVVision-0.8.16-Addon-0.8.16\\NVVisionBoost-0.8.16-MC-Forge-1.20.1.jar",
+      "sha256": "62210f91b0205fea243cf745f1e3a068157363dda4b4220613705c513768d221"
+    },
+    {
+      "key": "forge-1201",
+      "component": "addon",
+      "file": "Modloaders\\Forge\\1.20.1\\NVVision-0.8.16-Addon-0.8.16\\NVVisionAddon-0.8.16-MC-Forge-1.20.1.jar",
+      "sha256": "066189a07caa691ca74219fae1c10e0adabc6ccc3adaf11f13c046b0ce5ca8c5"
+    },
+    {
+      "key": "neoforge-1201",
+      "component": "mod",
+      "file": "Modloaders\\NeoForge\\1.20.1\\NVVision-0.8.16-Addon-0.8.16\\NVVisionBoost-0.8.16-MC-NeoForge-1.20.1.jar",
+      "sha256": "2fbf82ab695cfb039fb7b3da19462c1f65655e9356f52ecdf48c8db90ea9c9b0"
+    },
+    {
+      "key": "neoforge-1201",
+      "component": "addon",
+      "file": "Modloaders\\NeoForge\\1.20.1\\NVVision-0.8.16-Addon-0.8.16\\NVVisionAddon-0.8.16-MC-NeoForge-1.20.1.jar",
+      "sha256": "7163d130325e7961b9f1fee6f3f13a9fc82fcfc2e71e15446f7a15e3d1933717"
+    },
+    {
+      "key": "neoforge-1211",
+      "component": "mod",
+      "file": "Modloaders\\NeoForge\\1.21.1\\NVVision-0.8.16-Addon-0.8.16\\NVVisionBoost-0.8.16-MC-NeoForge-1.21.1.jar",
+      "sha256": "8684684887d76ca2aa3d49bb11810ddb99de6dfee8153dee8a77fc6886d1a9a2"
+    },
+    {
+      "key": "neoforge-1211",
+      "component": "addon",
+      "file": "Modloaders\\NeoForge\\1.21.1\\NVVision-0.8.16-Addon-0.8.16\\NVVisionAddon-0.8.16-MC-NeoForge-1.21.1.jar",
+      "sha256": "d5cc3dcfd1baf654bd9e90524ee005bb5e8374db011659751f3f8aa93d1d376a"
+    },
+    {
+      "key": "neoforge-12110",
+      "component": "mod",
+      "file": "Modloaders\\NeoForge\\1.21.10\\NVVision-0.8.16-Addon-0.8.16\\NVVisionBoost-0.8.16-MC-NeoForge-1.21.10.jar",
+      "sha256": "2ddeabe9c30cab0169961873ca82c8c64cd31f39db757d365fc9fd9c0afd1c6d"
+    },
+    {
+      "key": "neoforge-12110",
+      "component": "addon",
+      "file": "Modloaders\\NeoForge\\1.21.10\\NVVision-0.8.16-Addon-0.8.16\\NVVisionAddon-0.8.16-MC-NeoForge-1.21.10.jar",
+      "sha256": "e247806ebf269a22647731adb64a5ad2f5a8f6830d18c82a5b5bfc98a6385ed4"
+    },
+    {
+      "key": "neoforge-2612",
+      "component": "mod",
+      "file": "Modloaders\\NeoForge\\26.1.2\\NVVision-0.8.16-Addon-0.8.16\\NVVisionBoost-0.8.16-MC-NeoForge-26.1.2.jar",
+      "sha256": "3f4a0d70493531cc12c0eef9d416094c798ce923fb24c298479a079621360433"
+    },
+    {
+      "key": "neoforge-2612",
+      "component": "addon",
+      "file": "Modloaders\\NeoForge\\26.1.2\\NVVision-0.8.16-Addon-0.8.16\\NVVisionAddon-0.8.16-MC-NeoForge-26.1.2.jar",
+      "sha256": "9060fd999bad9a2d5a703ce86d3632a1ff915e2ed43e7a5e1e9dea4b889d7a9b"
+    },
+    {
+      "key": "neoforge-262",
+      "component": "mod",
+      "file": "Modloaders\\NeoForge\\26.2\\NVVision-0.8.16-Addon-0.8.16\\NVVisionBoost-0.8.16-MC-NeoForge-26.2.jar",
+      "sha256": "ea074299d9402ec8efd75e19de21bb0de1392fe34bc9b2985b7cc575a838c1fa"
+    },
+    {
+      "key": "neoforge-262",
+      "component": "addon",
+      "file": "Modloaders\\NeoForge\\26.2\\NVVision-0.8.16-Addon-0.8.16\\NVVisionAddon-0.8.16-MC-NeoForge-26.2.jar",
+      "sha256": "6e3f0d62b5d692a1c9aaefb6c87f5aee3baca93b95a717a44961fc893c07f699"
+    }
+  ],
+  "sourceBindings": 1618,
+  "indexedFunctions": 3274,
+  "registeredJavaFiles": 359,
+  "gradleSourceAndAdapterChecks": "PASS; checkSources, checkRendererAdapters, generateFunctionIndex, generateSourceMap",
+  "fullGradlePlatformBuild": "Not completed in this environment: Fabric Loom client-jar setup encounters the recorded cache/ZipFS limitation. Delivered archives use the validated compile/remap workflow.",
+  "inWorldValidation": false,
+  "fpsMeasured": false,
+  "previousReleasesPreserved": true
+}

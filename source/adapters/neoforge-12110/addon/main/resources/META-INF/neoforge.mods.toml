@@ -1,0 +1,29 @@
+license="All Rights Reserved"
+[[mods]]
+authors="Cutjjen"
+modId="nvvisionvulkanbridge"
+version="0.8.28"
+displayName="NVVision Addon NeoForge"
+# Category: optimization
+description='''Companion client-side optimization addon by Cutjjen: CPU presets and individual native-particle and visual entity-distance controls. Other players do not need this addon installed.'''
+[[mixins]]
+config="nvvisionbridge.mixins.json"
+[[dependencies.nvvisionvulkanbridge]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.10]"
+ordering="NONE"
+side="CLIENT"
+[[dependencies.nvvisionvulkanbridge]]
+modId="neoforge"
+type="required"
+versionRange="[21.10.64,)"
+ordering="NONE"
+side="CLIENT"
+[[dependencies.nvvisionvulkanbridge]]
+modId="nvvisionboost"
+type="required"
+versionRange="[0.8.4-neoforge.1,0.9)"
+ordering="AFTER"
+side="CLIENT"
+

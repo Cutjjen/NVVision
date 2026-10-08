@@ -1,0 +1,50 @@
+{
+  "release": {
+    "key": "forge-1201",
+    "minecraft": "1.20.1",
+    "loader": "forge",
+    "java": 17,
+    "mod": "0.8.25",
+    "addon": "0.8.25",
+    "author": "Cutjjen",
+    "channel": "opt-in CPU test",
+    "artifacts": [
+      {
+        "component": "mod",
+        "file": "NVVisionBoost-0.8.25-MC-Forge-1.20.1.jar",
+        "sha256": "f68d82eb187c48e638a3101618745370e1a29ef86a60bc829b91762c0eef60c9"
+      },
+      {
+        "component": "addon",
+        "file": "NVVisionAddon-0.8.25-MC-Forge-1.20.1.jar",
+        "sha256": "6611884c1437b8f710dced6e8d230769d20604e26e34f12e5e9490f56289c360"
+      }
+    ],
+    "inWorldValidation": false,
+    "fpsMeasured": false,
+    "stableReleaseUnchanged": "0.8.22",
+    "automatedChecksPassed": true,
+    "newControlsDefault": "off"
+  },
+  "validation": {
+    "javaCompilation": true,
+    "cpuConfigurationChecks": 20,
+    "cpuPolicyChecks": 24,
+    "cpuOwnershipChecks": 18,
+    "realOpenGLChecks": 108,
+    "layoutChecks": 2172,
+    "languageChecks": 389,
+    "productionMinecraftReferences": 753,
+    "newBudgetRegressionPassed": true,
+    "clientOnlyMetadata": true,
+    "packagedMixinResources": true,
+    "inWorldValidation": false,
+    "fpsMeasured": false,
+    "fullPlatformGradleAssemble": false,
+    "namedMixinChecks": 31,
+    "simulationOwnershipWiringRegression": true,
+    "simulationLeaseRegressionChecks": 18
+  },
+  "stagingBatch": "C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\.local\\alignment-builds\\246fd09d455546a9ae1b0f2713b4b973",
+  "fix": "Main simulation writes and both snapshot restoration paths yield to the optional addon local budget. Ownership changes invalidate the option signature. Simulation-only edits no longer request a graphics reset."
+}

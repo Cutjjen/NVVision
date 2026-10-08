@@ -1,0 +1,181 @@
+plugins { id 'base'; id 'java-base' }
+group = 'dev.cutjjen.nvvision'
+repositories { mavenCentral() }
+configurations { javaFormatter }
+dependencies { javaFormatter 'com.google.googlejavaformat:google-java-format:1.37.0:all-deps' }
+def registeredSources = { new groovy.json.JsonSlurper().parse(file('config/sources.json')) }
+['formatCheck', 'format'].each { taskName ->
+    tasks.register(taskName, JavaExec) {
+        group = taskName == 'formatCheck' ? 'verification' : 'formatting'
+        description = taskName == 'formatCheck' ? 'Checks formatting of registered Java sources.' : 'Formats registered Java sources and refreshes their checksums.'
+        classpath = configurations.javaFormatter
+        mainClass = 'com.google.googlejavaformat.java.Main'
+        // JavaExec uses a classpath launch, so reproduce the formatter's official Add-Exports manifest.
+        jvmArgs = ['api', 'code', 'file', 'parser', 'tree', 'util'].collect { "--add-exports=jdk.compiler/com.sun.tools.javac.${it}=ALL-UNNAMED" }
+        javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(25) }
+        doFirst {
+            def argumentsFile = layout.buildDirectory.file("formatting/${taskName}.args").get().asFile
+            argumentsFile.parentFile.mkdirs()
+            def options = taskName == 'formatCheck' ? ['--dry-run', '--set-exit-if-changed'] : ['--replace']
+            def paths = registeredSources().collect { it.source }.unique().findAll { it.endsWith('.java') }.collect { file("source/${it}").absolutePath.replace('\\', '/') }
+            argumentsFile.text = (options + paths).join('\n') + '\n'
+            args = ["@${argumentsFile.absolutePath}"]
+        }
+        if (taskName == 'format') doLast {
+            def entries = registeredSources()
+            entries.each { it.baselineSha256 = java.security.MessageDigest.getInstance('SHA-256').digest(file("source/${it.source}").bytes).encodeHex().toString() }
+            file('config/sources.json').text = groovy.json.JsonOutput.prettyPrint(groovy.json.JsonOutput.toJson(entries)) + '\n'
+        }
+    }
+}
+tasks.register('generateFunctionIndex', JavaExec) {
+    group = 'documentation'
+    mainClass = file('tools/FunctionIndex.java').absolutePath
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(25) }
+    doFirst {
+        def list = layout.buildDirectory.file('documentation/registered-java.txt').get().asFile
+        list.parentFile.mkdirs()
+        list.text = registeredSources().collect { it.source }.unique().findAll { it.endsWith('.java') }.sort().join('\n') + '\n'
+        args = [file('source').absolutePath, file('docs/FUNCOES.md').absolutePath, list.absolutePath]
+    }
+}
+tasks.register('checkSources') {
+    group = 'verification'
+    description = 'Checks that every registered source exists and matches its recorded SHA-256.'
+    doLast {
+        def entries = new groovy.json.JsonSlurper().parse(file('config/sources.json'))
+        entries.each { entry ->
+            def source = file("source/${entry.source}")
+            if (!source.isFile()) throw new GradleException("Missing source: ${entry.source}")
+            def hash = java.security.MessageDigest.getInstance('SHA-256').digest(source.bytes).encodeHex().toString()
+            if (hash != entry.baselineSha256) throw new GradleException("Source checksum changed: ${entry.source}; update the registry after reviewing the edit.")
+        }
+        logger.lifecycle("Verified ${entries.size()} source bindings.")
+    }
+}
+
+tasks.register('generateSourceMap') {
+    group = 'documentation'
+    description = 'Documents every registered implementation, regression test and resource with its target bindings.'
+    doLast {
+        def lines = ['# Registered source map', '',
+            'Generated from config/sources.json. Entries identify component, build role, source location and target bindings. See ARCHITECTURE.md for responsibilities and FUNCOES.md for Java methods. This inventory does not infer execution reachability.', '']
+        registeredSources().groupBy { it.source }.sort().each { source, entries ->
+            def entry = entries.first()
+            def role = entry.path.startsWith('test/') ? 'regression test' :
+                (entry.path.endsWith('.java') ? 'Java implementation' : 'runtime resource / loader metadata')
+            def targets = entries.collect { it.target }.unique().sort().join(', ')
+            lines << "- `${entry.kind}` / ${role}: [${source}](../source/${source}) — ${targets}."
+        }
+        file('docs/SOURCE-MAP.md').setText(lines.join('\n') + '\n', 'UTF-8')
+    }
+}
+tasks.named('check') { dependsOn('checkSources'); dependsOn(subprojects.collect { "${it.path}:check" }) }
+tasks.named('assemble') { dependsOn(subprojects.collect { "${it.path}:assemble" }) }
+tasks.register('stageRelease') {
+    group = 'distribution'
+    description = 'Stages mod and addon together in a numbered Modloaders release directory.'
+    dependsOn('assemble')
+    mustRunAfter('check')
+    doLast {
+        def versions = new groovy.json.JsonSlurper().parse(file('config/versions.json'))
+        versions.findAll { findProject(":${it.key}-mod") != null }.each { target ->
+            def loader = [forge: 'Forge', fabric: 'Fabric', neoforge: 'NeoForge'][target.loader]
+            def destination = file("Modloaders/${loader}/${target.minecraft}/NVVision-${target.mod}-Addon-${target.addon}")
+            def artifacts = ['mod', 'addon'].collect { kind ->
+                def directory = project(":${target.key}-${kind}").layout.buildDirectory.dir('libs').get().asFile
+                def candidates = directory.listFiles()?.findAll { it.name.endsWith('.jar') && !it.name.endsWith('-sources.jar') && !it.name.endsWith('-dev.jar') && !it.name.endsWith('-javadoc.jar') }
+                if (candidates?.size() != 1) throw new GradleException("Expected exactly one distributable ${kind} artifact for ${target.key}; never stage development artifacts.")
+                candidates.first()
+            }
+            if (destination.exists()) {
+                artifacts.each { artifact ->
+                    def existing = new File(destination, artifact.name)
+                    if (!existing.isFile() || !java.util.Arrays.equals(existing.bytes, artifact.bytes))
+                        throw new GradleException("Release already exists: ${destination.name}; increment mod AND addon versions in config/versions.json.")
+                }
+            } else {
+                def historical = destination.parentFile.listFiles()?.findAll { it.isDirectory() } ?: []
+                historical.each { directory ->
+                    def metadata = new File(directory, 'VERSAO.json')
+                    if (metadata.isFile()) {
+                        def previous = new groovy.json.JsonSlurper().parse(metadata)
+                        if (previous.mod == target.mod || previous.addon == target.addon)
+                            throw new GradleException("Increment both component versions before a new paired release: ${target.key}")
+                    }
+                }
+                copy { from(artifacts); into(destination) }
+                new File(destination, 'VERSAO.json').text = groovy.json.JsonOutput.prettyPrint(groovy.json.JsonOutput.toJson(target)) + '\n'
+                new File(destination, 'SHA256.txt').text = artifacts.collect { java.security.MessageDigest.getInstance('SHA-256').digest(it.bytes).encodeHex().toString() + '  ' + it.name }.join('\n') + '\n'
+            }
+        }
+    }
+}
+tasks.named('build') { dependsOn('stageRelease') }
+tasks.register('checkRendererAdapters') {
+    group = 'verification'
+    description = 'Prevents regressions in target identity, tracked bindings and paired release versions.'
+    doLast {
+        def targets = new groovy.json.JsonSlurper().parse(file('config/versions.json'))
+        def releasePolicy = new groovy.json.JsonSlurper().parse(file('config/release-policy.json'))
+        def entries = registeredSources()
+        targets.each { target ->
+            def expectedVersion = releasePolicy.targetVersions?.get(target.key) ?: releasePolicy.currentVersion
+            if (releasePolicy.unifiedAcrossRegisteredTargets &&
+                (target.mod != expectedVersion || target.addon != expectedVersion))
+                throw new GradleException('Target must use paired release ' + expectedVersion + ': ' + target.key)
+            if (target.mod != target.addon || !(target.mod ==~ /\d+\.\d+\.\d+/))
+                throw new GradleException('Use the same major.minor.patch version for mod and addon: ' + target.key)
+            def sources = entries.findAll { it.target == target.key && it.kind == 'mod' && it.path.startsWith('main/java/') }
+            sources.findAll { it.path.endsWith('/NVVisionBoostOptionsScreenMixin.java') }.each { entry ->
+                if (file('source/' + entry.source).text.contains('extends nvvisionboost.legacy.LegacyScreen'))
+                    throw new GradleException('Options mixin must extend a real Minecraft ancestor, not the local screen adapter: ' + target.key)
+            }
+            sources.findAll { it.path.endsWith('/NVVisionBoostRenderTargetAccessor.java') }.each { entry ->
+                def accessor = file('source/' + entry.source).text
+                if (accessor.contains('interface NVVisionBoostRenderTargetAccessor') &&
+                    accessor =~ /\bdefault\s+/)
+                    throw new GradleException('Class-target accessor mixins must not contain default methods; use the framebuffer adapter: ' + target.key)
+            }
+            if (target.adapterFamily == 'forge-java8') {
+                ['LegacyMinecraftAdapter.java', 'LegacyClient.java', 'LegacyConfig.java'].each { name ->
+                    if (!sources.any { it.path.endsWith('/' + name) })
+                        throw new GradleException('Missing Java 8 Minecraft adapter ' + name)
+                }
+                def boundary = sources.find { it.path.endsWith('/LegacyMinecraftAdapter.java') }
+                if (!(file('source/' + boundary.source).text =~ /supportsSpatialUpscaling\(\)\s*\{\s*return false;\s*\}/))
+                    throw new GradleException('Do not advertise unverified legacy upscaling.')
+                def addon = entries.findAll { it.target == target.key && it.kind == 'addon' }
+                if (!addon.any { it.path.endsWith('/LegacyIntegerLease.java') })
+                    throw new GradleException('Missing reversible Java 8 CPU option adapter.')
+                return
+            }
+            def renderer = sources.find { it.path.endsWith('/NVVisionBoostNativeRenderer.java') }
+            def code = file('source/' + renderer.source).text
+            if (code.contains('setMainRenderTarget(low)') || code.contains('setMainRenderTarget(lowTarget)'))
+                throw new GradleException('Do not replace the main target identity: ' + target.key)
+            ['NVVisionBoostTargetLease.java', 'rendering/RenderTargetAdapter.java',
+             'NVVisionBoostOptionsScreenAdapter.java', 'NVVisionBoostOptionsPlacement.java',
+             'rendering/WorldTargetLease.java', 'rendering/MinecraftGlStateAdapter.java',
+             'NVVisionBoostDepthTransfer.java'].each { name ->
+                if (!sources.any { it.path.endsWith('/' + name) })
+                    throw new GradleException('Missing renderer adapter ' + name + ': ' + target.key)
+            }
+            if (!code.contains('TARGET_LEASE') ||
+                !(code.contains('NVVisionBoostDepthTransfer.copy') || code.contains('transferWorldDepth')))
+                throw new GradleException('Missing attachment lease/depth reconstruction: ' + target.key)
+            sources.findAll { it.path.endsWith('/NVVisionBoostNativeRenderer.java') ||
+                              it.path.endsWith('/NVVisionBoostDepthTransfer.java') ||
+                              it.path.endsWith('/NVVisionBoostSpatialUpscaler.java') ||
+                              it.path.endsWith('/NVVisionBoostFsr1Upscaler.java') }.each { entry ->
+                def text = file('source/' + entry.source).text
+                if (text =~ /(GL30\.glBindFramebuffer|GL20\.glUseProgram|GL13\.glActiveTexture|GL11\.glBindTexture)\(/)
+                    throw new GradleException('Use MinecraftGlStateAdapter for tracked bindings: ' + entry.source)
+            }
+        }
+        logger.lifecycle('Verified renderer adapter contracts and paired versions for ' + targets.size() + ' targets.')
+    }
+}
+tasks.named('check') { dependsOn('checkRendererAdapters') }
+tasks.named('stageRelease') { dependsOn('checkRendererAdapters') }
+

@@ -1,0 +1,50 @@
+{
+  "target": "fabric-1192",
+  "version": "0.8.23",
+  "reviewType": "Source callback review and automated contracts; not in-world click simulation",
+  "booleanToggleFields": [
+    "animationOptimization",
+    "autoOptimize",
+    "disableClouds",
+    "disableEntityShadows",
+    "dynamicResolution",
+    "enabled",
+    "entityOptimization",
+    "memoryGuard",
+    "reduceParticles",
+    "reduceShaderEffects",
+    "reduceViewBob",
+    "resourceOptimization",
+    "shaderAutoProfile",
+    "shaderCache",
+    "shaderMultiPass",
+    "shaderWarmup",
+    "transparencyOptimization"
+  ],
+  "screensReviewed": [
+    "ConfigScreen: all six tabs",
+    "PerformanceScreen",
+    "VulkanBridgeScreen",
+    "TextureScreen",
+    "FerriteScreen",
+    "Ui language controls",
+    "OptionButton and legacy Button/Screen dispatch"
+  ],
+  "corrected": [
+    "Iris API and engine namespace discovery",
+    "Direct/Optional pipeline return contracts",
+    "GPU preset and restore defaults preserve Iris integration",
+    "Renderer/backend labels reflect Fabric environment",
+    "Empty renderer information callbacks now show diagnostics"
+  ],
+  "verified": [
+    "Cycles saveConfig and applyNow",
+    "Scale/upscaling use lifecycle setters",
+    "CPU controls route to BridgeApi and client-thread application",
+    "Performance controls save/apply/tick",
+    "Mipmaps require explicit Apply",
+    "FerriteCore requires restart by design",
+    "Left/right click callbacks retained"
+  ],
+  "inWorldValidation": false
+}

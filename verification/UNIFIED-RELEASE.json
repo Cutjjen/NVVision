@@ -1,0 +1,467 @@
+[
+  {
+    "key": "forge-1201",
+    "loader": "forge",
+    "minecraft": "1.20.1",
+    "java": 17,
+    "mod": "0.8.15",
+    "addon": "0.8.15",
+    "automatedTests": [
+      {
+        "suite": "nvvisionboost.NVVisionBoostGlAdapterTest",
+        "result": "PASS Minecraft tracked bindings after external OpenGL changes: 10 checks"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostLanguageTest",
+        "result": "PASS UI language: 389 checks"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostMenuLayoutTest",
+        "result": "PASS: 2172 verifica��es de layout."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostOpenGLSmokeTest",
+        "result": "PASS GL: 108 verifica��es com contexto real e janela invis�vel."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostOptionsPlacementTest",
+        "result": "PASS options placement: full vanilla grid, real column gap, stable placement, customized grid, occupied row and tiny screen"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostPipelineGateTest",
+        "result": "PASS shader pipeline lifecycle: 13 checks"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostTargetLeaseTest",
+        "result": "PASS target identity and scaled depth/stencil: 66 checks"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.BridgeRegressionTest",
+        "result": "PASS BRIDGE: 25 checks."
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuConfigurationTest",
+        "result": "PASS CPU configuration: 14 checks"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuOptionLeaseTest",
+        "result": "CPU option ownership: 18 checks passed"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuPolicyTest",
+        "result": "PASS CPU policy: 24 checks"
+      }
+    ],
+    "productionMixins": "PASS production mixin selectors/accessors/invocations: 31 checks",
+    "inGameVisualValidation": "Pending visual retest; compilation and automated regressions passed.",
+    "fpsMeasured": false,
+    "productionLinks": "PASS production Minecraft links: 716 references",
+    "changedBytecodeClasses": [
+      "nvvisionboost/NVVisionBoostForge$MachineProfile.class",
+      "nvvisionboost/NVVisionBoostForge.class",
+      "nvvisionboost/NVVisionBoostOptionsPlacement$Rect.class",
+      "nvvisionboost/NVVisionBoostOptionsPlacement.class",
+      "nvvisionboost/NVVisionBoostOptionsScreenAdapter.class",
+      "nvvisionboost/NVVisionBoostScreenEvents.class"
+    ],
+    "rendererAndAddonBytecodeUnchanged": true
+  },
+  {
+    "key": "fabric-262",
+    "loader": "fabric",
+    "minecraft": "26.2",
+    "java": 25,
+    "mod": "0.8.15",
+    "addon": "0.8.15",
+    "automatedTests": [
+      {
+        "suite": "nvvisionboost.NVVisionBoostGlAdapterTest",
+        "result": "PASS Minecraft tracked bindings after external OpenGL changes: 10 checks"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostIrisBridgeTest",
+        "result": "Passed 19 Iris depth and quality preset checks."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostLanguageTest",
+        "result": "PASS UI language: 389 checks"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostMenuLayoutTest",
+        "result": "PASS: 2172 verifica��es de layout."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostOpenGLSmokeTest",
+        "result": "PASS GL: 51 verifica��es com contexto real e janela invis�vel."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostOptionsPlacementTest",
+        "result": "PASS options placement: full vanilla grid, real column gap, stable placement, customized grid, occupied row and tiny screen"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostTargetLeaseTest",
+        "result": "PASS target adapter identity, views and scaled depth/stencil: 68 checks"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.BridgeRegressionTest",
+        "result": "PASS BRIDGE: 21 checks."
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuConfigurationTest",
+        "result": "PASS CPU configuration: 14 checks"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuOptionLeaseTest",
+        "result": "CPU option ownership: 18 checks passed"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuPolicyTest",
+        "result": "PASS CPU policy: 24 checks"
+      }
+    ],
+    "productionMixins": "PASS production mixin selectors/accessors/invocations: 36 checks",
+    "inGameVisualValidation": "Pending visual retest; compilation and automated regressions passed.",
+    "fpsMeasured": false,
+    "productionLinks": "PASS production Minecraft links: 497 references",
+    "changedBytecodeClasses": [
+      "nvvisionboost/NVVisionBoostCore$MachineProfile.class",
+      "nvvisionboost/NVVisionBoostCore.class",
+      "nvvisionboost/NVVisionBoostOptionsPlacement$Rect.class",
+      "nvvisionboost/NVVisionBoostOptionsPlacement.class",
+      "nvvisionboost/NVVisionBoostOptionsScreenAdapter.class",
+      "nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.class"
+    ],
+    "rendererAndAddonBytecodeUnchanged": true
+  },
+  {
+    "key": "neoforge-2612",
+    "loader": "neoforge",
+    "minecraft": "26.1.2",
+    "java": 25,
+    "mod": "0.8.15",
+    "addon": "0.8.15",
+    "automatedTests": [
+      {
+        "suite": "nvvisionboost.NVVisionBoostGlAdapterTest",
+        "result": "PASS Minecraft tracked bindings after external OpenGL changes: 10 checks"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostIrisBridgeTest",
+        "result": "Passed 19 Iris depth and quality preset checks."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostLanguageTest",
+        "result": "PASS UI language: 389 checks"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostMenuLayoutTest",
+        "result": "PASS: 2172 verifica��es de layout."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostOpenGLSmokeTest",
+        "result": "PASS GL: 51 verifica��es com contexto real e janela invis�vel."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostOptionsPlacementTest",
+        "result": "PASS options placement: full vanilla grid, real column gap, stable placement, customized grid, occupied row and tiny screen"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostTargetLeaseTest",
+        "result": "PASS target adapter identity, views and scaled depth/stencil: 68 checks"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.BridgeRegressionTest",
+        "result": "PASS BRIDGE: 21 checks."
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuConfigurationTest",
+        "result": "PASS CPU configuration: 14 checks"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuOptionLeaseTest",
+        "result": "CPU option ownership: 18 checks passed"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuPolicyTest",
+        "result": "PASS CPU policy: 24 checks"
+      }
+    ],
+    "productionMixins": "PASS production mixin selectors/accessors/invocations: 29 checks",
+    "inGameVisualValidation": "Pending visual retest; compilation and automated regressions passed.",
+    "fpsMeasured": false,
+    "productionLinks": "PASS production Minecraft links: 539 references",
+    "changedBytecodeClasses": [
+      "nvvisionboost/NVVisionBoostCore$MachineProfile.class",
+      "nvvisionboost/NVVisionBoostCore.class",
+      "nvvisionboost/NVVisionBoostOptionsPlacement$Rect.class",
+      "nvvisionboost/NVVisionBoostOptionsPlacement.class",
+      "nvvisionboost/NVVisionBoostOptionsScreenAdapter.class",
+      "nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.class"
+    ],
+    "rendererAndAddonBytecodeUnchanged": true
+  },
+  {
+    "key": "neoforge-262",
+    "loader": "neoforge",
+    "minecraft": "26.2",
+    "java": 25,
+    "mod": "0.8.15",
+    "addon": "0.8.15",
+    "automatedTests": [
+      {
+        "suite": "nvvisionboost.NVVisionBoostGlAdapterTest",
+        "result": "PASS Minecraft tracked bindings after external OpenGL changes: 10 checks"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostIrisBridgeTest",
+        "result": "Passed 19 Iris depth and quality preset checks."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostLanguageTest",
+        "result": "PASS UI language: 389 checks"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostMenuLayoutTest",
+        "result": "PASS: 2172 verifica��es de layout."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostOpenGLSmokeTest",
+        "result": "PASS GL: 51 verifica��es com contexto real e janela invis�vel."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostOptionsPlacementTest",
+        "result": "PASS options placement: full vanilla grid, real column gap, stable placement, customized grid, occupied row and tiny screen"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostTargetLeaseTest",
+        "result": "PASS target adapter identity, views and scaled depth/stencil: 68 checks"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.BridgeRegressionTest",
+        "result": "PASS BRIDGE: 21 checks."
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuConfigurationTest",
+        "result": "PASS CPU configuration: 14 checks"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuOptionLeaseTest",
+        "result": "CPU option ownership: 18 checks passed"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuPolicyTest",
+        "result": "PASS CPU policy: 24 checks"
+      }
+    ],
+    "productionMixins": "PASS production mixin selectors/accessors/invocations: 30 checks",
+    "inGameVisualValidation": "Pending visual retest; compilation and automated regressions passed.",
+    "fpsMeasured": false,
+    "productionLinks": "PASS production Minecraft links: 586 references",
+    "changedBytecodeClasses": [
+      "nvvisionboost/NVVisionBoostCore$MachineProfile.class",
+      "nvvisionboost/NVVisionBoostCore.class",
+      "nvvisionboost/NVVisionBoostOptionsPlacement$Rect.class",
+      "nvvisionboost/NVVisionBoostOptionsPlacement.class",
+      "nvvisionboost/NVVisionBoostOptionsScreenAdapter.class",
+      "nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.class"
+    ],
+    "rendererAndAddonBytecodeUnchanged": true
+  },
+  {
+    "key": "fabric-12110",
+    "loader": "fabric",
+    "minecraft": "1.21.10",
+    "java": 21,
+    "mod": "0.8.15",
+    "addon": "0.8.15",
+    "automatedTests": [
+      {
+        "suite": "nvvisionboost.NVVisionBoostGlAdapterTest",
+        "result": "PASS Minecraft tracked bindings after external OpenGL changes: 10 checks"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostIrisBridgeTest",
+        "result": "Passed 19 Iris depth and quality preset checks."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostLanguageTest",
+        "result": "PASS UI language: 389 checks"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostMenuLayoutTest",
+        "result": "PASS: 2172 verifica��es de layout."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostOpenGLSmokeTest",
+        "result": "PASS GL: 51 verifica��es com contexto real e janela invis�vel."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostOptionsPlacementTest",
+        "result": "PASS options placement: full vanilla grid, real column gap, stable placement, customized grid, occupied row and tiny screen"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostTargetLeaseTest",
+        "result": "PASS target adapter identity, views and scaled depth/stencil: 68 checks"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.BridgeRegressionTest",
+        "result": "PASS BRIDGE: 21 checks."
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuConfigurationTest",
+        "result": "PASS CPU configuration: 14 checks"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuOptionLeaseTest",
+        "result": "CPU option ownership: 18 checks passed"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuPolicyTest",
+        "result": "PASS CPU policy: 24 checks"
+      }
+    ],
+    "productionMixins": "PASS production mixin selectors/accessors/invocations: 36 checks",
+    "inGameVisualValidation": "Pending visual retest; compilation and automated regressions passed.",
+    "fpsMeasured": false,
+    "productionLinks": "PASS production Minecraft links: 461 references",
+    "changedBytecodeClasses": [
+      "nvvisionboost/NVVisionBoostCore$MachineProfile.class",
+      "nvvisionboost/NVVisionBoostCore.class",
+      "nvvisionboost/NVVisionBoostOptionsPlacement$Rect.class",
+      "nvvisionboost/NVVisionBoostOptionsPlacement.class",
+      "nvvisionboost/NVVisionBoostOptionsScreenAdapter.class",
+      "nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.class"
+    ],
+    "rendererAndAddonBytecodeUnchanged": true
+  },
+  {
+    "key": "neoforge-12110",
+    "loader": "neoforge",
+    "minecraft": "1.21.10",
+    "java": 21,
+    "mod": "0.8.15",
+    "addon": "0.8.15",
+    "automatedTests": [
+      {
+        "suite": "nvvisionboost.NVVisionBoostGlAdapterTest",
+        "result": "PASS Minecraft tracked bindings after external OpenGL changes: 10 checks"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostIrisBridgeTest",
+        "result": "Passed 19 Iris depth and quality preset checks."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostLanguageTest",
+        "result": "PASS UI language: 389 checks"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostMenuLayoutTest",
+        "result": "PASS: 2172 verifica��es de layout."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostOpenGLSmokeTest",
+        "result": "PASS GL: 51 verifica��es com contexto real e janela invis�vel."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostOptionsPlacementTest",
+        "result": "PASS options placement: full vanilla grid, real column gap, stable placement, customized grid, occupied row and tiny screen"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostTargetLeaseTest",
+        "result": "PASS target adapter identity, views and scaled depth/stencil: 68 checks"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.BridgeRegressionTest",
+        "result": "PASS BRIDGE: 21 checks."
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuConfigurationTest",
+        "result": "PASS CPU configuration: 14 checks"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuOptionLeaseTest",
+        "result": "CPU option ownership: 18 checks passed"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuPolicyTest",
+        "result": "PASS CPU policy: 24 checks"
+      }
+    ],
+    "productionMixins": "PASS production mixin selectors/accessors/invocations: 28 checks",
+    "inGameVisualValidation": "Pending visual retest; compilation and automated regressions passed.",
+    "fpsMeasured": false,
+    "productionLinks": "PASS production Minecraft links: 527 references",
+    "changedBytecodeClasses": [
+      "nvvisionboost/NVVisionBoostCore$MachineProfile.class",
+      "nvvisionboost/NVVisionBoostCore.class",
+      "nvvisionboost/NVVisionBoostOptionsPlacement$Rect.class",
+      "nvvisionboost/NVVisionBoostOptionsPlacement.class",
+      "nvvisionboost/NVVisionBoostOptionsScreenAdapter.class",
+      "nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin.class"
+    ],
+    "rendererAndAddonBytecodeUnchanged": true
+  },
+  {
+    "key": "neoforge-1211",
+    "loader": "neoforge",
+    "minecraft": "1.21.1",
+    "java": 21,
+    "mod": "0.8.15",
+    "addon": "0.8.15",
+    "automatedTests": [
+      {
+        "suite": "nvvisionboost.NVVisionBoostGlAdapterTest",
+        "result": "PASS Minecraft tracked bindings after external OpenGL changes: 10 checks"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostLanguageTest",
+        "result": "PASS UI language: 389 checks"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostMenuLayoutTest",
+        "result": "PASS: 2172 verifica��es de layout."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostOpenGLSmokeTest",
+        "result": "PASS GL: 102 verifica��es com contexto real e janela invis�vel."
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostOptionsPlacementTest",
+        "result": "PASS options placement: full vanilla grid, real column gap, stable placement, customized grid, occupied row and tiny screen"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostPixelAdapterTest",
+        "result": "Pixel adapter: 9 assertions passed"
+      },
+      {
+        "suite": "nvvisionboost.NVVisionBoostTargetLeaseTest",
+        "result": "PASS target identity and scaled depth/stencil: 70 checks"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.BridgeRegressionTest",
+        "result": "PASS BRIDGE: 25 checks."
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuConfigurationTest",
+        "result": "PASS CPU configuration: 14 checks"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuOptionLeaseTest",
+        "result": "CPU option ownership: 18 checks passed"
+      },
+      {
+        "suite": "nvvisionboost.vulkanbridge.CpuPolicyTest",
+        "result": "PASS CPU policy: 24 checks"
+      }
+    ],
+    "productionMixins": "PASS production mixin selectors/accessors/invocations: 23 checks",
+    "inGameVisualValidation": "Pending visual retest; compilation and automated regressions passed.",
+    "fpsMeasured": false,
+    "productionLinks": "PASS production Minecraft links: 678 references",
+    "changedBytecodeClasses": [
+      "nvvisionboost/NVVisionBoostCore$MachineProfile.class",
+      "nvvisionboost/NVVisionBoostCore.class"
+    ],
+    "rendererAndAddonBytecodeUnchanged": true
+  }
+]

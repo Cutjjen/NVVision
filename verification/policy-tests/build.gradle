@@ -1,0 +1,18 @@
+plugins { id 'java' }
+java { toolchain.languageVersion = JavaLanguageVersion.of(17) }
+tasks.withType(JavaCompile).configureEach { options.incremental = false }
+sourceSets {
+    main.java {
+        srcDir(rootProject.file('source/modules/addon/cpu/main/java'))
+        srcDir(rootProject.file('source/modules/addon/cpu/test/java'))
+        include('nvvisionboost/vulkanbridge/CpuPolicy.java')
+        include('nvvisionboost/vulkanbridge/CpuPolicyTest.java')
+    }
+}
+tasks.register('verifyCpuPolicy', JavaExec) {
+    dependsOn(classes)
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'nvvisionboost.vulkanbridge.CpuPolicyTest'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+check.dependsOn(verifyCpuPolicy)

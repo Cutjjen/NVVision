@@ -1,0 +1,270 @@
+{
+  "version": "0.8.28",
+  "sharedAdapter": "source/modules/mod/integrations/shader-status",
+  "targetsAudited": [
+    {
+      "target": "forge-1201",
+      "status": "No unconditional no-shader diagnostic present; legacy diagnostics preserved"
+    },
+    {
+      "target": "fabric-262",
+      "status": "Shared shader-status adapter"
+    },
+    {
+      "target": "neoforge-2612",
+      "status": "Shared shader-status adapter"
+    },
+    {
+      "target": "neoforge-262",
+      "status": "Shared shader-status adapter"
+    },
+    {
+      "target": "fabric-12110",
+      "status": "Shared shader-status adapter"
+    },
+    {
+      "target": "neoforge-12110",
+      "status": "Shared shader-status adapter"
+    },
+    {
+      "target": "neoforge-1211",
+      "status": "No unconditional no-shader diagnostic present; legacy diagnostics preserved"
+    },
+    {
+      "target": "fabric-1211",
+      "status": "No unconditional no-shader diagnostic present; legacy diagnostics preserved"
+    },
+    {
+      "target": "fabric-1201",
+      "status": "No unconditional no-shader diagnostic present; legacy diagnostics preserved"
+    },
+    {
+      "target": "fabric-1192",
+      "status": "No unconditional no-shader diagnostic present; legacy diagnostics preserved"
+    },
+    {
+      "target": "forge-1192",
+      "status": "No unconditional no-shader diagnostic present; legacy diagnostics preserved"
+    },
+    {
+      "target": "forge-1122",
+      "status": "No unconditional no-shader diagnostic present; legacy diagnostics preserved"
+    },
+    {
+      "target": "neoforge-1201",
+      "status": "No unconditional no-shader diagnostic present; legacy diagnostics preserved"
+    }
+  ],
+  "newReleases": [
+    {
+      "release": {
+        "key": "fabric-262",
+        "minecraft": "26.2",
+        "loader": "fabric",
+        "java": 25,
+        "mod": "0.8.28",
+        "addon": "0.8.28",
+        "dependencies": {
+          "iris": "1.11.4+26.2-fabric",
+          "platform": "0.19.5",
+          "sodium": "mc26.2-0.9.2-fabric"
+        },
+        "author": "Cutjjen",
+        "channel": "consolidated",
+        "artifacts": [
+          {
+            "component": "mod",
+            "file": "NVVisionBoost-0.8.28-MC-Fabric-26.2.jar",
+            "sha256": "e645b468df8b9c0faf9e091f5b658e2aaac16142467bcaf6917d1ff0b6545a78"
+          },
+          {
+            "component": "addon",
+            "file": "NVVisionAddon-0.8.28-MC-Fabric-26.2.jar",
+            "sha256": "e27c8dab19bcd20d412400b3b475f6e2aab89df9a5ad8c7bbca51b8cc4f7b6da"
+          }
+        ],
+        "folder": "Modloaders\\Fabric\\26.2\\NVVision-0.8.28-Addon-0.8.28",
+        "inWorldValidation": true,
+        "fpsMeasured": false,
+        "automatedChecksPassed": true,
+        "previousRelease": "0.8.27",
+        "status": "Consolidated: user confirmed fully functional",
+        "date": "2026-10-07",
+        "userConfirmedFunctional": true
+      },
+      "checks": {
+        "javaCompilation": true,
+        "shaderStatusChecks": 5,
+        "realOpenGLChecks": 51,
+        "namedMixinChecks": 38,
+        "productionMinecraftReferences": 552,
+        "cpuUiRegression": true,
+        "inWorldValidation": true,
+        "fpsMeasured": false,
+        "fullPlatformGradleAssemble": false,
+        "userConfirmedFunctional": true
+      }
+    },
+    {
+      "release": {
+        "key": "neoforge-2612",
+        "minecraft": "26.1.2",
+        "loader": "neoforge",
+        "java": 25,
+        "mod": "0.8.28",
+        "addon": "0.8.28",
+        "dependencies": {
+          "iris": "qE5Y7GrZ",
+          "platform": "26.1.2.112",
+          "sodium": "zg4YQ9EL"
+        },
+        "author": "Cutjjen",
+        "channel": "consolidated",
+        "artifacts": [
+          {
+            "component": "mod",
+            "file": "NVVisionBoost-0.8.28-MC-NeoForge-26.1.2.jar",
+            "sha256": "bb645821a0da4c2f389953f7c6e12f5facbee464bfbde508a17e96cba37ef4f8"
+          },
+          {
+            "component": "addon",
+            "file": "NVVisionAddon-0.8.28-MC-NeoForge-26.1.2.jar",
+            "sha256": "74d27a3b1a237d7e6400468a1c09bd2707d3d2a20f57066c5aa57ff1f7471393"
+          }
+        ],
+        "folder": "Modloaders\\NeoForge\\26.1.2\\NVVision-0.8.28-Addon-0.8.28",
+        "inWorldValidation": true,
+        "fpsMeasured": false,
+        "automatedChecksPassed": true,
+        "previousRelease": "0.8.27",
+        "status": "Consolidated: user confirmed fully functional; reviewed Iris shader status, scaling and CPU preset logs",
+        "date": "2026-10-07",
+        "userConfirmedFunctional": true,
+        "latestRunLogsReviewed": true
+      },
+      "checks": {
+        "javaCompilation": true,
+        "shaderStatusChecks": 5,
+        "realOpenGLChecks": 51,
+        "namedMixinChecks": 31,
+        "productionMinecraftReferences": 589,
+        "cpuUiRegression": true,
+        "inWorldValidation": true,
+        "fpsMeasured": false,
+        "fullPlatformGradleAssemble": false,
+        "userConfirmedFunctional": true,
+        "latestRunLogsReviewed": true
+      }
+    },
+    {
+      "release": {
+        "key": "neoforge-262",
+        "minecraft": "26.2",
+        "loader": "neoforge",
+        "java": 25,
+        "mod": "0.8.28",
+        "addon": "0.8.28",
+        "dependencies": {
+          "iris": "k55HdONq",
+          "platform": "26.2.0.88",
+          "sodium": "DmnNKsfS"
+        },
+        "author": "Cutjjen",
+        "channel": "consolidated",
+        "artifacts": [
+          {
+            "component": "mod",
+            "file": "NVVisionBoost-0.8.28-MC-NeoForge-26.2.jar",
+            "sha256": "4e83ef2f8027d09025723ed5a92558e5f88f26f40eb6ae312add45a6052f3581"
+          },
+          {
+            "component": "addon",
+            "file": "NVVisionAddon-0.8.28-MC-NeoForge-26.2.jar",
+            "sha256": "0800c1c4ab58c1b4f45ab9b7499901416a3daf0476b8beeecba931a88d07a679"
+          }
+        ],
+        "folder": "Modloaders\\NeoForge\\26.2\\NVVision-0.8.28-Addon-0.8.28",
+        "inWorldValidation": true,
+        "fpsMeasured": false,
+        "automatedChecksPassed": true,
+        "previousRelease": "0.8.27",
+        "status": "Consolidated: user confirmed fully functional; reviewed Iris shader status, scaling and CPU preset logs",
+        "date": "2026-10-07",
+        "userConfirmedFunctional": true,
+        "latestRunLogsReviewed": true
+      },
+      "checks": {
+        "javaCompilation": true,
+        "shaderStatusChecks": 5,
+        "realOpenGLChecks": 51,
+        "namedMixinChecks": 32,
+        "productionMinecraftReferences": 636,
+        "cpuUiRegression": true,
+        "inWorldValidation": true,
+        "fpsMeasured": false,
+        "fullPlatformGradleAssemble": false,
+        "userConfirmedFunctional": true,
+        "latestRunLogsReviewed": true
+      }
+    },
+    {
+      "release": {
+        "key": "neoforge-12110",
+        "minecraft": "1.21.10",
+        "loader": "neoforge",
+        "java": 21,
+        "mod": "0.8.28",
+        "addon": "0.8.28",
+        "dependencies": {
+          "iris": "aBn2niiX",
+          "platform": "21.10.64",
+          "sodium": "PdQpfqPZ"
+        },
+        "author": "Cutjjen",
+        "channel": "consolidated",
+        "artifacts": [
+          {
+            "component": "mod",
+            "file": "NVVisionBoost-0.8.28-MC-NeoForge-1.21.10.jar",
+            "sha256": "1f72347ca2dc06fb081f2c212559183082463501b564b3a4d085cae1d866ae4c"
+          },
+          {
+            "component": "addon",
+            "file": "NVVisionAddon-0.8.28-MC-NeoForge-1.21.10.jar",
+            "sha256": "9ccb7a5febfeb79e9dc56ddf53a0029f5b4a6a80c6301b8fbc6fc50e4491f682"
+          }
+        ],
+        "folder": "Modloaders\\NeoForge\\1.21.10\\NVVision-0.8.28-Addon-0.8.28",
+        "inWorldValidation": true,
+        "fpsMeasured": false,
+        "automatedChecksPassed": true,
+        "previousRelease": "0.8.27",
+        "status": "Consolidated: user confirmed fully functional; Iris shader status, scaling and CPU presets tested",
+        "date": "2026-10-07",
+        "userConfirmedFunctional": true
+      },
+      "checks": {
+        "javaCompilation": true,
+        "shaderStatusChecks": 5,
+        "realOpenGLChecks": 51,
+        "namedMixinChecks": 30,
+        "productionMinecraftReferences": 574,
+        "cpuUiRegression": true,
+        "inWorldValidation": true,
+        "fpsMeasured": false,
+        "fullPlatformGradleAssemble": false,
+        "userConfirmedFunctional": true,
+        "latestRunLogsReviewed": true
+      }
+    }
+  ],
+  "alreadyValidated": [
+    "fabric-12110 0.8.28",
+    "fabric-1211 0.8.28",
+    "fabric-262 0.8.28",
+    "neoforge-12110 0.8.28",
+    "neoforge-2612 0.8.28",
+    "neoforge-262 0.8.28"
+  ],
+  "limits": "No FPS gain claimed. All new builds in this shader-status update have user-confirmed functional acceptance."
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "nvvisionvulkanbridge",
+  "version": "0.8.28",
+  "name": "NVVision Addon",
+  "authors": [
+    "Cutjjen"
+  ],
+  "environment": "client",
+  "license": "All Rights Reserved",
+  "entrypoints": {
+    "client": [
+      "nvvisionboost.vulkanbridge.FabricBridge"
+    ]
+  },
+  "mixins": [
+    "nvvisionbridge.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "nvvisionboost": ">=0.8.17"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "data": {
+    "named:intermediary": {
+      "nvvisionboost/mixin/NVVisionBoostGameRendererAccessor": {
+        "globalSettingsUniform": "field_60104:Lnet/minecraft/class_11284;"
+      },
+      "nvvisionboost/mixin/NVVisionBoostGameRendererMixin": {
+        "render": "Lnet/minecraft/class_757;method_3192(Lnet/minecraft/class_9779;Z)V",
+        "Lnet/minecraft/client/renderer/GlobalSettingsUniform;update(IIDJLnet/minecraft/client/DeltaTracker;I)V": "Lnet/minecraft/class_11284;method_71116(IIDJLnet/minecraft/class_9779;I)V",
+        "Lnet/minecraft/client/renderer/GameRenderer;renderLevel(Lnet/minecraft/client/DeltaTracker;)V": "Lnet/minecraft/class_757;method_3188(Lnet/minecraft/class_9779;)V",
+        "Lnet/minecraft/client/gui/render/GuiRenderer;render(Lcom/mojang/blaze3d/buffers/GpuBufferSlice;)V": "Lnet/minecraft/class_11228;method_70890(Lcom/mojang/blaze3d/buffers/GpuBufferSlice;)V"
+      },
+      "nvvisionboost/mixin/NVVisionBoostMinecraftMixin": {
+        "reloadResourcePacks()Ljava/util/concurrent/CompletableFuture;": "Lnet/minecraft/class_310;method_1521()Ljava/util/concurrent/CompletableFuture;",
+        "tick": "Lnet/minecraft/class_310;method_1574()V",
+        "close": "Lnet/minecraft/class_310;close()V"
+      },
+      "nvvisionboost/mixin/NVVisionBoostMinecraftTargetAccessor": {
+        "mainRenderTarget": "field_1689:Lnet/minecraft/class_276;"
+      },
+      "nvvisionboost/mixin/NVVisionBoostOptionsMixin": {
+        "keyMappings": "field_1839:[Lnet/minecraft/class_304;",
+        "\u003cinit\u003e": "Lnet/minecraft/class_315;\u003cinit\u003e(Lnet/minecraft/class_310;Ljava/io/File;)V",
+        "Lnet/minecraft/client/Options;load()V": "Lnet/minecraft/class_315;method_1636()V"
+      },
+      "nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin": {
+        "init()V": "Lnet/minecraft/class_429;method_25426()V",
+        "repositionElements()V": "Lnet/minecraft/class_429;method_48640()V"
+      },
+      "nvvisionboost/mixin/NVVisionBoostWindowMixin": {
+        "getWidth": "Lnet/minecraft/class_1041;method_4489()I",
+        "getHeight": "Lnet/minecraft/class_1041;method_4506()I"
+      }
+    }
+  },
+  "mappings": {
+    "nvvisionboost/mixin/NVVisionBoostGameRendererAccessor": {
+      "globalSettingsUniform": "field_60104:Lnet/minecraft/class_11284;"
+    },
+    "nvvisionboost/mixin/NVVisionBoostGameRendererMixin": {
+      "render": "Lnet/minecraft/class_757;method_3192(Lnet/minecraft/class_9779;Z)V",
+      "Lnet/minecraft/client/renderer/GlobalSettingsUniform;update(IIDJLnet/minecraft/client/DeltaTracker;I)V": "Lnet/minecraft/class_11284;method_71116(IIDJLnet/minecraft/class_9779;I)V",
+      "Lnet/minecraft/client/renderer/GameRenderer;renderLevel(Lnet/minecraft/client/DeltaTracker;)V": "Lnet/minecraft/class_757;method_3188(Lnet/minecraft/class_9779;)V",
+      "Lnet/minecraft/client/gui/render/GuiRenderer;render(Lcom/mojang/blaze3d/buffers/GpuBufferSlice;)V": "Lnet/minecraft/class_11228;method_70890(Lcom/mojang/blaze3d/buffers/GpuBufferSlice;)V"
+    },
+    "nvvisionboost/mixin/NVVisionBoostMinecraftMixin": {
+      "reloadResourcePacks()Ljava/util/concurrent/CompletableFuture;": "Lnet/minecraft/class_310;method_1521()Ljava/util/concurrent/CompletableFuture;",
+      "tick": "Lnet/minecraft/class_310;method_1574()V",
+      "close": "Lnet/minecraft/class_310;close()V"
+    },
+    "nvvisionboost/mixin/NVVisionBoostMinecraftTargetAccessor": {
+      "mainRenderTarget": "field_1689:Lnet/minecraft/class_276;"
+    },
+    "nvvisionboost/mixin/NVVisionBoostOptionsMixin": {
+      "keyMappings": "field_1839:[Lnet/minecraft/class_304;",
+      "\u003cinit\u003e": "Lnet/minecraft/class_315;\u003cinit\u003e(Lnet/minecraft/class_310;Ljava/io/File;)V",
+      "Lnet/minecraft/client/Options;load()V": "Lnet/minecraft/class_315;method_1636()V"
+    },
+    "nvvisionboost/mixin/NVVisionBoostOptionsScreenMixin": {
+      "init()V": "Lnet/minecraft/class_429;method_25426()V",
+      "repositionElements()V": "Lnet/minecraft/class_429;method_48640()V"
+    },
+    "nvvisionboost/mixin/NVVisionBoostWindowMixin": {
+      "getWidth": "Lnet/minecraft/class_1041;method_4489()I",
+      "getHeight": "Lnet/minecraft/class_1041;method_4506()I"
+    }
+  }
+}

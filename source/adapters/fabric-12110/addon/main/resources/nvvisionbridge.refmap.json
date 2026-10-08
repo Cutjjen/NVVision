@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "nvvisionboost/vulkanbridge/mixin/BridgeRenderMixin": {
+      "render": "Lnet/minecraft/class_757;method_3192(Lnet/minecraft/class_9779;Z)V"
+    },
+    "nvvisionboost/vulkanbridge/mixin/BridgeShutdownMixin": {
+      "close": "Lnet/minecraft/class_310;close()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "nvvisionboost/vulkanbridge/mixin/BridgeRenderMixin": {
+        "render": "Lnet/minecraft/class_757;method_3192(Lnet/minecraft/class_9779;Z)V"
+      },
+      "nvvisionboost/vulkanbridge/mixin/BridgeShutdownMixin": {
+        "close": "Lnet/minecraft/class_310;close()V"
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "versionFormat": "major.minor.patch",
+  "increment": "patch",
+  "sharedModAddonVersion": true,
+  "example": [
+    "0.2.5",
+    "0.2.6"
+  ],
+  "loaderAndMinecraftInArtifactName": true,
+  "appliesTo": "All new maintained-target releases use one numeric version for mod and addon; historical releases retain their numbering.",
+  "unifiedAcrossRegisteredTargets": false,
+  "currentVersion": "0.8.27",
+  "artifactPattern": "{component}-{version}-MC-{loader}-{minecraft}.jar",
+  "selectivePatchReason": "Fabric 1.21.1 shader attachment correction; other validated targets and historical releases preserved.",
+  "targetVersions": {
+    "fabric-1211": "0.8.28",
+    "fabric-12110": "0.8.28",
+    "fabric-262": "0.8.28",
+    "neoforge-12110": "0.8.28",
+    "neoforge-2612": "0.8.28",
+    "neoforge-262": "0.8.28",
+    "neoforge-1211": "0.8.28"
+  }
+}

@@ -1,0 +1,374 @@
+{
+  "version": "0.8.22",
+  "targets": [
+    {
+      "key": "forge-1201",
+      "minecraft": "1.20.1",
+      "loader": "forge",
+      "java": 17,
+      "mod": "0.8.22",
+      "addon": "0.8.22",
+      "dependencies": {
+        "iris": "",
+        "platform": "1.20.1-47.2.0",
+        "sodium": ""
+      },
+      "status": "Automated checks passed; 0.8.22 in-world and FPS validation pending",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.22-MC-Forge-1.20.1.jar",
+          "sha256": "b795763c1cba56f2f1b2f31fbd9c9e5cb45ef195d7647adffc4800a95f26a8b2"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.22-MC-Forge-1.20.1.jar",
+          "sha256": "7cad5d9fb72bff4b4d974d8218ff8b0134d51975ac330958c30794f3147d55a3"
+        }
+      ]
+    },
+    {
+      "key": "fabric-262",
+      "minecraft": "26.2",
+      "loader": "fabric",
+      "java": 25,
+      "mod": "0.8.22",
+      "addon": "0.8.22",
+      "dependencies": {
+        "iris": "1.11.4+26.2-fabric",
+        "platform": "0.19.5",
+        "sodium": "mc26.2-0.9.2-fabric"
+      },
+      "status": "Automated checks passed; 0.8.22 in-world and FPS validation pending",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.22-MC-Fabric-26.2.jar",
+          "sha256": "2bf1794be4ab7a98bbc94ea6d41a6fa0325bb4d017a4979565e58dedfc6889cf"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.22-MC-Fabric-26.2.jar",
+          "sha256": "6b633bdce16b603d938ad8ba2bca9112a6ed6973de5f91ff728789f8f08cd814"
+        }
+      ]
+    },
+    {
+      "key": "neoforge-2612",
+      "minecraft": "26.1.2",
+      "loader": "neoforge",
+      "java": 25,
+      "mod": "0.8.22",
+      "addon": "0.8.22",
+      "dependencies": {
+        "iris": "qE5Y7GrZ",
+        "platform": "26.1.2.112",
+        "sodium": "zg4YQ9EL"
+      },
+      "status": "Automated checks passed; 0.8.22 in-world and FPS validation pending",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.22-MC-NeoForge-26.1.2.jar",
+          "sha256": "3a99d5405724c3364be297561b23627ca2816607d766bb7ecfe9e5f14a57d749"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.22-MC-NeoForge-26.1.2.jar",
+          "sha256": "980cfeb29998b3ab4e3f169cdbfe164e9c4206c6c70d077b913b6cc55d388a45"
+        }
+      ]
+    },
+    {
+      "key": "neoforge-262",
+      "minecraft": "26.2",
+      "loader": "neoforge",
+      "java": 25,
+      "mod": "0.8.22",
+      "addon": "0.8.22",
+      "dependencies": {
+        "iris": "k55HdONq",
+        "platform": "26.2.0.88",
+        "sodium": "DmnNKsfS"
+      },
+      "status": "Automated checks passed; 0.8.22 in-world and FPS validation pending",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.22-MC-NeoForge-26.2.jar",
+          "sha256": "93faf4caff0a187ef8d046403c94f309a65eef4d693811e4440f49c325717ce0"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.22-MC-NeoForge-26.2.jar",
+          "sha256": "6a51abaa7085d2f368b40e9aa6787cb05813c024113549ebf18f03b2fb898efa"
+        }
+      ]
+    },
+    {
+      "key": "fabric-12110",
+      "minecraft": "1.21.10",
+      "loader": "fabric",
+      "java": 21,
+      "mod": "0.8.22",
+      "addon": "0.8.22",
+      "dependencies": {
+        "iris": "1.9.7+1.21.10-fabric",
+        "platform": "0.19.5",
+        "sodium": "mc1.21.10-0.7.3-fabric"
+      },
+      "status": "Automated checks passed; 0.8.22 in-world and FPS validation pending",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.22-MC-Fabric-1.21.10.jar",
+          "sha256": "aaee11e4ec878f05ce7ad212727bcd3fa3d59a1c8fc4e4e3d9c9c333436d9fa7"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.22-MC-Fabric-1.21.10.jar",
+          "sha256": "6742b923b20f186bfad09d50f582987ef0fcdd5038eebf58d04f1df7793f31f7"
+        }
+      ]
+    },
+    {
+      "key": "neoforge-12110",
+      "minecraft": "1.21.10",
+      "loader": "neoforge",
+      "java": 21,
+      "mod": "0.8.22",
+      "addon": "0.8.22",
+      "dependencies": {
+        "iris": "aBn2niiX",
+        "platform": "21.10.64",
+        "sodium": "PdQpfqPZ"
+      },
+      "status": "Automated checks passed; 0.8.22 in-world and FPS validation pending",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.22-MC-NeoForge-1.21.10.jar",
+          "sha256": "560408ecd7a9ac3d9ef444a69f5a796b2a9df37b9ae2226d8249404c3d29b5b6"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.22-MC-NeoForge-1.21.10.jar",
+          "sha256": "d160cd60b889ac732d62eeca21007bec6b8c2eac759a798ae28fc4c98065e48a"
+        }
+      ]
+    },
+    {
+      "key": "neoforge-1211",
+      "minecraft": "1.21.1",
+      "loader": "neoforge",
+      "java": 21,
+      "mod": "0.8.22",
+      "addon": "0.8.22",
+      "dependencies": {
+        "iris": "KduFYu4t",
+        "platform": "21.1.251",
+        "sodium": "uMOpc5uV"
+      },
+      "status": "Automated checks passed; 0.8.22 in-world and FPS validation pending",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.22-MC-NeoForge-1.21.1.jar",
+          "sha256": "7e791e090504dc734a30ae9e26615af120690bc227e37cb39e9506ca00144eeb"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.22-MC-NeoForge-1.21.1.jar",
+          "sha256": "ac8f253f66b94cd05c5108ab161bf670bd6e118bb17ff83e1ccce483bdea983a"
+        }
+      ]
+    },
+    {
+      "key": "fabric-1211",
+      "minecraft": "1.21.1",
+      "loader": "fabric",
+      "java": 21,
+      "mod": "0.8.22",
+      "addon": "0.8.22",
+      "dependencies": {
+        "platform": "0.19.5",
+        "iris": "zsoi0dso",
+        "sodium": "u1OEbNKx"
+      },
+      "status": "Automated checks passed; 0.8.22 in-world and FPS validation pending",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.22-MC-Fabric-1.21.1.jar",
+          "sha256": "af3ea5f449f1646a9ec167ff593fa557177bbd7f63fa7f7bb1e1553ae1ab2f8a"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.22-MC-Fabric-1.21.1.jar",
+          "sha256": "d80947f5918359d6af10fac76d3e1d425987975282fe13868e5f1fb5366b31f7"
+        }
+      ]
+    },
+    {
+      "key": "fabric-1201",
+      "minecraft": "1.20.1",
+      "loader": "fabric",
+      "java": 17,
+      "mod": "0.8.22",
+      "addon": "0.8.22",
+      "dependencies": {
+        "platform": "0.19.5",
+        "iris": "s5eFLITc",
+        "sodium": "OihdIimA"
+      },
+      "status": "Automated checks passed; 0.8.22 in-world and FPS validation pending",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.22-MC-Fabric-1.20.1.jar",
+          "sha256": "0c84f1dfcda13e9ebfd1d8b35324bb21c991e645f68a9999cbd551159ebc3200"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.22-MC-Fabric-1.20.1.jar",
+          "sha256": "a998b032d972c9f3d37ea2a35544d356be391d617b417a4545eeb24300c89351"
+        }
+      ]
+    },
+    {
+      "key": "fabric-1192",
+      "minecraft": "1.19.2",
+      "loader": "fabric",
+      "java": 17,
+      "mod": "0.8.22",
+      "addon": "0.8.22",
+      "dependencies": {
+        "platform": "0.19.5",
+        "iris": "LgOJIpIS",
+        "sodium": "rAfhHfow"
+      },
+      "status": "Automated checks passed; 0.8.22 in-world and FPS validation pending",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.22-MC-Fabric-1.19.2.jar",
+          "sha256": "86eb688c2b3fc4bfef268a8e115cccc506555d395ad91f7d68a0b43625df5705"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.22-MC-Fabric-1.19.2.jar",
+          "sha256": "bbf9b45f6010284514b6bc937addab2063a02a0331c590b5234d49690faeb571"
+        }
+      ]
+    },
+    {
+      "key": "forge-1192",
+      "minecraft": "1.19.2",
+      "loader": "forge",
+      "java": 17,
+      "mod": "0.8.22",
+      "addon": "0.8.22",
+      "dependencies": {
+        "platform": "1.19.2-43.5.0",
+        "iris": "",
+        "sodium": ""
+      },
+      "status": "Automated checks passed; 0.8.22 in-world and FPS validation pending",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.22-MC-Forge-1.19.2.jar",
+          "sha256": "b394aa9e5c0f834a7cd9ce1dc3bafa6da17397aa6605ef6e48be690ae6e53861"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.22-MC-Forge-1.19.2.jar",
+          "sha256": "3b6c41f093487f6454b36c686a2c3ef1c89848c9496a21a35a8289fd9f73f80c"
+        }
+      ]
+    },
+    {
+      "key": "forge-1122",
+      "minecraft": "1.12.2",
+      "loader": "forge",
+      "java": 8,
+      "mod": "0.8.22",
+      "addon": "0.8.22",
+      "dependencies": {
+        "platform": "1.12.2-14.23.5.2859",
+        "iris": "",
+        "sodium": ""
+      },
+      "adapterFamily": "forge-java8",
+      "capabilities": [
+        "native-rendering",
+        "gpu-visual-presets",
+        "cpu-particle-controls",
+        "cpu-entity-distance",
+        "bilingual-interface",
+        "client-only-multiplayer"
+      ],
+      "unavailable": [
+        "spatial-upscaling",
+        "dynamic-resolution",
+        "DLSS",
+        "frame-generation"
+      ],
+      "status": "Automated checks passed; 0.8.22 in-world and FPS validation pending",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.22-MC-Forge-1.12.2.jar",
+          "sha256": "253d36854834920b50c07d4847eebfcafa28d0e963ee11fd5ffb3054cd01a1e2"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.22-MC-Forge-1.12.2.jar",
+          "sha256": "4754eac9784c3e61cb4cb1f17e2a49425da409c12c6a2d91f283a67cdd66ee28"
+        }
+      ]
+    },
+    {
+      "key": "neoforge-1201",
+      "minecraft": "1.20.1",
+      "loader": "neoforge",
+      "java": 17,
+      "mod": "0.8.22",
+      "addon": "0.8.22",
+      "dependencies": {
+        "platform": "1.20.1-47.1.106",
+        "iris": "",
+        "sodium": ""
+      },
+      "adapterFamily": "legacy-neoforge",
+      "status": "Automated checks passed; 0.8.22 in-world and FPS validation pending",
+      "artifacts": [
+        {
+          "component": "mod",
+          "file": "NVVisionBoost-0.8.22-MC-NeoForge-1.20.1.jar",
+          "sha256": "cd19b6ac946c59adb10329283e433c20db605ed4703eab70f3cd888f34572dd3"
+        },
+        {
+          "component": "addon",
+          "file": "NVVisionAddon-0.8.22-MC-NeoForge-1.20.1.jar",
+          "sha256": "0e41f3eee4a37ecb6cafe77304922295c6520f03a26ee64c50ec0743867a1c92"
+        }
+      ]
+    }
+  ],
+  "archives": 26,
+  "allAutomatedChecksPassed": true,
+  "inWorldValidation": false,
+  "fpsMeasured": false,
+  "fullPlatformGradleAssemble": false,
+  "logs": [
+    ".local/refine-final-gradle.log",
+    ".local/refine-production-mixins.log",
+    ".local/refine-production-links.log",
+    ".local/refine-modern-build.log"
+  ],
+  "limitations": [
+    "Two inaccessible unregistered historical source files preserved; see source audit.",
+    "No new in-world FPS measurements."
+  ]
+}

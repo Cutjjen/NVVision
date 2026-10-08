@@ -1,0 +1,49 @@
+{
+  "release": {
+    "key": "forge-1201",
+    "minecraft": "1.20.1",
+    "loader": "forge",
+    "java": 17,
+    "mod": "0.8.26",
+    "addon": "0.8.26",
+    "author": "Cutjjen",
+    "channel": "consolidated",
+    "artifacts": [
+      {
+        "component": "mod",
+        "file": "NVVisionBoost-0.8.26-MC-Forge-1.20.1.jar",
+        "sha256": "568c20240f74ac72ce9335028b364712b7d48176246a7ee971a05fc234f8d625"
+      },
+      {
+        "component": "addon",
+        "file": "NVVisionAddon-0.8.26-MC-Forge-1.20.1.jar",
+        "sha256": "ff62d3d69b9103be9f7848be1d6b0c716790edff607ea0498a89b88b565bc69d"
+      }
+    ],
+    "inWorldValidation": true,
+    "fpsMeasured": false,
+    "automatedChecksPassed": true,
+    "status": "Functional in-game tests confirmed by user on 2026-10-07",
+    "validationDate": "2026-10-07",
+    "validationSource": "User confirmation and Modpack 2.1 logs",
+    "previousStable": "0.8.22"
+  },
+  "validation": {
+    "javaCompilation": true,
+    "realOpenGLChecks": 108,
+    "layoutChecks": 2172,
+    "languageChecks": 389,
+    "cpuOwnershipChecks": 18,
+    "cpuConfigurationChecks": 20,
+    "namedMixinChecks": 31,
+    "productionMinecraftReferences": 751,
+    "sourceWiringChecks": true,
+    "inWorldValidation": true,
+    "fullPlatformGradleAssemble": false,
+    "userConfirmedFunctional": true,
+    "validationDate": "2026-10-07",
+    "fpsMeasured": false,
+    "previousCrashCause": "Unresolved; not reproduced in the latest session"
+  },
+  "stagingBatch": "C:\\Users\\drand\\Documents\\Codex\\2026-09-30\\vamo\\outputs\\NVVision-Organizado-Fontes\\.local\\alignment-builds\\56a3969e5eec400a9cbcbafd815e4f0c"
+}
